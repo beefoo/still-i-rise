@@ -1,1 +1,4 @@
 *.wav
+*.Pitch
+*.Sound
+*.PointProcess
