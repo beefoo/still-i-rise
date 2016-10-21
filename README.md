@@ -8,12 +8,16 @@
 * [Gentle](https://github.com/lowerquality/gentle) - for transcript alignment to audio
 * [Python](https://www.python.org/) - for various data processing
 
-## Pre-Process audio
+## Processing a media file from scratch
+
+This is just self-documentation for how I went from a media file to final product
+
+### Pre-Process audio
 
 This step creates the .wav file from source .mp4 file
 
-1. Download .mp4 file of [video](https://www.youtube.com/watch?v=JqOqo50LSZ0)
-2. [Clip video](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections) to just include poem:
+1. Download .mp4 file of video
+2. [Clip video](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections) if necessary
 
    ```
    ffmpeg -i and_still_i_rise_original.mp4 -ss 42.0  -c copy and_still_i_rise.mp4
@@ -25,7 +29,7 @@ This step creates the .wav file from source .mp4 file
    ffmpeg -i and_still_i_rise.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 and_still_i_rise.wav
    ```
 
-## Extract speech data
+### Extract speech data
 
 This step extracts amplitude, pitch, and voice pulse data from .wav file using [Praat](http://www.fon.hum.uva.nl/praat/)
 
@@ -46,7 +50,7 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
 8. Click **Pulses** -> **Extract visible pulses**
 9. Go to objects window, select PointProcess object, and **Save** -> **short text file** (e.g. and_still_i_rise.PointProcess) - this will be your voice pulse data
 
-## Align transcript to audio
+### Align transcript to audio
 
 1. Download, install, and run [Gentle](https://github.com/lowerquality/gentle)
 2. Use GUI to align .wav file and .txt file via `http://localhost:8765/`
