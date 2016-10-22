@@ -20,7 +20,7 @@ This step creates the .wav file from source .mp4 file
 2. [Clip video](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections) if necessary
 
    ```
-   ffmpeg -i and_still_i_rise_original.mp4 -ss 42.0  -c copy and_still_i_rise.mp4
+   ffmpeg -i and_still_i_rise_original.mp4 -ss 42.0 -c copy and_still_i_rise.mp4
    ```
 
 3. [Extract .wav](http://superuser.com/a/791874) audio file:
@@ -55,3 +55,25 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
 1. Download, install, and run [Gentle](https://github.com/lowerquality/gentle)
 2. Use GUI to align .wav file and .txt file via `http://localhost:8765/`
 3. Save aligned .json file
+
+### Extract audio clips
+
+1. Extract words from audio
+
+  ```
+  ffmpeg -i and_still_i_rise.wav -ss 10.0 -to 12.0 -c copy words/clip.wav
+  ```
+
+### Process frames
+
+1. Convert .mp4 to .jpg frames (15fps)
+
+  ```
+  ffmpeg -i and_still_i_rise.mp4 -r 15/1 frames/frame%04d.jpg
+  ```
+
+2. Convert .jpg frames (15fps) to .mp4 (15fps) ([ref](https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images))
+
+  ```
+  ffmpeg -framerate 15/1 -i frames/frame%04d.jpg -c:v libx264 -r 15 -pix_fmt yuv420p output/and_still_i_rise.mp4
+  ```

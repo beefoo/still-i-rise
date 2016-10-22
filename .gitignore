@@ -3,3 +3,5 @@
 *.Sound
 *.PointProcess
 *.pkf
+frames/*
+!frames/.keep
