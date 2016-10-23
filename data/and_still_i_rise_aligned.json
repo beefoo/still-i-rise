@@ -2467,18 +2467,18 @@
       "endOffset": 544,
       "phones": [
         {
-          "duration": 0.03,
+          "duration": 0.05,
           "phone": "ah_B",
           "syllable": 1
         },
         {
           "duration": 0.05,
-          "phone": "p_I",
-          "syllable": 1
+          "phone": "p_I"
         },
         {
-          "duration": 0.12,
-          "phone": "s_I"
+          "duration": 0.1,
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -3748,12 +3748,12 @@
       "endOffset": 814,
       "phones": [
         {
-          "duration": 0.06,
+          "duration": 0.09,
           "phone": "ah_B",
           "syllable": 1
         },
         {
-          "duration": 0.11,
+          "duration": 0.08,
           "phone": "f_I",
           "syllable": 1
         },
@@ -4539,7 +4539,7 @@
       "alignedWord": "a",
       "start": 88.91,
       "startOffset": 969,
-      "end": 88.97999999999999
+      "end": 88.98
     },
     {
       "case": "success",
@@ -5371,12 +5371,12 @@
           "phone": "er_I"
         },
         {
-          "duration": 0.07,
+          "duration": 0.08,
           "phone": "ae_I",
           "syllable": 1
         },
         {
-          "duration": 0.12,
+          "duration": 0.11,
           "phone": "k_I",
           "syllable": 1
         },
