@@ -55,6 +55,11 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
 1. Download, install, and run [Gentle](https://github.com/lowerquality/gentle)
 2. Use GUI to align .wav file and .txt file via `http://localhost:8765/`
 3. Save aligned .json file
+4. Add verses and lines:
+
+  ```
+  python add_lines.py
+  ```
 
 ### Generate syllables
 
@@ -70,7 +75,11 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
   sudo python -m nltk.downloader -d /usr/local/share/nltk_data cmudict
   ```
 
-3. Run `python find_syllables.py`
+3. Run script:
+
+  ```
+  python find_syllables.py
+  ```
 
 ### Extract audio clips
 
