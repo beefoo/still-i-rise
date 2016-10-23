@@ -8,7 +8,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -27,7 +28,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -46,7 +48,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -69,7 +72,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -88,7 +92,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.18,
@@ -111,7 +116,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -130,7 +136,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -138,7 +145,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -150,7 +158,8 @@
         },
         {
           "duration": 0.31,
-          "phone": "iy_E"
+          "phone": "iy_E",
+          "syllable": 1
         }
       ],
       "alignedWord": "history",
@@ -165,7 +174,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -188,7 +198,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -211,7 +222,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -219,7 +231,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "t_I"
+          "phone": "t_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -238,7 +251,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -250,7 +264,8 @@
         },
         {
           "duration": 0.07,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -277,7 +292,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.27,
@@ -300,7 +316,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -319,7 +336,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -338,7 +356,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -365,7 +384,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.15000000000000002,
@@ -384,7 +404,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -403,7 +424,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -422,7 +444,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "v_B"
+          "phone": "v_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -430,7 +453,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "r_I"
+          "phone": "r_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -449,7 +473,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.19,
@@ -472,7 +497,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -484,9 +510,9 @@
         }
       ],
       "alignedWord": "but",
-      "start": 8.620000000000001,
+      "start": 8.62,
       "startOffset": 101,
-      "end": 8.830000000000002
+      "end": 8.83
     },
     {
       "case": "success",
@@ -495,7 +521,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -522,7 +549,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -545,7 +573,8 @@
       "phones": [
         {
           "duration": 0.18,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.397,
@@ -573,7 +602,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "ay_B"
+          "phone": "ay_B",
+          "syllable": 1
         },
         {
           "duration": 0.26,
@@ -593,7 +623,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.643,
@@ -616,7 +647,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -639,7 +671,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -659,7 +692,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.2,
@@ -667,7 +701,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -675,7 +710,8 @@
         },
         {
           "duration": 0.08,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -697,8 +733,9 @@
       "endOffset": 160,
       "phones": [
         {
-          "duration": 0.04,
-          "phone": "ah_B"
+          "duration": 0.07,
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -706,17 +743,22 @@
         },
         {
           "duration": 0.1,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
           "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
         }
       ],
       "alignedWord": "upset",
       "start": 14.09,
       "startOffset": 155,
-      "end": 14.350000000000001
+      "end": 14.47
     },
     {
       "case": "success",
@@ -725,7 +767,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.32,
@@ -733,7 +776,7 @@
         }
       ],
       "alignedWord": "you",
-      "start": 14.469999999999999,
+      "start": 14.47,
       "startOffset": 161,
       "end": 14.85
     },
@@ -744,7 +787,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.22,
@@ -763,7 +807,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "er_S"
+          "phone": "er_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "are",
@@ -778,7 +823,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -797,7 +843,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -805,7 +852,8 @@
         },
         {
           "duration": 0.13,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -828,7 +876,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -851,7 +900,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "g_B"
+          "phone": "g_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -878,7 +928,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "jh_B"
+          "phone": "jh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -905,7 +956,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -928,7 +980,8 @@
       "phones": [
         {
           "duration": 0.22,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -943,7 +996,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.22,
@@ -966,7 +1020,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "eh_B"
+          "phone": "eh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -985,7 +1040,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -1004,7 +1060,8 @@
       "phones": [
         {
           "duration": 0.18,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -1019,7 +1076,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -1042,7 +1100,8 @@
       "phones": [
         {
           "duration": 0.29,
-          "phone": "oy_B"
+          "phone": "oy_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -1061,7 +1120,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.17,
@@ -1088,7 +1148,8 @@
       "phones": [
         {
           "duration": 0.13,
-          "phone": "p_B"
+          "phone": "p_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -1096,7 +1157,8 @@
         },
         {
           "duration": 0.05,
-          "phone": "m_I"
+          "phone": "m_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -1123,7 +1185,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -1142,7 +1205,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -1161,7 +1225,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -1169,7 +1234,8 @@
         },
         {
           "duration": 0.06,
-          "phone": "v_I"
+          "phone": "v_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1192,7 +1258,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -1215,7 +1282,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "jh_B"
+          "phone": "jh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -1242,7 +1310,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1265,7 +1334,8 @@
       "phones": [
         {
           "duration": 0.19,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.28,
@@ -1292,7 +1362,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -1315,7 +1386,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -1338,7 +1410,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.29,
@@ -1365,7 +1438,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -1388,7 +1462,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -1407,7 +1482,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -1415,7 +1491,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "t_I"
+          "phone": "t_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1423,7 +1500,8 @@
         },
         {
           "duration": 0.05,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -1446,7 +1524,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1465,7 +1544,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.46,
@@ -1492,7 +1572,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "jh_B"
+          "phone": "jh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -1519,7 +1600,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1542,7 +1624,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -1569,7 +1652,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -1585,7 +1669,8 @@
         },
         {
           "duration": 0.06,
-          "phone": "ng_I"
+          "phone": "ng_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -1608,7 +1693,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.46,
@@ -1627,7 +1713,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -1654,7 +1741,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "ay_B"
+          "phone": "ay_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -1673,7 +1761,8 @@
       "phones": [
         {
           "duration": 0.2,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.39,
@@ -1696,7 +1785,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1719,7 +1809,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -1738,7 +1829,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1765,7 +1857,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -1784,7 +1877,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -1803,7 +1897,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -1822,7 +1917,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -1834,7 +1930,8 @@
         },
         {
           "duration": 0.11,
-          "phone": "k_I"
+          "phone": "k_I",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -1857,7 +1954,8 @@
       "phones": [
         {
           "duration": 0.21,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.36,
@@ -1880,7 +1978,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.22,
@@ -1903,7 +2002,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "ae_B"
+          "phone": "ae_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -1926,7 +2026,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -1934,7 +2035,8 @@
         },
         {
           "duration": 0.12,
-          "phone": "er_I"
+          "phone": "er_I",
+          "syllable": 1
         },
         {
           "duration": 0.17,
@@ -1953,7 +2055,8 @@
       "phones": [
         {
           "duration": 0.6,
-          "phone": "ay_B"
+          "phone": "ay_B",
+          "syllable": 1
         },
         {
           "duration": 0.224,
@@ -1972,7 +2075,8 @@
       "phones": [
         {
           "duration": 0.21,
-          "phone": "sh_B"
+          "phone": "sh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -1980,7 +2084,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -2007,7 +2112,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "f_B"
+          "phone": "f_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -2015,7 +2121,8 @@
         },
         {
           "duration": 0.14,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -2038,7 +2145,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -2061,7 +2169,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -2085,7 +2194,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.074,
@@ -2097,7 +2207,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "d_I"
+          "phone": "d_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -2128,7 +2239,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -2136,7 +2248,8 @@
         },
         {
           "duration": 0.07,
-          "phone": "k_I"
+          "phone": "k_I",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -2163,7 +2276,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -2182,7 +2296,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.19,
@@ -2201,7 +2316,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -2209,7 +2325,8 @@
         },
         {
           "duration": 0.18,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -2236,7 +2353,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -2263,7 +2381,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -2286,7 +2405,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -2306,7 +2426,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -2314,7 +2435,8 @@
         },
         {
           "duration": 0.14,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -2322,7 +2444,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -2345,11 +2468,13 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
-          "phone": "p_I"
+          "phone": "p_I",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -2376,7 +2501,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.199,
@@ -2395,7 +2521,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -2422,7 +2549,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -2445,7 +2573,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -2464,7 +2593,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.17,
@@ -2483,7 +2613,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -2510,7 +2641,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "jh_B"
+          "phone": "jh_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -2537,7 +2669,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -2560,7 +2693,8 @@
       "phones": [
         {
           "duration": 0.16,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -2575,7 +2709,8 @@
       "phones": [
         {
           "duration": 0.16,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.31,
@@ -2598,7 +2733,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "eh_B"
+          "phone": "eh_B",
+          "syllable": 1
         },
         {
           "duration": 0.09000000000000001,
@@ -2617,7 +2753,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -2636,7 +2773,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -2651,7 +2789,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -2674,7 +2813,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "g_B"
+          "phone": "g_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -2701,7 +2841,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.23,
@@ -2729,7 +2870,8 @@
       "phones": [
         {
           "duration": 0.13,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -2737,7 +2879,8 @@
         },
         {
           "duration": 0.07,
-          "phone": "g_I"
+          "phone": "g_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -2760,7 +2903,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -2779,7 +2923,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -2798,7 +2943,8 @@
       "phones": [
         {
           "duration": 0.28,
-          "phone": "ow_B"
+          "phone": "ow_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -2817,7 +2963,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -2825,7 +2972,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "k_I"
+          "phone": "k_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -2856,7 +3004,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -2875,7 +3024,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -2898,7 +3048,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "sh_B"
+          "phone": "sh_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -2921,7 +3072,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -2940,7 +3092,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -2963,7 +3116,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -2986,7 +3140,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.33,
@@ -3013,7 +3168,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -3032,7 +3188,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3055,7 +3212,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3078,7 +3236,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3097,7 +3256,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -3120,7 +3280,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -3143,7 +3304,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.43,
@@ -3166,7 +3328,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -3185,7 +3348,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3208,7 +3372,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -3231,7 +3396,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3250,7 +3416,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -3273,7 +3440,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3297,7 +3465,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.17,
@@ -3309,7 +3478,8 @@
         },
         {
           "duration": 0.03,
-          "phone": "f_I"
+          "phone": "f_I",
+          "syllable": 1
         },
         {
           "duration": 0.03,
@@ -3321,7 +3491,8 @@
         },
         {
           "duration": 0.04,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -3344,7 +3515,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3367,7 +3539,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "jh_B"
+          "phone": "jh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3394,7 +3567,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3417,7 +3591,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.28,
@@ -3440,7 +3615,8 @@
       "phones": [
         {
           "duration": 0.2,
-          "phone": "ay_B"
+          "phone": "ay_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3459,7 +3635,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.31,
@@ -3482,7 +3659,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -3505,7 +3683,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -3524,7 +3703,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -3532,7 +3712,8 @@
         },
         {
           "duration": 0.08,
-          "phone": "k_I"
+          "phone": "k_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3544,7 +3725,8 @@
         },
         {
           "duration": 0.06,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3567,11 +3749,13 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
-          "phone": "f_I"
+          "phone": "f_I",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -3599,7 +3783,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "y_B"
+          "phone": "y_B",
+          "syllable": 1
         },
         {
           "duration": 0.251,
@@ -3618,7 +3803,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -3641,7 +3827,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3660,7 +3847,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.18,
@@ -3683,7 +3871,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "eh_B"
+          "phone": "eh_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3702,7 +3891,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "ah_S"
+          "phone": "ah_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "a",
@@ -3717,7 +3907,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3725,7 +3916,8 @@
         },
         {
           "duration": 0.13,
-          "phone": "p_I"
+          "phone": "p_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3752,7 +3944,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3775,7 +3968,8 @@
       "phones": [
         {
           "duration": 0.21,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -3790,7 +3984,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.39,
@@ -3817,7 +4012,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "eh_B"
+          "phone": "eh_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3836,7 +4032,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -3855,7 +4052,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -3870,7 +4068,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -3893,7 +4092,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.18,
@@ -3901,7 +4101,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "m_I"
+          "phone": "m_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3932,7 +4133,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "ae_B"
+          "phone": "ae_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -3951,7 +4153,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -3970,7 +4173,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -3978,7 +4182,8 @@
         },
         {
           "duration": 0.06,
-          "phone": "t_I"
+          "phone": "t_I",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -4001,7 +4206,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -4020,7 +4226,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -4039,7 +4246,8 @@
       "phones": [
         {
           "duration": 0.23,
-          "phone": "th_B"
+          "phone": "th_B",
+          "syllable": 1
         },
         {
           "duration": 0.44,
@@ -4062,7 +4270,8 @@
       "phones": [
         {
           "duration": 0.25,
-          "phone": "aw_B"
+          "phone": "aw_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4081,7 +4290,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -4100,7 +4310,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -4119,7 +4330,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -4146,7 +4358,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4165,7 +4378,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4173,7 +4387,8 @@
         },
         {
           "duration": 0.08,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -4185,7 +4400,8 @@
         },
         {
           "duration": 0.05,
-          "phone": "iy_I"
+          "phone": "iy_I",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -4204,7 +4420,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "sh_B"
+          "phone": "sh_B",
+          "syllable": 1
         },
         {
           "duration": 0.23,
@@ -4227,7 +4444,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -4242,7 +4460,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.28,
@@ -4265,7 +4484,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -4284,7 +4504,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "f_B"
+          "phone": "f_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -4311,7 +4532,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "ah_S"
+          "phone": "ah_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "a",
@@ -4326,7 +4548,8 @@
       "phones": [
         {
           "duration": 0.2,
-          "phone": "p_B"
+          "phone": "p_B",
+          "syllable": 1
         },
         {
           "duration": 0.18,
@@ -4353,7 +4576,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -4361,7 +4585,8 @@
         },
         {
           "duration": 0.05,
-          "phone": "t_I"
+          "phone": "t_I",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -4384,7 +4609,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -4403,7 +4629,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "p_B"
+          "phone": "p_B",
+          "syllable": 1
         },
         {
           "duration": 0.24,
@@ -4426,7 +4653,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -4441,7 +4669,8 @@
       "phones": [
         {
           "duration": 0.16,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.21,
@@ -4465,7 +4694,8 @@
       "phones": [
         {
           "duration": 0.168,
-          "phone": "ah_S"
+          "phone": "ah_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "a",
@@ -4480,7 +4710,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -4507,11 +4738,13 @@
       "phones": [
         {
           "duration": 0.18,
-          "phone": "ow_B"
+          "phone": "ow_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
-          "phone": "sh_I"
+          "phone": "sh_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4534,7 +4767,8 @@
       "phones": [
         {
           "duration": 0.13,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.17,
@@ -4542,7 +4776,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "p_I"
+          "phone": "p_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4565,7 +4800,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -4588,7 +4824,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.58,
@@ -4611,7 +4848,8 @@
       "phones": [
         {
           "duration": 0.2,
-          "phone": "w_B"
+          "phone": "w_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -4619,7 +4857,8 @@
         },
         {
           "duration": 0.11,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -4642,7 +4881,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4665,7 +4905,8 @@
       "phones": [
         {
           "duration": 0.16999999999999998,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4677,7 +4918,8 @@
         },
         {
           "duration": 0.1,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.03,
@@ -4700,7 +4942,8 @@
       "phones": [
         {
           "duration": 0.5,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -4715,7 +4958,8 @@
       "phones": [
         {
           "duration": 0.08,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -4738,7 +4982,8 @@
       "phones": [
         {
           "duration": 0.19,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -4757,7 +5002,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -4776,7 +5022,8 @@
       "phones": [
         {
           "duration": 0.19,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.29,
@@ -4799,7 +5046,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "l_B"
+          "phone": "l_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -4807,7 +5055,8 @@
         },
         {
           "duration": 0.06,
-          "phone": "v_I"
+          "phone": "v_I",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4830,7 +5079,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -4838,7 +5088,8 @@
         },
         {
           "duration": 0.18,
-          "phone": "hh_I"
+          "phone": "hh_I",
+          "syllable": 1
         },
         {
           "duration": 0.2,
@@ -4865,7 +5116,8 @@
       "phones": [
         {
           "duration": 0.05,
-          "phone": "n_B"
+          "phone": "n_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -4892,7 +5144,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -4911,7 +5164,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "t_B"
+          "phone": "t_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -4919,7 +5173,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "r_I"
+          "phone": "r_I",
+          "syllable": 1
         },
         {
           "duration": 0.24,
@@ -4938,7 +5193,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
@@ -4961,7 +5217,8 @@
       "phones": [
         {
           "duration": 0.12,
-          "phone": "f_B"
+          "phone": "f_B",
+          "syllable": 1
         },
         {
           "duration": 0.16,
@@ -4984,7 +5241,8 @@
       "phones": [
         {
           "duration": 0.34,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -4999,7 +5257,8 @@
       "phones": [
         {
           "duration": 0.23,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.32,
@@ -5022,11 +5281,13 @@
       "phones": [
         {
           "duration": 0.18,
-          "phone": "ih_B"
+          "phone": "ih_B",
+          "syllable": 1
         },
         {
           "duration": 0.06,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -5049,7 +5310,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "ah_S"
+          "phone": "ah_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "a",
@@ -5064,7 +5326,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.15,
@@ -5072,7 +5335,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "b_I"
+          "phone": "b_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -5099,7 +5363,8 @@
       "phones": [
         {
           "duration": 0.06,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.23,
@@ -5107,11 +5372,13 @@
         },
         {
           "duration": 0.07,
-          "phone": "ae_I"
+          "phone": "ae_I",
+          "syllable": 1
         },
         {
           "duration": 0.12,
-          "phone": "k_I"
+          "phone": "k_I",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -5123,7 +5390,8 @@
         },
         {
           "duration": 0.07,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -5131,7 +5399,8 @@
         },
         {
           "duration": 0.14,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.07,
@@ -5154,7 +5423,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "k_B"
+          "phone": "k_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -5181,7 +5451,8 @@
       "phones": [
         {
           "duration": 0.28,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -5196,7 +5467,8 @@
       "phones": [
         {
           "duration": 0.35,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.43,
@@ -5219,7 +5491,8 @@
       "phones": [
         {
           "duration": 0.14,
-          "phone": "b_B"
+          "phone": "b_B",
+          "syllable": 1
         },
         {
           "duration": 0.04,
@@ -5231,7 +5504,8 @@
         },
         {
           "duration": 0.08,
-          "phone": "ng_I"
+          "phone": "ng_I",
+          "syllable": 1
         },
         {
           "duration": 0.03,
@@ -5254,7 +5528,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
@@ -5273,7 +5548,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "g_B"
+          "phone": "g_B",
+          "syllable": 1
         },
         {
           "duration": 0.18,
@@ -5300,7 +5576,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -5323,7 +5600,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "m_B"
+          "phone": "m_B",
+          "syllable": 1
         },
         {
           "duration": 0.22000000000000003,
@@ -5342,11 +5620,13 @@
       "phones": [
         {
           "duration": 0.16,
-          "phone": "ae_B"
+          "phone": "ae_B",
+          "syllable": 1
         },
         {
           "duration": 0.11,
-          "phone": "n_I"
+          "phone": "n_I",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -5358,7 +5638,8 @@
         },
         {
           "duration": 0.09,
-          "phone": "s_I"
+          "phone": "s_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -5385,7 +5666,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "g_B"
+          "phone": "g_B",
+          "syllable": 1
         },
         {
           "duration": 0.19,
@@ -5408,7 +5690,8 @@
       "phones": [
         {
           "duration": 0.34,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -5423,7 +5706,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "ey_B"
+          "phone": "ey_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -5446,7 +5730,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -5465,7 +5750,8 @@
       "phones": [
         {
           "duration": 0.18,
-          "phone": "hh_B"
+          "phone": "hh_B",
+          "syllable": 1
         },
         {
           "duration": 0.28,
@@ -5488,7 +5774,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -5511,7 +5798,8 @@
       "phones": [
         {
           "duration": 0.03,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.09,
@@ -5530,7 +5818,8 @@
       "phones": [
         {
           "duration": 0.13,
-          "phone": "d_B"
+          "phone": "d_B",
+          "syllable": 1
         },
         {
           "duration": 0.12,
@@ -5557,7 +5846,8 @@
       "phones": [
         {
           "duration": 0.15,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.08,
@@ -5576,7 +5866,8 @@
       "phones": [
         {
           "duration": 0.04,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -5595,7 +5886,8 @@
       "phones": [
         {
           "duration": 0.21,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -5622,7 +5914,8 @@
       "phones": [
         {
           "duration": 0.17,
-          "phone": "ah_B"
+          "phone": "ah_B",
+          "syllable": 1
         },
         {
           "duration": 0.05,
@@ -5645,7 +5938,8 @@
       "phones": [
         {
           "duration": 0.27,
-          "phone": "s_B"
+          "phone": "s_B",
+          "syllable": 1
         },
         {
           "duration": 0.58,
@@ -5664,7 +5958,8 @@
       "phones": [
         {
           "duration": 0.24,
-          "phone": "n_B"
+          "phone": "n_B",
+          "syllable": 1
         },
         {
           "duration": 0.24,
@@ -5672,7 +5967,8 @@
         },
         {
           "duration": 0.17,
-          "phone": "ch_I"
+          "phone": "ch_I",
+          "syllable": 1
         },
         {
           "duration": 0.1,
@@ -5680,11 +5976,13 @@
         },
         {
           "duration": 0.08,
-          "phone": "ah_I"
+          "phone": "ah_I",
+          "syllable": 1
         },
         {
           "duration": 0.08,
-          "phone": "l_I"
+          "phone": "l_I",
+          "syllable": 1
         },
         {
           "duration": 0.13,
@@ -5703,7 +6001,8 @@
       "phones": [
         {
           "duration": 0.09,
-          "phone": "dh_B"
+          "phone": "dh_B",
+          "syllable": 1
         },
         {
           "duration": 0.14,
@@ -5722,7 +6021,8 @@
       "phones": [
         {
           "duration": 0.11,
-          "phone": "ay_S"
+          "phone": "ay_S",
+          "syllable": 1
         }
       ],
       "alignedWord": "i",
@@ -5737,7 +6037,8 @@
       "phones": [
         {
           "duration": 0.07,
-          "phone": "g_B"
+          "phone": "g_B",
+          "syllable": 1
         },
         {
           "duration": 0.23,
@@ -5757,7 +6058,8 @@
       "phones": [
         {
           "duration": 0.1,
-          "phone": "r_B"
+          "phone": "r_B",
+          "syllable": 1
         },
         {
           "duration": 0.3,
@@ -5765,7 +6067,8 @@
         },
         {
           "duration": 0.2,
-          "phone": "z_E"
+          "phone": "z_E",
+          "syllable": 1
         },
         {
           "duration": 0.24,

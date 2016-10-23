@@ -56,12 +56,28 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
 2. Use GUI to align .wav file and .txt file via `http://localhost:8765/`
 3. Save aligned .json file
 
+### Generate syllables
+
+1. Install [NLTK](http://www.nltk.org/) for Python:
+
+  ```
+  sudo pip install -U nltk
+  ```
+
+2. Download cmudict corpus:
+
+  ```
+  sudo python -m nltk.downloader -d /usr/local/share/nltk_data cmudict
+  ```
+
+3. Run `python find_syllables.py`
+
 ### Extract audio clips
 
 1. Extract words from audio
 
   ```
-  ffmpeg -i and_still_i_rise.wav -ss 10.0 -to 12.0 -c copy words/clip.wav
+  ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy words/history.wav
   ```
 
 ### Process frames
