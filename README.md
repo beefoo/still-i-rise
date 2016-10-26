@@ -1,4 +1,6 @@
-# And Still I Rise
+# Still I Rise: A Close Listening
+
+A deep analysis of Maya Angelou's performance of _Still I Rise_
 
 ## Requirements
 
@@ -34,7 +36,7 @@ This step creates the .wav file from source .mp4 file
 This step extracts amplitude, pitch, and voice pulse data from .wav file using [Praat](http://www.fon.hum.uva.nl/praat/)
 
 1. Open .wav file in [Praat](http://www.fon.hum.uva.nl/praat/)
-2. Select object, then click **Save** -> **short text file** (e.g. and_still_i_rise.Sound) - this will be your amplitude data
+2. _(optional)_ Select object, then click **Save** -> **short text file** (e.g. and_still_i_rise.Sound) - this will give you raw amplitude data
 2. Click **View & Edit**
 3. Show analysis by clicking **View** -> **Show Analysis...** -> **Longest Analysis** -> 200 -> Apply
 4. Click **Pitch** and update settings (adjust as needed):

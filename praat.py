@@ -60,6 +60,17 @@ def fileToPitchData(filename):
 
     return frames
 
+# File is in "short" .Pitch Praat format
+# See: http://www.fon.hum.uva.nl/praat/manual/PointProcess.html
+def fileToPulseData(filename):
+    pulses = []
+
+    for i, line in enumerate(open(filename,'r').readlines()):
+        if i > 5 and line:
+            pulses.append(float(line))
+
+    return pulses
+
 # File is in "short" .Sound Praat format
 # See: http://www.fon.hum.uva.nl/praat/manual/Sound.html
 def fileToWavData(filename):

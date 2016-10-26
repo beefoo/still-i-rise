@@ -1,9 +1,8 @@
 *.wav
 !gentle/*.wav
-*.Pitch
 *.Sound
-*.PointProcess
 *.pkf
+*.pyc
 frames/*
 !frames/.keep
 node_modules/
