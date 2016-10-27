@@ -57,11 +57,23 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
 1. Download, install, and run [Gentle](https://github.com/lowerquality/gentle)
 2. Use GUI to align .wav file and .txt file via `http://localhost:8765/`
 3. Save aligned .json file
+4. Clean up timings:
+
+  ```
+  python clean.py
+  ```
+
 4. Add verses and lines:
 
   ```
   python add_lines.py
   ```
+
+### Find non-words and pauses
+
+```
+python find_nonwords.py
+```
 
 ### Generate syllables
 

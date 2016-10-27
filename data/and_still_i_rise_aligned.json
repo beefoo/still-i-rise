@@ -10,18 +10,18 @@
     }, 
     {
       "start": 5.58, 
-      "end": 6.0200000000000005
+      "end": 6.02
     }, 
     {
       "start": 8.3, 
       "end": 8.62
     }, 
     {
-      "start": 10.347, 
-      "end": 11.038
+      "start": 10.35, 
+      "end": 11.04
     }, 
     {
-      "start": 12.171, 
+      "start": 12.17, 
       "end": 12.76
     }, 
     {
@@ -29,7 +29,7 @@
       "end": 15.26
     }, 
     {
-      "start": 17.189999999999998, 
+      "start": 17.19, 
       "end": 17.48
     }, 
     {
@@ -37,11 +37,11 @@
       "end": 21.26
     }, 
     {
-      "start": 23.060000000000002, 
+      "start": 23.06, 
       "end": 23.59
     }, 
     {
-      "start": 26.069999999999997, 
+      "start": 26.07, 
       "end": 26.34
     }, 
     {
@@ -61,19 +61,19 @@
       "end": 33.71
     }, 
     {
-      "start": 35.339999999999996, 
-      "end": 35.760000000000005
+      "start": 35.34, 
+      "end": 35.76
     }, 
     {
-      "start": 38.284, 
+      "start": 38.28, 
       "end": 38.5
     }, 
     {
-      "start": 40.994, 
+      "start": 40.99, 
       "end": 41.35
     }, 
     {
-      "start": 43.870000000000005, 
+      "start": 43.87, 
       "end": 44.44
     }, 
     {
@@ -101,7 +101,7 @@
       "end": 63.41
     }, 
     {
-      "start": 65.47999999999999, 
+      "start": 65.48, 
       "end": 65.82
     }, 
     {
@@ -113,7 +113,7 @@
       "end": 69.83
     }, 
     {
-      "start": 71.791, 
+      "start": 71.79, 
       "end": 72.38342874250118
     }, 
     {
@@ -121,8 +121,8 @@
       "end": 75.93
     }, 
     {
-      "start": 77.38000000000001, 
-      "end": 80.46000000000001
+      "start": 77.38, 
+      "end": 80.46
     }, 
     {
       "start": 84.24, 
@@ -134,10 +134,10 @@
     }, 
     {
       "start": 91.47, 
-      "end": 91.992
+      "end": 91.99
     }, 
     {
-      "start": 94.74000000000001, 
+      "start": 94.74, 
       "end": 95.27
     }, 
     {
@@ -161,7 +161,7 @@
       "end": 105.44
     }, 
     {
-      "start": 108.14999999999999, 
+      "start": 108.15, 
       "end": 108.58
     }, 
     {
@@ -217,12 +217,12 @@
       "endOffset": 99, 
       "end": 8.3, 
       "startOffset": 67, 
-      "start": 6.0200000000000005
+      "start": 6.02
     }, 
     {
       "text": "But still, like dust, I'll rise", 
       "endOffset": 132, 
-      "end": 12.171, 
+      "end": 12.17, 
       "startOffset": 101, 
       "start": 8.62
     }, 
@@ -236,7 +236,7 @@
     {
       "text": "Why are you beset with gloom", 
       "endOffset": 195, 
-      "end": 17.189999999999998, 
+      "end": 17.19, 
       "startOffset": 167, 
       "start": 15.26
     }, 
@@ -250,14 +250,14 @@
     {
       "text": "Pumping in my living room", 
       "endOffset": 266, 
-      "end": 23.060000000000002, 
+      "end": 23.06, 
       "startOffset": 241, 
       "start": 21.26
     }, 
     {
       "text": "Just like suns and like moons", 
       "endOffset": 300, 
-      "end": 26.069999999999997, 
+      "end": 26.07, 
       "startOffset": 271, 
       "start": 23.59
     }, 
@@ -285,35 +285,35 @@
     {
       "text": "Did you want to see me broken", 
       "endOffset": 415, 
-      "end": 35.339999999999996, 
+      "end": 35.34, 
       "startOffset": 386, 
       "start": 33.71
     }, 
     {
       "text": "Bowed head and lowered eyes", 
       "endOffset": 445, 
-      "end": 38.284, 
+      "end": 38.28, 
       "startOffset": 418, 
-      "start": 35.760000000000005
+      "start": 35.76
     }, 
     {
       "text": "Shoulders falling down like teardrops", 
       "endOffset": 485, 
-      "end": 40.994, 
+      "end": 40.99, 
       "startOffset": 448, 
       "start": 38.5
     }, 
     {
       "text": "Weakened by my soulful cries", 
       "endOffset": 516, 
-      "end": 43.870000000000005, 
+      "end": 43.87, 
       "startOffset": 488, 
       "start": 41.35
     }, 
     {
       "text": "Does my sassiness upset you", 
       "endOffset": 548, 
-      "end": 46.559, 
+      "end": 46.56, 
       "startOffset": 521, 
       "start": 44.44
     }, 
@@ -355,21 +355,21 @@
     {
       "text": "You can kill me with your hatefulness", 
       "endOffset": 754, 
-      "end": 65.47999999999999, 
+      "end": 65.48, 
       "startOffset": 717, 
       "start": 63.41
     }, 
     {
       "text": "But just like life, I'll rise", 
       "endOffset": 786, 
-      "end": 68.9, 
+      "end": 68.95, 
       "startOffset": 757, 
       "start": 65.82
     }, 
     {
       "text": "Does my sexiness offend you", 
       "endOffset": 818, 
-      "end": 71.791, 
+      "end": 71.79, 
       "startOffset": 791, 
       "start": 69.83
     }, 
@@ -425,9 +425,9 @@
     {
       "text": "A black ocean, leaping and wide", 
       "endOffset": 1031, 
-      "end": 94.74000000000001, 
+      "end": 94.74, 
       "startOffset": 1000, 
-      "start": 91.992
+      "start": 91.99
     }, 
     {
       "text": "Welling and swelling I bear in the tide", 
@@ -439,7 +439,7 @@
     {
       "text": "Leaving behind nights of terror and fear", 
       "endOffset": 1118, 
-      "end": 103.34, 
+      "end": 103.44, 
       "startOffset": 1078, 
       "start": 100.36
     }, 
@@ -453,7 +453,7 @@
     {
       "text": "Into a daybreak miraculously clear", 
       "endOffset": 1162, 
-      "end": 108.14999999999999, 
+      "end": 108.15, 
       "startOffset": 1128, 
       "start": 105.44
     }, 
@@ -497,14 +497,14 @@
     {
       "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
       "endOffset": 132, 
-      "end": 12.171, 
+      "end": 12.17, 
       "startOffset": 0, 
       "start": 1.23
     }, 
     {
       "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
       "endOffset": 266, 
-      "end": 23.060000000000002, 
+      "end": 23.06, 
       "startOffset": 137, 
       "start": 12.76
     }, 
@@ -518,7 +518,7 @@
     {
       "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
       "endOffset": 516, 
-      "end": 43.870000000000005, 
+      "end": 43.87, 
       "startOffset": 386, 
       "start": 33.71
     }, 
@@ -532,7 +532,7 @@
     {
       "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
       "endOffset": 786, 
-      "end": 68.9, 
+      "end": 68.95, 
       "startOffset": 650, 
       "start": 58.76
     }, 
@@ -616,7 +616,7 @@
         }
       ], 
       "alignedWord": "may", 
-      "start": 1.4200000000000002, 
+      "start": 1.42, 
       "verse": 0, 
       "startOffset": 4, 
       "end": 1.6, 
@@ -645,7 +645,7 @@
       "start": 1.6, 
       "verse": 0, 
       "startOffset": 8, 
-      "end": 1.9200000000000002, 
+      "end": 1.92, 
       "line": 0
     }, 
     {
@@ -690,10 +690,10 @@
         }
       ], 
       "alignedWord": "down", 
-      "start": 2.1399999999999997, 
+      "start": 2.14, 
       "verse": 0, 
       "startOffset": 17, 
-      "end": 2.6799999999999997, 
+      "end": 2.68, 
       "line": 0
     }, 
     {
@@ -926,10 +926,10 @@
         }
       ], 
       "alignedWord": "you", 
-      "start": 6.0200000000000005, 
+      "start": 6.02, 
       "verse": 0, 
       "startOffset": 67, 
-      "end": 6.210000000000001, 
+      "end": 6.21, 
       "line": 2
     }, 
     {
@@ -978,10 +978,10 @@
         }
       ], 
       "alignedWord": "trod", 
-      "start": 6.4399999999999995, 
+      "start": 6.44, 
       "verse": 0, 
       "startOffset": 75, 
-      "end": 6.9399999999999995, 
+      "end": 6.94, 
       "line": 2
     }, 
     {
@@ -995,7 +995,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.15000000000000002, 
+          "duration": 0.15, 
           "phone": "iy_E"
         }
       ], 
@@ -1183,10 +1183,10 @@
         }
       ], 
       "alignedWord": "like", 
-      "start": 9.239999999999998, 
+      "start": 9.24, 
       "verse": 0, 
       "startOffset": 112, 
-      "end": 9.459999999999999, 
+      "end": 9.46, 
       "line": 3
     }, 
     {
@@ -1200,7 +1200,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.397, 
+          "duration": 0.4, 
           "phone": "ah_I"
         }, 
         {
@@ -1216,7 +1216,7 @@
       "start": 9.46, 
       "verse": 0, 
       "startOffset": 117, 
-      "end": 10.347, 
+      "end": 10.35, 
       "line": 3
     }, 
     {
@@ -1236,10 +1236,10 @@
         }
       ], 
       "alignedWord": "i'll", 
-      "start": 11.038, 
+      "start": 11.04, 
       "verse": 0, 
       "startOffset": 123, 
-      "end": 11.328, 
+      "end": 11.33, 
       "line": 3
     }, 
     {
@@ -1254,7 +1254,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.643, 
+          "duration": 0.64, 
           "phone": "ay_I"
         }, 
         {
@@ -1263,10 +1263,10 @@
         }
       ], 
       "alignedWord": "rise", 
-      "start": 11.328, 
+      "start": 11.33, 
       "verse": 0, 
       "startOffset": 128, 
-      "end": 12.171, 
+      "end": 12.17, 
       "line": 3
     }, 
     {
@@ -1536,7 +1536,7 @@
         }
       ], 
       "alignedWord": "with", 
-      "start": 16.310000000000002, 
+      "start": 16.31, 
       "verse": 1, 
       "startOffset": 185, 
       "end": 16.46, 
@@ -1569,7 +1569,7 @@
       "start": 16.49, 
       "verse": 1, 
       "startOffset": 190, 
-      "end": 17.189999999999998, 
+      "end": 17.19, 
       "line": 5
     }, 
     {
@@ -1669,7 +1669,7 @@
       "start": 18.3, 
       "verse": 1, 
       "startOffset": 212, 
-      "end": 18.810000000000002, 
+      "end": 18.81, 
       "line": 6
     }, 
     {
@@ -1722,13 +1722,13 @@
       "endOffset": 224, 
       "phones": [
         {
-          "duration": 0.18, 
+          "duration": 0.17, 
           "phone": "ay_S", 
           "syllable": 1
         }
       ], 
       "alignedWord": "i", 
-      "start": 19.27, 
+      "start": 19.28, 
       "verse": 1, 
       "startOffset": 223, 
       "end": 19.45, 
@@ -1779,7 +1779,7 @@
       "start": 19.78, 
       "verse": 1, 
       "startOffset": 230, 
-      "end": 20.220000000000002, 
+      "end": 20.22, 
       "line": 6
     }, 
     {
@@ -1848,7 +1848,7 @@
       "start": 21.26, 
       "verse": 1, 
       "startOffset": 241, 
-      "end": 21.680000000000003, 
+      "end": 21.68, 
       "line": 7
     }, 
     {
@@ -1953,7 +1953,7 @@
       "start": 22.53, 
       "verse": 1, 
       "startOffset": 262, 
-      "end": 23.060000000000002, 
+      "end": 23.06, 
       "line": 7
     }, 
     {
@@ -2091,7 +2091,7 @@
       "start": 25.02, 
       "verse": 2, 
       "startOffset": 290, 
-      "end": 25.259999999999998, 
+      "end": 25.26, 
       "line": 8
     }, 
     {
@@ -2118,10 +2118,10 @@
         }
       ], 
       "alignedWord": "moons", 
-      "start": 25.259999999999998, 
+      "start": 25.26, 
       "verse": 2, 
       "startOffset": 295, 
-      "end": 26.069999999999997, 
+      "end": 26.07, 
       "line": 8
     }, 
     {
@@ -2351,7 +2351,7 @@
       "start": 29.65, 
       "verse": 2, 
       "startOffset": 343, 
-      "end": 30.119999999999997, 
+      "end": 30.12, 
       "line": 10
     }, 
     {
@@ -2391,10 +2391,10 @@
         }
       ], 
       "alignedWord": "springing", 
-      "start": 30.119999999999997, 
+      "start": 30.12, 
       "verse": 2, 
       "startOffset": 349, 
-      "end": 30.599999999999998, 
+      "end": 30.6, 
       "line": 10
     }, 
     {
@@ -2542,7 +2542,7 @@
       "start": 33.92, 
       "verse": 3, 
       "startOffset": 390, 
-      "end": 34.010000000000005, 
+      "end": 34.01, 
       "line": 12
     }, 
     {
@@ -2569,7 +2569,7 @@
         }
       ], 
       "alignedWord": "want", 
-      "start": 34.010000000000005, 
+      "start": 34.01, 
       "verse": 3, 
       "startOffset": 394, 
       "end": 34.24, 
@@ -2613,10 +2613,10 @@
         }
       ], 
       "alignedWord": "see", 
-      "start": 34.349999999999994, 
+      "start": 34.35, 
       "verse": 3, 
       "startOffset": 402, 
-      "end": 34.519999999999996, 
+      "end": 34.52, 
       "line": 12
     }, 
     {
@@ -2635,7 +2635,7 @@
         }
       ], 
       "alignedWord": "me", 
-      "start": 34.519999999999996, 
+      "start": 34.52, 
       "verse": 3, 
       "startOffset": 406, 
       "end": 34.69, 
@@ -2677,7 +2677,7 @@
       "start": 34.69, 
       "verse": 3, 
       "startOffset": 409, 
-      "end": 35.339999999999996, 
+      "end": 35.34, 
       "line": 12
     }, 
     {
@@ -2700,10 +2700,10 @@
         }
       ], 
       "alignedWord": "bowed", 
-      "start": 35.760000000000005, 
+      "start": 35.76, 
       "verse": 3, 
       "startOffset": 418, 
-      "end": 36.400000000000006, 
+      "end": 36.4, 
       "line": 13
     }, 
     {
@@ -2800,7 +2800,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.224, 
+          "duration": 0.22, 
           "phone": "z_E"
         }
       ], 
@@ -2808,7 +2808,7 @@
       "start": 37.46, 
       "verse": 3, 
       "startOffset": 441, 
-      "end": 38.284, 
+      "end": 38.28, 
       "line": 13
     }, 
     {
@@ -2908,7 +2908,7 @@
       "start": 39.59, 
       "verse": 3, 
       "startOffset": 466, 
-      "end": 39.910000000000004, 
+      "end": 39.91, 
       "line": 14
     }, 
     {
@@ -2949,7 +2949,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.074, 
+          "duration": 0.07, 
           "phone": "ih_I"
         }, 
         {
@@ -2982,7 +2982,7 @@
       "start": 40.26, 
       "verse": 3, 
       "startOffset": 476, 
-      "end": 40.994, 
+      "end": 40.99, 
       "line": 14
     }, 
     {
@@ -3131,10 +3131,10 @@
         }
       ], 
       "alignedWord": "cries", 
-      "start": 43.230000000000004, 
+      "start": 43.23, 
       "verse": 3, 
       "startOffset": 511, 
-      "end": 43.870000000000005, 
+      "end": 43.87, 
       "line": 15
     }, 
     {
@@ -3152,7 +3152,7 @@
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.09000000000000001, 
+          "duration": 0.09, 
           "phone": "z_E"
         }
       ], 
@@ -3276,7 +3276,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.199, 
+          "duration": 0.2, 
           "phone": "uw_E"
         }
       ], 
@@ -3284,7 +3284,7 @@
       "start": 46.21, 
       "verse": 4, 
       "startOffset": 545, 
-      "end": 46.559, 
+      "end": 46.56, 
       "line": 16
     }, 
     {
@@ -3444,7 +3444,7 @@
       "start": 49.08, 
       "verse": 4, 
       "startOffset": 574, 
-      "end": 49.309999999999995, 
+      "end": 49.31, 
       "line": 18
     }, 
     {
@@ -3528,7 +3528,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.09000000000000001, 
+          "duration": 0.09, 
           "phone": "z_E"
         }
       ], 
@@ -3555,10 +3555,10 @@
         }
       ], 
       "alignedWord": "if", 
-      "start": 53.629999999999995, 
+      "start": 53.63, 
       "verse": 4, 
       "startOffset": 597, 
-      "end": 53.85999999999999, 
+      "end": 53.86, 
       "line": 18
     }, 
     {
@@ -4007,7 +4007,7 @@
       "start": 61.09, 
       "verse": 5, 
       "startOffset": 685, 
-      "end": 61.220000000000006, 
+      "end": 61.22, 
       "line": 21
     }, 
     {
@@ -4107,7 +4107,7 @@
       "start": 61.92, 
       "verse": 5, 
       "startOffset": 700, 
-      "end": 62.160000000000004, 
+      "end": 62.16, 
       "line": 21
     }, 
     {
@@ -4133,7 +4133,7 @@
       "start": 62.16, 
       "verse": 5, 
       "startOffset": 705, 
-      "end": 62.339999999999996, 
+      "end": 62.34, 
       "line": 21
     }, 
     {
@@ -4181,7 +4181,7 @@
       "start": 63.41, 
       "verse": 5, 
       "startOffset": 717, 
-      "end": 63.56999999999999, 
+      "end": 63.57, 
       "line": 22
     }, 
     {
@@ -4233,7 +4233,7 @@
       "start": 63.84, 
       "verse": 5, 
       "startOffset": 725, 
-      "end": 64.21000000000001, 
+      "end": 64.21, 
       "line": 22
     }, 
     {
@@ -4360,7 +4360,7 @@
       "start": 64.88, 
       "verse": 5, 
       "startOffset": 743, 
-      "end": 65.47999999999999, 
+      "end": 65.48, 
       "line": 22
     }, 
     {
@@ -4386,7 +4386,7 @@
       "start": 65.82, 
       "verse": 5, 
       "startOffset": 757, 
-      "end": 66.03999999999999, 
+      "end": 66.04, 
       "line": 23
     }, 
     {
@@ -4413,7 +4413,7 @@
         }
       ], 
       "alignedWord": "just", 
-      "start": 66.03999999999999, 
+      "start": 66.04, 
       "verse": 5, 
       "startOffset": 761, 
       "end": 66.35, 
@@ -4564,7 +4564,7 @@
       "start": 70.1, 
       "verse": 6, 
       "startOffset": 796, 
-      "end": 70.28999999999999, 
+      "end": 70.29, 
       "line": 24
     }, 
     {
@@ -4609,7 +4609,7 @@
         }
       ], 
       "alignedWord": "sexiness", 
-      "start": 70.28999999999999, 
+      "start": 70.29, 
       "verse": 6, 
       "startOffset": 799, 
       "end": 71.05, 
@@ -4662,7 +4662,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.251, 
+          "duration": 0.25, 
           "phone": "uw_E"
         }
       ], 
@@ -4670,7 +4670,7 @@
       "start": 71.48, 
       "verse": 6, 
       "startOffset": 815, 
-      "end": 71.791, 
+      "end": 71.79, 
       "line": 24
     }, 
     {
@@ -4688,7 +4688,7 @@
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.060000000000000005, 
+          "duration": 0.06, 
           "phone": "z_E"
         }
       ], 
@@ -4766,7 +4766,7 @@
       "start": 74.45, 
       "verse": 6, 
       "startOffset": 834, 
-      "end": 74.60000000000001, 
+      "end": 74.6, 
       "line": 25
     }, 
     {
@@ -4849,7 +4849,7 @@
       "start": 75.93, 
       "verse": 6, 
       "startOffset": 849, 
-      "end": 76.16000000000001, 
+      "end": 76.16, 
       "line": 26
     }, 
     {
@@ -4867,7 +4867,7 @@
       "start": 76.16, 
       "verse": 6, 
       "startOffset": 854, 
-      "end": 76.36999999999999, 
+      "end": 76.37, 
       "line": 26
     }, 
     {
@@ -4897,7 +4897,7 @@
       "start": 76.4, 
       "verse": 6, 
       "startOffset": 856, 
-      "end": 77.38000000000001, 
+      "end": 77.38, 
       "line": 26
     }, 
     {
@@ -4916,10 +4916,10 @@
         }
       ], 
       "alignedWord": "as", 
-      "start": 80.46000000000001, 
+      "start": 80.46, 
       "verse": 6, 
       "startOffset": 862, 
-      "end": 80.71000000000001, 
+      "end": 80.71, 
       "line": 26
     }, 
     {
@@ -4938,10 +4938,10 @@
         }
       ], 
       "alignedWord": "if", 
-      "start": 80.71000000000001, 
+      "start": 80.71, 
       "verse": 6, 
       "startOffset": 865, 
-      "end": 80.94000000000001, 
+      "end": 80.94, 
       "line": 26
     }, 
     {
@@ -4985,7 +4985,7 @@
       "start": 81.06, 
       "verse": 6, 
       "startOffset": 870, 
-      "end": 81.35000000000001, 
+      "end": 81.35, 
       "line": 26
     }, 
     {
@@ -5339,7 +5339,7 @@
       "start": 86.12, 
       "verse": 7, 
       "startOffset": 936, 
-      "end": 86.60000000000001, 
+      "end": 86.6, 
       "line": 28
     }, 
     {
@@ -5431,7 +5431,7 @@
       "start": 88.51, 
       "verse": 7, 
       "startOffset": 961, 
-      "end": 88.74000000000001, 
+      "end": 88.74, 
       "line": 30
     }, 
     {
@@ -5509,7 +5509,7 @@
       "start": 88.98, 
       "verse": 7, 
       "startOffset": 971, 
-      "end": 89.52000000000001, 
+      "end": 89.52, 
       "line": 30
     }, 
     {
@@ -5541,10 +5541,10 @@
         }
       ], 
       "alignedWord": "rooted", 
-      "start": 89.52000000000001, 
+      "start": 89.52, 
       "verse": 7, 
       "startOffset": 976, 
-      "end": 89.95000000000002, 
+      "end": 89.95, 
       "line": 30
     }, 
     {
@@ -5563,7 +5563,7 @@
         }
       ], 
       "alignedWord": "in", 
-      "start": 90, 
+      "start": 90.0, 
       "verse": 7, 
       "startOffset": 983, 
       "end": 90.16, 
@@ -5646,13 +5646,13 @@
       "endOffset": 1001, 
       "phones": [
         {
-          "duration": 0.168, 
+          "duration": 0.17, 
           "phone": "ah_S", 
           "syllable": 1
         }
       ], 
       "alignedWord": "a", 
-      "start": 91.992, 
+      "start": 91.99, 
       "verse": 7, 
       "startOffset": 1000, 
       "end": 92.16, 
@@ -5803,7 +5803,7 @@
       "start": 93.84, 
       "verse": 7, 
       "startOffset": 1027, 
-      "end": 94.74000000000001, 
+      "end": 94.74, 
       "line": 32
     }, 
     {
@@ -5838,7 +5838,7 @@
       "start": 95.27, 
       "verse": 7, 
       "startOffset": 1034, 
-      "end": 95.83999999999999, 
+      "end": 95.84, 
       "line": 33
     }, 
     {
@@ -5873,7 +5873,7 @@
       "endOffset": 1054, 
       "phones": [
         {
-          "duration": 0.16999999999999998, 
+          "duration": 0.17, 
           "phone": "s_B", 
           "syllable": 1
         }, 
@@ -5969,7 +5969,7 @@
       "start": 98.21, 
       "verse": 7, 
       "startOffset": 1062, 
-      "end": 98.53999999999999, 
+      "end": 98.54, 
       "line": 33
     }, 
     {
@@ -6091,7 +6091,7 @@
       "start": 100.82, 
       "verse": 8, 
       "startOffset": 1086, 
-      "end": 101.41999999999999, 
+      "end": 101.42, 
       "line": 34
     }, 
     {
@@ -6121,7 +6121,7 @@
       "start": 101.42, 
       "verse": 8, 
       "startOffset": 1093, 
-      "end": 101.71000000000001, 
+      "end": 101.71, 
       "line": 34
     }, 
     {
@@ -6450,7 +6450,7 @@
       "start": 107.52, 
       "verse": 8, 
       "startOffset": 1157, 
-      "end": 108.14999999999999, 
+      "end": 108.15, 
       "line": 36
     }, 
     {
@@ -6625,7 +6625,7 @@
           "syllable": 1
         }, 
         {
-          "duration": 0.22000000000000003, 
+          "duration": 0.22, 
           "phone": "ay_E"
         }
       ], 
@@ -6633,7 +6633,7 @@
       "start": 111.85, 
       "verse": 8, 
       "startOffset": 1196, 
-      "end": 112.16999999999999, 
+      "end": 112.17, 
       "line": 38
     }, 
     {
@@ -6751,7 +6751,7 @@
       "start": 114.69, 
       "verse": 8, 
       "startOffset": 1218, 
-      "end": 114.92999999999999, 
+      "end": 114.93, 
       "line": 39
     }, 
     {
@@ -6899,7 +6899,7 @@
       "start": 117.73, 
       "verse": 8, 
       "startOffset": 1244, 
-      "end": 117.96000000000001, 
+      "end": 117.96, 
       "line": 39
     }, 
     {
@@ -6918,10 +6918,10 @@
         }
       ], 
       "alignedWord": "the", 
-      "start": 117.96000000000001, 
+      "start": 117.96, 
       "verse": 8, 
       "startOffset": 1247, 
-      "end": 118.10000000000001, 
+      "end": 118.1, 
       "line": 39
     }, 
     {
@@ -7066,7 +7066,7 @@
       "start": 127.65, 
       "verse": 8, 
       "startOffset": 1278, 
-      "end": 127.88000000000001, 
+      "end": 127.88, 
       "line": 42
     }, 
     {
@@ -7081,10 +7081,10 @@
         }
       ], 
       "alignedWord": "i", 
-      "start": 127.88000000000001, 
+      "start": 127.88, 
       "verse": 8, 
       "startOffset": 1284, 
-      "end": 127.99000000000001, 
+      "end": 127.99, 
       "line": 42
     }, 
     {
@@ -7106,7 +7106,7 @@
       "start": 128.02, 
       "verse": 8, 
       "startOffset": 1286, 
-      "end": 128.32000000000002, 
+      "end": 128.32, 
       "line": 42
     }, 
     {
@@ -7134,12 +7134,12 @@
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.185, 
+          "duration": 0.18, 
           "phone": "ng_E"
         }
       ], 
       "alignedWord": "rising", 
-      "start": 128.365, 
+      "start": 128.37, 
       "verse": 8, 
       "startOffset": 1289, 
       "word": "rising", 
