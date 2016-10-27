@@ -1,359 +1,582 @@
 {
-  "verses": [
+  "pauses": [
     {
-      "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
-      "end": 12.171, 
-      "start": 1.23, 
-      "startOffset": 0, 
-      "endOffset": 132
+      "start": 0, 
+      "end": 1.23
     }, 
     {
-      "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
-      "end": 23.060000000000002, 
-      "start": 12.76, 
-      "startOffset": 137, 
-      "endOffset": 266
+      "start": 3.58, 
+      "end": 3.75
     }, 
     {
-      "text": "Just like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise", 
-      "end": 33.11, 
-      "start": 23.59, 
-      "startOffset": 271, 
-      "endOffset": 381
+      "start": 5.58, 
+      "end": 6.0200000000000005
     }, 
     {
-      "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
-      "end": 43.870000000000005, 
-      "start": 33.71, 
-      "startOffset": 386, 
-      "endOffset": 516
+      "start": 8.3, 
+      "end": 8.62
     }, 
     {
-      "text": "Does my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard", 
-      "end": 57.97, 
-      "start": 44.44, 
-      "startOffset": 521, 
-      "endOffset": 645
+      "start": 10.347, 
+      "end": 11.038
     }, 
     {
-      "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
-      "end": 68.9, 
-      "start": 58.76, 
-      "startOffset": 650, 
-      "endOffset": 786
+      "start": 12.171, 
+      "end": 12.76
     }, 
     {
-      "text": "Does my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs", 
-      "end": 84.24, 
-      "start": 69.83, 
-      "startOffset": 791, 
-      "endOffset": 912
+      "start": 14.85, 
+      "end": 15.26
     }, 
     {
-      "text": "Out of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide", 
-      "end": 99.58, 
-      "start": 85.16, 
-      "startOffset": 917, 
-      "endOffset": 1073
+      "start": 17.189999999999998, 
+      "end": 17.48
+    }, 
+    {
+      "start": 20.89, 
+      "end": 21.26
+    }, 
+    {
+      "start": 23.060000000000002, 
+      "end": 23.59
+    }, 
+    {
+      "start": 26.069999999999997, 
+      "end": 26.34
+    }, 
+    {
+      "start": 27.57, 
+      "end": 27.78
+    }, 
+    {
+      "start": 28.85, 
+      "end": 29.09
+    }, 
+    {
+      "start": 31.12, 
+      "end": 31.81
+    }, 
+    {
+      "start": 33.11, 
+      "end": 33.71
+    }, 
+    {
+      "start": 35.339999999999996, 
+      "end": 35.760000000000005
+    }, 
+    {
+      "start": 38.284, 
+      "end": 38.5
+    }, 
+    {
+      "start": 40.994, 
+      "end": 41.35
+    }, 
+    {
+      "start": 43.870000000000005, 
+      "end": 44.44
+    }, 
+    {
+      "start": 46.69131196169955, 
+      "end": 46.825497683475064
+    }, 
+    {
+      "start": 50.35625857474586, 
+      "end": 51.130540543341525
+    }, 
+    {
+      "start": 51.30515708886447, 
+      "end": 51.515823026313264
+    }, 
+    {
+      "start": 57.97, 
+      "end": 58.76
+    }, 
+    {
+      "start": 60.83, 
+      "end": 61.09
+    }, 
+    {
+      "start": 63.14, 
+      "end": 63.41
+    }, 
+    {
+      "start": 65.47999999999999, 
+      "end": 65.82
+    }, 
+    {
+      "start": 67.36, 
+      "end": 68.01
+    }, 
+    {
+      "start": 68.95, 
+      "end": 69.83
+    }, 
+    {
+      "start": 71.791, 
+      "end": 72.38342874250118
+    }, 
+    {
+      "start": 75.61, 
+      "end": 75.93
+    }, 
+    {
+      "start": 77.38000000000001, 
+      "end": 80.46000000000001
+    }, 
+    {
+      "start": 84.24, 
+      "end": 85.16
+    }, 
+    {
+      "start": 87.87, 
+      "end": 88.51
+    }, 
+    {
+      "start": 91.47, 
+      "end": 91.992
+    }, 
+    {
+      "start": 94.74000000000001, 
+      "end": 95.27
+    }, 
+    {
+      "start": 96.94, 
+      "end": 97.22
+    }, 
+    {
+      "start": 99.58, 
+      "end": 100.36
+    }, 
+    {
+      "start": 102.39, 
+      "end": 102.61
+    }, 
+    {
+      "start": 103.44, 
+      "end": 103.72
+    }, 
+    {
+      "start": 104.94, 
+      "end": 105.44
+    }, 
+    {
+      "start": 108.14999999999999, 
+      "end": 108.58
+    }, 
+    {
+      "start": 109.8, 
+      "end": 110.35
+    }, 
+    {
+      "start": 111.4, 
+      "end": 111.52
+    }, 
+    {
+      "start": 113.57, 
+      "end": 114.35
+    }, 
+    {
+      "start": 115.7, 
+      "end": 116.17
+    }, 
+    {
+      "start": 117.52, 
+      "end": 117.73
+    }, 
+    {
+      "start": 118.87, 
+      "end": 119.64
+    }, 
+    {
+      "start": 120.77, 
+      "end": 121.3
+    }, 
+    {
+      "start": 122.34, 
+      "end": 127.65
     }
   ], 
   "lines": [
     {
       "text": "You may write me down in history", 
+      "endOffset": 32, 
       "end": 3.58, 
-      "start": 1.23, 
       "startOffset": 0, 
-      "endOffset": 32
+      "start": 1.23
     }, 
     {
       "text": "With your bitter, twisted lies", 
+      "endOffset": 64, 
       "end": 5.58, 
-      "start": 3.75, 
       "startOffset": 34, 
-      "endOffset": 64
+      "start": 3.75
     }, 
     {
       "text": "You may trod me in the very dirt", 
+      "endOffset": 99, 
       "end": 8.3, 
-      "start": 6.0200000000000005, 
       "startOffset": 67, 
-      "endOffset": 99
+      "start": 6.0200000000000005
     }, 
     {
       "text": "But still, like dust, I'll rise", 
+      "endOffset": 132, 
       "end": 12.171, 
-      "start": 8.62, 
       "startOffset": 101, 
-      "endOffset": 132
+      "start": 8.62
     }, 
     {
       "text": "Does my sassiness upset you", 
+      "endOffset": 164, 
       "end": 14.85, 
-      "start": 12.76, 
       "startOffset": 137, 
-      "endOffset": 164
+      "start": 12.76
     }, 
     {
       "text": "Why are you beset with gloom", 
+      "endOffset": 195, 
       "end": 17.189999999999998, 
-      "start": 15.26, 
       "startOffset": 167, 
-      "endOffset": 195
+      "start": 15.26
     }, 
     {
       "text": "Just \u2018cause I walk as if I have oil wells", 
+      "endOffset": 239, 
       "end": 20.89, 
-      "start": 17.48, 
       "startOffset": 198, 
-      "endOffset": 239
+      "start": 17.48
     }, 
     {
       "text": "Pumping in my living room", 
+      "endOffset": 266, 
       "end": 23.060000000000002, 
-      "start": 21.26, 
       "startOffset": 241, 
-      "endOffset": 266
+      "start": 21.26
     }, 
     {
       "text": "Just like suns and like moons", 
+      "endOffset": 300, 
       "end": 26.069999999999997, 
-      "start": 23.59, 
       "startOffset": 271, 
-      "endOffset": 300
+      "start": 23.59
     }, 
     {
       "text": "With the certainty of tides", 
+      "endOffset": 330, 
       "end": 28.85, 
-      "start": 26.34, 
       "startOffset": 303, 
-      "endOffset": 330
+      "start": 26.34
     }, 
     {
       "text": "Just like hopes springing high", 
+      "endOffset": 363, 
       "end": 31.12, 
-      "start": 29.09, 
       "startOffset": 333, 
-      "endOffset": 363
+      "start": 29.09
     }, 
     {
       "text": "Still I'll rise", 
+      "endOffset": 381, 
       "end": 33.11, 
-      "start": 31.81, 
       "startOffset": 366, 
-      "endOffset": 381
+      "start": 31.81
     }, 
     {
       "text": "Did you want to see me broken", 
+      "endOffset": 415, 
       "end": 35.339999999999996, 
-      "start": 33.71, 
       "startOffset": 386, 
-      "endOffset": 415
+      "start": 33.71
     }, 
     {
       "text": "Bowed head and lowered eyes", 
+      "endOffset": 445, 
       "end": 38.284, 
-      "start": 35.760000000000005, 
       "startOffset": 418, 
-      "endOffset": 445
+      "start": 35.760000000000005
     }, 
     {
       "text": "Shoulders falling down like teardrops", 
+      "endOffset": 485, 
       "end": 40.994, 
-      "start": 38.5, 
       "startOffset": 448, 
-      "endOffset": 485
+      "start": 38.5
     }, 
     {
       "text": "Weakened by my soulful cries", 
+      "endOffset": 516, 
       "end": 43.870000000000005, 
-      "start": 41.35, 
       "startOffset": 488, 
-      "endOffset": 516
+      "start": 41.35
     }, 
     {
       "text": "Does my sassiness upset you", 
+      "endOffset": 548, 
       "end": 46.559, 
-      "start": 44.44, 
       "startOffset": 521, 
-      "endOffset": 548
+      "start": 44.44
     }, 
     {
       "text": "Don't take it so hard", 
+      "endOffset": 572, 
       "end": 49.08, 
-      "start": 47.82, 
       "startOffset": 551, 
-      "endOffset": 572
+      "start": 47.82
     }, 
     {
       "text": "Just \u2018cause I laugh as if I have gold mines", 
+      "endOffset": 617, 
       "end": 55.88, 
-      "start": 49.08, 
       "startOffset": 574, 
-      "endOffset": 617
+      "start": 49.08
     }, 
     {
       "text": "Diggin' in my own backyard", 
+      "endOffset": 645, 
       "end": 57.97, 
-      "start": 55.88, 
       "startOffset": 619, 
-      "endOffset": 645
+      "start": 55.88
     }, 
     {
       "text": "You can shoot me with your words", 
+      "endOffset": 682, 
       "end": 60.83, 
-      "start": 58.76, 
       "startOffset": 650, 
-      "endOffset": 682
+      "start": 58.76
     }, 
     {
       "text": "You can cut me with your lies", 
+      "endOffset": 714, 
       "end": 63.14, 
-      "start": 61.09, 
       "startOffset": 685, 
-      "endOffset": 714
+      "start": 61.09
     }, 
     {
       "text": "You can kill me with your hatefulness", 
+      "endOffset": 754, 
       "end": 65.47999999999999, 
-      "start": 63.41, 
       "startOffset": 717, 
-      "endOffset": 754
+      "start": 63.41
     }, 
     {
       "text": "But just like life, I'll rise", 
+      "endOffset": 786, 
       "end": 68.9, 
-      "start": 65.82, 
       "startOffset": 757, 
-      "endOffset": 786
+      "start": 65.82
     }, 
     {
       "text": "Does my sexiness offend you", 
+      "endOffset": 818, 
       "end": 71.791, 
-      "start": 69.83, 
       "startOffset": 791, 
-      "endOffset": 818
+      "start": 69.83
     }, 
     {
       "text": "Does it come as a surprise", 
+      "endOffset": 847, 
       "end": 75.61, 
-      "start": 73.65, 
       "startOffset": 821, 
-      "endOffset": 847
+      "start": 73.65
     }, 
     {
       "text": "That I dance as if I have diamonds", 
+      "endOffset": 883, 
       "end": 82.47, 
-      "start": 75.93, 
       "startOffset": 849, 
-      "endOffset": 883
+      "start": 75.93
     }, 
     {
       "text": "At the meeting of my thighs", 
+      "endOffset": 912, 
       "end": 84.24, 
-      "start": 82.5, 
       "startOffset": 885, 
-      "endOffset": 912
+      "start": 82.5
     }, 
     {
       "text": "Out of the huts of history's shame", 
+      "endOffset": 951, 
       "end": 87.03, 
-      "start": 85.16, 
       "startOffset": 917, 
-      "endOffset": 951
+      "start": 85.16
     }, 
     {
       "text": "I rise", 
+      "endOffset": 959, 
       "end": 87.87, 
-      "start": 87.03, 
       "startOffset": 953, 
-      "endOffset": 959
+      "start": 87.03
     }, 
     {
       "text": "Up from a past rooted in pain", 
+      "endOffset": 990, 
       "end": 90.58, 
-      "start": 88.51, 
       "startOffset": 961, 
-      "endOffset": 990
+      "start": 88.51
     }, 
     {
       "text": "I rise", 
+      "endOffset": 998, 
       "end": 91.47, 
-      "start": 90.58, 
       "startOffset": 992, 
-      "endOffset": 998
+      "start": 90.58
     }, 
     {
       "text": "A black ocean, leaping and wide", 
+      "endOffset": 1031, 
       "end": 94.74000000000001, 
-      "start": 91.992, 
       "startOffset": 1000, 
-      "endOffset": 1031
+      "start": 91.992
     }, 
     {
       "text": "Welling and swelling I bear in the tide", 
+      "endOffset": 1073, 
       "end": 99.58, 
-      "start": 95.27, 
       "startOffset": 1034, 
-      "endOffset": 1073
+      "start": 95.27
     }, 
     {
       "text": "Leaving behind nights of terror and fear", 
+      "endOffset": 1118, 
       "end": 103.34, 
-      "start": 100.36, 
       "startOffset": 1078, 
-      "endOffset": 1118
+      "start": 100.36
     }, 
     {
       "text": "I rise", 
+      "endOffset": 1126, 
       "end": 104.94, 
-      "start": 103.72, 
       "startOffset": 1120, 
-      "endOffset": 1126
+      "start": 103.72
     }, 
     {
       "text": "Into a daybreak miraculously clear", 
+      "endOffset": 1162, 
       "end": 108.14999999999999, 
-      "start": 105.44, 
       "startOffset": 1128, 
-      "endOffset": 1162
+      "start": 105.44
     }, 
     {
       "text": "I rise", 
+      "endOffset": 1170, 
       "end": 109.8, 
-      "start": 108.58, 
       "startOffset": 1164, 
-      "endOffset": 1170
+      "start": 108.58
     }, 
     {
       "text": "Bringing the gifts that my ancestors gave", 
+      "endOffset": 1213, 
       "end": 113.57, 
-      "start": 110.35, 
       "startOffset": 1172, 
-      "endOffset": 1213
+      "start": 110.35
     }, 
     {
       "text": "I am the hope and the dream of the slave", 
+      "endOffset": 1256, 
       "end": 118.87, 
-      "start": 114.35, 
       "startOffset": 1216, 
-      "endOffset": 1256
+      "start": 114.35
     }, 
     {
       "text": "And so", 
+      "endOffset": 1265, 
       "end": 120.77, 
-      "start": 119.64, 
       "startOffset": 1259, 
-      "endOffset": 1265
+      "start": 119.64
     }, 
     {
       "text": "Naturally", 
+      "endOffset": 1276, 
       "end": 122.34, 
-      "start": 121.3, 
       "startOffset": 1267, 
-      "endOffset": 1276
+      "start": 121.3
     }
   ], 
-  "transcript": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise.\r\n\r\nDoes my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room.\r\n\r\nJust like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise.\r\n\r\nDid you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries?\r\n\r\nDoes my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard.\r\n\r\nYou can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise.\r\n\r\nDoes my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs?\r\n\r\nOut of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide.\r\n\r\nLeaving behind nights of terror and fear\r\nI rise\r\nInto a daybreak miraculously clear\r\nI rise\r\nBringing the gifts that my ancestors gave,\r\nI am the hope and the dream of the slave.\r\nAnd so\r\nNaturally\r\nThere I go rising.\r\n", 
+  "verses": [
+    {
+      "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
+      "endOffset": 132, 
+      "end": 12.171, 
+      "startOffset": 0, 
+      "start": 1.23
+    }, 
+    {
+      "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
+      "endOffset": 266, 
+      "end": 23.060000000000002, 
+      "startOffset": 137, 
+      "start": 12.76
+    }, 
+    {
+      "text": "Just like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise", 
+      "endOffset": 381, 
+      "end": 33.11, 
+      "startOffset": 271, 
+      "start": 23.59
+    }, 
+    {
+      "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
+      "endOffset": 516, 
+      "end": 43.870000000000005, 
+      "startOffset": 386, 
+      "start": 33.71
+    }, 
+    {
+      "text": "Does my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard", 
+      "endOffset": 645, 
+      "end": 57.97, 
+      "startOffset": 521, 
+      "start": 44.44
+    }, 
+    {
+      "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
+      "endOffset": 786, 
+      "end": 68.9, 
+      "startOffset": 650, 
+      "start": 58.76
+    }, 
+    {
+      "text": "Does my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs", 
+      "endOffset": 912, 
+      "end": 84.24, 
+      "startOffset": 791, 
+      "start": 69.83
+    }, 
+    {
+      "text": "Out of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide", 
+      "endOffset": 1073, 
+      "end": 99.58, 
+      "startOffset": 917, 
+      "start": 85.16
+    }
+  ], 
+  "nonwords": [
+    {
+      "start": 46.5608940833552, 
+      "end": 46.69131196169955
+    }, 
+    {
+      "start": 46.825497683475064, 
+      "end": 47.109739660937876
+    }, 
+    {
+      "start": 50.19, 
+      "end": 50.35625857474586
+    }, 
+    {
+      "start": 51.130540543341525, 
+      "end": 51.30515708886447
+    }, 
+    {
+      "start": 51.515823026313264, 
+      "end": 51.793787468817946
+    }, 
+    {
+      "start": 72.38342874250118, 
+      "end": 72.8971097132741
+    }
+  ], 
   "words": [
     {
       "case": "success", 
@@ -4276,16 +4499,16 @@
       "endOffset": 786, 
       "phones": [
         {
-          "duration": 0.15, 
+          "duration": 0.17, 
           "phone": "r_B", 
           "syllable": 1
         }, 
         {
-          "duration": 0.31, 
+          "duration": 0.32, 
           "phone": "ay_I"
         }, 
         {
-          "duration": 0.18, 
+          "duration": 0.2, 
           "phone": "z_E"
         }
       ], 
@@ -4293,7 +4516,7 @@
       "start": 68.26, 
       "verse": 5, 
       "startOffset": 782, 
-      "end": 68.9, 
+      "end": 68.95, 
       "line": 23
     }, 
     {
@@ -5986,16 +6209,16 @@
       "endOffset": 1118, 
       "phones": [
         {
-          "duration": 0.12, 
+          "duration": 0.15, 
           "phone": "f_B", 
           "syllable": 1
         }, 
         {
-          "duration": 0.16, 
+          "duration": 0.2, 
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.19, 
+          "duration": 0.22, 
           "phone": "r_E"
         }
       ], 
@@ -6003,7 +6226,7 @@
       "start": 102.87, 
       "verse": 8, 
       "startOffset": 1114, 
-      "end": 103.34, 
+      "end": 103.44, 
       "line": 34
     }, 
     {
@@ -6280,29 +6503,29 @@
       "endOffset": 1180, 
       "phones": [
         {
-          "duration": 0.14, 
+          "duration": 0.16, 
           "phone": "b_B", 
           "syllable": 1
         }, 
         {
-          "duration": 0.04, 
+          "duration": 0.06, 
           "phone": "r_I"
         }, 
         {
-          "duration": 0.06, 
+          "duration": 0.08, 
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.08, 
+          "duration": 0.1, 
           "phone": "ng_I", 
           "syllable": 1
         }, 
         {
-          "duration": 0.03, 
+          "duration": 0.05, 
           "phone": "ih_I"
         }, 
         {
-          "duration": 0.07, 
+          "duration": 0.09, 
           "phone": "ng_E"
         }
       ], 
@@ -6310,7 +6533,7 @@
       "start": 110.35, 
       "verse": 8, 
       "startOffset": 1172, 
-      "end": 110.77, 
+      "end": 110.89, 
       "line": 38
     }, 
     {
@@ -6922,5 +7145,6 @@
       "word": "rising", 
       "line": 42
     }
-  ]
+  ], 
+  "transcript": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise.\r\n\r\nDoes my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room.\r\n\r\nJust like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise.\r\n\r\nDid you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries?\r\n\r\nDoes my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard.\r\n\r\nYou can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise.\r\n\r\nDoes my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs?\r\n\r\nOut of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide.\r\n\r\nLeaving behind nights of terror and fear\r\nI rise\r\nInto a daybreak miraculously clear\r\nI rise\r\nBringing the gifts that my ancestors gave,\r\nI am the hope and the dream of the slave.\r\nAnd so\r\nNaturally\r\nThere I go rising.\r\n"
 }

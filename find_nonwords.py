@@ -81,7 +81,10 @@ for gap in gaps:
         # pause found
         if p0 > start and (p0-start) >= MIN_DURATION:
             pauses.append({"start": start, "end": p0})
-        nonwords.append({"start": max(p0, g0), "end": min(p1, g1)})
+        n0 = max(p0, g0)
+        n1 = min(p1, g1)
+        if (n1-n0) >= MIN_DURATION:
+            nonwords.append({"start": n0, "end": n1})
         start = p1
     # No pulses; add as a pause
     if len(gapPulses) <= 0:
@@ -91,9 +94,9 @@ data["nonwords"] = nonwords
 data["pauses"] = pauses
 print "Found %s nonwords and %s pauses" % (len(nonwords), len(pauses))
 
-pprint(nonwords[0:min(10, len(nonwords))])
+# pprint(nonwords[0:min(10, len(nonwords))])
 
-# with open(args.OUTPUT_FILE, 'w') as f:
-#     json.dump(data, f, indent=2)
-#
-# print "Done."
+with open(args.OUTPUT_FILE, 'w') as f:
+    json.dump(data, f, indent=2)
+
+print "Done."
