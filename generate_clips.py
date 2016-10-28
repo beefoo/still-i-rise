@@ -16,11 +16,15 @@ parser.add_argument('-in', dest="INPUT_FILE", default="data/and_still_i_rise_ali
 parser.add_argument('-au', dest="INPUT_AUDIO_FILE", default="and_still_i_rise.wav", help="Path to audio file file")
 parser.add_argument('-out', dest="OUTPUT_DIR", default="clips/", help="Path to clip directory")
 parser.add_argument('-min', dest="MIN_DURATION", type=float, default=0.1, help="Minimum duration of a clip")
+parser.add_argument('-pa', dest="PAD", type=float, default=0.02, help="Amount of seconds to pad before and after")
+parser.add_argument('-fa', dest="FADE", type=float, default=0.02, help="Amount of seconds to fade before and after")
 parser.add_argument('-o', dest="OVERRIDE", type=int, default=0, help="Override existing syllable data")
 
 # init input
 args = parser.parse_args()
 MIN_DURATION = args.MIN_DURATION
+PAD = args.PAD
+FADE = args.FADE
 OVERRIDE = args.OVERRIDE
 types = ["words", "syllables", "nonwords", "pauses"]
 
@@ -70,11 +74,17 @@ for i, clip in enumerate(clips):
     fname = args.OUTPUT_DIR + clip["type"] + '/' + clip["name"] + '.wav'
     if os.path.isfile(fname) and not OVERRIDE:
         continue
-    start = clip["start"]
-    end = clip["end"]
+    start = max(round(clip["start"] - PAD, 2), 0)
+    end = round(clip["end"] + PAD, 2)
     dur = end - start
     if dur < MIN_DURATION:
         end = round(start + MIN_DURATION, 2)
-    command = ['ffmpeg', '-i', args.INPUT_AUDIO_FILE, '-ss', str(start), '-to', str(end), '-c', 'copy', fname]
+    # cut the clip
+    command = ['ffmpeg', '-i', args.INPUT_AUDIO_FILE, '-ss', str(start), '-to', str(end), '-c', 'copy', fname, '-y']
+    # print " ".join(command)
+    finished = subprocess.check_call(command)
+    # fade the clip
+    st = round(end - start - FADE, 2)
+    command = ['ffmpeg', '-i', fname, '-af', "afade=t=in:ss=0:d="+str(FADE)+",afade=t=out:st="+str(st)+":d="+str(FADE), fname, '-y']
     # print " ".join(command)
     subprocess.call(command)

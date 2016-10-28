@@ -110,7 +110,8 @@ python generate_clips.py
 Uses subprocesses to run commands like this:
 
 ```
-ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy words/history.wav
+ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy history.wav -y
+ffmpeg -i history.wav -af 'afade=t=in:ss=0:d=0.02,afade=t=out:st=0.73:d=0.02' history.wav -y
 ```
 
 ### Process frames
