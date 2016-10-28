@@ -15,7 +15,7 @@ locale.setlocale(locale.LC_ALL, 'en_US')
 parser = argparse.ArgumentParser()
 parser.add_argument('-in', dest="INPUT_FILE", default="data/and_still_i_rise_aligned.json", help="Path to input aligned transcript json file")
 parser.add_argument('-pf', dest="PITCH_FILE", default="data/and_still_i_rise.Pitch", help="Path to pitch file")
-parser.add_argument('-out', dest="OUTPUT_FILE", default="data/test.json", help="Path to output json file")
+parser.add_argument('-out', dest="OUTPUT_FILE", default="data/and_still_i_rise_aligned.json", help="Path to output json file")
 
 # init input
 args = parser.parse_args()
