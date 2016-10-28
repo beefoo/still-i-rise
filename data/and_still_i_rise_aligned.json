@@ -200,355 +200,355 @@
   "lines": [
     {
       "text": "You may write me down in history", 
-      "endOffset": 32, 
       "end": 3.58, 
+      "start": 1.23, 
       "startOffset": 0, 
-      "start": 1.23
+      "endOffset": 32
     }, 
     {
       "text": "With your bitter, twisted lies", 
-      "endOffset": 64, 
       "end": 5.58, 
+      "start": 3.75, 
       "startOffset": 34, 
-      "start": 3.75
+      "endOffset": 64
     }, 
     {
       "text": "You may trod me in the very dirt", 
-      "endOffset": 99, 
       "end": 8.3, 
+      "start": 6.02, 
       "startOffset": 67, 
-      "start": 6.02
+      "endOffset": 99
     }, 
     {
       "text": "But still, like dust, I'll rise", 
-      "endOffset": 132, 
       "end": 12.17, 
+      "start": 8.62, 
       "startOffset": 101, 
-      "start": 8.62
+      "endOffset": 132
     }, 
     {
       "text": "Does my sassiness upset you", 
-      "endOffset": 164, 
       "end": 14.85, 
+      "start": 12.76, 
       "startOffset": 137, 
-      "start": 12.76
+      "endOffset": 164
     }, 
     {
       "text": "Why are you beset with gloom", 
-      "endOffset": 195, 
       "end": 17.19, 
+      "start": 15.26, 
       "startOffset": 167, 
-      "start": 15.26
+      "endOffset": 195
     }, 
     {
       "text": "Just \u2018cause I walk as if I have oil wells", 
-      "endOffset": 239, 
       "end": 20.89, 
+      "start": 17.48, 
       "startOffset": 198, 
-      "start": 17.48
+      "endOffset": 239
     }, 
     {
       "text": "Pumping in my living room", 
-      "endOffset": 266, 
       "end": 23.06, 
+      "start": 21.26, 
       "startOffset": 241, 
-      "start": 21.26
+      "endOffset": 266
     }, 
     {
       "text": "Just like suns and like moons", 
-      "endOffset": 300, 
       "end": 26.07, 
+      "start": 23.59, 
       "startOffset": 271, 
-      "start": 23.59
+      "endOffset": 300
     }, 
     {
       "text": "With the certainty of tides", 
-      "endOffset": 330, 
       "end": 28.85, 
+      "start": 26.34, 
       "startOffset": 303, 
-      "start": 26.34
+      "endOffset": 330
     }, 
     {
       "text": "Just like hopes springing high", 
-      "endOffset": 363, 
       "end": 31.12, 
+      "start": 29.09, 
       "startOffset": 333, 
-      "start": 29.09
+      "endOffset": 363
     }, 
     {
       "text": "Still I'll rise", 
-      "endOffset": 381, 
       "end": 33.11, 
+      "start": 31.81, 
       "startOffset": 366, 
-      "start": 31.81
+      "endOffset": 381
     }, 
     {
       "text": "Did you want to see me broken", 
-      "endOffset": 415, 
       "end": 35.34, 
+      "start": 33.71, 
       "startOffset": 386, 
-      "start": 33.71
+      "endOffset": 415
     }, 
     {
       "text": "Bowed head and lowered eyes", 
-      "endOffset": 445, 
       "end": 38.28, 
+      "start": 35.76, 
       "startOffset": 418, 
-      "start": 35.76
+      "endOffset": 445
     }, 
     {
       "text": "Shoulders falling down like teardrops", 
-      "endOffset": 485, 
       "end": 40.99, 
+      "start": 38.5, 
       "startOffset": 448, 
-      "start": 38.5
+      "endOffset": 485
     }, 
     {
       "text": "Weakened by my soulful cries", 
-      "endOffset": 516, 
       "end": 43.87, 
+      "start": 41.35, 
       "startOffset": 488, 
-      "start": 41.35
+      "endOffset": 516
     }, 
     {
       "text": "Does my sassiness upset you", 
-      "endOffset": 548, 
       "end": 46.56, 
+      "start": 44.44, 
       "startOffset": 521, 
-      "start": 44.44
+      "endOffset": 548
     }, 
     {
       "text": "Don't take it so hard", 
-      "endOffset": 572, 
       "end": 49.08, 
+      "start": 47.82, 
       "startOffset": 551, 
-      "start": 47.82
+      "endOffset": 572
     }, 
     {
       "text": "Just \u2018cause I laugh as if I have gold mines", 
-      "endOffset": 617, 
       "end": 55.88, 
+      "start": 49.08, 
       "startOffset": 574, 
-      "start": 49.08
+      "endOffset": 617
     }, 
     {
       "text": "Diggin' in my own backyard", 
-      "endOffset": 645, 
       "end": 57.97, 
+      "start": 55.88, 
       "startOffset": 619, 
-      "start": 55.88
+      "endOffset": 645
     }, 
     {
       "text": "You can shoot me with your words", 
-      "endOffset": 682, 
       "end": 60.83, 
+      "start": 58.76, 
       "startOffset": 650, 
-      "start": 58.76
+      "endOffset": 682
     }, 
     {
       "text": "You can cut me with your lies", 
-      "endOffset": 714, 
       "end": 63.14, 
+      "start": 61.09, 
       "startOffset": 685, 
-      "start": 61.09
+      "endOffset": 714
     }, 
     {
       "text": "You can kill me with your hatefulness", 
-      "endOffset": 754, 
       "end": 65.48, 
+      "start": 63.41, 
       "startOffset": 717, 
-      "start": 63.41
+      "endOffset": 754
     }, 
     {
       "text": "But just like life, I'll rise", 
-      "endOffset": 786, 
       "end": 68.95, 
+      "start": 65.82, 
       "startOffset": 757, 
-      "start": 65.82
+      "endOffset": 786
     }, 
     {
       "text": "Does my sexiness offend you", 
-      "endOffset": 818, 
       "end": 71.79, 
+      "start": 69.83, 
       "startOffset": 791, 
-      "start": 69.83
+      "endOffset": 818
     }, 
     {
       "text": "Does it come as a surprise", 
-      "endOffset": 847, 
       "end": 75.61, 
+      "start": 73.65, 
       "startOffset": 821, 
-      "start": 73.65
+      "endOffset": 847
     }, 
     {
       "text": "That I dance as if I have diamonds", 
-      "endOffset": 883, 
       "end": 82.47, 
+      "start": 75.93, 
       "startOffset": 849, 
-      "start": 75.93
+      "endOffset": 883
     }, 
     {
       "text": "At the meeting of my thighs", 
-      "endOffset": 912, 
       "end": 84.24, 
+      "start": 82.5, 
       "startOffset": 885, 
-      "start": 82.5
+      "endOffset": 912
     }, 
     {
       "text": "Out of the huts of history's shame", 
-      "endOffset": 951, 
       "end": 87.03, 
+      "start": 85.16, 
       "startOffset": 917, 
-      "start": 85.16
+      "endOffset": 951
     }, 
     {
       "text": "I rise", 
-      "endOffset": 959, 
       "end": 87.87, 
+      "start": 87.03, 
       "startOffset": 953, 
-      "start": 87.03
+      "endOffset": 959
     }, 
     {
       "text": "Up from a past rooted in pain", 
-      "endOffset": 990, 
       "end": 90.58, 
+      "start": 88.51, 
       "startOffset": 961, 
-      "start": 88.51
+      "endOffset": 990
     }, 
     {
       "text": "I rise", 
-      "endOffset": 998, 
       "end": 91.47, 
+      "start": 90.58, 
       "startOffset": 992, 
-      "start": 90.58
+      "endOffset": 998
     }, 
     {
       "text": "A black ocean, leaping and wide", 
-      "endOffset": 1031, 
       "end": 94.74, 
+      "start": 91.99, 
       "startOffset": 1000, 
-      "start": 91.99
+      "endOffset": 1031
     }, 
     {
       "text": "Welling and swelling I bear in the tide", 
-      "endOffset": 1073, 
       "end": 99.58, 
+      "start": 95.27, 
       "startOffset": 1034, 
-      "start": 95.27
+      "endOffset": 1073
     }, 
     {
       "text": "Leaving behind nights of terror and fear", 
-      "endOffset": 1118, 
       "end": 103.44, 
+      "start": 100.36, 
       "startOffset": 1078, 
-      "start": 100.36
+      "endOffset": 1118
     }, 
     {
       "text": "I rise", 
-      "endOffset": 1126, 
       "end": 104.94, 
+      "start": 103.72, 
       "startOffset": 1120, 
-      "start": 103.72
+      "endOffset": 1126
     }, 
     {
       "text": "Into a daybreak miraculously clear", 
-      "endOffset": 1162, 
       "end": 108.15, 
+      "start": 105.44, 
       "startOffset": 1128, 
-      "start": 105.44
+      "endOffset": 1162
     }, 
     {
       "text": "I rise", 
-      "endOffset": 1170, 
       "end": 109.8, 
+      "start": 108.58, 
       "startOffset": 1164, 
-      "start": 108.58
+      "endOffset": 1170
     }, 
     {
       "text": "Bringing the gifts that my ancestors gave", 
-      "endOffset": 1213, 
       "end": 113.57, 
+      "start": 110.35, 
       "startOffset": 1172, 
-      "start": 110.35
+      "endOffset": 1213
     }, 
     {
       "text": "I am the hope and the dream of the slave", 
-      "endOffset": 1256, 
       "end": 118.87, 
+      "start": 114.35, 
       "startOffset": 1216, 
-      "start": 114.35
+      "endOffset": 1256
     }, 
     {
       "text": "And so", 
-      "endOffset": 1265, 
       "end": 120.77, 
+      "start": 119.64, 
       "startOffset": 1259, 
-      "start": 119.64
+      "endOffset": 1265
     }, 
     {
       "text": "Naturally", 
-      "endOffset": 1276, 
       "end": 122.34, 
+      "start": 121.3, 
       "startOffset": 1267, 
-      "start": 121.3
+      "endOffset": 1276
     }
   ], 
   "verses": [
     {
       "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
-      "endOffset": 132, 
       "end": 12.17, 
+      "start": 1.23, 
       "startOffset": 0, 
-      "start": 1.23
+      "endOffset": 132
     }, 
     {
       "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
-      "endOffset": 266, 
       "end": 23.06, 
+      "start": 12.76, 
       "startOffset": 137, 
-      "start": 12.76
+      "endOffset": 266
     }, 
     {
       "text": "Just like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise", 
-      "endOffset": 381, 
       "end": 33.11, 
+      "start": 23.59, 
       "startOffset": 271, 
-      "start": 23.59
+      "endOffset": 381
     }, 
     {
       "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
-      "endOffset": 516, 
       "end": 43.87, 
+      "start": 33.71, 
       "startOffset": 386, 
-      "start": 33.71
+      "endOffset": 516
     }, 
     {
       "text": "Does my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard", 
-      "endOffset": 645, 
       "end": 57.97, 
+      "start": 44.44, 
       "startOffset": 521, 
-      "start": 44.44
+      "endOffset": 645
     }, 
     {
       "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
-      "endOffset": 786, 
       "end": 68.95, 
+      "start": 58.76, 
       "startOffset": 650, 
-      "start": 58.76
+      "endOffset": 786
     }, 
     {
       "text": "Does my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs", 
-      "endOffset": 912, 
       "end": 84.24, 
+      "start": 69.83, 
       "startOffset": 791, 
-      "start": 69.83
+      "endOffset": 912
     }, 
     {
       "text": "Out of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide", 
-      "endOffset": 1073, 
       "end": 99.58, 
+      "start": 85.16, 
       "startOffset": 917, 
-      "start": 85.16
+      "endOffset": 1073
     }
   ], 
   "nonwords": [
@@ -598,7 +598,14 @@
       "verse": 0, 
       "startOffset": 0, 
       "end": 1.42, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 1.42, 
+          "start": 1.23
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -620,7 +627,14 @@
       "verse": 0, 
       "startOffset": 4, 
       "end": 1.6, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "may", 
+          "end": 1.6, 
+          "start": 1.42
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -646,7 +660,14 @@
       "verse": 0, 
       "startOffset": 8, 
       "end": 1.92, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "write", 
+          "end": 1.92, 
+          "start": 1.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -668,7 +689,14 @@
       "verse": 0, 
       "startOffset": 14, 
       "end": 2.14, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 2.14, 
+          "start": 1.96
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -694,7 +722,14 @@
       "verse": 0, 
       "startOffset": 17, 
       "end": 2.68, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "down", 
+          "end": 2.68, 
+          "start": 2.14
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -716,7 +751,14 @@
       "verse": 0, 
       "startOffset": 22, 
       "end": 2.83, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 2.83, 
+          "start": 2.68
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -756,7 +798,24 @@
       "verse": 0, 
       "startOffset": 25, 
       "end": 3.58, 
-      "line": 0
+      "line": 0, 
+      "syllables": [
+        {
+          "text": "his", 
+          "end": 3.0, 
+          "start": 2.83
+        }, 
+        {
+          "text": "to", 
+          "end": 3.27, 
+          "start": 3.0
+        }, 
+        {
+          "text": "ry", 
+          "end": 3.58, 
+          "start": 3.27
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -782,7 +841,14 @@
       "verse": 0, 
       "startOffset": 34, 
       "end": 3.94, 
-      "line": 1
+      "line": 1, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 3.94, 
+          "start": 3.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -808,7 +874,14 @@
       "verse": 0, 
       "startOffset": 39, 
       "end": 4.09, 
-      "line": 1
+      "line": 1, 
+      "syllables": [
+        {
+          "text": "your", 
+          "end": 4.09, 
+          "start": 3.94
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -839,7 +912,19 @@
       "verse": 0, 
       "startOffset": 44, 
       "end": 4.43, 
-      "line": 1
+      "line": 1, 
+      "syllables": [
+        {
+          "text": "bit", 
+          "end": 4.28, 
+          "start": 4.09
+        }, 
+        {
+          "text": "ter", 
+          "end": 4.43, 
+          "start": 4.28
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -882,7 +967,19 @@
       "verse": 0, 
       "startOffset": 52, 
       "end": 4.97, 
-      "line": 1
+      "line": 1, 
+      "syllables": [
+        {
+          "text": "twist", 
+          "end": 4.67, 
+          "start": 4.43
+        }, 
+        {
+          "text": "ed", 
+          "end": 4.97, 
+          "start": 4.67
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -908,7 +1005,14 @@
       "verse": 0, 
       "startOffset": 60, 
       "end": 5.58, 
-      "line": 1
+      "line": 1, 
+      "syllables": [
+        {
+          "text": "lies", 
+          "end": 5.58, 
+          "start": 4.97
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -930,7 +1034,14 @@
       "verse": 0, 
       "startOffset": 67, 
       "end": 6.21, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 6.21, 
+          "start": 6.02
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -952,7 +1063,14 @@
       "verse": 0, 
       "startOffset": 71, 
       "end": 6.44, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "may", 
+          "end": 6.44, 
+          "start": 6.21
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -982,7 +1100,14 @@
       "verse": 0, 
       "startOffset": 75, 
       "end": 6.94, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "trod", 
+          "end": 6.94, 
+          "start": 6.44
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1004,7 +1129,14 @@
       "verse": 0, 
       "startOffset": 80, 
       "end": 7.2, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 7.2, 
+          "start": 6.94
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1026,7 +1158,14 @@
       "verse": 0, 
       "startOffset": 83, 
       "end": 7.37, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 7.37, 
+          "start": 7.2
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1048,7 +1187,14 @@
       "verse": 0, 
       "startOffset": 86, 
       "end": 7.46, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 7.46, 
+          "start": 7.37
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1079,7 +1225,19 @@
       "verse": 0, 
       "startOffset": 90, 
       "end": 7.78, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "ve", 
+          "end": 7.61, 
+          "start": 7.46
+        }, 
+        {
+          "text": "ry", 
+          "end": 7.78, 
+          "start": 7.61
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1105,7 +1263,14 @@
       "verse": 0, 
       "startOffset": 95, 
       "end": 8.3, 
-      "line": 2
+      "line": 2, 
+      "syllables": [
+        {
+          "text": "dirt", 
+          "end": 8.3, 
+          "start": 7.78
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1131,7 +1296,14 @@
       "verse": 0, 
       "startOffset": 101, 
       "end": 8.83, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "but", 
+          "end": 8.83, 
+          "start": 8.62
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1161,7 +1333,14 @@
       "verse": 0, 
       "startOffset": 105, 
       "end": 9.24, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "still", 
+          "end": 9.24, 
+          "start": 8.83
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1187,7 +1366,14 @@
       "verse": 0, 
       "startOffset": 112, 
       "end": 9.46, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 9.46, 
+          "start": 9.24
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1217,7 +1403,14 @@
       "verse": 0, 
       "startOffset": 117, 
       "end": 10.35, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "dust", 
+          "end": 10.35, 
+          "start": 9.46
+        }
+      ]
     }, 
     {
       "case": "timeerror", 
@@ -1240,7 +1433,14 @@
       "verse": 0, 
       "startOffset": 123, 
       "end": 11.33, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "i'll", 
+          "end": 11.33, 
+          "start": 11.04
+        }
+      ]
     }, 
     {
       "case": "timeerror", 
@@ -1267,7 +1467,14 @@
       "verse": 0, 
       "startOffset": 128, 
       "end": 12.17, 
-      "line": 3
+      "line": 3, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 12.17, 
+          "start": 11.33
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1293,7 +1500,14 @@
       "verse": 1, 
       "startOffset": 137, 
       "end": 13.07, 
-      "line": 4
+      "line": 4, 
+      "syllables": [
+        {
+          "text": "does", 
+          "end": 13.07, 
+          "start": 12.76
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1315,7 +1529,14 @@
       "verse": 1, 
       "startOffset": 142, 
       "end": 13.31, 
-      "line": 4
+      "line": 4, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 13.31, 
+          "start": 13.07
+        }
+      ]
     }, 
     {
       "case": "noword", 
@@ -1360,7 +1581,24 @@
       "verse": 1, 
       "startOffset": 145, 
       "end": 14.09, 
-      "line": 4
+      "line": 4, 
+      "syllables": [
+        {
+          "text": "sa", 
+          "end": 13.63, 
+          "start": 13.31
+        }, 
+        {
+          "text": "ssi", 
+          "end": 13.81, 
+          "start": 13.63
+        }, 
+        {
+          "text": "ness", 
+          "end": 14.09, 
+          "start": 13.81
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1395,7 +1633,19 @@
       "verse": 1, 
       "startOffset": 155, 
       "end": 14.47, 
-      "line": 4
+      "line": 4, 
+      "syllables": [
+        {
+          "text": "up", 
+          "end": 14.21, 
+          "start": 14.09
+        }, 
+        {
+          "text": "set", 
+          "end": 14.47, 
+          "start": 14.209999999999999
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1417,7 +1667,14 @@
       "verse": 1, 
       "startOffset": 161, 
       "end": 14.85, 
-      "line": 4
+      "line": 4, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 14.85, 
+          "start": 14.47
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1439,7 +1696,14 @@
       "verse": 1, 
       "startOffset": 167, 
       "end": 15.58, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "why", 
+          "end": 15.58, 
+          "start": 15.26
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1457,7 +1721,14 @@
       "verse": 1, 
       "startOffset": 171, 
       "end": 15.72, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "are", 
+          "end": 15.72, 
+          "start": 15.58
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1479,7 +1750,14 @@
       "verse": 1, 
       "startOffset": 175, 
       "end": 15.92, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 15.92, 
+          "start": 15.72
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1514,7 +1792,19 @@
       "verse": 1, 
       "startOffset": 179, 
       "end": 16.31, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "be", 
+          "end": 16.04, 
+          "start": 15.92
+        }, 
+        {
+          "text": "set", 
+          "end": 16.31, 
+          "start": 16.04
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1540,7 +1830,14 @@
       "verse": 1, 
       "startOffset": 185, 
       "end": 16.46, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 16.46, 
+          "start": 16.31
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1570,7 +1867,14 @@
       "verse": 1, 
       "startOffset": 190, 
       "end": 17.19, 
-      "line": 5
+      "line": 5, 
+      "syllables": [
+        {
+          "text": "gloom", 
+          "end": 17.19, 
+          "start": 16.49
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1600,7 +1904,14 @@
       "verse": 1, 
       "startOffset": 198, 
       "end": 17.77, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "just", 
+          "end": 17.77, 
+          "start": 17.48
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1626,7 +1937,14 @@
       "verse": 1, 
       "startOffset": 204, 
       "end": 18.05, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "cause", 
+          "end": 18.05, 
+          "start": 17.77
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1644,7 +1962,14 @@
       "verse": 1, 
       "startOffset": 210, 
       "end": 18.27, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 18.27, 
+          "start": 18.05
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1670,7 +1995,14 @@
       "verse": 1, 
       "startOffset": 212, 
       "end": 18.81, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "walk", 
+          "end": 18.81, 
+          "start": 18.3
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1692,7 +2024,14 @@
       "verse": 1, 
       "startOffset": 217, 
       "end": 19.0, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "as", 
+          "end": 19.0, 
+          "start": 18.81
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1714,7 +2053,14 @@
       "verse": 1, 
       "startOffset": 220, 
       "end": 19.28, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "if", 
+          "end": 19.28, 
+          "start": 19.0
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1732,7 +2078,14 @@
       "verse": 1, 
       "startOffset": 223, 
       "end": 19.45, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 19.45, 
+          "start": 19.28
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1758,7 +2111,14 @@
       "verse": 1, 
       "startOffset": 225, 
       "end": 19.74, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "have", 
+          "end": 19.74, 
+          "start": 19.45
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1780,7 +2140,14 @@
       "verse": 1, 
       "startOffset": 230, 
       "end": 20.22, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "oil", 
+          "end": 20.22, 
+          "start": 19.78
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1810,7 +2177,14 @@
       "verse": 1, 
       "startOffset": 234, 
       "end": 20.89, 
-      "line": 6
+      "line": 6, 
+      "syllables": [
+        {
+          "text": "wells", 
+          "end": 20.89, 
+          "start": 20.22
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1849,7 +2223,19 @@
       "verse": 1, 
       "startOffset": 241, 
       "end": 21.68, 
-      "line": 7
+      "line": 7, 
+      "syllables": [
+        {
+          "text": "pump", 
+          "end": 21.45, 
+          "start": 21.26
+        }, 
+        {
+          "text": "ing", 
+          "end": 21.68, 
+          "start": 21.450000000000003
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1871,7 +2257,14 @@
       "verse": 1, 
       "startOffset": 249, 
       "end": 21.84, 
-      "line": 7
+      "line": 7, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 21.84, 
+          "start": 21.68
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1893,7 +2286,14 @@
       "verse": 1, 
       "startOffset": 252, 
       "end": 22.09, 
-      "line": 7
+      "line": 7, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 22.09, 
+          "start": 21.84
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1928,7 +2328,19 @@
       "verse": 1, 
       "startOffset": 255, 
       "end": 22.53, 
-      "line": 7
+      "line": 7, 
+      "syllables": [
+        {
+          "text": "liv", 
+          "end": 22.26, 
+          "start": 22.09
+        }, 
+        {
+          "text": "ing", 
+          "end": 22.53, 
+          "start": 22.26
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1954,7 +2366,14 @@
       "verse": 1, 
       "startOffset": 262, 
       "end": 23.06, 
-      "line": 7
+      "line": 7, 
+      "syllables": [
+        {
+          "text": "room", 
+          "end": 23.06, 
+          "start": 22.53
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -1984,7 +2403,14 @@
       "verse": 2, 
       "startOffset": 271, 
       "end": 23.93, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "just", 
+          "end": 23.93, 
+          "start": 23.59
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2010,7 +2436,14 @@
       "verse": 2, 
       "startOffset": 276, 
       "end": 24.16, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 24.16, 
+          "start": 23.93
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2040,7 +2473,14 @@
       "verse": 2, 
       "startOffset": 281, 
       "end": 24.78, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "suns", 
+          "end": 24.78, 
+          "start": 24.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2066,7 +2506,14 @@
       "verse": 2, 
       "startOffset": 286, 
       "end": 25.02, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 25.02, 
+          "start": 24.78
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2092,7 +2539,14 @@
       "verse": 2, 
       "startOffset": 290, 
       "end": 25.26, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 25.26, 
+          "start": 25.02
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2122,7 +2576,14 @@
       "verse": 2, 
       "startOffset": 295, 
       "end": 26.07, 
-      "line": 8
+      "line": 8, 
+      "syllables": [
+        {
+          "text": "moons", 
+          "end": 26.07, 
+          "start": 25.26
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2148,7 +2609,14 @@
       "verse": 2, 
       "startOffset": 303, 
       "end": 26.54, 
-      "line": 9
+      "line": 9, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 26.54, 
+          "start": 26.34
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2170,7 +2638,14 @@
       "verse": 2, 
       "startOffset": 308, 
       "end": 26.68, 
-      "line": 9
+      "line": 9, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 26.68, 
+          "start": 26.54
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2214,7 +2689,24 @@
       "verse": 2, 
       "startOffset": 312, 
       "end": 27.57, 
-      "line": 9
+      "line": 9, 
+      "syllables": [
+        {
+          "text": "cer", 
+          "end": 26.89, 
+          "start": 26.68
+        }, 
+        {
+          "text": "tain", 
+          "end": 27.06, 
+          "start": 26.89
+        }, 
+        {
+          "text": "ty", 
+          "end": 27.57, 
+          "start": 27.060000000000002
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2236,7 +2728,14 @@
       "verse": 2, 
       "startOffset": 322, 
       "end": 27.98, 
-      "line": 9
+      "line": 9, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 27.98, 
+          "start": 27.78
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2266,7 +2765,14 @@
       "verse": 2, 
       "startOffset": 325, 
       "end": 28.85, 
-      "line": 9
+      "line": 9, 
+      "syllables": [
+        {
+          "text": "tides", 
+          "end": 28.85, 
+          "start": 27.98
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2296,7 +2802,14 @@
       "verse": 2, 
       "startOffset": 333, 
       "end": 29.4, 
-      "line": 10
+      "line": 10, 
+      "syllables": [
+        {
+          "text": "just", 
+          "end": 29.4, 
+          "start": 29.09
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2322,7 +2835,14 @@
       "verse": 2, 
       "startOffset": 338, 
       "end": 29.65, 
-      "line": 10
+      "line": 10, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 29.65, 
+          "start": 29.4
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2352,7 +2872,14 @@
       "verse": 2, 
       "startOffset": 343, 
       "end": 30.12, 
-      "line": 10
+      "line": 10, 
+      "syllables": [
+        {
+          "text": "hopes", 
+          "end": 30.12, 
+          "start": 29.65
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2395,7 +2922,19 @@
       "verse": 2, 
       "startOffset": 349, 
       "end": 30.6, 
-      "line": 10
+      "line": 10, 
+      "syllables": [
+        {
+          "text": "spring", 
+          "end": 30.36, 
+          "start": 30.12
+        }, 
+        {
+          "text": "ing", 
+          "end": 30.6, 
+          "start": 30.36
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2417,7 +2956,14 @@
       "verse": 2, 
       "startOffset": 359, 
       "end": 31.12, 
-      "line": 10
+      "line": 10, 
+      "syllables": [
+        {
+          "text": "high", 
+          "end": 31.12, 
+          "start": 30.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2447,7 +2993,14 @@
       "verse": 2, 
       "startOffset": 366, 
       "end": 32.25, 
-      "line": 11
+      "line": 11, 
+      "syllables": [
+        {
+          "text": "still", 
+          "end": 32.25, 
+          "start": 31.81
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2469,7 +3022,14 @@
       "verse": 2, 
       "startOffset": 372, 
       "end": 32.39, 
-      "line": 11
+      "line": 11, 
+      "syllables": [
+        {
+          "text": "i'll", 
+          "end": 32.39, 
+          "start": 32.25
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2495,7 +3055,14 @@
       "verse": 2, 
       "startOffset": 377, 
       "end": 33.11, 
-      "line": 11
+      "line": 11, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 33.11, 
+          "start": 32.39
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2521,7 +3088,14 @@
       "verse": 3, 
       "startOffset": 386, 
       "end": 33.92, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "did", 
+          "end": 33.92, 
+          "start": 33.71
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2543,7 +3117,14 @@
       "verse": 3, 
       "startOffset": 390, 
       "end": 34.01, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 34.01, 
+          "start": 33.92
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2573,7 +3154,14 @@
       "verse": 3, 
       "startOffset": 394, 
       "end": 34.24, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "want", 
+          "end": 34.24, 
+          "start": 34.01
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2595,7 +3183,14 @@
       "verse": 3, 
       "startOffset": 399, 
       "end": 34.35, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "to", 
+          "end": 34.35, 
+          "start": 34.24
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2617,7 +3212,14 @@
       "verse": 3, 
       "startOffset": 402, 
       "end": 34.52, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "see", 
+          "end": 34.52, 
+          "start": 34.35
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2639,7 +3241,14 @@
       "verse": 3, 
       "startOffset": 406, 
       "end": 34.69, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 34.69, 
+          "start": 34.52
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2678,7 +3287,19 @@
       "verse": 3, 
       "startOffset": 409, 
       "end": 35.34, 
-      "line": 12
+      "line": 12, 
+      "syllables": [
+        {
+          "text": "bro", 
+          "end": 34.95, 
+          "start": 34.69
+        }, 
+        {
+          "text": "ken", 
+          "end": 35.34, 
+          "start": 34.949999999999996
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2704,7 +3325,14 @@
       "verse": 3, 
       "startOffset": 418, 
       "end": 36.4, 
-      "line": 13
+      "line": 13, 
+      "syllables": [
+        {
+          "text": "bowed", 
+          "end": 36.4, 
+          "start": 35.76
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2730,7 +3358,14 @@
       "verse": 3, 
       "startOffset": 424, 
       "end": 36.75, 
-      "line": 13
+      "line": 13, 
+      "syllables": [
+        {
+          "text": "head", 
+          "end": 36.75, 
+          "start": 36.4
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2756,7 +3391,14 @@
       "verse": 3, 
       "startOffset": 429, 
       "end": 36.97, 
-      "line": 13
+      "line": 13, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 36.97, 
+          "start": 36.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2787,7 +3429,19 @@
       "verse": 3, 
       "startOffset": 433, 
       "end": 37.46, 
-      "line": 13
+      "line": 13, 
+      "syllables": [
+        {
+          "text": "low", 
+          "end": 37.17, 
+          "start": 36.97
+        }, 
+        {
+          "text": "ered", 
+          "end": 37.46, 
+          "start": 37.17
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2809,7 +3463,14 @@
       "verse": 3, 
       "startOffset": 441, 
       "end": 38.28, 
-      "line": 13
+      "line": 13, 
+      "syllables": [
+        {
+          "text": "eyes", 
+          "end": 38.28, 
+          "start": 37.46
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2848,7 +3509,19 @@
       "verse": 3, 
       "startOffset": 448, 
       "end": 39.09, 
-      "line": 14
+      "line": 14, 
+      "syllables": [
+        {
+          "text": "shoul", 
+          "end": 38.81, 
+          "start": 38.5
+        }, 
+        {
+          "text": "ders", 
+          "end": 39.09, 
+          "start": 38.81
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2883,7 +3556,19 @@
       "verse": 3, 
       "startOffset": 458, 
       "end": 39.59, 
-      "line": 14
+      "line": 14, 
+      "syllables": [
+        {
+          "text": "fal", 
+          "end": 39.29, 
+          "start": 39.09
+        }, 
+        {
+          "text": "ling", 
+          "end": 39.59, 
+          "start": 39.290000000000006
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2909,7 +3594,14 @@
       "verse": 3, 
       "startOffset": 466, 
       "end": 39.91, 
-      "line": 14
+      "line": 14, 
+      "syllables": [
+        {
+          "text": "down", 
+          "end": 39.91, 
+          "start": 39.59
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -2935,7 +3627,14 @@
       "verse": 3, 
       "startOffset": 471, 
       "end": 40.23, 
-      "line": 14
+      "line": 14, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 40.23, 
+          "start": 39.91
+        }
+      ]
     }, 
     {
       "case": "noword", 
@@ -2983,7 +3682,19 @@
       "verse": 3, 
       "startOffset": 476, 
       "end": 40.99, 
-      "line": 14
+      "line": 14, 
+      "syllables": [
+        {
+          "text": "tear", 
+          "end": 40.51, 
+          "start": 40.26
+        }, 
+        {
+          "text": "drops", 
+          "end": 40.99, 
+          "start": 40.51
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3022,7 +3733,19 @@
       "verse": 3, 
       "startOffset": 488, 
       "end": 42.0, 
-      "line": 15
+      "line": 15, 
+      "syllables": [
+        {
+          "text": "weak", 
+          "end": 41.63, 
+          "start": 41.35
+        }, 
+        {
+          "text": "ened", 
+          "end": 42.0, 
+          "start": 41.63
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3044,7 +3767,14 @@
       "verse": 3, 
       "startOffset": 497, 
       "end": 42.21, 
-      "line": 15
+      "line": 15, 
+      "syllables": [
+        {
+          "text": "by", 
+          "end": 42.21, 
+          "start": 42.0
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3066,7 +3796,14 @@
       "verse": 3, 
       "startOffset": 500, 
       "end": 42.52, 
-      "line": 15
+      "line": 15, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 42.52, 
+          "start": 42.21
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3105,7 +3842,19 @@
       "verse": 3, 
       "startOffset": 503, 
       "end": 43.23, 
-      "line": 15
+      "line": 15, 
+      "syllables": [
+        {
+          "text": "soul", 
+          "end": 42.83, 
+          "start": 42.55
+        }, 
+        {
+          "text": "ful", 
+          "end": 43.23, 
+          "start": 42.83
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3135,7 +3884,14 @@
       "verse": 3, 
       "startOffset": 511, 
       "end": 43.87, 
-      "line": 15
+      "line": 15, 
+      "syllables": [
+        {
+          "text": "cries", 
+          "end": 43.87, 
+          "start": 43.23
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3161,7 +3917,14 @@
       "verse": 4, 
       "startOffset": 521, 
       "end": 44.69, 
-      "line": 16
+      "line": 16, 
+      "syllables": [
+        {
+          "text": "does", 
+          "end": 44.69, 
+          "start": 44.44
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3183,7 +3946,14 @@
       "verse": 4, 
       "startOffset": 526, 
       "end": 44.9, 
-      "line": 16
+      "line": 16, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 44.9, 
+          "start": 44.69
+        }
+      ]
     }, 
     {
       "case": "noword", 
@@ -3228,7 +3998,24 @@
       "verse": 4, 
       "startOffset": 529, 
       "end": 45.8, 
-      "line": 16
+      "line": 16, 
+      "syllables": [
+        {
+          "text": "sa", 
+          "end": 45.18, 
+          "start": 44.9
+        }, 
+        {
+          "text": "ssi", 
+          "end": 45.42, 
+          "start": 45.18
+        }, 
+        {
+          "text": "ness", 
+          "end": 45.8, 
+          "start": 45.42
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3263,7 +4050,19 @@
       "verse": 4, 
       "startOffset": 539, 
       "end": 46.21, 
-      "line": 16
+      "line": 16, 
+      "syllables": [
+        {
+          "text": "up", 
+          "end": 45.9, 
+          "start": 45.8
+        }, 
+        {
+          "text": "set", 
+          "end": 46.21, 
+          "start": 45.9
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3285,7 +4084,14 @@
       "verse": 4, 
       "startOffset": 545, 
       "end": 46.56, 
-      "line": 16
+      "line": 16, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 46.56, 
+          "start": 46.21
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3315,7 +4121,14 @@
       "verse": 4, 
       "startOffset": 551, 
       "end": 48.09, 
-      "line": 17
+      "line": 17, 
+      "syllables": [
+        {
+          "text": "don't", 
+          "end": 48.04, 
+          "start": 47.82
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3341,7 +4154,14 @@
       "verse": 4, 
       "startOffset": 557, 
       "end": 48.36, 
-      "line": 17
+      "line": 17, 
+      "syllables": [
+        {
+          "text": "take", 
+          "end": 48.36, 
+          "start": 48.09
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3363,7 +4183,14 @@
       "verse": 4, 
       "startOffset": 562, 
       "end": 48.54, 
-      "line": 17
+      "line": 17, 
+      "syllables": [
+        {
+          "text": "it", 
+          "end": 48.54, 
+          "start": 48.36
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3385,7 +4212,14 @@
       "verse": 4, 
       "startOffset": 565, 
       "end": 48.75, 
-      "line": 17
+      "line": 17, 
+      "syllables": [
+        {
+          "text": "so", 
+          "end": 48.75, 
+          "start": 48.54
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3415,7 +4249,14 @@
       "verse": 4, 
       "startOffset": 568, 
       "end": 49.08, 
-      "line": 17
+      "line": 17, 
+      "syllables": [
+        {
+          "text": "hard", 
+          "end": 49.08, 
+          "start": 48.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3445,7 +4286,14 @@
       "verse": 4, 
       "startOffset": 574, 
       "end": 49.31, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "just", 
+          "end": 49.31, 
+          "start": 49.08
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3471,7 +4319,14 @@
       "verse": 4, 
       "startOffset": 580, 
       "end": 49.53, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "cause", 
+          "end": 49.53, 
+          "start": 49.31
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3489,7 +4344,14 @@
       "verse": 4, 
       "startOffset": 586, 
       "end": 49.69, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 49.69, 
+          "start": 49.53
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3515,7 +4377,14 @@
       "verse": 4, 
       "startOffset": 588, 
       "end": 50.19, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "laugh", 
+          "end": 50.19, 
+          "start": 49.69
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3537,7 +4406,14 @@
       "verse": 4, 
       "startOffset": 594, 
       "end": 53.63, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "as", 
+          "end": 53.63, 
+          "start": 53.39
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3559,7 +4435,14 @@
       "verse": 4, 
       "startOffset": 597, 
       "end": 53.86, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "if", 
+          "end": 53.86, 
+          "start": 53.63
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3577,7 +4460,14 @@
       "verse": 4, 
       "startOffset": 600, 
       "end": 54.03, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 54.03, 
+          "start": 53.86
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3603,7 +4493,14 @@
       "verse": 4, 
       "startOffset": 602, 
       "end": 54.32, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "have", 
+          "end": 54.32, 
+          "start": 54.03
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3633,7 +4530,14 @@
       "verse": 4, 
       "startOffset": 607, 
       "end": 54.77, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "gold", 
+          "end": 54.77, 
+          "start": 54.32
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3663,7 +4567,14 @@
       "verse": 4, 
       "startOffset": 612, 
       "end": 55.88, 
-      "line": 18
+      "line": 18, 
+      "syllables": [
+        {
+          "text": "mines", 
+          "end": 55.88, 
+          "start": 54.77
+        }
+      ]
     }, 
     {
       "case": "noword", 
@@ -3699,7 +4610,19 @@
       "verse": 4, 
       "startOffset": 619, 
       "end": 56.31, 
-      "line": 19
+      "line": 19, 
+      "syllables": [
+        {
+          "text": "dig", 
+          "end": 56.1, 
+          "start": 55.88
+        }, 
+        {
+          "text": "ging", 
+          "end": 56.31, 
+          "start": 56.1
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3721,7 +4644,14 @@
       "verse": 4, 
       "startOffset": 627, 
       "end": 56.47, 
-      "line": 19
+      "line": 19, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 56.47, 
+          "start": 56.31
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3743,7 +4673,14 @@
       "verse": 4, 
       "startOffset": 630, 
       "end": 56.72, 
-      "line": 19
+      "line": 19, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 56.72, 
+          "start": 56.47
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3765,7 +4702,14 @@
       "verse": 4, 
       "startOffset": 633, 
       "end": 57.08, 
-      "line": 19
+      "line": 19, 
+      "syllables": [
+        {
+          "text": "own", 
+          "end": 57.08, 
+          "start": 56.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3808,7 +4752,19 @@
       "verse": 4, 
       "startOffset": 637, 
       "end": 57.97, 
-      "line": 19
+      "line": 19, 
+      "syllables": [
+        {
+          "text": "back", 
+          "end": 57.33, 
+          "start": 57.08
+        }, 
+        {
+          "text": "yard", 
+          "end": 57.97, 
+          "start": 57.33
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3830,7 +4786,14 @@
       "verse": 5, 
       "startOffset": 650, 
       "end": 58.9, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 58.9, 
+          "start": 58.76
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3856,7 +4819,14 @@
       "verse": 5, 
       "startOffset": 654, 
       "end": 59.12, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "can", 
+          "end": 59.12, 
+          "start": 58.9
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3882,7 +4852,14 @@
       "verse": 5, 
       "startOffset": 658, 
       "end": 59.47, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "shoot", 
+          "end": 59.47, 
+          "start": 59.12
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3904,7 +4881,14 @@
       "verse": 5, 
       "startOffset": 664, 
       "end": 59.68, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 59.68, 
+          "start": 59.47
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3930,7 +4914,14 @@
       "verse": 5, 
       "startOffset": 667, 
       "end": 59.9, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 59.9, 
+          "start": 59.68
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3956,7 +4947,14 @@
       "verse": 5, 
       "startOffset": 672, 
       "end": 60.05, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "your", 
+          "end": 60.05, 
+          "start": 59.9
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -3986,7 +4984,14 @@
       "verse": 5, 
       "startOffset": 677, 
       "end": 60.83, 
-      "line": 20
+      "line": 20, 
+      "syllables": [
+        {
+          "text": "words", 
+          "end": 60.83, 
+          "start": 60.05
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4008,7 +5013,14 @@
       "verse": 5, 
       "startOffset": 685, 
       "end": 61.22, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 61.22, 
+          "start": 61.09
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4034,7 +5046,14 @@
       "verse": 5, 
       "startOffset": 689, 
       "end": 61.43, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "can", 
+          "end": 61.43, 
+          "start": 61.22
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4060,7 +5079,14 @@
       "verse": 5, 
       "startOffset": 693, 
       "end": 61.72, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "cut", 
+          "end": 61.72, 
+          "start": 61.43
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4082,7 +5108,14 @@
       "verse": 5, 
       "startOffset": 697, 
       "end": 61.92, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 61.92, 
+          "start": 61.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4108,7 +5141,14 @@
       "verse": 5, 
       "startOffset": 700, 
       "end": 62.16, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 62.16, 
+          "start": 61.92
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4134,7 +5174,14 @@
       "verse": 5, 
       "startOffset": 705, 
       "end": 62.34, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "your", 
+          "end": 62.34, 
+          "start": 62.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4160,7 +5207,14 @@
       "verse": 5, 
       "startOffset": 710, 
       "end": 63.14, 
-      "line": 21
+      "line": 21, 
+      "syllables": [
+        {
+          "text": "lies", 
+          "end": 63.14, 
+          "start": 62.34
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4182,7 +5236,14 @@
       "verse": 5, 
       "startOffset": 717, 
       "end": 63.57, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 63.57, 
+          "start": 63.41
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4208,7 +5269,14 @@
       "verse": 5, 
       "startOffset": 721, 
       "end": 63.84, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "can", 
+          "end": 63.84, 
+          "start": 63.57
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4234,7 +5302,14 @@
       "verse": 5, 
       "startOffset": 725, 
       "end": 64.21, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "kill", 
+          "end": 64.21, 
+          "start": 63.84
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4256,7 +5331,14 @@
       "verse": 5, 
       "startOffset": 730, 
       "end": 64.39, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "me", 
+          "end": 64.39, 
+          "start": 64.21
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4282,7 +5364,14 @@
       "verse": 5, 
       "startOffset": 733, 
       "end": 64.63, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "with", 
+          "end": 64.63, 
+          "start": 64.39
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4308,7 +5397,14 @@
       "verse": 5, 
       "startOffset": 738, 
       "end": 64.85, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "your", 
+          "end": 64.85, 
+          "start": 64.63
+        }
+      ]
     }, 
     {
       "case": "noword", 
@@ -4361,7 +5457,24 @@
       "verse": 5, 
       "startOffset": 743, 
       "end": 65.48, 
-      "line": 22
+      "line": 22, 
+      "syllables": [
+        {
+          "text": "hate", 
+          "end": 65.19, 
+          "start": 64.88
+        }, 
+        {
+          "text": "ful", 
+          "end": 65.3, 
+          "start": 65.19
+        }, 
+        {
+          "text": "ness", 
+          "end": 65.48, 
+          "start": 65.3
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4387,7 +5500,14 @@
       "verse": 5, 
       "startOffset": 757, 
       "end": 66.04, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "but", 
+          "end": 66.04, 
+          "start": 65.82
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4417,7 +5537,14 @@
       "verse": 5, 
       "startOffset": 761, 
       "end": 66.35, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "just", 
+          "end": 66.35, 
+          "start": 66.04
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4443,7 +5570,14 @@
       "verse": 5, 
       "startOffset": 766, 
       "end": 66.6, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "like", 
+          "end": 66.6, 
+          "start": 66.35
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4469,7 +5603,14 @@
       "verse": 5, 
       "startOffset": 771, 
       "end": 67.36, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "life", 
+          "end": 67.36, 
+          "start": 66.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4491,7 +5632,14 @@
       "verse": 5, 
       "startOffset": 777, 
       "end": 68.26, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "i'll", 
+          "end": 68.26, 
+          "start": 68.01
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4517,7 +5665,14 @@
       "verse": 5, 
       "startOffset": 782, 
       "end": 68.95, 
-      "line": 23
+      "line": 23, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 68.95, 
+          "start": 68.26
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4543,7 +5698,14 @@
       "verse": 6, 
       "startOffset": 791, 
       "end": 70.1, 
-      "line": 24
+      "line": 24, 
+      "syllables": [
+        {
+          "text": "does", 
+          "end": 70.1, 
+          "start": 69.83
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4565,7 +5727,14 @@
       "verse": 6, 
       "startOffset": 796, 
       "end": 70.29, 
-      "line": 24
+      "line": 24, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 70.29, 
+          "start": 70.1
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4613,7 +5782,24 @@
       "verse": 6, 
       "startOffset": 799, 
       "end": 71.05, 
-      "line": 24
+      "line": 24, 
+      "syllables": [
+        {
+          "text": "sex", 
+          "end": 70.55, 
+          "start": 70.29
+        }, 
+        {
+          "text": "i", 
+          "end": 70.78, 
+          "start": 70.55000000000001
+        }, 
+        {
+          "text": "ness", 
+          "end": 71.05, 
+          "start": 70.78000000000002
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4648,7 +5834,19 @@
       "verse": 6, 
       "startOffset": 808, 
       "end": 71.48, 
-      "line": 24
+      "line": 24, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 71.14, 
+          "start": 71.05
+        }, 
+        {
+          "text": "fend", 
+          "end": 71.48, 
+          "start": 71.14
+        }
+      ]
     }, 
     {
       "case": "timeerror", 
@@ -4671,7 +5869,14 @@
       "verse": 6, 
       "startOffset": 815, 
       "end": 71.79, 
-      "line": 24
+      "line": 24, 
+      "syllables": [
+        {
+          "text": "you", 
+          "end": 71.79, 
+          "start": 71.48
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4697,7 +5902,14 @@
       "verse": 6, 
       "startOffset": 821, 
       "end": 73.9, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "does", 
+          "end": 73.9, 
+          "start": 73.65
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4719,7 +5931,14 @@
       "verse": 6, 
       "startOffset": 826, 
       "end": 74.11, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "it", 
+          "end": 74.11, 
+          "start": 73.9
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4745,7 +5964,14 @@
       "verse": 6, 
       "startOffset": 829, 
       "end": 74.45, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "come", 
+          "end": 74.45, 
+          "start": 74.11
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4767,7 +5993,14 @@
       "verse": 6, 
       "startOffset": 834, 
       "end": 74.6, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "as", 
+          "end": 74.6, 
+          "start": 74.45
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4785,7 +6018,14 @@
       "verse": 6, 
       "startOffset": 837, 
       "end": 74.69, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "a", 
+          "end": 74.69, 
+          "start": 74.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4824,7 +6064,19 @@
       "verse": 6, 
       "startOffset": 839, 
       "end": 75.61, 
-      "line": 25
+      "line": 25, 
+      "syllables": [
+        {
+          "text": "sur", 
+          "end": 74.85, 
+          "start": 74.69
+        }, 
+        {
+          "text": "prise", 
+          "end": 75.61, 
+          "start": 74.85
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4850,7 +6102,14 @@
       "verse": 6, 
       "startOffset": 849, 
       "end": 76.16, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "that", 
+          "end": 76.16, 
+          "start": 75.93
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4868,7 +6127,14 @@
       "verse": 6, 
       "startOffset": 854, 
       "end": 76.37, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 76.37, 
+          "start": 76.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4898,7 +6164,14 @@
       "verse": 6, 
       "startOffset": 856, 
       "end": 77.38, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "dance", 
+          "end": 77.38, 
+          "start": 76.4
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4920,7 +6193,14 @@
       "verse": 6, 
       "startOffset": 862, 
       "end": 80.71, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "as", 
+          "end": 80.71, 
+          "start": 80.46
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4942,7 +6222,14 @@
       "verse": 6, 
       "startOffset": 865, 
       "end": 80.94, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "if", 
+          "end": 80.94, 
+          "start": 80.71
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4960,7 +6247,14 @@
       "verse": 6, 
       "startOffset": 868, 
       "end": 81.06, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 81.06, 
+          "start": 80.94
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -4986,7 +6280,14 @@
       "verse": 6, 
       "startOffset": 870, 
       "end": 81.35, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "have", 
+          "end": 81.35, 
+          "start": 81.06
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5029,7 +6330,19 @@
       "verse": 6, 
       "startOffset": 875, 
       "end": 82.47, 
-      "line": 26
+      "line": 26, 
+      "syllables": [
+        {
+          "text": "dia", 
+          "end": 81.6, 
+          "start": 81.35
+        }, 
+        {
+          "text": "monds", 
+          "end": 82.47, 
+          "start": 81.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5051,7 +6364,14 @@
       "verse": 6, 
       "startOffset": 885, 
       "end": 82.68, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "at", 
+          "end": 82.68, 
+          "start": 82.5
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5073,7 +6393,14 @@
       "verse": 6, 
       "startOffset": 888, 
       "end": 82.79, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 82.79, 
+          "start": 82.68
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5108,7 +6435,19 @@
       "verse": 6, 
       "startOffset": 892, 
       "end": 83.14, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "meet", 
+          "end": 82.97, 
+          "start": 82.79
+        }, 
+        {
+          "text": "ing", 
+          "end": 83.14, 
+          "start": 82.97000000000001
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5130,7 +6469,14 @@
       "verse": 6, 
       "startOffset": 900, 
       "end": 83.31, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 83.31, 
+          "start": 83.14
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5152,7 +6498,14 @@
       "verse": 6, 
       "startOffset": 903, 
       "end": 83.5, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 83.5, 
+          "start": 83.31
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5178,7 +6531,14 @@
       "verse": 6, 
       "startOffset": 906, 
       "end": 84.24, 
-      "line": 27
+      "line": 27, 
+      "syllables": [
+        {
+          "text": "thighs", 
+          "end": 84.24, 
+          "start": 83.5
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5200,7 +6560,14 @@
       "verse": 7, 
       "startOffset": 917, 
       "end": 85.47, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "out", 
+          "end": 85.47, 
+          "start": 85.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5222,7 +6589,14 @@
       "verse": 7, 
       "startOffset": 921, 
       "end": 85.63, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 85.63, 
+          "start": 85.47
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5244,7 +6618,14 @@
       "verse": 7, 
       "startOffset": 924, 
       "end": 85.74, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 85.74, 
+          "start": 85.63
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5274,7 +6655,14 @@
       "verse": 7, 
       "startOffset": 928, 
       "end": 86.0, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "huts", 
+          "end": 86.0, 
+          "start": 85.74
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5296,7 +6684,14 @@
       "verse": 7, 
       "startOffset": 933, 
       "end": 86.12, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 86.12, 
+          "start": 86.0
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5340,7 +6735,24 @@
       "verse": 7, 
       "startOffset": 936, 
       "end": 86.6, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "his", 
+          "end": 86.23, 
+          "start": 86.12
+        }, 
+        {
+          "text": "to", 
+          "end": 86.5, 
+          "start": 86.23
+        }, 
+        {
+          "text": "ry's", 
+          "end": 86.6, 
+          "start": 86.5
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5366,7 +6778,14 @@
       "verse": 7, 
       "startOffset": 946, 
       "end": 87.03, 
-      "line": 28
+      "line": 28, 
+      "syllables": [
+        {
+          "text": "shame", 
+          "end": 87.03, 
+          "start": 86.6
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5384,7 +6803,14 @@
       "verse": 7, 
       "startOffset": 953, 
       "end": 87.15, 
-      "line": 29
+      "line": 29, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 87.15, 
+          "start": 87.03
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5410,7 +6836,14 @@
       "verse": 7, 
       "startOffset": 955, 
       "end": 87.87, 
-      "line": 29
+      "line": 29, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 87.87, 
+          "start": 87.15
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5432,7 +6865,14 @@
       "verse": 7, 
       "startOffset": 961, 
       "end": 88.74, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "up", 
+          "end": 88.74, 
+          "start": 88.51
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5462,7 +6902,14 @@
       "verse": 7, 
       "startOffset": 964, 
       "end": 88.91, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "from", 
+          "end": 88.91, 
+          "start": 88.74
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5480,7 +6927,14 @@
       "verse": 7, 
       "startOffset": 969, 
       "end": 88.98, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "a", 
+          "end": 88.98, 
+          "start": 88.91
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5510,7 +6964,14 @@
       "verse": 7, 
       "startOffset": 971, 
       "end": 89.52, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "past", 
+          "end": 89.52, 
+          "start": 88.98
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5545,7 +7006,19 @@
       "verse": 7, 
       "startOffset": 976, 
       "end": 89.95, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "root", 
+          "end": 89.76, 
+          "start": 89.52
+        }, 
+        {
+          "text": "ed", 
+          "end": 89.95, 
+          "start": 89.75999999999999
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5567,7 +7040,14 @@
       "verse": 7, 
       "startOffset": 983, 
       "end": 90.16, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 90.16, 
+          "start": 90.0
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5593,7 +7073,14 @@
       "verse": 7, 
       "startOffset": 986, 
       "end": 90.58, 
-      "line": 30
+      "line": 30, 
+      "syllables": [
+        {
+          "text": "pain", 
+          "end": 90.58, 
+          "start": 90.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5611,7 +7098,14 @@
       "verse": 7, 
       "startOffset": 992, 
       "end": 90.72, 
-      "line": 31
+      "line": 31, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 90.72, 
+          "start": 90.58
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5637,7 +7131,14 @@
       "verse": 7, 
       "startOffset": 994, 
       "end": 91.47, 
-      "line": 31
+      "line": 31, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 91.47, 
+          "start": 90.72
+        }
+      ]
     }, 
     {
       "case": "timeerror", 
@@ -5656,7 +7157,14 @@
       "verse": 7, 
       "startOffset": 1000, 
       "end": 92.16, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "a", 
+          "end": 92.16, 
+          "start": 91.99
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5686,7 +7194,14 @@
       "verse": 7, 
       "startOffset": 1002, 
       "end": 92.52, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "black", 
+          "end": 92.52, 
+          "start": 92.16
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5717,7 +7232,19 @@
       "verse": 7, 
       "startOffset": 1008, 
       "end": 93.05, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "o", 
+          "end": 92.7, 
+          "start": 92.52
+        }, 
+        {
+          "text": "cean", 
+          "end": 93.05, 
+          "start": 92.7
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5752,7 +7279,19 @@
       "verse": 7, 
       "startOffset": 1015, 
       "end": 93.59, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "leap", 
+          "end": 93.38, 
+          "start": 93.08
+        }, 
+        {
+          "text": "ing", 
+          "end": 93.59, 
+          "start": 93.38
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5778,7 +7317,14 @@
       "verse": 7, 
       "startOffset": 1023, 
       "end": 93.84, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 93.84, 
+          "start": 93.59
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5804,7 +7350,14 @@
       "verse": 7, 
       "startOffset": 1027, 
       "end": 94.74, 
-      "line": 32
+      "line": 32, 
+      "syllables": [
+        {
+          "text": "wide", 
+          "end": 94.74, 
+          "start": 93.84
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5839,7 +7392,19 @@
       "verse": 7, 
       "startOffset": 1034, 
       "end": 95.84, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "wel", 
+          "end": 95.55, 
+          "start": 95.27
+        }, 
+        {
+          "text": "ling", 
+          "end": 95.84, 
+          "start": 95.55
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5865,7 +7430,14 @@
       "verse": 7, 
       "startOffset": 1042, 
       "end": 96.06, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 96.06, 
+          "start": 95.84
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5904,7 +7476,19 @@
       "verse": 7, 
       "startOffset": 1046, 
       "end": 96.94, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "swel", 
+          "end": 96.41, 
+          "start": 96.06
+        }, 
+        {
+          "text": "ling", 
+          "end": 96.94, 
+          "start": 96.41
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5922,7 +7506,14 @@
       "verse": 7, 
       "startOffset": 1055, 
       "end": 97.72, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 97.72, 
+          "start": 97.22
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5948,7 +7539,14 @@
       "verse": 7, 
       "startOffset": 1057, 
       "end": 98.18, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "bear", 
+          "end": 98.18, 
+          "start": 97.75
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5970,7 +7568,14 @@
       "verse": 7, 
       "startOffset": 1062, 
       "end": 98.54, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 98.54, 
+          "start": 98.21
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -5992,7 +7597,14 @@
       "verse": 7, 
       "startOffset": 1065, 
       "end": 98.67, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 98.67, 
+          "start": 98.54
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6018,7 +7630,14 @@
       "verse": 7, 
       "startOffset": 1069, 
       "end": 99.58, 
-      "line": 33
+      "line": 33, 
+      "syllables": [
+        {
+          "text": "tide", 
+          "end": 99.58, 
+          "start": 98.67
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6053,7 +7672,19 @@
       "verse": 8, 
       "startOffset": 1078, 
       "end": 100.82, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "leav", 
+          "end": 100.59, 
+          "start": 100.36
+        }, 
+        {
+          "text": "ing", 
+          "end": 100.82, 
+          "start": 100.59
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6092,7 +7723,19 @@
       "verse": 8, 
       "startOffset": 1086, 
       "end": 101.42, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "be", 
+          "end": 100.93, 
+          "start": 100.82
+        }, 
+        {
+          "text": "hind", 
+          "end": 101.42, 
+          "start": 100.92999999999999
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6122,7 +7765,14 @@
       "verse": 8, 
       "startOffset": 1093, 
       "end": 101.71, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "nights", 
+          "end": 101.71, 
+          "start": 101.42
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6144,7 +7794,14 @@
       "verse": 8, 
       "startOffset": 1100, 
       "end": 101.85, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 101.85, 
+          "start": 101.71
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6175,7 +7832,19 @@
       "verse": 8, 
       "startOffset": 1103, 
       "end": 102.39, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "ter", 
+          "end": 102.06, 
+          "start": 101.85
+        }, 
+        {
+          "text": "ror", 
+          "end": 102.39, 
+          "start": 102.05999999999999
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6201,7 +7870,14 @@
       "verse": 8, 
       "startOffset": 1110, 
       "end": 102.87, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 102.87, 
+          "start": 102.61
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6227,7 +7903,14 @@
       "verse": 8, 
       "startOffset": 1114, 
       "end": 103.44, 
-      "line": 34
+      "line": 34, 
+      "syllables": [
+        {
+          "text": "fear", 
+          "end": 103.44, 
+          "start": 102.87
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6245,7 +7928,14 @@
       "verse": 8, 
       "startOffset": 1120, 
       "end": 104.06, 
-      "line": 35
+      "line": 35, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 104.06, 
+          "start": 103.72
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6271,7 +7961,14 @@
       "verse": 8, 
       "startOffset": 1122, 
       "end": 104.94, 
-      "line": 35
+      "line": 35, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 104.94, 
+          "start": 104.06
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6302,7 +7999,19 @@
       "verse": 8, 
       "startOffset": 1128, 
       "end": 105.86, 
-      "line": 36
+      "line": 36, 
+      "syllables": [
+        {
+          "text": "in", 
+          "end": 105.62, 
+          "start": 105.44
+        }, 
+        {
+          "text": "to", 
+          "end": 105.86, 
+          "start": 105.62
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6320,7 +8029,14 @@
       "verse": 8, 
       "startOffset": 1133, 
       "end": 105.89, 
-      "line": 36
+      "line": 36, 
+      "syllables": [
+        {
+          "text": "a", 
+          "end": 105.89, 
+          "start": 105.86
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6359,7 +8075,19 @@
       "verse": 8, 
       "startOffset": 1135, 
       "end": 106.52, 
-      "line": 36
+      "line": 36, 
+      "syllables": [
+        {
+          "text": "day", 
+          "end": 106.18, 
+          "start": 105.89
+        }, 
+        {
+          "text": "break", 
+          "end": 106.52, 
+          "start": 106.18
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6421,7 +8149,34 @@
       "verse": 8, 
       "startOffset": 1144, 
       "end": 107.52, 
-      "line": 36
+      "line": 36, 
+      "syllables": [
+        {
+          "text": "mi", 
+          "end": 106.81, 
+          "start": 106.52
+        }, 
+        {
+          "text": "ra", 
+          "end": 106.89, 
+          "start": 106.81
+        }, 
+        {
+          "text": "cu", 
+          "end": 107.09, 
+          "start": 106.89
+        }, 
+        {
+          "text": "lous", 
+          "end": 107.23, 
+          "start": 107.09
+        }, 
+        {
+          "text": "ly", 
+          "end": 107.52, 
+          "start": 107.23
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6451,7 +8206,14 @@
       "verse": 8, 
       "startOffset": 1157, 
       "end": 108.15, 
-      "line": 36
+      "line": 36, 
+      "syllables": [
+        {
+          "text": "clear", 
+          "end": 108.15, 
+          "start": 107.52
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6469,7 +8231,14 @@
       "verse": 8, 
       "startOffset": 1164, 
       "end": 108.86, 
-      "line": 37
+      "line": 37, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 108.86, 
+          "start": 108.58
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6495,7 +8264,14 @@
       "verse": 8, 
       "startOffset": 1166, 
       "end": 109.8, 
-      "line": 37
+      "line": 37, 
+      "syllables": [
+        {
+          "text": "rise", 
+          "end": 109.8, 
+          "start": 108.86
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6534,7 +8310,19 @@
       "verse": 8, 
       "startOffset": 1172, 
       "end": 110.89, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "bring", 
+          "end": 110.65, 
+          "start": 110.35
+        }, 
+        {
+          "text": "ing", 
+          "end": 110.89, 
+          "start": 110.64999999999999
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6556,7 +8344,14 @@
       "verse": 8, 
       "startOffset": 1181, 
       "end": 111.04, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 111.04, 
+          "start": 110.89
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6586,7 +8381,14 @@
       "verse": 8, 
       "startOffset": 1185, 
       "end": 111.4, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "gifts", 
+          "end": 111.4, 
+          "start": 111.04
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6612,7 +8414,14 @@
       "verse": 8, 
       "startOffset": 1191, 
       "end": 111.85, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "that", 
+          "end": 111.85, 
+          "start": 111.52
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6634,7 +8443,14 @@
       "verse": 8, 
       "startOffset": 1196, 
       "end": 112.17, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "my", 
+          "end": 112.17, 
+          "start": 111.85
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6682,7 +8498,24 @@
       "verse": 8, 
       "startOffset": 1199, 
       "end": 113.0, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "an", 
+          "end": 112.33, 
+          "start": 112.17
+        }, 
+        {
+          "text": "ces", 
+          "end": 112.66, 
+          "start": 112.33
+        }, 
+        {
+          "text": "tors", 
+          "end": 113.0, 
+          "start": 112.66
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6708,7 +8541,14 @@
       "verse": 8, 
       "startOffset": 1209, 
       "end": 113.57, 
-      "line": 38
+      "line": 38, 
+      "syllables": [
+        {
+          "text": "gave", 
+          "end": 113.57, 
+          "start": 113.0
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6726,7 +8566,14 @@
       "verse": 8, 
       "startOffset": 1216, 
       "end": 114.69, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 114.69, 
+          "start": 114.35
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6752,7 +8599,14 @@
       "verse": 8, 
       "startOffset": 1218, 
       "end": 114.93, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "am", 
+          "end": 114.93, 
+          "start": 114.69
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6774,7 +8628,14 @@
       "verse": 8, 
       "startOffset": 1221, 
       "end": 115.06, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 115.06, 
+          "start": 114.93
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6800,7 +8661,14 @@
       "verse": 8, 
       "startOffset": 1225, 
       "end": 115.7, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "hope", 
+          "end": 115.7, 
+          "start": 115.06
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6826,7 +8694,14 @@
       "verse": 8, 
       "startOffset": 1230, 
       "end": 116.44, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 116.44, 
+          "start": 116.17
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6848,7 +8723,14 @@
       "verse": 8, 
       "startOffset": 1234, 
       "end": 116.56, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 116.56, 
+          "start": 116.44
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6878,7 +8760,14 @@
       "verse": 8, 
       "startOffset": 1238, 
       "end": 117.52, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "dream", 
+          "end": 117.52, 
+          "start": 116.56
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6900,7 +8789,14 @@
       "verse": 8, 
       "startOffset": 1244, 
       "end": 117.96, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "of", 
+          "end": 117.96, 
+          "start": 117.73
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6922,7 +8818,14 @@
       "verse": 8, 
       "startOffset": 1247, 
       "end": 118.1, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "the", 
+          "end": 118.1, 
+          "start": 117.96
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6952,7 +8855,14 @@
       "verse": 8, 
       "startOffset": 1251, 
       "end": 118.87, 
-      "line": 39
+      "line": 39, 
+      "syllables": [
+        {
+          "text": "slave", 
+          "end": 118.87, 
+          "start": 118.1
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -6978,7 +8888,14 @@
       "verse": 8, 
       "startOffset": 1259, 
       "end": 119.89, 
-      "line": 40
+      "line": 40, 
+      "syllables": [
+        {
+          "text": "and", 
+          "end": 119.89, 
+          "start": 119.64
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -7000,7 +8917,14 @@
       "verse": 8, 
       "startOffset": 1263, 
       "end": 120.77, 
-      "line": 40
+      "line": 40, 
+      "syllables": [
+        {
+          "text": "so", 
+          "end": 120.77, 
+          "start": 119.92
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -7045,7 +8969,29 @@
       "verse": 8, 
       "startOffset": 1267, 
       "end": 122.34, 
-      "line": 41
+      "line": 41, 
+      "syllables": [
+        {
+          "text": "nat", 
+          "end": 121.78, 
+          "start": 121.3
+        }, 
+        {
+          "text": "u", 
+          "end": 122.05, 
+          "start": 121.78
+        }, 
+        {
+          "text": "ral", 
+          "end": 122.13, 
+          "start": 122.05
+        }, 
+        {
+          "text": "ly", 
+          "end": 122.34, 
+          "start": 122.13
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -7067,7 +9013,14 @@
       "verse": 8, 
       "startOffset": 1278, 
       "end": 127.88, 
-      "line": 42
+      "line": 42, 
+      "syllables": [
+        {
+          "text": "there", 
+          "end": 127.88, 
+          "start": 127.65
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -7085,7 +9038,14 @@
       "verse": 8, 
       "startOffset": 1284, 
       "end": 127.99, 
-      "line": 42
+      "line": 42, 
+      "syllables": [
+        {
+          "text": "i", 
+          "end": 127.99, 
+          "start": 127.88
+        }
+      ]
     }, 
     {
       "case": "success", 
@@ -7107,7 +9067,14 @@
       "verse": 8, 
       "startOffset": 1286, 
       "end": 128.32, 
-      "line": 42
+      "line": 42, 
+      "syllables": [
+        {
+          "text": "go", 
+          "end": 128.32, 
+          "start": 128.02
+        }
+      ]
     }, 
     {
       "case": "miss", 
@@ -7143,7 +9110,19 @@
       "verse": 8, 
       "startOffset": 1289, 
       "word": "rising", 
-      "line": 42
+      "line": 42, 
+      "syllables": [
+        {
+          "text": "ris", 
+          "end": 128.77, 
+          "start": 128.37
+        }, 
+        {
+          "text": "ing", 
+          "end": 129.39, 
+          "start": 128.77
+        }
+      ]
     }
   ], 
   "transcript": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise.\r\n\r\nDoes my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room.\r\n\r\nJust like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise.\r\n\r\nDid you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries?\r\n\r\nDoes my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard.\r\n\r\nYou can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise.\r\n\r\nDoes my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs?\r\n\r\nOut of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide.\r\n\r\nLeaving behind nights of terror and fear\r\nI rise\r\nInto a daybreak miraculously clear\r\nI rise\r\nBringing the gifts that my ancestors gave,\r\nI am the hope and the dream of the slave.\r\nAnd so\r\nNaturally\r\nThere I go rising.\r\n"
