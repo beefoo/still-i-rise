@@ -95,13 +95,23 @@ python find_nonwords.py
   python find_syllables.py
   ```
 
-### Extract audio clips
+### Add pitch (frequency) and volume (intensity) data
 
-1. Extract words from audio
+```
+python add_sound_data.py
+```
 
-  ```
-  ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy words/history.wav
-  ```
+### Extract words, syllables, nonwords, pauses from audio
+
+```
+python generate_clips.py
+```
+
+Uses subprocesses to run commands like this:
+
+```
+ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy words/history.wav
+```
 
 ### Process frames
 

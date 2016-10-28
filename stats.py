@@ -31,21 +31,12 @@ for word in words:
         wordsValid.append((word["word"], duration))
     else:
         wordsInvalid.append((word["word"], duration))
-    phoneDuration = 0
-    for pi, phone in enumerate(word["phones"]):
-        if "syllable" in phone and phoneDuration > 0:
-            if phoneDuration >= minDuration:
-                syllablesValid.append((word["word"], phoneDuration))
-            else:
-                syllablesInvalid.append((word["word"], phoneDuration))
-            phoneDuration = phone["duration"]
+    for syllable in word["syllables"]:
+        duration = syllable["end"] - syllable["start"]
+        if duration >= minDuration:
+            syllablesValid.append((syllable["text"], duration))
         else:
-            phoneDuration += phone["duration"]
-    if phoneDuration > 0:
-        if phoneDuration >= minDuration:
-            syllablesValid.append((word["word"], phoneDuration))
-        else:
-            syllablesInvalid.append((word["word"], phoneDuration))
+            syllablesInvalid.append((syllable["text"], duration))
 
 print "Min duration: %s" % minDuration
 print "Words: %s" % len(words)
@@ -57,3 +48,6 @@ print "Syllables: %s" % (len(syllablesValid) + len(syllablesInvalid))
 print "--Valid: %s" % len(syllablesValid)
 print "--Invalid: %s" % len(syllablesInvalid)
 pprint(syllablesInvalid)
+print "Non-words: %s" % len(data["nonwords"])
+print "Pauses: %s" % len(data["pauses"])
+print "Total clips: %s" % (len(words) + len(syllablesValid) + len(syllablesInvalid) + len(data["nonwords"]) + len(data["pauses"]))

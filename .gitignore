@@ -6,3 +6,4 @@
 frames/*
 !frames/.keep
 node_modules/
+clips/
