@@ -8,7 +8,7 @@ import sys
 
 # input
 parser = argparse.ArgumentParser()
-parser.add_argument('-in', dest="INPUT_FILE", default="data/and_still_i_rise_aligned.json", help="Path to input aligned transcript json file")
+parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")
 parser.add_argument('-min', dest="MIN_DURATION", type=float, default=0.08, help="Minimum duration of a clip")
 
 # init input

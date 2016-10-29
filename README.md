@@ -22,13 +22,13 @@ This step creates the .wav file from source .mp4 file
 2. [Clip video](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections) if necessary
 
    ```
-   ffmpeg -i and_still_i_rise_original.mp4 -ss 42.0 -c copy and_still_i_rise.mp4
+   ffmpeg -i still_i_rise_original.mp4 -ss 42.0 -c copy still_i_rise.mp4
    ```
 
 3. [Extract .wav](http://superuser.com/a/791874) audio file:
 
    ```
-   ffmpeg -i and_still_i_rise.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 and_still_i_rise.wav
+   ffmpeg -i still_i_rise.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 still_i_rise.wav
    ```
 
 ### Extract speech data
@@ -36,7 +36,7 @@ This step creates the .wav file from source .mp4 file
 This step extracts amplitude, pitch, and voice pulse data from .wav file using [Praat](http://www.fon.hum.uva.nl/praat/)
 
 1. Open .wav file in [Praat](http://www.fon.hum.uva.nl/praat/)
-2. _(optional)_ Select object, then click **Save** -> **short text file** (e.g. and_still_i_rise.Sound) - this will give you raw amplitude data
+2. _(optional)_ Select object, then click **Save** -> **short text file** (e.g. still_i_rise.Sound) - this will give you raw amplitude data
 2. Click **View & Edit**
 3. Show analysis by clicking **View** -> **Show Analysis...** -> **Longest Analysis** -> 200 -> Apply
 4. Click **Pitch** and update settings (adjust as needed):
@@ -47,10 +47,10 @@ This step extracts amplitude, pitch, and voice pulse data from .wav file using [
   * Octave cost: *0.001*
   * Octave-jump cost: *0.3*
 5. Apply and Okay; Click **Pitch** -> **Extract visible pitch contour**
-6. Go to objects window, select Pitch object, and **Save** -> **short text file** (e.g. and_still_i_rise.Pitch) - this will be your pitch data
+6. Go to objects window, select Pitch object, and **Save** -> **short text file** (e.g. still_i_rise.Pitch) - this will be your pitch data
 7. Click **Pulses** -> **Show Pulses**
 8. Click **Pulses** -> **Extract visible pulses**
-9. Go to objects window, select PointProcess object, and **Save** -> **short text file** (e.g. and_still_i_rise.PointProcess) - this will be your voice pulse data
+9. Go to objects window, select PointProcess object, and **Save** -> **short text file** (e.g. still_i_rise.PointProcess) - this will be your voice pulse data
 
 ### Align transcript to audio
 
@@ -110,7 +110,7 @@ python generate_clips.py
 Uses subprocesses to run commands like this:
 
 ```
-ffmpeg -i and_still_i_rise.wav -ss 2.83 -to 3.58 -c copy history.wav -y
+ffmpeg -i still_i_rise.wav -ss 2.83 -to 3.58 -c copy history.wav -y
 ffmpeg -i history.wav -af 'afade=t=in:ss=0:d=0.02,afade=t=out:st=0.73:d=0.02' history.wav -y
 ```
 
@@ -119,11 +119,11 @@ ffmpeg -i history.wav -af 'afade=t=in:ss=0:d=0.02,afade=t=out:st=0.73:d=0.02' hi
 1. Convert .mp4 to .jpg frames (15fps)
 
   ```
-  ffmpeg -i and_still_i_rise.mp4 -r 15/1 frames/frame%04d.jpg
+  ffmpeg -i still_i_rise.mp4 -r 15/1 frames/frame%04d.jpg
   ```
 
 2. Convert .jpg frames (15fps) to .mp4 (15fps) ([ref](https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images))
 
   ```
-  ffmpeg -framerate 15/1 -i frames/frame%04d.jpg -c:v libx264 -r 15 -pix_fmt yuv420p output/and_still_i_rise.mp4
+  ffmpeg -framerate 15/1 -i frames/frame%04d.jpg -c:v libx264 -r 15 -pix_fmt yuv420p output/still_i_rise.mp4
   ```

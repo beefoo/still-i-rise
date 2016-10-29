@@ -12,8 +12,8 @@ import sys
 
 # input
 parser = argparse.ArgumentParser()
-parser.add_argument('-in', dest="INPUT_FILE", default="data/and_still_i_rise_aligned.json", help="Path to input aligned transcript json file")
-parser.add_argument('-au', dest="INPUT_AUDIO_FILE", default="and_still_i_rise.wav", help="Path to audio file file")
+parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")
+parser.add_argument('-au', dest="INPUT_AUDIO_FILE", default="still_i_rise.wav", help="Path to audio file file")
 parser.add_argument('-out', dest="OUTPUT_DIR", default="clips/", help="Path to clip directory")
 parser.add_argument('-min', dest="MIN_DURATION", type=float, default=0.1, help="Minimum duration of a clip")
 parser.add_argument('-pa', dest="PAD", type=float, default=0.02, help="Amount of seconds to pad before and after")

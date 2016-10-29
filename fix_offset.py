@@ -3,7 +3,7 @@
 import json
 
 data = {}
-with open('data/and_still_i_rise_aligned.json') as f:
+with open('data/still_i_rise.json') as f:
     data = json.load(f)
 
 transcript = data["transcript"]
@@ -25,5 +25,5 @@ for i, entry in enumerate(data["words"]):
     data["words"][i]["endOffset"] = offsetEnd
     offset = offsetEnd + 1
 
-with open('data/and_still_i_rise_aligned_fixed.json', 'w') as f:
+with open('data/still_i_rise_fixed.json', 'w') as f:
     json.dump(data, f, indent=2)
