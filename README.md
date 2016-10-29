@@ -25,6 +25,8 @@ This step creates the .wav file from source .mp4 file
    ffmpeg -i still_i_rise_original.mp4 -ss 42.0 -c copy still_i_rise.mp4
    ```
 
+   This removes the first 42 seconds of the file
+
 3. [Extract .wav](http://superuser.com/a/791874) audio file:
 
    ```
@@ -110,20 +112,23 @@ python generate_clips.py
 Uses subprocesses to run commands like this:
 
 ```
-ffmpeg -i still_i_rise.wav -ss 2.83 -to 3.58 -c copy history.wav -y
-ffmpeg -i history.wav -af 'afade=t=in:ss=0:d=0.02,afade=t=out:st=0.73:d=0.02' history.wav -y
+ffmpeg -i still_i_rise.wav -ss 2.83 -to 3.58 -c copy history_temp.wav -y
+ffmpeg -i history_temp.wav -af 'afade=t=in:ss=0:d=0.02,afade=t=out:st=0.73:d=0.02' history.wav -y
+rm history_temp.wav
 ```
+
+This cuts a clip from 2.83s to 3.58s, then adds a crossfade of 0.02s to the beginning and end of the clip, then deletes the temporary file.
 
 ### Process frames
 
 1. Convert .mp4 to .jpg frames (15fps)
 
   ```
-  ffmpeg -i still_i_rise.mp4 -r 15/1 frames/frame%04d.jpg
+  ffmpeg -i still_i_rise.mp4 -r 15/1 -q:v 1 frames/frame%04d.png
   ```
 
 2. Convert .jpg frames (15fps) to .mp4 (15fps) ([ref](https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images))
 
   ```
-  ffmpeg -framerate 15/1 -i frames/frame%04d.jpg -c:v libx264 -r 15 -pix_fmt yuv420p output/still_i_rise.mp4
+  ffmpeg -framerate 15/1 -i frames/frame%04d.png -c:v libx264 -r 15 -pix_fmt yuv420p -q:v 1 output/still_i_rise.mp4
   ```

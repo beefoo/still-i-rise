@@ -4,6 +4,7 @@
 *.pkf
 *.pyc
 frames/*
+output/*
 !frames/.keep
 node_modules/
 clips/
