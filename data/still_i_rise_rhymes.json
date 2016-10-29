@@ -1,0 +1,490 @@
+[
+  {
+    "index": 2, 
+    "words": [
+      "write", 
+      "lies", 
+      "like", 
+      "i'll", 
+      "rise", 
+      "my", 
+      "why", 
+      "i", 
+      "i", 
+      "my", 
+      "like", 
+      "like", 
+      "tides", 
+      "like", 
+      "high", 
+      "i'll", 
+      "rise", 
+      "eyes", 
+      "like", 
+      "by", 
+      "my", 
+      "cries", 
+      "my", 
+      "i", 
+      "i", 
+      "mines", 
+      "my", 
+      "lies", 
+      "like", 
+      "life", 
+      "i'll", 
+      "rise", 
+      "my", 
+      "i", 
+      "i", 
+      "my", 
+      "thighs", 
+      "i", 
+      "rise", 
+      "i", 
+      "rise", 
+      "wide", 
+      "i", 
+      "tide", 
+      "nights", 
+      "i", 
+      "rise", 
+      "i", 
+      "rise", 
+      "my", 
+      "i", 
+      "i"
+    ], 
+    "pattern": "ay"
+  }, 
+  {
+    "index": 5, 
+    "words": [
+      "in", 
+      "with", 
+      "in", 
+      "still", 
+      "with", 
+      "just", 
+      "if", 
+      "in", 
+      "just", 
+      "with", 
+      "just", 
+      "still", 
+      "did", 
+      "it", 
+      "just", 
+      "if", 
+      "in", 
+      "with", 
+      "with", 
+      "kill", 
+      "with", 
+      "just", 
+      "it", 
+      "if", 
+      "in", 
+      "in", 
+      "fear", 
+      "clear", 
+      "gifts"
+    ], 
+    "pattern": "ih"
+  }, 
+  {
+    "index": 13, 
+    "words": [
+      "but", 
+      "dust", 
+      "does", 
+      "suns", 
+      "of", 
+      "does", 
+      "cut", 
+      "but", 
+      "does", 
+      "does", 
+      "come", 
+      "a", 
+      "of", 
+      "of", 
+      "huts", 
+      "of", 
+      "up", 
+      "from", 
+      "a", 
+      "a", 
+      "of", 
+      "a", 
+      "of"
+    ], 
+    "pattern": "ah"
+  }, 
+  {
+    "index": 19, 
+    "words": [
+      "have", 
+      "and", 
+      "and", 
+      "laugh", 
+      "have", 
+      "can", 
+      "can", 
+      "can", 
+      "that", 
+      "dance", 
+      "have", 
+      "at", 
+      "past", 
+      "black", 
+      "and", 
+      "and", 
+      "and", 
+      "that", 
+      "am", 
+      "and", 
+      "and"
+    ], 
+    "pattern": "ae"
+  }, 
+  {
+    "index": 3, 
+    "words": [
+      "me", 
+      "me", 
+      "the", 
+      "the", 
+      "see", 
+      "me", 
+      "me", 
+      "me", 
+      "me", 
+      "the", 
+      "the", 
+      "the", 
+      "the", 
+      "the", 
+      "the", 
+      "dream", 
+      "the"
+    ], 
+    "pattern": "iy"
+  }, 
+  {
+    "index": 0, 
+    "words": [
+      "you", 
+      "you", 
+      "you", 
+      "you", 
+      "gloom", 
+      "room", 
+      "moons", 
+      "you", 
+      "to", 
+      "you", 
+      "you", 
+      "shoot", 
+      "you", 
+      "you", 
+      "you"
+    ], 
+    "pattern": "uw"
+  }, 
+  {
+    "index": 18, 
+    "words": [
+      "as", 
+      "wells", 
+      "head", 
+      "as", 
+      "as", 
+      "as", 
+      "bear", 
+      "there"
+    ], 
+    "pattern": "eh"
+  }, 
+  {
+    "index": 23, 
+    "words": [
+      "hopes", 
+      "don't", 
+      "so", 
+      "gold", 
+      "own", 
+      "hope", 
+      "so", 
+      "go"
+    ], 
+    "pattern": "ow"
+  }, 
+  {
+    "index": 1, 
+    "words": [
+      "may", 
+      "may", 
+      "take", 
+      "shame", 
+      "pain", 
+      "gave", 
+      "slave"
+    ], 
+    "pattern": "ey"
+  }, 
+  {
+    "index": 9, 
+    "words": [
+      "twisted", 
+      "living", 
+      "springing", 
+      "digging", 
+      "bringing"
+    ], 
+    "pattern": "ih_ih"
+  }, 
+  {
+    "index": 4, 
+    "words": [
+      "down", 
+      "bowed", 
+      "down", 
+      "out"
+    ], 
+    "pattern": "aw"
+  }, 
+  {
+    "index": 7, 
+    "words": [
+      "your", 
+      "your", 
+      "your", 
+      "your"
+    ], 
+    "pattern": "uh"
+  }, 
+  {
+    "index": 14, 
+    "words": [
+      "sassiness", 
+      "weakened", 
+      "sassiness", 
+      "sexiness"
+    ], 
+    "pattern": "iy_ah"
+  }, 
+  {
+    "index": 17, 
+    "words": [
+      "cause", 
+      "walk", 
+      "want", 
+      "cause"
+    ], 
+    "pattern": "ao"
+  }, 
+  {
+    "index": 12, 
+    "words": [
+      "dirt", 
+      "are", 
+      "words"
+    ], 
+    "pattern": "er"
+  }, 
+  {
+    "index": 15, 
+    "words": [
+      "upset", 
+      "upset", 
+      "offend"
+    ], 
+    "pattern": "ah_eh"
+  }, 
+  {
+    "index": 22, 
+    "words": [
+      "certainty", 
+      "miraculously", 
+      "naturally"
+    ], 
+    "pattern": "ah_iy"
+  }, 
+  {
+    "index": 24, 
+    "words": [
+      "broken", 
+      "soulful", 
+      "ocean"
+    ], 
+    "pattern": "ow_ah"
+  }, 
+  {
+    "index": 32, 
+    "words": [
+      "meeting", 
+      "leaping", 
+      "leaving"
+    ], 
+    "pattern": "iy_ih"
+  }, 
+  {
+    "index": 10, 
+    "words": [
+      "trod", 
+      "hard"
+    ], 
+    "pattern": "aa"
+  }, 
+  {
+    "index": 25, 
+    "words": [
+      "lowered", 
+      "shoulders"
+    ], 
+    "pattern": "ow_er"
+  }, 
+  {
+    "index": 35, 
+    "words": [
+      "welling", 
+      "swelling"
+    ], 
+    "pattern": "eh_ih"
+  }, 
+  {
+    "index": 37, 
+    "words": [
+      "terror", 
+      "ancestors"
+    ], 
+    "pattern": "eh_er"
+  }, 
+  {
+    "index": 6, 
+    "words": [
+      "history"
+    ], 
+    "pattern": "ih_iy"
+  }, 
+  {
+    "index": 8, 
+    "words": [
+      "bitter"
+    ], 
+    "pattern": "ih_er"
+  }, 
+  {
+    "index": 11, 
+    "words": [
+      "very"
+    ], 
+    "pattern": "eh_iy"
+  }, 
+  {
+    "index": 16, 
+    "words": [
+      "beset"
+    ], 
+    "pattern": "ih_eh"
+  }, 
+  {
+    "index": 20, 
+    "words": [
+      "oil"
+    ], 
+    "pattern": "oy"
+  }, 
+  {
+    "index": 21, 
+    "words": [
+      "pumping"
+    ], 
+    "pattern": "ah_ih"
+  }, 
+  {
+    "index": 26, 
+    "words": [
+      "falling"
+    ], 
+    "pattern": "aa_ih"
+  }, 
+  {
+    "index": 27, 
+    "words": [
+      "teardrops"
+    ], 
+    "pattern": "er_aa"
+  }, 
+  {
+    "index": 28, 
+    "words": [
+      "backyard"
+    ], 
+    "pattern": "ae_aa"
+  }, 
+  {
+    "index": 29, 
+    "words": [
+      "hatefulness"
+    ], 
+    "pattern": "ah_ah"
+  }, 
+  {
+    "index": 30, 
+    "words": [
+      "surprise"
+    ], 
+    "pattern": "ah_ay"
+  }, 
+  {
+    "index": 31, 
+    "words": [
+      "diamonds"
+    ], 
+    "pattern": "ay_ah"
+  }, 
+  {
+    "index": 33, 
+    "words": [
+      "history's"
+    ], 
+    "pattern": "er_iy"
+  }, 
+  {
+    "index": 34, 
+    "words": [
+      "rooted"
+    ], 
+    "pattern": "uw_ah"
+  }, 
+  {
+    "index": 36, 
+    "words": [
+      "behind"
+    ], 
+    "pattern": "ih_ay"
+  }, 
+  {
+    "index": 38, 
+    "words": [
+      "into"
+    ], 
+    "pattern": "ih_uw"
+  }, 
+  {
+    "index": 39, 
+    "words": [
+      "daybreak"
+    ], 
+    "pattern": "ey_ey"
+  }, 
+  {
+    "index": 40, 
+    "words": [
+      "rising"
+    ], 
+    "pattern": "ay_ih"
+  }
+]
