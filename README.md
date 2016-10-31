@@ -4,10 +4,13 @@ A deep analysis of Maya Angelou's performance of _Still I Rise_
 
 ## Requirements
 
+All software used is free and/or open-source
+
 * [FFmpeg](https://www.ffmpeg.org/) - for media processing
 * [Praat](http://www.fon.hum.uva.nl/praat/) - for speech analysis
-* [ChucK](http://chuck.cs.princeton.edu/) - for audio construction
+* [ChucK](http://chuck.cs.princeton.edu/) - for audio production
 * [Gentle](https://github.com/lowerquality/gentle) - for transcript alignment to audio
+* [OpenCV](http://opencv.org/) - for image processing and analysis
 * [Python](https://www.python.org/) - for various data processing
 
 ## Processing a media file from scratch

@@ -58,6 +58,7 @@ def getSoundData(start, end, frames):
 
 words = data["words"]
 nonwords = data["nonwords"]
+lines = data["lines"]
 
 for i, word in enumerate(words):
     soundData = getSoundData(word["start"], word["end"], frames)
@@ -70,8 +71,13 @@ for i, word in enumerate(nonwords):
     soundData = getSoundData(word["start"], word["end"], frames)
     nonwords[i].update(soundData)
 
+for i, line in enumerate(lines):
+    soundData = getSoundData(line["start"], line["end"], frames)
+    lines[i].update(soundData)
+
 data["words"] = words
 data["nonwords"] = nonwords
+data["lines"] = lines
 
 with open(args.OUTPUT_FILE, 'w') as f:
     json.dump(data, f, indent=2)
