@@ -33,7 +33,7 @@ This step creates the .wav file from source .mp4 file
    ffmpeg -i still_i_rise.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 still_i_rise.wav
    ```
 
-### Extract speech data
+## Extract speech data
 
 This step extracts amplitude, pitch, and voice pulse data from .wav file using [Praat](http://www.fon.hum.uva.nl/praat/)
 
@@ -119,7 +119,24 @@ rm history_temp.wav
 
 This cuts a clip from 2.83s to 3.58s, then adds a crossfade of 0.02s to the beginning and end of the clip, then deletes the temporary file.
 
-### Process frames
+## Analyze frames
+
+### Install Open CV
+
+```
+brew tap homebrew/science
+brew install opencv3 --with-contrib
+cd /Library/Python/2.7/site-packages/
+ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python2.7/site-packages/cv2.so cv2.so
+```
+
+And install numpy
+
+```
+pip install numpy
+```
+
+## Process frames
 
 1. Convert .mp4 to .jpg frames (15fps)
 

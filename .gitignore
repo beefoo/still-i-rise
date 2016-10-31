@@ -3,7 +3,7 @@
 *.Sound
 *.pkf
 *.pyc
-frames/*
+frames*/*
 output/*
 !frames/.keep
 node_modules/
