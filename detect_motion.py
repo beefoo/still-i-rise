@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
+# Based on: http://docs.opencv.org/trunk/db/d5c/tutorial_py_bg_subtraction.html
+
 import argparse
 import cv2
 import locale
 import os
 from glob import glob
 import numpy as np
-from PIL import Image
 from pprint import pprint
 import sys
 
