@@ -2,25 +2,33 @@
 
 import argparse
 import json
+import math
 import os
 from pprint import pprint
-from lilypond import lily
+import lilypond
 import sys
 import time
 
 # input
 parser = argparse.ArgumentParser()
 parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")
-parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.py", help="Path to output lilypond file")
-parser.add_argument('-tempo', dest="TEMPO", type=int, default=120, help="Tempo in BPM")
+parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.ly", help="Path to output lilypond file")
+parser.add_argument('-tempo', dest="TEMPO", type=int, default=240, help="Tempo in BPM")
+parser.add_argument('-sn', dest="SHORTEST_NOTE", type=int, default=16, help="Smallest note, e.g. 16 = 1/16th note")
+parser.add_argument('-octave', dest="ADJUST_OCTAVE", type=int, default=-1, help="Amount to adjust octave, e.g. -1 will lower all notes by one octave")
 
 # init input
 args = parser.parse_args()
 TEMPO = args.TEMPO
+SHORTEST_NOTE = args.SHORTEST_NOTE
+ADJUST_OCTAVE = args.ADJUST_OCTAVE
 
 # note durations in ms
 quarterMs = 60000 / TEMPO
-measureMs = quarter * 4
+measureMs = quarterMs * 4
+minNoteMs = measureMs / SHORTEST_NOTE
+
+print "Quarter note: %s, Measure: %s, Min note: %s" % (quarterMs, measureMs, minNoteMs)
 
 data = {}
 with open(args.INPUT_FILE) as f:
@@ -30,27 +38,51 @@ header = {
     "title": "Still I Rise",
     "subtitle": "Maya Angelou",
     "composer": "As performed by Maya Angelou",
-    "arranger": "Arranged by Brian Foo",
-    "copyright": "Learn more at brianfoo.com"
+    "arranger": "Arranged by Brian Foo"
+    # "copyright": "Learn more at brianfoo.com"
 }
 music = {
     "tempo": TEMPO,
-    "relative": "c",
-    "measures": []
+    "notes": []
 }
-measures = []
 lyrics = []
 
-currentMeasure = {
-    "notes": [],
-    "duration": 0
-}
-for i, word in enumerate(data):
+# Add syllables
+notes = []
+for i, word in enumerate(data["words"]):
     for j, syllable in enumerate(word["syllables"]):
+        notes.append({
+            "note": lilypond.freqToNote(syllable["frequency"], ADJUST_OCTAVE),
+            "start": int(round(syllable["start"] * 1000)),
+            "end": int(round(syllable["end"] * 1000)),
+            "text": syllable["text"]
+        })
+        lyrics.append({
+            "start": int(round(syllable["start"] * 1000)),
+            "text": syllable["text"]
+        })
 
-music["measures"] = measures
-lilyString = lily(music, lyrics, header)
+# Add non-words
+for i, word in enumerate(data["nonwords"]):
+    notes.append({
+        "note": lilypond.freqToNote(word["frequency"], ADJUST_OCTAVE),
+        "start": int(round(word["start"] * 1000)),
+        "end": int(round(word["end"] * 1000)),
+        "text": "x"
+    })
+    lyrics.append({
+        "start": int(round(word["start"] * 1000)),
+        "text": "x"
+    })
+lyrics = sorted(lyrics, key=lambda l: l["start"])
+
+# Normalize and print to lilypond syntax
+music["notes"] = lilypond.normalizeNotes(notes, TEMPO, SHORTEST_NOTE)
+lilyString = lilypond.toString(music, lyrics, header)
+
+# pprint([(n["text"], n["note"]) for n in music["notes"][30:50]])
+# sys.exit(1)
 
 with open(args.OUTPUT_FILE, "w") as f:
     f.write(lilyString)
-    print "Wrote %s measures to file %s" % (len(music), args.OUTPUT_FILE)
+    print "Wrote %s notes to file %s" % (len(notes), args.OUTPUT_FILE)

@@ -9,3 +9,5 @@ output/*
 node_modules/
 clips/
 data/ck_sequence.csv
+data/*.ly
+data/*.pdf

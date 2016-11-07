@@ -33,16 +33,30 @@ ints = [f["intensity"] for f in frames]
 freqs = [f["candidates"][0]["frequency"] for f in frames if len(f["candidates"]) > 0]
 print "Freq [%s, %s] Intensities [%s, %s]" % (min(freqs), max(freqs), min(ints), max(ints))
 
+# Add frequency value to frames
+for i, f in enumerate(frames):
+    freq = 0
+    candidates = f["candidates"]
+    # if first candidate is invalid
+    # if len(candidates) > 0 and candidates[0]["frequency"] <= 0:
+    #     # filter out invalid and sort by freq
+    #     candidates = [c for c in f["candidates"] if c["frequency"] > 0]
+    #     candidates = sorted(candidates, key=lambda c: c["frequency"])
+    if len(candidates) > 0:
+        freq = candidates[0]["frequency"]
+    frames[i]["frequency"] = freq
+
 def mean(numbers):
     return float(sum(numbers)) / max(len(numbers), 1)
 
-def getSoundData(start, end, frames):
-    frequency = 0
+def getSoundData(start, end, frames, defaultFreq=0):
+    frequency = defaultFreq
     intensity = 0
     _frames = [f for f in frames if start <= f["start"] < end]
 
     # calculate mean frequency
-    frequencies = [f["candidates"][0]["frequency"] for f in _frames if len(f["candidates"]) > 0]
+    # frequencies = [f["candidates"][0]["frequency"] for f in _frames if len(f["candidates"]) > 0 and f["candidates"][0]["frequency"] > 0]
+    frequencies = [f["frequency"] for f in _frames if f["frequency"] > 0]
     if len(frequencies) > 0:
         frequency = mean(frequencies)
 
