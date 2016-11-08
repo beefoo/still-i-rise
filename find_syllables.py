@@ -2,7 +2,7 @@
 
 import argparse
 import json
-from hyphenate import hyphenate_word
+from lib.hyphenate import hyphenate_word
 from nltk.corpus import cmudict
 import os
 from pprint import pprint

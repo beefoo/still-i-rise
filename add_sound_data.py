@@ -5,7 +5,7 @@ import json
 import locale
 import os
 from pprint import pprint
-from praat import fileToPitchData
+from lib.praat import fileToPitchData
 import sys
 import time
 

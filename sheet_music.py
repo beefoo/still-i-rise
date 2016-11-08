@@ -5,7 +5,7 @@ import json
 import math
 import os
 from pprint import pprint
-import lilypond
+import lib.lilypond
 import sys
 import time
 
