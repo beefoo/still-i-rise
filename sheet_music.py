@@ -5,7 +5,7 @@ import json
 import math
 import os
 from pprint import pprint
-import lib.lilypond
+import lib.lilypond as lilypond
 import sys
 import time
 
@@ -41,6 +41,9 @@ header = {
     "arranger": "Arranged by Brian Foo"
     # "copyright": "Learn more at brianfoo.com"
 }
+layout = {
+    "layout-set-staff-size": 14
+}
 music = {
     "tempo": TEMPO,
     "notes": []
@@ -57,6 +60,11 @@ for i, word in enumerate(data["words"]):
             "end": int(round(syllable["end"] * 1000)),
             "text": syllable["text"]
         })
+        if j > 0:
+            lyrics.append({
+                "start": int(round(syllable["start"] * 1000)),
+                "text": "--"
+            })
         lyrics.append({
             "start": int(round(syllable["start"] * 1000)),
             "text": syllable["text"]
@@ -78,7 +86,7 @@ lyrics = sorted(lyrics, key=lambda l: l["start"])
 
 # Normalize and print to lilypond syntax
 music["notes"] = lilypond.normalizeNotes(notes, TEMPO, SHORTEST_NOTE)
-lilyString = lilypond.toString(music, lyrics, header)
+lilyString = lilypond.toString(music, lyrics, header, layout)
 
 # pprint([(n["text"], n["note"]) for n in music["notes"][30:50]])
 # sys.exit(1)

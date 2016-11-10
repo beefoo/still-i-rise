@@ -93,8 +93,15 @@ def normalizeNotes(notes, tempo, shortestNote):
 
 # given a list of notes, optional list of lyrics, and an optional header,
 # return a string in lilypond syntax
-def toString(music, lyrics, header):
+def toString(music, lyrics=False, header=False, layout=False):
     ly = ""
+
+    # layout
+    if layout:
+        ly += "\\layout {"
+        for key in layout:
+            ly += "\n  #(%s %s)" % (key, layout[key])
+        ly += "\n}\n"
 
     # header
     if header:
