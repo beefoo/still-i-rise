@@ -33,6 +33,7 @@ print "Quarter note: %s, Measure: %s, Min note: %s" % (quarterMs, measureMs, min
 data = {}
 with open(args.INPUT_FILE) as f:
     data = json.load(f)
+transcript = data["transcript"]
 
 header = {
     "title": "Still I Rise",
@@ -53,13 +54,22 @@ lyrics = []
 # Add syllables
 notes = []
 for i, word in enumerate(data["words"]):
+    firstLetter = transcript[word["startOffset"]]
+    charAfter = transcript[min(word["endOffset"], len(transcript)-1)].strip()
     for j, syllable in enumerate(word["syllables"]):
+        # check for capitalization
+        if j <= 0:
+            syllable["text"] = firstLetter + syllable["text"][1:]
+        # check for punctation
+        if j >= (len(word["syllables"])-1) and not charAfter.isalpha():
+            syllable["text"] += charAfter
         notes.append({
             "note": lilypond.freqToNote(syllable["frequency"], ADJUST_OCTAVE),
             "start": int(round(syllable["start"] * 1000)),
             "end": int(round(syllable["end"] * 1000)),
             "text": syllable["text"]
         })
+        # add syllable dash
         if j > 0:
             lyrics.append({
                 "start": int(round(syllable["start"] * 1000)),
