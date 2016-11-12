@@ -4,7 +4,7 @@ import math
 # import re
 
 # given a frequency, return a note in lilypond syntax
-def freqToNote(freq, adjustOctave=0):
+def freqToNote(freq, adjustOctave=0, maxOctave=7):
     if freq <= 0:
         # frequency <= 0 is invalid
         return "c"
@@ -15,6 +15,7 @@ def freqToNote(freq, adjustOctave=0):
     octave = h / 12
     octave += adjustOctave
     octave = max(octave, 0)
+    octave = min(octave, maxOctave)
     n = h % 12
     return notes[n] + ("'" * octave)
 

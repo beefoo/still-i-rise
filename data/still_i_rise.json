@@ -4470,7 +4470,7 @@
           "text": "drops", 
           "start": 40.51, 
           "intensity": 0.1077448144283425, 
-          "frequency": 0
+          "frequency": 121.03985356077482
         }
       ]
     }, 
@@ -6575,7 +6575,7 @@
           "text": "ful", 
           "start": 65.19, 
           "intensity": 0.3214520290332793, 
-          "frequency": 0
+          "frequency": 105.0569265234632
         }, 
         {
           "end": 65.48, 
@@ -10765,7 +10765,7 @@
           "text": "ral", 
           "start": 122.05, 
           "intensity": 0.044489790381533764, 
-          "frequency": 0
+          "frequency": 105.49876808064126
         }, 
         {
           "end": 122.34, 
@@ -10773,7 +10773,7 @@
           "text": "ly", 
           "start": 122.13, 
           "intensity": 0.027290488513698433, 
-          "frequency": 0
+          "frequency": 105.49876808064126
         }
       ]
     }, 
@@ -10931,7 +10931,7 @@
           "text": "ing", 
           "start": 128.77, 
           "intensity": 0.016889173194492464, 
-          "frequency": 0
+          "frequency": 112.49328926425193
         }
       ]
     }

@@ -79,6 +79,11 @@ for i, word in enumerate(words):
     words[i].update(soundData)
     for j, syllable in enumerate(word["syllables"]):
         soundData = getSoundData(syllable["start"], syllable["end"], frames)
+        # make the previous frequency the current frequency if no frequency
+        if j > 0 and soundData["frequency"] <= 0:
+            soundData["frequency"] = words[i]["syllables"][j-1]["frequency"]
+        elif i > 0 and soundData["frequency"] <= 0:
+            soundData["frequency"] = words[i-1]["syllables"][-1]["frequency"]
         words[i]["syllables"][j].update(soundData)
 
 for i, word in enumerate(nonwords):

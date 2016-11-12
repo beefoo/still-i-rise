@@ -15,6 +15,7 @@ parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", 
 parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.ly", help="Path to output lilypond file")
 parser.add_argument('-tempo', dest="TEMPO", type=int, default=240, help="Tempo in BPM")
 parser.add_argument('-sn', dest="SHORTEST_NOTE", type=int, default=16, help="Smallest note, e.g. 16 = 1/16th note")
+parser.add_argument('-mo', dest="MAX_OCTAVE", type=int, default=3, help="Max octave")
 parser.add_argument('-octave', dest="ADJUST_OCTAVE", type=int, default=-1, help="Amount to adjust octave, e.g. -1 will lower all notes by one octave")
 
 # init input
@@ -22,6 +23,7 @@ args = parser.parse_args()
 TEMPO = args.TEMPO
 SHORTEST_NOTE = args.SHORTEST_NOTE
 ADJUST_OCTAVE = args.ADJUST_OCTAVE
+MAX_OCTAVE = args.MAX_OCTAVE
 
 # note durations in ms
 quarterMs = 60000 / TEMPO
@@ -64,7 +66,7 @@ for i, word in enumerate(data["words"]):
         if j >= (len(word["syllables"])-1) and not charAfter.isalpha():
             syllable["text"] += charAfter
         notes.append({
-            "note": lilypond.freqToNote(syllable["frequency"], ADJUST_OCTAVE),
+            "note": lilypond.freqToNote(syllable["frequency"], ADJUST_OCTAVE, MAX_OCTAVE),
             "start": int(round(syllable["start"] * 1000)),
             "end": int(round(syllable["end"] * 1000)),
             "text": syllable["text"]
@@ -83,7 +85,7 @@ for i, word in enumerate(data["words"]):
 # Add non-words
 for i, word in enumerate(data["nonwords"]):
     notes.append({
-        "note": lilypond.freqToNote(word["frequency"], ADJUST_OCTAVE),
+        "note": lilypond.freqToNote(word["frequency"], ADJUST_OCTAVE, MAX_OCTAVE),
         "start": int(round(word["start"] * 1000)),
         "end": int(round(word["end"] * 1000)),
         "text": "x"
