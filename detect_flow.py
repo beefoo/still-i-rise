@@ -16,7 +16,10 @@ import numpy as np
 from pprint import pprint
 import sys
 
-locale.setlocale(locale.LC_ALL, 'en_US')
+try:
+    locale.setlocale(locale.LC_ALL, 'en_US')
+except locale.Error:
+    locale.setlocale(locale.LC_ALL, 'english-us')
 
 # input
 parser = argparse.ArgumentParser()

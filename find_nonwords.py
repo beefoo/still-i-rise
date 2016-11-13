@@ -9,6 +9,11 @@ from lib.praat import fileToPulseData
 import sys
 import time
 
+try:
+    locale.setlocale(locale.LC_ALL, 'en_US')
+except locale.Error:
+    locale.setlocale(locale.LC_ALL, 'english-us')
+
 # input
 parser = argparse.ArgumentParser()
 parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")

@@ -12,7 +12,10 @@ from pprint import pprint
 import sys
 import time
 
-locale.setlocale(locale.LC_ALL, 'en_US')
+try:
+    locale.setlocale(locale.LC_ALL, 'en_US')
+except locale.Error:
+    locale.setlocale(locale.LC_ALL, 'english-us')
 
 # input
 parser = argparse.ArgumentParser()
