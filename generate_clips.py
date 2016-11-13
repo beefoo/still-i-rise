@@ -138,5 +138,4 @@ for i, clip in enumerate(clips):
     finished = subprocess.check_call(command)
 
     # delete temp file
-    command = ['rm', fnameTmp]
-    subprocess.call(command)
+    os.remove(fnameTmp)
