@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Annotate Audio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/annotate.css">
+</head>
+<body>
+
+  <div id="main" class="container">
+
+    <div class="component-group">
+      <button class="play-audio">Play audio</button>
+      <button class="play-notes">Play notes</button>
+      <button class="play-both">Play both</button>
+    </div>
+
+    <div id="annotations" class="annotations"></div>
+
+    <div class="component-group">
+      <button class="previous">Previous</button>
+      <select id="index" class="index">
+        <option value="-1">Jump to...</option>
+      </select>
+      <button class="next">Next</button>
+    </div>
+
+  </div>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/howler.min.js"></script>
+  <script src="js/audiosynth.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/annotate.js"></script>
+</body>
+</html>

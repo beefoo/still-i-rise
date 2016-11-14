@@ -1,0 +1,27 @@
+@import url("normalize.css");
+
+body {
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.component-group {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+.component-group > * {
+  flex-grow: 1;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
