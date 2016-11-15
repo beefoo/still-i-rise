@@ -100,6 +100,14 @@ var Annotate = (function() {
     $('.download').on('click', function(e){ _this.download(); });
   };
 
+  Annotate.prototype.loadSegments = function(segments){
+    // add segments to index
+    var $index = $('#index');
+    $.each(segments, function(i, segment){
+      $index.append('<option value="'+i+'">'+segment.label+'</option>');
+    });
+  };
+
   Annotate.prototype.onLoad = function(originalData, serverAnnotations, localAnnotations){
     var audioPath = this.opt.audioPath;
     var annotations = $.extend({}, serverAnnotations, localAnnotations);
@@ -150,12 +158,7 @@ var Annotate = (function() {
     this.annotations = annotations;
     this.segments = segments;
 
-    // add segments to index
-    var $index = $('#index');
-    $.each(segments, function(i, segment){
-      $index.append('<option value="'+i+'">'+segment.label+'</option>');
-    });
-
+    this.loadSegments(segments);
     this.loadListeners();
     this.goNext();
   };
