@@ -39,7 +39,7 @@ button {
   padding: 0.35rem;
 }
 .annotation label,
-.annotation input {
+.annotation select {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -48,6 +48,6 @@ button {
 .annotation label {
   white-space: nowrap;
 }
-.annotation input {
+.annotation select {
   text-indent: 0.2rem;
 }

@@ -248,482 +248,370 @@
   ], 
   "lines": [
     {
-      "end": 3.58, 
-      "name": "line_000_1", 
-      "endOffset": 32, 
       "text": "You may write me down in history", 
+      "end": 3.58, 
       "start": 1.23, 
-      "intensity": 0.6294539927140179, 
-      "frequency": 141.41512309509835, 
-      "startOffset": 0
+      "startOffset": 0, 
+      "endOffset": 32
     }, 
     {
-      "end": 5.58, 
-      "name": "line_001_3", 
-      "endOffset": 64, 
       "text": "With your bitter, twisted lies", 
+      "end": 5.58, 
       "start": 3.75, 
-      "intensity": 0.368108956899503, 
-      "frequency": 111.30988091152813, 
-      "startOffset": 34
+      "startOffset": 34, 
+      "endOffset": 64
     }, 
     {
-      "end": 8.3, 
-      "name": "line_002_6", 
-      "endOffset": 99, 
       "text": "You may trod me in the very dirt", 
+      "end": 8.3, 
       "start": 6.02, 
-      "intensity": 0.4904050668319789, 
-      "frequency": 135.199392885596, 
-      "startOffset": 67
+      "startOffset": 67, 
+      "endOffset": 99
     }, 
     {
-      "end": 12.17, 
-      "name": "line_003_8", 
-      "endOffset": 132, 
       "text": "But still, like dust, I'll rise", 
+      "end": 12.17, 
       "start": 8.62, 
-      "intensity": 0.1743043319821725, 
-      "frequency": 122.14279570645917, 
-      "startOffset": 101
+      "startOffset": 101, 
+      "endOffset": 132
     }, 
     {
+      "text": "Does my sassiness upset you", 
       "end": 14.85, 
-      "name": "line_004_12", 
-      "endOffset": 164, 
-      "text": "Does my sassiness upset you", 
       "start": 12.76, 
-      "intensity": 0.37475832905534856, 
-      "frequency": 115.3011535609642, 
-      "startOffset": 137
+      "startOffset": 137, 
+      "endOffset": 164
     }, 
     {
-      "end": 17.19, 
-      "name": "line_005_15", 
-      "endOffset": 195, 
       "text": "Why are you beset with gloom", 
+      "end": 17.19, 
       "start": 15.26, 
-      "intensity": 0.5223345461177255, 
-      "frequency": 129.25441165636101, 
-      "startOffset": 167
+      "startOffset": 167, 
+      "endOffset": 195
     }, 
     {
-      "end": 20.89, 
-      "name": "line_006_17", 
-      "endOffset": 239, 
       "text": "Just \u2018cause I walk as if I have oil wells", 
+      "end": 20.89, 
       "start": 17.48, 
-      "intensity": 0.4132055122283589, 
-      "frequency": 130.82726011197374, 
-      "startOffset": 198
+      "startOffset": 198, 
+      "endOffset": 239
     }, 
     {
-      "end": 23.06, 
-      "name": "line_007_21", 
-      "endOffset": 266, 
       "text": "Pumping in my living room", 
+      "end": 23.06, 
       "start": 21.26, 
-      "intensity": 0.38238950555068846, 
-      "frequency": 117.34939119898213, 
-      "startOffset": 241
+      "startOffset": 241, 
+      "endOffset": 266
     }, 
     {
-      "end": 26.07, 
-      "name": "line_008_23", 
-      "endOffset": 300, 
       "text": "Just like suns and like moons", 
+      "end": 26.07, 
       "start": 23.59, 
-      "intensity": 0.4784284016421457, 
-      "frequency": 129.8441976871305, 
-      "startOffset": 271
+      "startOffset": 271, 
+      "endOffset": 300
     }, 
     {
-      "end": 28.85, 
-      "name": "line_009_26", 
-      "endOffset": 330, 
       "text": "With the certainty of tides", 
+      "end": 28.85, 
       "start": 26.34, 
-      "intensity": 0.2815372068851886, 
-      "frequency": 123.63224777424365, 
-      "startOffset": 303
+      "startOffset": 303, 
+      "endOffset": 330
     }, 
     {
-      "end": 31.12, 
-      "name": "line_010_29", 
-      "endOffset": 363, 
       "text": "Just like hopes springing high", 
+      "end": 31.12, 
       "start": 29.09, 
-      "intensity": 0.3615954657980536, 
-      "frequency": 117.17168658785499, 
-      "startOffset": 333
+      "startOffset": 333, 
+      "endOffset": 363
     }, 
     {
-      "end": 33.11, 
-      "name": "line_011_31", 
-      "endOffset": 381, 
       "text": "Still I'll rise", 
+      "end": 33.11, 
       "start": 31.81, 
-      "intensity": 0.21012950403969155, 
-      "frequency": 111.06037373444823, 
-      "startOffset": 366
+      "startOffset": 366, 
+      "endOffset": 381
     }, 
     {
-      "end": 35.34, 
-      "name": "line_012_33", 
-      "endOffset": 415, 
       "text": "Did you want to see me broken", 
+      "end": 35.34, 
       "start": 33.71, 
-      "intensity": 0.44865321619450627, 
-      "frequency": 125.95833002876188, 
-      "startOffset": 386
+      "startOffset": 386, 
+      "endOffset": 415
     }, 
     {
-      "end": 38.28, 
-      "name": "line_013_35", 
-      "endOffset": 445, 
       "text": "Bowed head and lowered eyes", 
+      "end": 38.28, 
       "start": 35.76, 
-      "intensity": 0.5090047194080879, 
-      "frequency": 128.92839447276202, 
-      "startOffset": 418
+      "startOffset": 418, 
+      "endOffset": 445
     }, 
     {
-      "end": 40.99, 
-      "name": "line_014_38", 
-      "endOffset": 485, 
       "text": "Shoulders falling down like teardrops", 
+      "end": 40.99, 
       "start": 38.5, 
-      "intensity": 0.4219906017053003, 
-      "frequency": 125.12853423938543, 
-      "startOffset": 448
+      "startOffset": 448, 
+      "endOffset": 485
     }, 
     {
-      "end": 43.87, 
-      "name": "line_015_41", 
-      "endOffset": 516, 
       "text": "Weakened by my soulful cries", 
+      "end": 43.87, 
       "start": 41.35, 
-      "intensity": 0.39087470952410136, 
-      "frequency": 112.08300021619816, 
-      "startOffset": 488
+      "startOffset": 488, 
+      "endOffset": 516
     }, 
     {
-      "end": 46.56, 
-      "name": "line_016_44", 
-      "endOffset": 548, 
       "text": "Does my sassiness upset you", 
+      "end": 46.56, 
       "start": 44.44, 
-      "intensity": 0.30993157472950844, 
-      "frequency": 106.17435572189213, 
-      "startOffset": 521
+      "startOffset": 521, 
+      "endOffset": 548
     }, 
     {
-      "end": 49.08, 
-      "name": "line_017_47", 
-      "endOffset": 572, 
       "text": "Don't take it so hard", 
+      "end": 49.08, 
       "start": 47.82, 
-      "intensity": 0.6373653494525671, 
-      "frequency": 116.6127122571882, 
-      "startOffset": 551
+      "startOffset": 551, 
+      "endOffset": 572
     }, 
     {
-      "end": 55.88, 
-      "name": "line_018_49", 
-      "endOffset": 617, 
       "text": "Just \u2018cause I laugh as if I have gold mines", 
+      "end": 55.88, 
       "start": 49.08, 
-      "intensity": 0.24778322055243676, 
-      "frequency": 111.42225106572539, 
-      "startOffset": 574
+      "startOffset": 574, 
+      "endOffset": 617
     }, 
     {
-      "end": 57.97, 
-      "name": "line_019_55", 
-      "endOffset": 645, 
       "text": "Diggin' in my own backyard", 
+      "end": 57.97, 
       "start": 55.88, 
-      "intensity": 0.3019107608046734, 
-      "frequency": 97.1010392964111, 
-      "startOffset": 619
+      "startOffset": 619, 
+      "endOffset": 645
     }, 
     {
-      "end": 60.83, 
-      "name": "line_020_58", 
-      "endOffset": 682, 
       "text": "You can shoot me with your words", 
+      "end": 60.83, 
       "start": 58.76, 
-      "intensity": 0.4882784000602483, 
-      "frequency": 132.48238768321923, 
-      "startOffset": 650
+      "startOffset": 650, 
+      "endOffset": 682
     }, 
     {
-      "end": 63.14, 
-      "name": "line_021_61", 
-      "endOffset": 714, 
       "text": "You can cut me with your lies", 
+      "end": 63.14, 
       "start": 61.09, 
-      "intensity": 0.4748592335709409, 
-      "frequency": 127.402150915982, 
-      "startOffset": 685
+      "startOffset": 685, 
+      "endOffset": 714
     }, 
     {
-      "end": 65.48, 
-      "name": "line_022_63", 
-      "endOffset": 754, 
       "text": "You can kill me with your hatefulness", 
+      "end": 65.48, 
       "start": 63.41, 
-      "intensity": 0.3822869134407793, 
-      "frequency": 114.27132122982266, 
-      "startOffset": 717
+      "startOffset": 717, 
+      "endOffset": 754
     }, 
     {
-      "end": 68.95, 
-      "name": "line_023_65", 
-      "endOffset": 786, 
       "text": "But just like life, I'll rise", 
+      "end": 68.95, 
       "start": 65.82, 
-      "intensity": 0.2177470166695044, 
-      "frequency": 120.89226188976454, 
-      "startOffset": 757
+      "startOffset": 757, 
+      "endOffset": 786
     }, 
     {
-      "end": 71.79, 
-      "name": "line_024_69", 
-      "endOffset": 818, 
       "text": "Does my sexiness offend you", 
+      "end": 71.79, 
       "start": 69.83, 
-      "intensity": 0.36843758605542476, 
-      "frequency": 139.63572583682244, 
-      "startOffset": 791
+      "startOffset": 791, 
+      "endOffset": 818
     }, 
     {
-      "end": 75.61, 
-      "name": "line_025_73", 
-      "endOffset": 847, 
       "text": "Does it come as a surprise", 
+      "end": 75.61, 
       "start": 73.65, 
-      "intensity": 0.4899148151101304, 
-      "frequency": 124.37623508117086, 
-      "startOffset": 821
+      "startOffset": 821, 
+      "endOffset": 847
     }, 
     {
-      "end": 82.47, 
-      "name": "line_026_75", 
-      "endOffset": 883, 
       "text": "That I dance as if I have diamonds", 
+      "end": 82.47, 
       "start": 75.93, 
-      "intensity": 0.17409197288982617, 
-      "frequency": 112.19429951780032, 
-      "startOffset": 849
+      "startOffset": 849, 
+      "endOffset": 883
     }, 
     {
-      "end": 84.24, 
-      "name": "line_027_82", 
-      "endOffset": 912, 
       "text": "At the meeting of my thighs", 
+      "end": 84.24, 
       "start": 82.5, 
-      "intensity": 0.2791304764858688, 
-      "frequency": 100.21443664347775, 
-      "startOffset": 885
+      "startOffset": 885, 
+      "endOffset": 912
     }, 
     {
-      "end": 87.03, 
-      "name": "line_028_85", 
-      "endOffset": 951, 
       "text": "Out of the huts of history's shame", 
+      "end": 87.03, 
       "start": 85.16, 
-      "intensity": 0.5529637964181662, 
-      "frequency": 130.06110393624854, 
-      "startOffset": 917
+      "startOffset": 917, 
+      "endOffset": 951
     }, 
     {
+      "text": "I rise", 
       "end": 87.87, 
-      "name": "line_029_87", 
-      "endOffset": 959, 
-      "text": "I rise", 
       "start": 87.03, 
-      "intensity": 0.32180460947256573, 
-      "frequency": 102.61717347927656, 
-      "startOffset": 953
+      "startOffset": 953, 
+      "endOffset": 959
     }, 
     {
-      "end": 90.58, 
-      "name": "line_030_88", 
-      "endOffset": 990, 
       "text": "Up from a past rooted in pain", 
+      "end": 90.58, 
       "start": 88.51, 
-      "intensity": 0.526884308996081, 
-      "frequency": 129.91607608637332, 
-      "startOffset": 961
+      "startOffset": 961, 
+      "endOffset": 990
     }, 
     {
+      "text": "I rise", 
       "end": 91.47, 
-      "name": "line_031_90", 
-      "endOffset": 998, 
-      "text": "I rise", 
       "start": 90.58, 
-      "intensity": 0.2951314940753486, 
-      "frequency": 100.43604142075526, 
-      "startOffset": 992
+      "startOffset": 992, 
+      "endOffset": 998
     }, 
     {
-      "end": 94.74, 
-      "name": "line_032_91", 
-      "endOffset": 1031, 
       "text": "A black ocean, leaping and wide", 
+      "end": 94.74, 
       "start": 91.99, 
-      "intensity": 0.5140407881740048, 
-      "frequency": 127.01158135839339, 
-      "startOffset": 1000
+      "startOffset": 1000, 
+      "endOffset": 1031
     }, 
     {
-      "end": 99.58, 
-      "name": "line_033_95", 
-      "endOffset": 1073, 
       "text": "Welling and swelling I bear in the tide", 
+      "end": 99.58, 
       "start": 95.27, 
-      "intensity": 0.3416095938248254, 
-      "frequency": 118.81017481234778, 
-      "startOffset": 1034
+      "startOffset": 1034, 
+      "endOffset": 1073
     }, 
     {
-      "end": 103.44, 
-      "name": "line_034_100", 
-      "endOffset": 1118, 
       "text": "Leaving behind nights of terror and fear", 
+      "end": 103.44, 
       "start": 100.36, 
-      "intensity": 0.5221728498148321, 
-      "frequency": 129.1199304280358, 
-      "startOffset": 1078
+      "startOffset": 1078, 
+      "endOffset": 1118
     }, 
     {
+      "text": "I rise", 
       "end": 104.94, 
-      "name": "line_035_103", 
-      "endOffset": 1126, 
-      "text": "I rise", 
       "start": 103.72, 
-      "intensity": 0.20024366629680715, 
-      "frequency": 112.62174530149683, 
-      "startOffset": 1120
+      "startOffset": 1120, 
+      "endOffset": 1126
     }, 
     {
-      "end": 108.15, 
-      "name": "line_036_105", 
-      "endOffset": 1162, 
       "text": "Into a daybreak miraculously clear", 
+      "end": 108.15, 
       "start": 105.44, 
-      "intensity": 0.5268815895956313, 
-      "frequency": 138.0254553254212, 
-      "startOffset": 1128
+      "startOffset": 1128, 
+      "endOffset": 1162
     }, 
     {
-      "end": 109.8, 
-      "name": "line_037_108", 
-      "endOffset": 1170, 
       "text": "I rise", 
+      "end": 109.8, 
       "start": 108.58, 
-      "intensity": 0.22030094698546449, 
-      "frequency": 103.57677641133425, 
-      "startOffset": 1164
+      "startOffset": 1164, 
+      "endOffset": 1170
     }, 
     {
-      "end": 113.57, 
-      "name": "line_038_110", 
-      "endOffset": 1213, 
       "text": "Bringing the gifts that my ancestors gave", 
+      "end": 113.57, 
       "start": 110.35, 
-      "intensity": 0.4548278724945595, 
-      "frequency": 122.00389448736449, 
-      "startOffset": 1172
+      "startOffset": 1172, 
+      "endOffset": 1213
     }, 
     {
-      "end": 118.87, 
-      "name": "line_039_114", 
-      "endOffset": 1256, 
       "text": "I am the hope and the dream of the slave", 
+      "end": 118.87, 
       "start": 114.35, 
-      "intensity": 0.33262959203819104, 
-      "frequency": 123.19106127155041, 
-      "startOffset": 1216
+      "startOffset": 1216, 
+      "endOffset": 1256
     }, 
     {
-      "end": 120.77, 
-      "name": "line_040_119", 
-      "endOffset": 1265, 
       "text": "And so", 
+      "end": 120.77, 
       "start": 119.64, 
-      "intensity": 0.16368836111150895, 
-      "frequency": 121.63712861391011, 
-      "startOffset": 1259
+      "startOffset": 1259, 
+      "endOffset": 1265
     }, 
     {
-      "end": 122.34, 
-      "name": "line_041_121", 
-      "endOffset": 1276, 
       "text": "Naturally", 
+      "end": 122.34, 
       "start": 121.3, 
-      "intensity": 0.11663960797911475, 
-      "frequency": 110.34513039341812, 
-      "startOffset": 1267
+      "startOffset": 1267, 
+      "endOffset": 1276
+    }, 
+    {
+      "text": "There I go rising", 
+      "end": 129.39, 
+      "start": 127.65, 
+      "startOffset": 1278, 
+      "endOffset": 1295
     }
   ], 
   "verses": [
     {
       "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
-      "endOffset": 132, 
       "end": 12.17, 
+      "start": 1.23, 
       "startOffset": 0, 
-      "start": 1.23
+      "endOffset": 132
     }, 
     {
       "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
-      "endOffset": 266, 
       "end": 23.06, 
+      "start": 12.76, 
       "startOffset": 137, 
-      "start": 12.76
+      "endOffset": 266
     }, 
     {
       "text": "Just like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise", 
-      "endOffset": 381, 
       "end": 33.11, 
+      "start": 23.59, 
       "startOffset": 271, 
-      "start": 23.59
+      "endOffset": 381
     }, 
     {
       "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
-      "endOffset": 516, 
       "end": 43.87, 
+      "start": 33.71, 
       "startOffset": 386, 
-      "start": 33.71
+      "endOffset": 516
     }, 
     {
       "text": "Does my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard", 
-      "endOffset": 645, 
       "end": 57.97, 
+      "start": 44.44, 
       "startOffset": 521, 
-      "start": 44.44
+      "endOffset": 645
     }, 
     {
       "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
-      "endOffset": 786, 
       "end": 68.95, 
+      "start": 58.76, 
       "startOffset": 650, 
-      "start": 58.76
+      "endOffset": 786
     }, 
     {
       "text": "Does my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs", 
-      "endOffset": 912, 
       "end": 84.24, 
+      "start": 69.83, 
       "startOffset": 791, 
-      "start": 69.83
+      "endOffset": 912
     }, 
     {
       "text": "Out of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide", 
-      "endOffset": 1073, 
       "end": 99.58, 
+      "start": 85.16, 
       "startOffset": 917, 
-      "start": 85.16
+      "endOffset": 1073
+    }, 
+    {
+      "text": "Leaving behind nights of terror and fear\r\nI rise\r\nInto a daybreak miraculously clear\r\nI rise\r\nBringing the gifts that my ancestors gave,\r\nI am the hope and the dream of the slave.\r\nAnd so\r\nNaturally\r\nThere I go rising", 
+      "end": 129.39, 
+      "start": 100.36, 
+      "startOffset": 1078, 
+      "endOffset": 1295
     }
   ], 
   "nonwords": [
@@ -787,10 +675,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.6899279567373834, 
+      "verse": 0, 
       "alignedWord": "you", 
       "start": 1.23, 
-      "verse": 0, 
+      "intensity": 0.6899279567373834, 
       "frequency": 146.50690290134304, 
       "startOffset": 0, 
       "end": 1.42, 
@@ -822,10 +710,10 @@
           "phone": "ey_E"
         }
       ], 
-      "intensity": 0.9421430128349467, 
+      "verse": 0, 
       "alignedWord": "may", 
       "start": 1.42, 
-      "verse": 0, 
+      "intensity": 0.9421430128349467, 
       "frequency": 149.92443588101355, 
       "startOffset": 4, 
       "end": 1.6, 
@@ -861,10 +749,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.8142381865111836, 
+      "verse": 0, 
       "alignedWord": "write", 
       "start": 1.6, 
-      "verse": 0, 
+      "intensity": 0.8142381865111836, 
       "frequency": 133.43978106185293, 
       "startOffset": 8, 
       "end": 1.92, 
@@ -896,10 +784,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.7639464316214714, 
+      "verse": 0, 
       "alignedWord": "me", 
       "start": 1.96, 
-      "verse": 0, 
+      "intensity": 0.7639464316214714, 
       "frequency": 148.39044783506444, 
       "startOffset": 14, 
       "end": 2.14, 
@@ -935,10 +823,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.8759739726172533, 
+      "verse": 0, 
       "alignedWord": "down", 
       "start": 2.14, 
-      "verse": 0, 
+      "intensity": 0.8759739726172533, 
       "frequency": 150.82722236597056, 
       "startOffset": 17, 
       "end": 2.68, 
@@ -970,10 +858,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.9044862988913046, 
+      "verse": 0, 
       "alignedWord": "in", 
       "start": 2.68, 
-      "verse": 0, 
+      "intensity": 0.9044862988913046, 
       "frequency": 133.70633706333712, 
       "startOffset": 22, 
       "end": 2.83, 
@@ -1023,10 +911,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.21967804625148224, 
+      "verse": 0, 
       "alignedWord": "history", 
       "start": 2.83, 
-      "verse": 0, 
+      "intensity": 0.21967804625148224, 
       "frequency": 134.55347871400394, 
       "startOffset": 25, 
       "end": 3.58, 
@@ -1078,10 +966,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.37738848952401566, 
+      "verse": 0, 
       "alignedWord": "with", 
       "start": 3.75, 
-      "verse": 0, 
+      "intensity": 0.37738848952401566, 
       "frequency": 118.26196102165787, 
       "startOffset": 34, 
       "end": 3.94, 
@@ -1117,10 +1005,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7325599715173471, 
+      "verse": 0, 
       "alignedWord": "your", 
       "start": 3.94, 
-      "verse": 0, 
+      "intensity": 0.7325599715173471, 
       "frequency": 122.69204768481315, 
       "startOffset": 39, 
       "end": 4.09, 
@@ -1161,10 +1049,10 @@
           "phone": "er_E"
         }
       ], 
-      "intensity": 0.5384415533772842, 
+      "verse": 0, 
       "alignedWord": "bitter", 
       "start": 4.09, 
-      "verse": 0, 
+      "intensity": 0.5384415533772842, 
       "frequency": 119.44786768797184, 
       "startOffset": 44, 
       "end": 4.43, 
@@ -1225,10 +1113,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3154391932222971, 
+      "verse": 0, 
       "alignedWord": "twisted", 
       "start": 4.43, 
-      "verse": 0, 
+      "intensity": 0.3154391932222971, 
       "frequency": 109.28108466732074, 
       "startOffset": 52, 
       "end": 4.97, 
@@ -1272,10 +1160,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.22477147341561193, 
+      "verse": 0, 
       "alignedWord": "lies", 
       "start": 4.97, 
-      "verse": 0, 
+      "intensity": 0.22477147341561193, 
       "frequency": 96.33482777457696, 
       "startOffset": 60, 
       "end": 5.58, 
@@ -1307,10 +1195,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.5849656099765423, 
+      "verse": 0, 
       "alignedWord": "you", 
       "start": 6.02, 
-      "verse": 0, 
+      "intensity": 0.5849656099765423, 
       "frequency": 155.4609717440836, 
       "startOffset": 67, 
       "end": 6.21, 
@@ -1342,10 +1230,10 @@
           "phone": "ey_E"
         }
       ], 
-      "intensity": 0.9099806417356614, 
+      "verse": 0, 
       "alignedWord": "may", 
       "start": 6.21, 
-      "verse": 0, 
+      "intensity": 0.9099806417356614, 
       "frequency": 149.67605464071616, 
       "startOffset": 71, 
       "end": 6.44, 
@@ -1385,10 +1273,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.34737009932675517, 
+      "verse": 0, 
       "alignedWord": "trod", 
       "start": 6.44, 
-      "verse": 0, 
+      "intensity": 0.34737009932675517, 
       "frequency": 127.38085142626434, 
       "startOffset": 75, 
       "end": 6.94, 
@@ -1420,10 +1308,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6625560124794446, 
+      "verse": 0, 
       "alignedWord": "me", 
       "start": 6.94, 
-      "verse": 0, 
+      "intensity": 0.6625560124794446, 
       "frequency": 139.14086853346998, 
       "startOffset": 80, 
       "end": 7.2, 
@@ -1455,10 +1343,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6968857204107674, 
+      "verse": 0, 
       "alignedWord": "in", 
       "start": 7.2, 
-      "verse": 0, 
+      "intensity": 0.6968857204107674, 
       "frequency": 136.49188995802407, 
       "startOffset": 83, 
       "end": 7.37, 
@@ -1490,10 +1378,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6376213194808228, 
+      "verse": 0, 
       "alignedWord": "the", 
       "start": 7.37, 
-      "verse": 0, 
+      "intensity": 0.6376213194808228, 
       "frequency": 127.9285723171954, 
       "startOffset": 86, 
       "end": 7.46, 
@@ -1534,10 +1422,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.43601443177663074, 
+      "verse": 0, 
       "alignedWord": "very", 
       "start": 7.46, 
-      "verse": 0, 
+      "intensity": 0.43601443177663074, 
       "frequency": 141.71284386383036, 
       "startOffset": 90, 
       "end": 7.78, 
@@ -1581,10 +1469,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2547776825617919, 
+      "verse": 0, 
       "alignedWord": "dirt", 
       "start": 7.78, 
-      "verse": 0, 
+      "intensity": 0.2547776825617919, 
       "frequency": 114.65653914270065, 
       "startOffset": 95, 
       "end": 8.3, 
@@ -1620,10 +1508,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2759512285701548, 
+      "verse": 0, 
       "alignedWord": "but", 
       "start": 8.62, 
-      "verse": 0, 
+      "intensity": 0.2759512285701548, 
       "frequency": 123.01941357101371, 
       "startOffset": 101, 
       "end": 8.83, 
@@ -1663,10 +1551,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.4367728411960167, 
+      "verse": 0, 
       "alignedWord": "still", 
       "start": 8.83, 
-      "verse": 0, 
+      "intensity": 0.4367728411960167, 
       "frequency": 146.65942849118278, 
       "startOffset": 105, 
       "end": 9.24, 
@@ -1702,10 +1590,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.3974532295020499, 
+      "verse": 0, 
       "alignedWord": "like", 
       "start": 9.24, 
-      "verse": 0, 
+      "intensity": 0.3974532295020499, 
       "frequency": 115.75538269800421, 
       "startOffset": 112, 
       "end": 9.46, 
@@ -1745,10 +1633,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.13640181410594318, 
+      "verse": 0, 
       "alignedWord": "dust", 
       "start": 9.46, 
-      "verse": 0, 
+      "intensity": 0.13640181410594318, 
       "frequency": 120.81518403140785, 
       "startOffset": 117, 
       "end": 10.35, 
@@ -1781,10 +1669,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.2607055996078401, 
+      "verse": 0, 
       "alignedWord": "i'll", 
       "start": 11.04, 
-      "verse": 0, 
+      "intensity": 0.2607055996078401, 
       "frequency": 116.22752446372627, 
       "startOffset": 123, 
       "end": 11.33, 
@@ -1821,10 +1709,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.10088652354407204, 
+      "verse": 0, 
       "alignedWord": "rise", 
       "start": 11.33, 
-      "verse": 0, 
+      "intensity": 0.10088652354407204, 
       "frequency": 114.59811357668505, 
       "startOffset": 128, 
       "end": 12.17, 
@@ -1860,10 +1748,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5347853119245957, 
+      "verse": 1, 
       "alignedWord": "does", 
       "start": 12.76, 
-      "verse": 1, 
+      "intensity": 0.5347853119245957, 
       "frequency": 101.5352780766769, 
       "startOffset": 137, 
       "end": 13.07, 
@@ -1895,10 +1783,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6511291885313188, 
+      "verse": 1, 
       "alignedWord": "my", 
       "start": 13.07, 
-      "verse": 1, 
+      "intensity": 0.6511291885313188, 
       "frequency": 95.4775151956581, 
       "startOffset": 142, 
       "end": 13.31, 
@@ -1953,10 +1841,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.3895050914612938, 
+      "verse": 1, 
       "alignedWord": "sassiness", 
       "start": 13.31, 
-      "verse": 1, 
+      "intensity": 0.3895050914612938, 
       "frequency": 110.53748934044114, 
       "startOffset": 145, 
       "end": 14.09, 
@@ -2017,10 +1905,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27130428314276167, 
+      "verse": 1, 
       "alignedWord": "upset", 
       "start": 14.09, 
-      "verse": 1, 
+      "intensity": 0.27130428314276167, 
       "frequency": 134.3894988488988, 
       "startOffset": 155, 
       "end": 14.47, 
@@ -2060,10 +1948,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.13853587459690644, 
+      "verse": 1, 
       "alignedWord": "you", 
       "start": 14.47, 
-      "verse": 1, 
+      "intensity": 0.13853587459690644, 
       "frequency": 130.09076974319217, 
       "startOffset": 161, 
       "end": 14.85, 
@@ -2095,10 +1983,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6795021971503371, 
+      "verse": 1, 
       "alignedWord": "why", 
       "start": 15.26, 
-      "verse": 1, 
+      "intensity": 0.6795021971503371, 
       "frequency": 137.10187453188425, 
       "startOffset": 167, 
       "end": 15.58, 
@@ -2126,10 +2014,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6784414463789478, 
+      "verse": 1, 
       "alignedWord": "are", 
       "start": 15.58, 
-      "verse": 1, 
+      "intensity": 0.6784414463789478, 
       "frequency": 116.30747495390955, 
       "startOffset": 171, 
       "end": 15.72, 
@@ -2161,10 +2049,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.69509799537606, 
+      "verse": 1, 
       "alignedWord": "you", 
       "start": 15.72, 
-      "verse": 1, 
+      "intensity": 0.69509799537606, 
       "frequency": 101.64253826235063, 
       "startOffset": 175, 
       "end": 15.92, 
@@ -2209,10 +2097,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4748372740964451, 
+      "verse": 1, 
       "alignedWord": "beset", 
       "start": 15.92, 
-      "verse": 1, 
+      "intensity": 0.4748372740964451, 
       "frequency": 147.01749701277146, 
       "startOffset": 179, 
       "end": 16.31, 
@@ -2256,10 +2144,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.4696457559010041, 
+      "verse": 1, 
       "alignedWord": "with", 
       "start": 16.31, 
-      "verse": 1, 
+      "intensity": 0.4696457559010041, 
       "frequency": 116.74220782663915, 
       "startOffset": 185, 
       "end": 16.46, 
@@ -2299,10 +2187,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.4189370528921588, 
+      "verse": 1, 
       "alignedWord": "gloom", 
       "start": 16.49, 
-      "verse": 1, 
+      "intensity": 0.4189370528921588, 
       "frequency": 129.31039508026933, 
       "startOffset": 190, 
       "end": 17.19, 
@@ -2342,10 +2230,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3035300527133321, 
+      "verse": 1, 
       "alignedWord": "just", 
       "start": 17.48, 
-      "verse": 1, 
+      "intensity": 0.3035300527133321, 
       "frequency": 149.7644648948804, 
       "startOffset": 198, 
       "end": 17.77, 
@@ -2381,10 +2269,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.48178918110643304, 
+      "verse": 1, 
       "alignedWord": "cause", 
       "start": 17.77, 
-      "verse": 1, 
+      "intensity": 0.48178918110643304, 
       "frequency": 143.8469912386178, 
       "startOffset": 204, 
       "end": 18.05, 
@@ -2412,10 +2300,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7806243037186663, 
+      "verse": 1, 
       "alignedWord": "i", 
       "start": 18.05, 
-      "verse": 1, 
+      "intensity": 0.7806243037186663, 
       "frequency": 118.99090110071414, 
       "startOffset": 210, 
       "end": 18.27, 
@@ -2451,10 +2339,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.3999614899105301, 
+      "verse": 1, 
       "alignedWord": "walk", 
       "start": 18.3, 
-      "verse": 1, 
+      "intensity": 0.3999614899105301, 
       "frequency": 129.82458739038069, 
       "startOffset": 212, 
       "end": 18.81, 
@@ -2486,10 +2374,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5170950426519324, 
+      "verse": 1, 
       "alignedWord": "as", 
       "start": 18.81, 
-      "verse": 1, 
+      "intensity": 0.5170950426519324, 
       "frequency": 116.20464806222296, 
       "startOffset": 217, 
       "end": 19.0, 
@@ -2521,10 +2409,10 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.42685120880797567, 
+      "verse": 1, 
       "alignedWord": "if", 
       "start": 19.0, 
-      "verse": 1, 
+      "intensity": 0.42685120880797567, 
       "frequency": 136.56441516021903, 
       "startOffset": 220, 
       "end": 19.28, 
@@ -2552,10 +2440,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7516673485406912, 
+      "verse": 1, 
       "alignedWord": "i", 
       "start": 19.28, 
-      "verse": 1, 
+      "intensity": 0.7516673485406912, 
       "frequency": 121.02370972773627, 
       "startOffset": 223, 
       "end": 19.45, 
@@ -2591,10 +2479,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4026009701415039, 
+      "verse": 1, 
       "alignedWord": "have", 
       "start": 19.45, 
-      "verse": 1, 
+      "intensity": 0.4026009701415039, 
       "frequency": 110.61682290421815, 
       "startOffset": 225, 
       "end": 19.74, 
@@ -2626,10 +2514,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.44354235248240664, 
+      "verse": 1, 
       "alignedWord": "oil", 
       "start": 19.78, 
-      "verse": 1, 
+      "intensity": 0.44354235248240664, 
       "frequency": 147.95209839620924, 
       "startOffset": 230, 
       "end": 20.22, 
@@ -2669,10 +2557,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2041910631620763, 
+      "verse": 1, 
       "alignedWord": "wells", 
       "start": 20.22, 
-      "verse": 1, 
+      "intensity": 0.2041910631620763, 
       "frequency": 125.63000287448382, 
       "startOffset": 234, 
       "end": 20.89, 
@@ -2721,10 +2609,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.509915081721098, 
+      "verse": 1, 
       "alignedWord": "pumping", 
       "start": 21.26, 
-      "verse": 1, 
+      "intensity": 0.509915081721098, 
       "frequency": 130.73277271446014, 
       "startOffset": 241, 
       "end": 21.68, 
@@ -2764,10 +2652,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.7288507641711364, 
+      "verse": 1, 
       "alignedWord": "in", 
       "start": 21.68, 
-      "verse": 1, 
+      "intensity": 0.7288507641711364, 
       "frequency": 119.13779348018312, 
       "startOffset": 249, 
       "end": 21.84, 
@@ -2799,10 +2687,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5418027500638404, 
+      "verse": 1, 
       "alignedWord": "my", 
       "start": 21.84, 
-      "verse": 1, 
+      "intensity": 0.5418027500638404, 
       "frequency": 110.86244136630762, 
       "startOffset": 252, 
       "end": 22.09, 
@@ -2847,10 +2735,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.37988762242195806, 
+      "verse": 1, 
       "alignedWord": "living", 
       "start": 22.09, 
-      "verse": 1, 
+      "intensity": 0.37988762242195806, 
       "frequency": 99.65436174426804, 
       "startOffset": 255, 
       "end": 22.53, 
@@ -2894,10 +2782,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.10772901126108061, 
+      "verse": 1, 
       "alignedWord": "room", 
       "start": 22.53, 
-      "verse": 1, 
+      "intensity": 0.10772901126108061, 
       "frequency": 145.77699936170612, 
       "startOffset": 262, 
       "end": 23.06, 
@@ -2937,10 +2825,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27428032486407333, 
+      "verse": 2, 
       "alignedWord": "just", 
       "start": 23.59, 
-      "verse": 2, 
+      "intensity": 0.27428032486407333, 
       "frequency": 161.86319640888274, 
       "startOffset": 271, 
       "end": 23.93, 
@@ -2976,10 +2864,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.594211133149696, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 23.93, 
-      "verse": 2, 
+      "intensity": 0.594211133149696, 
       "frequency": 128.49943304554046, 
       "startOffset": 276, 
       "end": 24.16, 
@@ -3019,10 +2907,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5381348077995378, 
+      "verse": 2, 
       "alignedWord": "suns", 
       "start": 24.16, 
-      "verse": 2, 
+      "intensity": 0.5381348077995378, 
       "frequency": 128.59780425258393, 
       "startOffset": 281, 
       "end": 24.78, 
@@ -3058,10 +2946,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.786025902241684, 
+      "verse": 2, 
       "alignedWord": "and", 
       "start": 24.78, 
-      "verse": 2, 
+      "intensity": 0.786025902241684, 
       "frequency": 132.0160295343525, 
       "startOffset": 286, 
       "end": 25.02, 
@@ -3097,10 +2985,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.6119452801551046, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 25.02, 
-      "verse": 2, 
+      "intensity": 0.6119452801551046, 
       "frequency": 117.28364405155013, 
       "startOffset": 290, 
       "end": 25.26, 
@@ -3140,10 +3028,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3577228096859111, 
+      "verse": 2, 
       "alignedWord": "moons", 
       "start": 25.26, 
-      "verse": 2, 
+      "intensity": 0.3577228096859111, 
       "frequency": 122.40949197878871, 
       "startOffset": 295, 
       "end": 26.07, 
@@ -3179,10 +3067,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.38959952240295903, 
+      "verse": 2, 
       "alignedWord": "with", 
       "start": 26.34, 
-      "verse": 2, 
+      "intensity": 0.38959952240295903, 
       "frequency": 140.52587328594203, 
       "startOffset": 303, 
       "end": 26.54, 
@@ -3214,10 +3102,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.5023885988457724, 
+      "verse": 2, 
       "alignedWord": "the", 
       "start": 26.54, 
-      "verse": 2, 
+      "intensity": 0.5023885988457724, 
       "frequency": 138.87424902515434, 
       "startOffset": 308, 
       "end": 26.68, 
@@ -3271,10 +3159,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.3919898055673623, 
+      "verse": 2, 
       "alignedWord": "certainty", 
       "start": 26.68, 
-      "verse": 2, 
+      "intensity": 0.3919898055673623, 
       "frequency": 114.89245176365435, 
       "startOffset": 312, 
       "end": 27.57, 
@@ -3322,10 +3210,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.29353088599938354, 
+      "verse": 2, 
       "alignedWord": "of", 
       "start": 27.78, 
-      "verse": 2, 
+      "intensity": 0.29353088599938354, 
       "frequency": 122.40086167863791, 
       "startOffset": 322, 
       "end": 27.98, 
@@ -3365,10 +3253,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.164549355295614, 
+      "verse": 2, 
       "alignedWord": "tides", 
       "start": 27.98, 
-      "verse": 2, 
+      "intensity": 0.164549355295614, 
       "frequency": 129.18893497785652, 
       "startOffset": 325, 
       "end": 28.85, 
@@ -3408,10 +3296,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3099560309027538, 
+      "verse": 2, 
       "alignedWord": "just", 
       "start": 29.09, 
-      "verse": 2, 
+      "intensity": 0.3099560309027538, 
       "frequency": 157.36126142311318, 
       "startOffset": 333, 
       "end": 29.4, 
@@ -3447,10 +3335,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.6191671890557615, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 29.4, 
-      "verse": 2, 
+      "intensity": 0.6191671890557615, 
       "frequency": 137.101157850166, 
       "startOffset": 338, 
       "end": 29.65, 
@@ -3490,10 +3378,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.31080441744099013, 
+      "verse": 2, 
       "alignedWord": "hopes", 
       "start": 29.65, 
-      "verse": 2, 
+      "intensity": 0.31080441744099013, 
       "frequency": 108.61667258140048, 
       "startOffset": 343, 
       "end": 30.12, 
@@ -3546,10 +3434,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.47397827901920986, 
+      "verse": 2, 
       "alignedWord": "springing", 
       "start": 30.12, 
-      "verse": 2, 
+      "intensity": 0.47397827901920986, 
       "frequency": 106.17476800887829, 
       "startOffset": 349, 
       "end": 30.6, 
@@ -3589,10 +3477,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.21083999735450004, 
+      "verse": 2, 
       "alignedWord": "high", 
       "start": 30.6, 
-      "verse": 2, 
+      "intensity": 0.21083999735450004, 
       "frequency": 99.6470593216156, 
       "startOffset": 359, 
       "end": 31.12, 
@@ -3632,10 +3520,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.30837372633099924, 
+      "verse": 2, 
       "alignedWord": "still", 
       "start": 31.81, 
-      "verse": 2, 
+      "intensity": 0.30837372633099924, 
       "frequency": 110.70209169672403, 
       "startOffset": 366, 
       "end": 32.25, 
@@ -3667,10 +3555,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.5243667962458148, 
+      "verse": 2, 
       "alignedWord": "i'll", 
       "start": 32.25, 
-      "verse": 2, 
+      "intensity": 0.5243667962458148, 
       "frequency": 107.42663970216567, 
       "startOffset": 372, 
       "end": 32.39, 
@@ -3706,10 +3594,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.08894719454899915, 
+      "verse": 2, 
       "alignedWord": "rise", 
       "start": 32.39, 
-      "verse": 2, 
+      "intensity": 0.08894719454899915, 
       "frequency": 114.52638569634652, 
       "startOffset": 377, 
       "end": 33.11, 
@@ -3745,10 +3633,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.40668699162648136, 
+      "verse": 3, 
       "alignedWord": "did", 
       "start": 33.71, 
-      "verse": 3, 
+      "intensity": 0.40668699162648136, 
       "frequency": 100.20365880899683, 
       "startOffset": 386, 
       "end": 33.92, 
@@ -3780,10 +3668,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.7238694680474438, 
+      "verse": 3, 
       "alignedWord": "you", 
       "start": 33.92, 
-      "verse": 3, 
+      "intensity": 0.7238694680474438, 
       "frequency": 104.9467775102551, 
       "startOffset": 390, 
       "end": 34.01, 
@@ -3823,10 +3711,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.7406320339446819, 
+      "verse": 3, 
       "alignedWord": "want", 
       "start": 34.01, 
-      "verse": 3, 
+      "intensity": 0.7406320339446819, 
       "frequency": 119.41197271876308, 
       "startOffset": 394, 
       "end": 34.24, 
@@ -3858,10 +3746,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.22852107434594762, 
+      "verse": 3, 
       "alignedWord": "to", 
       "start": 34.24, 
-      "verse": 3, 
+      "intensity": 0.22852107434594762, 
       "frequency": 104.91828863246769, 
       "startOffset": 399, 
       "end": 34.35, 
@@ -3893,10 +3781,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.4036385304125926, 
+      "verse": 3, 
       "alignedWord": "see", 
       "start": 34.35, 
-      "verse": 3, 
+      "intensity": 0.4036385304125926, 
       "frequency": 102.35537754898732, 
       "startOffset": 402, 
       "end": 34.52, 
@@ -3928,10 +3816,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6417082885717678, 
+      "verse": 3, 
       "alignedWord": "me", 
       "start": 34.52, 
-      "verse": 3, 
+      "intensity": 0.6417082885717678, 
       "frequency": 135.78221385334098, 
       "startOffset": 406, 
       "end": 34.69, 
@@ -3980,10 +3868,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.32208838104349885, 
+      "verse": 3, 
       "alignedWord": "broken", 
       "start": 34.69, 
-      "verse": 3, 
+      "intensity": 0.32208838104349885, 
       "frequency": 143.28289020230523, 
       "startOffset": 409, 
       "end": 35.34, 
@@ -4027,10 +3915,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6146905803643165, 
+      "verse": 3, 
       "alignedWord": "bowed", 
       "start": 35.76, 
-      "verse": 3, 
+      "intensity": 0.6146905803643165, 
       "frequency": 130.6694980286267, 
       "startOffset": 418, 
       "end": 36.4, 
@@ -4066,10 +3954,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.7544676977187759, 
+      "verse": 3, 
       "alignedWord": "head", 
       "start": 36.4, 
-      "verse": 3, 
+      "intensity": 0.7544676977187759, 
       "frequency": 140.12945616262306, 
       "startOffset": 424, 
       "end": 36.75, 
@@ -4105,10 +3993,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5742173958722737, 
+      "verse": 3, 
       "alignedWord": "and", 
       "start": 36.75, 
-      "verse": 3, 
+      "intensity": 0.5742173958722737, 
       "frequency": 115.56944691535399, 
       "startOffset": 429, 
       "end": 36.97, 
@@ -4149,10 +4037,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5906418599664434, 
+      "verse": 3, 
       "alignedWord": "lowered", 
       "start": 36.97, 
-      "verse": 3, 
+      "intensity": 0.5906418599664434, 
       "frequency": 126.85749918056366, 
       "startOffset": 433, 
       "end": 37.46, 
@@ -4192,10 +4080,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2540082809293501, 
+      "verse": 3, 
       "alignedWord": "eyes", 
       "start": 37.46, 
-      "verse": 3, 
+      "intensity": 0.2540082809293501, 
       "frequency": 126.72151187089634, 
       "startOffset": 441, 
       "end": 38.28, 
@@ -4244,10 +4132,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5354681165451658, 
+      "verse": 3, 
       "alignedWord": "shoulders", 
       "start": 38.5, 
-      "verse": 3, 
+      "intensity": 0.5354681165451658, 
       "frequency": 137.18867518198337, 
       "startOffset": 448, 
       "end": 39.09, 
@@ -4300,10 +4188,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.634194684575173, 
+      "verse": 3, 
       "alignedWord": "falling", 
       "start": 39.09, 
-      "verse": 3, 
+      "intensity": 0.634194684575173, 
       "frequency": 128.34274374072962, 
       "startOffset": 458, 
       "end": 39.59, 
@@ -4347,10 +4235,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6829639681133415, 
+      "verse": 3, 
       "alignedWord": "down", 
       "start": 39.59, 
-      "verse": 3, 
+      "intensity": 0.6829639681133415, 
       "frequency": 119.78537726838803, 
       "startOffset": 466, 
       "end": 39.91, 
@@ -4386,10 +4274,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.26205280218822247, 
+      "verse": 3, 
       "alignedWord": "like", 
       "start": 39.91, 
-      "verse": 3, 
+      "intensity": 0.26205280218822247, 
       "frequency": 105.12748472481854, 
       "startOffset": 471, 
       "end": 40.23, 
@@ -4447,10 +4335,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.15674792996417733, 
+      "verse": 3, 
       "alignedWord": "teardrops", 
       "start": 40.26, 
-      "verse": 3, 
+      "intensity": 0.15674792996417733, 
       "frequency": 121.03985356077482, 
       "startOffset": 476, 
       "end": 40.99, 
@@ -4507,10 +4395,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.46866199504739475, 
+      "verse": 3, 
       "alignedWord": "weakened", 
       "start": 41.35, 
-      "verse": 3, 
+      "intensity": 0.46866199504739475, 
       "frequency": 119.44504077269629, 
       "startOffset": 488, 
       "end": 42.0, 
@@ -4550,10 +4438,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.7031399937390638, 
+      "verse": 3, 
       "alignedWord": "by", 
       "start": 42.0, 
-      "verse": 3, 
+      "intensity": 0.7031399937390638, 
       "frequency": 111.09146567479097, 
       "startOffset": 497, 
       "end": 42.21, 
@@ -4585,10 +4473,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5716408811650984, 
+      "verse": 3, 
       "alignedWord": "my", 
       "start": 42.21, 
-      "verse": 3, 
+      "intensity": 0.5716408811650984, 
       "frequency": 100.57285579492459, 
       "startOffset": 500, 
       "end": 42.52, 
@@ -4637,10 +4525,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.32040919544885693, 
+      "verse": 3, 
       "alignedWord": "soulful", 
       "start": 42.55, 
-      "verse": 3, 
+      "intensity": 0.32040919544885693, 
       "frequency": 113.48915374779544, 
       "startOffset": 503, 
       "end": 43.23, 
@@ -4688,10 +4576,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.21063268255000894, 
+      "verse": 3, 
       "alignedWord": "cries", 
       "start": 43.23, 
-      "verse": 3, 
+      "intensity": 0.21063268255000894, 
       "frequency": 109.02611978487188, 
       "startOffset": 511, 
       "end": 43.87, 
@@ -4727,10 +4615,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.34424695459441357, 
+      "verse": 4, 
       "alignedWord": "does", 
       "start": 44.44, 
-      "verse": 4, 
+      "intensity": 0.34424695459441357, 
       "frequency": 117.24618855105858, 
       "startOffset": 521, 
       "end": 44.69, 
@@ -4762,10 +4650,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6650849075688301, 
+      "verse": 4, 
       "alignedWord": "my", 
       "start": 44.69, 
-      "verse": 4, 
+      "intensity": 0.6650849075688301, 
       "frequency": 103.68153011604437, 
       "startOffset": 526, 
       "end": 44.9, 
@@ -4820,10 +4708,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.2835585570701168, 
+      "verse": 4, 
       "alignedWord": "sassiness", 
       "start": 44.9, 
-      "verse": 4, 
+      "intensity": 0.2835585570701168, 
       "frequency": 105.02724733381183, 
       "startOffset": 529, 
       "end": 45.8, 
@@ -4884,10 +4772,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.22326009118665233, 
+      "verse": 4, 
       "alignedWord": "upset", 
       "start": 45.8, 
-      "verse": 4, 
+      "intensity": 0.22326009118665233, 
       "frequency": 102.74514747737106, 
       "startOffset": 539, 
       "end": 46.21, 
@@ -4927,10 +4815,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.24521445019896115, 
+      "verse": 4, 
       "alignedWord": "you", 
       "start": 46.21, 
-      "verse": 4, 
+      "intensity": 0.24521445019896115, 
       "frequency": 104.67963903853224, 
       "startOffset": 545, 
       "end": 46.56, 
@@ -4970,10 +4858,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.6122885223175116, 
+      "verse": 4, 
       "alignedWord": "don't", 
       "start": 47.82, 
-      "verse": 4, 
+      "intensity": 0.6122885223175116, 
       "frequency": 126.92052919667218, 
       "startOffset": 551, 
       "end": 48.09, 
@@ -5009,10 +4897,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.5680582110331209, 
+      "verse": 4, 
       "alignedWord": "take", 
       "start": 48.09, 
-      "verse": 4, 
+      "intensity": 0.5680582110331209, 
       "frequency": 118.9731511669665, 
       "startOffset": 557, 
       "end": 48.36, 
@@ -5044,10 +4932,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.539149883842702, 
+      "verse": 4, 
       "alignedWord": "it", 
       "start": 48.36, 
-      "verse": 4, 
+      "intensity": 0.539149883842702, 
       "frequency": 113.11085853287486, 
       "startOffset": 562, 
       "end": 48.54, 
@@ -5079,10 +4967,10 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.6456810046419208, 
+      "verse": 4, 
       "alignedWord": "so", 
       "start": 48.54, 
-      "verse": 4, 
+      "intensity": 0.6456810046419208, 
       "frequency": 119.47060916168033, 
       "startOffset": 565, 
       "end": 48.75, 
@@ -5122,10 +5010,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.7644851426152138, 
+      "verse": 4, 
       "alignedWord": "hard", 
       "start": 48.75, 
-      "verse": 4, 
+      "intensity": 0.7644851426152138, 
       "frequency": 107.86081073050372, 
       "startOffset": 568, 
       "end": 49.08, 
@@ -5165,10 +5053,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4307967006218992, 
+      "verse": 4, 
       "alignedWord": "just", 
       "start": 49.08, 
-      "verse": 4, 
+      "intensity": 0.4307967006218992, 
       "frequency": 114.50283271058436, 
       "startOffset": 574, 
       "end": 49.31, 
@@ -5204,10 +5092,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.6578957018604367, 
+      "verse": 4, 
       "alignedWord": "cause", 
       "start": 49.31, 
-      "verse": 4, 
+      "intensity": 0.6578957018604367, 
       "frequency": 106.27178488154108, 
       "startOffset": 580, 
       "end": 49.53, 
@@ -5235,10 +5123,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6804420536132263, 
+      "verse": 4, 
       "alignedWord": "i", 
       "start": 49.53, 
-      "verse": 4, 
+      "intensity": 0.6804420536132263, 
       "frequency": 91.551332580809, 
       "startOffset": 586, 
       "end": 49.69, 
@@ -5274,10 +5162,10 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.555551920932845, 
+      "verse": 4, 
       "alignedWord": "laugh", 
       "start": 49.69, 
-      "verse": 4, 
+      "intensity": 0.555551920932845, 
       "frequency": 113.39935079725105, 
       "startOffset": 588, 
       "end": 50.19, 
@@ -5309,10 +5197,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.35976562009269364, 
+      "verse": 4, 
       "alignedWord": "as", 
       "start": 53.39, 
-      "verse": 4, 
+      "intensity": 0.35976562009269364, 
       "frequency": 112.69123570718438, 
       "startOffset": 594, 
       "end": 53.63, 
@@ -5344,10 +5232,10 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.5124553213870015, 
+      "verse": 4, 
       "alignedWord": "if", 
       "start": 53.63, 
-      "verse": 4, 
+      "intensity": 0.5124553213870015, 
       "frequency": 122.90355455415711, 
       "startOffset": 597, 
       "end": 53.86, 
@@ -5375,10 +5263,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6004123753486349, 
+      "verse": 4, 
       "alignedWord": "i", 
       "start": 53.86, 
-      "verse": 4, 
+      "intensity": 0.6004123753486349, 
       "frequency": 107.96216064155512, 
       "startOffset": 600, 
       "end": 54.03, 
@@ -5414,10 +5302,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.3273564136234921, 
+      "verse": 4, 
       "alignedWord": "have", 
       "start": 54.03, 
-      "verse": 4, 
+      "intensity": 0.3273564136234921, 
       "frequency": 96.2041591424532, 
       "startOffset": 602, 
       "end": 54.32, 
@@ -5457,10 +5345,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.537192214187418, 
+      "verse": 4, 
       "alignedWord": "gold", 
       "start": 54.32, 
-      "verse": 4, 
+      "intensity": 0.537192214187418, 
       "frequency": 104.5087423764287, 
       "startOffset": 607, 
       "end": 54.77, 
@@ -5500,10 +5388,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.11081258234053434, 
+      "verse": 4, 
       "alignedWord": "mines", 
       "start": 54.77, 
-      "verse": 4, 
+      "intensity": 0.11081258234053434, 
       "frequency": 104.86462491836359, 
       "startOffset": 612, 
       "end": 55.88, 
@@ -5549,10 +5437,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.4455957831957719, 
+      "verse": 4, 
       "alignedWord": "digging", 
       "start": 55.88, 
-      "verse": 4, 
+      "intensity": 0.4455957831957719, 
       "frequency": 107.14501045952915, 
       "startOffset": 619, 
       "end": 56.31, 
@@ -5592,10 +5480,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5656600577754928, 
+      "verse": 4, 
       "alignedWord": "in", 
       "start": 56.31, 
-      "verse": 4, 
+      "intensity": 0.5656600577754928, 
       "frequency": 94.15392204418293, 
       "startOffset": 627, 
       "end": 56.47, 
@@ -5627,10 +5515,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.35957210138512313, 
+      "verse": 4, 
       "alignedWord": "my", 
       "start": 56.47, 
-      "verse": 4, 
+      "intensity": 0.35957210138512313, 
       "frequency": 86.0158105456339, 
       "startOffset": 630, 
       "end": 56.72, 
@@ -5662,10 +5550,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.41689045301407, 
+      "verse": 4, 
       "alignedWord": "own", 
       "start": 56.75, 
-      "verse": 4, 
+      "intensity": 0.41689045301407, 
       "frequency": 94.45574070802628, 
       "startOffset": 633, 
       "end": 57.08, 
@@ -5718,10 +5606,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.13287163165094568, 
+      "verse": 4, 
       "alignedWord": "backyard", 
       "start": 57.08, 
-      "verse": 4, 
+      "intensity": 0.13287163165094568, 
       "frequency": 96.87650581767197, 
       "startOffset": 637, 
       "end": 57.97, 
@@ -5761,10 +5649,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.38249723638043226, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 58.76, 
-      "verse": 5, 
+      "intensity": 0.38249723638043226, 
       "frequency": 121.99658711600503, 
       "startOffset": 650, 
       "end": 58.9, 
@@ -5800,10 +5688,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5612875965303367, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 58.9, 
-      "verse": 5, 
+      "intensity": 0.5612875965303367, 
       "frequency": 118.74137809708266, 
       "startOffset": 654, 
       "end": 59.12, 
@@ -5839,10 +5727,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4186242271236042, 
+      "verse": 5, 
       "alignedWord": "shoot", 
       "start": 59.12, 
-      "verse": 5, 
+      "intensity": 0.4186242271236042, 
       "frequency": 146.538453821354, 
       "startOffset": 658, 
       "end": 59.47, 
@@ -5874,10 +5762,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.7871013831607852, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 59.47, 
-      "verse": 5, 
+      "intensity": 0.7871013831607852, 
       "frequency": 143.09883719057436, 
       "startOffset": 664, 
       "end": 59.68, 
@@ -5913,10 +5801,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.5299881904551791, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 59.68, 
-      "verse": 5, 
+      "intensity": 0.5299881904551791, 
       "frequency": 130.63568304911584, 
       "startOffset": 667, 
       "end": 59.9, 
@@ -5952,10 +5840,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7272262759532429, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 59.9, 
-      "verse": 5, 
+      "intensity": 0.7272262759532429, 
       "frequency": 125.05083457246234, 
       "startOffset": 672, 
       "end": 60.05, 
@@ -5995,10 +5883,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.38348992013637423, 
+      "verse": 5, 
       "alignedWord": "words", 
       "start": 60.05, 
-      "verse": 5, 
+      "intensity": 0.38348992013637423, 
       "frequency": 131.75815622797572, 
       "startOffset": 677, 
       "end": 60.83, 
@@ -6030,10 +5918,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.45510367434200844, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 61.09, 
-      "verse": 5, 
+      "intensity": 0.45510367434200844, 
       "frequency": 126.62775302856721, 
       "startOffset": 685, 
       "end": 61.22, 
@@ -6069,10 +5957,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5440044768040174, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 61.22, 
-      "verse": 5, 
+      "intensity": 0.5440044768040174, 
       "frequency": 121.67443121432882, 
       "startOffset": 689, 
       "end": 61.43, 
@@ -6108,10 +5996,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3124696857680859, 
+      "verse": 5, 
       "alignedWord": "cut", 
       "start": 61.43, 
-      "verse": 5, 
+      "intensity": 0.3124696857680859, 
       "frequency": 131.10783225549181, 
       "startOffset": 693, 
       "end": 61.72, 
@@ -6143,10 +6031,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.731805372738656, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 61.75, 
-      "verse": 5, 
+      "intensity": 0.731805372738656, 
       "frequency": 139.3042222309793, 
       "startOffset": 697, 
       "end": 61.92, 
@@ -6182,10 +6070,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.482456907948051, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 61.92, 
-      "verse": 5, 
+      "intensity": 0.482456907948051, 
       "frequency": 129.4261061744008, 
       "startOffset": 700, 
       "end": 62.16, 
@@ -6221,10 +6109,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7223135672034081, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 62.16, 
-      "verse": 5, 
+      "intensity": 0.7223135672034081, 
       "frequency": 119.18042201095678, 
       "startOffset": 705, 
       "end": 62.34, 
@@ -6260,10 +6148,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.41812314742880163, 
+      "verse": 5, 
       "alignedWord": "lies", 
       "start": 62.34, 
-      "verse": 5, 
+      "intensity": 0.41812314742880163, 
       "frequency": 125.13874613155755, 
       "startOffset": 710, 
       "end": 63.14, 
@@ -6295,10 +6183,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.36951303495185395, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 63.41, 
-      "verse": 5, 
+      "intensity": 0.36951303495185395, 
       "frequency": 127.22469175484213, 
       "startOffset": 717, 
       "end": 63.57, 
@@ -6334,10 +6222,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.4039882942339612, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 63.57, 
-      "verse": 5, 
+      "intensity": 0.4039882942339612, 
       "frequency": 121.89914903517445, 
       "startOffset": 721, 
       "end": 63.84, 
@@ -6373,10 +6261,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.36480594558021545, 
+      "verse": 5, 
       "alignedWord": "kill", 
       "start": 63.84, 
-      "verse": 5, 
+      "intensity": 0.36480594558021545, 
       "frequency": 113.3940059548852, 
       "startOffset": 725, 
       "end": 64.21, 
@@ -6408,10 +6296,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.8678693080920208, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 64.21, 
-      "verse": 5, 
+      "intensity": 0.8678693080920208, 
       "frequency": 140.54779286447447, 
       "startOffset": 730, 
       "end": 64.39, 
@@ -6447,10 +6335,10 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.4564163998272698, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 64.39, 
-      "verse": 5, 
+      "intensity": 0.4564163998272698, 
       "frequency": 99.59278157061938, 
       "startOffset": 733, 
       "end": 64.63, 
@@ -6486,10 +6374,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.40507760358439243, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 64.63, 
-      "verse": 5, 
+      "intensity": 0.40507760358439243, 
       "frequency": 102.97267143562388, 
       "startOffset": 738, 
       "end": 64.85, 
@@ -6552,10 +6440,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.225501000239768, 
+      "verse": 5, 
       "alignedWord": "hatefulness", 
       "start": 64.88, 
-      "verse": 5, 
+      "intensity": 0.225501000239768, 
       "frequency": 107.31287929095167, 
       "startOffset": 743, 
       "end": 65.48, 
@@ -6607,10 +6495,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2792611666280252, 
+      "verse": 5, 
       "alignedWord": "but", 
       "start": 65.82, 
-      "verse": 5, 
+      "intensity": 0.2792611666280252, 
       "frequency": 145.743401474992, 
       "startOffset": 757, 
       "end": 66.04, 
@@ -6650,10 +6538,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27936276666695203, 
+      "verse": 5, 
       "alignedWord": "just", 
       "start": 66.04, 
-      "verse": 5, 
+      "intensity": 0.27936276666695203, 
       "frequency": 146.47661212745328, 
       "startOffset": 761, 
       "end": 66.35, 
@@ -6689,10 +6577,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.2742717626465642, 
+      "verse": 5, 
       "alignedWord": "like", 
       "start": 66.35, 
-      "verse": 5, 
+      "intensity": 0.2742717626465642, 
       "frequency": 108.41222906793564, 
       "startOffset": 766, 
       "end": 66.6, 
@@ -6728,10 +6616,10 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.2646837098608398, 
+      "verse": 5, 
       "alignedWord": "life", 
       "start": 66.6, 
-      "verse": 5, 
+      "intensity": 0.2646837098608398, 
       "frequency": 112.99928912332184, 
       "startOffset": 771, 
       "end": 67.36, 
@@ -6763,10 +6651,10 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.32909898866049947, 
+      "verse": 5, 
       "alignedWord": "i'll", 
       "start": 68.01, 
-      "verse": 5, 
+      "intensity": 0.32909898866049947, 
       "frequency": 98.12952518660339, 
       "startOffset": 777, 
       "end": 68.26, 
@@ -6802,10 +6690,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.24172635901706044, 
+      "verse": 5, 
       "alignedWord": "rise", 
       "start": 68.26, 
-      "verse": 5, 
+      "intensity": 0.24172635901706044, 
       "frequency": 117.23731217329244, 
       "startOffset": 782, 
       "end": 68.95, 
@@ -6841,10 +6729,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5488605815931138, 
+      "verse": 6, 
       "alignedWord": "does", 
       "start": 69.83, 
-      "verse": 6, 
+      "intensity": 0.5488605815931138, 
       "frequency": 137.8937421447109, 
       "startOffset": 791, 
       "end": 70.1, 
@@ -6876,10 +6764,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5911711344794134, 
+      "verse": 6, 
       "alignedWord": "my", 
       "start": 70.1, 
-      "verse": 6, 
+      "intensity": 0.5911711344794134, 
       "frequency": 149.69213200645288, 
       "startOffset": 796, 
       "end": 70.29, 
@@ -6937,10 +6825,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.35021336564203204, 
+      "verse": 6, 
       "alignedWord": "sexiness", 
       "start": 70.29, 
-      "verse": 6, 
+      "intensity": 0.35021336564203204, 
       "frequency": 145.41319838653027, 
       "startOffset": 799, 
       "end": 71.05, 
@@ -7001,10 +6889,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3274991366365983, 
+      "verse": 6, 
       "alignedWord": "offend", 
       "start": 71.05, 
-      "verse": 6, 
+      "intensity": 0.3274991366365983, 
       "frequency": 135.44672351023203, 
       "startOffset": 808, 
       "end": 71.48, 
@@ -7045,10 +6933,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.17540977195820553, 
+      "verse": 6, 
       "alignedWord": "you", 
       "start": 71.48, 
-      "verse": 6, 
+      "intensity": 0.17540977195820553, 
       "frequency": 119.0585053238445, 
       "startOffset": 815, 
       "end": 71.79, 
@@ -7084,10 +6972,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.4823689930852159, 
+      "verse": 6, 
       "alignedWord": "does", 
       "start": 73.65, 
-      "verse": 6, 
+      "intensity": 0.4823689930852159, 
       "frequency": 150.52161049894934, 
       "startOffset": 821, 
       "end": 73.9, 
@@ -7119,10 +7007,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.47700956904449077, 
+      "verse": 6, 
       "alignedWord": "it", 
       "start": 73.9, 
-      "verse": 6, 
+      "intensity": 0.47700956904449077, 
       "frequency": 116.20697340274324, 
       "startOffset": 826, 
       "end": 74.11, 
@@ -7158,10 +7046,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.5673273836819089, 
+      "verse": 6, 
       "alignedWord": "come", 
       "start": 74.11, 
-      "verse": 6, 
+      "intensity": 0.5673273836819089, 
       "frequency": 134.67843989688663, 
       "startOffset": 829, 
       "end": 74.45, 
@@ -7193,10 +7081,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5563778343108952, 
+      "verse": 6, 
       "alignedWord": "as", 
       "start": 74.45, 
-      "verse": 6, 
+      "intensity": 0.5563778343108952, 
       "frequency": 132.60582565437187, 
       "startOffset": 834, 
       "end": 74.6, 
@@ -7224,10 +7112,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.701035693338374, 
+      "verse": 6, 
       "alignedWord": "a", 
       "start": 74.6, 
-      "verse": 6, 
+      "intensity": 0.701035693338374, 
       "frequency": 114.29299148570075, 
       "startOffset": 837, 
       "end": 74.69, 
@@ -7276,10 +7164,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.4340595401105191, 
+      "verse": 6, 
       "alignedWord": "surprise", 
       "start": 74.69, 
-      "verse": 6, 
+      "intensity": 0.4340595401105191, 
       "frequency": 116.01857505100027, 
       "startOffset": 839, 
       "end": 75.61, 
@@ -7323,10 +7211,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3376785451383452, 
+      "verse": 6, 
       "alignedWord": "that", 
       "start": 75.93, 
-      "verse": 6, 
+      "intensity": 0.3376785451383452, 
       "frequency": 109.24792304200135, 
       "startOffset": 849, 
       "end": 76.16, 
@@ -7354,10 +7242,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.2953170938436952, 
+      "verse": 6, 
       "alignedWord": "i", 
       "start": 76.16, 
-      "verse": 6, 
+      "intensity": 0.2953170938436952, 
       "frequency": 97.79285863526947, 
       "startOffset": 854, 
       "end": 76.37, 
@@ -7397,10 +7285,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.14324500622018455, 
+      "verse": 6, 
       "alignedWord": "dance", 
       "start": 76.4, 
-      "verse": 6, 
+      "intensity": 0.14324500622018455, 
       "frequency": 118.61343159356258, 
       "startOffset": 856, 
       "end": 77.38, 
@@ -7432,10 +7320,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2942990267014709, 
+      "verse": 6, 
       "alignedWord": "as", 
       "start": 80.46, 
-      "verse": 6, 
+      "intensity": 0.2942990267014709, 
       "frequency": 109.03404065628143, 
       "startOffset": 862, 
       "end": 80.71, 
@@ -7467,10 +7355,10 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.5336259625486288, 
+      "verse": 6, 
       "alignedWord": "if", 
       "start": 80.71, 
-      "verse": 6, 
+      "intensity": 0.5336259625486288, 
       "frequency": 134.8344799628121, 
       "startOffset": 865, 
       "end": 80.94, 
@@ -7498,10 +7386,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7990856275543973, 
+      "verse": 6, 
       "alignedWord": "i", 
       "start": 80.94, 
-      "verse": 6, 
+      "intensity": 0.7990856275543973, 
       "frequency": 114.36515225345276, 
       "startOffset": 868, 
       "end": 81.06, 
@@ -7537,10 +7425,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4112599856351491, 
+      "verse": 6, 
       "alignedWord": "have", 
       "start": 81.06, 
-      "verse": 6, 
+      "intensity": 0.4112599856351491, 
       "frequency": 99.57614411229943, 
       "startOffset": 870, 
       "end": 81.35, 
@@ -7593,10 +7481,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3488582320675502, 
+      "verse": 6, 
       "alignedWord": "diamonds", 
       "start": 81.35, 
-      "verse": 6, 
+      "intensity": 0.3488582320675502, 
       "frequency": 111.53202592174142, 
       "startOffset": 875, 
       "end": 82.47, 
@@ -7636,10 +7524,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.23657512807786427, 
+      "verse": 6, 
       "alignedWord": "at", 
       "start": 82.5, 
-      "verse": 6, 
+      "intensity": 0.23657512807786427, 
       "frequency": 104.70656172826233, 
       "startOffset": 885, 
       "end": 82.68, 
@@ -7671,10 +7559,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.53291185423456, 
+      "verse": 6, 
       "alignedWord": "the", 
       "start": 82.68, 
-      "verse": 6, 
+      "intensity": 0.53291185423456, 
       "frequency": 116.1407904121629, 
       "startOffset": 888, 
       "end": 82.79, 
@@ -7719,10 +7607,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.5848136155552172, 
+      "verse": 6, 
       "alignedWord": "meeting", 
       "start": 82.79, 
-      "verse": 6, 
+      "intensity": 0.5848136155552172, 
       "frequency": 113.48714689462322, 
       "startOffset": 892, 
       "end": 83.14, 
@@ -7762,10 +7650,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.3935446837121367, 
+      "verse": 6, 
       "alignedWord": "of", 
       "start": 83.14, 
-      "verse": 6, 
+      "intensity": 0.3935446837121367, 
       "frequency": 94.24701978979739, 
       "startOffset": 900, 
       "end": 83.31, 
@@ -7797,10 +7685,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.25120299973317595, 
+      "verse": 6, 
       "alignedWord": "my", 
       "start": 83.31, 
-      "verse": 6, 
+      "intensity": 0.25120299973317595, 
       "frequency": 90.9482949743729, 
       "startOffset": 903, 
       "end": 83.5, 
@@ -7836,10 +7724,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.08900288437113031, 
+      "verse": 6, 
       "alignedWord": "thighs", 
       "start": 83.5, 
-      "verse": 6, 
+      "intensity": 0.08900288437113031, 
       "frequency": 86.93157902655508, 
       "startOffset": 906, 
       "end": 84.24, 
@@ -7871,10 +7759,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.5974013899728944, 
+      "verse": 7, 
       "alignedWord": "out", 
       "start": 85.16, 
-      "verse": 7, 
+      "intensity": 0.5974013899728944, 
       "frequency": 144.17799085339556, 
       "startOffset": 917, 
       "end": 85.47, 
@@ -7906,10 +7794,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.7467949671753881, 
+      "verse": 7, 
       "alignedWord": "of", 
       "start": 85.47, 
-      "verse": 7, 
+      "intensity": 0.7467949671753881, 
       "frequency": 134.393122279925, 
       "startOffset": 921, 
       "end": 85.63, 
@@ -7941,10 +7829,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.616654173964492, 
+      "verse": 7, 
       "alignedWord": "the", 
       "start": 85.63, 
-      "verse": 7, 
+      "intensity": 0.616654173964492, 
       "frequency": 123.04943019027837, 
       "startOffset": 924, 
       "end": 85.74, 
@@ -7984,10 +7872,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.3603196191338292, 
+      "verse": 7, 
       "alignedWord": "huts", 
       "start": 85.74, 
-      "verse": 7, 
+      "intensity": 0.3603196191338292, 
       "frequency": 139.97548079573187, 
       "startOffset": 928, 
       "end": 86.0, 
@@ -8019,10 +7907,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4991704508974489, 
+      "verse": 7, 
       "alignedWord": "of", 
       "start": 86.0, 
-      "verse": 7, 
+      "intensity": 0.4991704508974489, 
       "frequency": 124.01374108034109, 
       "startOffset": 933, 
       "end": 86.12, 
@@ -8076,10 +7964,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5287704719162336, 
+      "verse": 7, 
       "alignedWord": "history's", 
       "start": 86.12, 
-      "verse": 7, 
+      "intensity": 0.5287704719162336, 
       "frequency": 131.81900708006157, 
       "startOffset": 936, 
       "end": 86.6, 
@@ -8131,10 +8019,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.5879357704901258, 
+      "verse": 7, 
       "alignedWord": "shame", 
       "start": 86.6, 
-      "verse": 7, 
+      "intensity": 0.5879357704901258, 
       "frequency": 116.2948725461385, 
       "startOffset": 946, 
       "end": 87.03, 
@@ -8162,10 +8050,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7617013439940291, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 87.03, 
-      "verse": 7, 
+      "intensity": 0.7617013439940291, 
       "frequency": 108.25002436399978, 
       "startOffset": 953, 
       "end": 87.15, 
@@ -8201,10 +8089,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2475363296182926, 
+      "verse": 7, 
       "alignedWord": "rise", 
       "start": 87.15, 
-      "verse": 7, 
+      "intensity": 0.2475363296182926, 
       "frequency": 100.69014554502911, 
       "startOffset": 955, 
       "end": 87.87, 
@@ -8236,10 +8124,10 @@
           "phone": "p_E"
         }
       ], 
-      "intensity": 0.3273528605120116, 
+      "verse": 7, 
       "alignedWord": "up", 
       "start": 88.51, 
-      "verse": 7, 
+      "intensity": 0.3273528605120116, 
       "frequency": 141.64367000516162, 
       "startOffset": 961, 
       "end": 88.74, 
@@ -8279,10 +8167,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.680813359703319, 
+      "verse": 7, 
       "alignedWord": "from", 
       "start": 88.74, 
-      "verse": 7, 
+      "intensity": 0.680813359703319, 
       "frequency": 159.95780388447838, 
       "startOffset": 964, 
       "end": 88.91, 
@@ -8310,10 +8198,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.9389675277147099, 
+      "verse": 7, 
       "alignedWord": "a", 
       "start": 88.91, 
-      "verse": 7, 
+      "intensity": 0.9389675277147099, 
       "frequency": 146.5637433854557, 
       "startOffset": 969, 
       "end": 88.98, 
@@ -8353,10 +8241,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.46298459770105527, 
+      "verse": 7, 
       "alignedWord": "past", 
       "start": 88.98, 
-      "verse": 7, 
+      "intensity": 0.46298459770105527, 
       "frequency": 143.0288724781903, 
       "startOffset": 971, 
       "end": 89.52, 
@@ -8401,10 +8289,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6379024972655619, 
+      "verse": 7, 
       "alignedWord": "rooted", 
       "start": 89.52, 
-      "verse": 7, 
+      "intensity": 0.6379024972655619, 
       "frequency": 135.93293312010613, 
       "startOffset": 976, 
       "end": 89.95, 
@@ -8444,10 +8332,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6051881638488943, 
+      "verse": 7, 
       "alignedWord": "in", 
       "start": 90.0, 
-      "verse": 7, 
+      "intensity": 0.6051881638488943, 
       "frequency": 98.38735350398025, 
       "startOffset": 983, 
       "end": 90.16, 
@@ -8483,10 +8371,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.415695666095102, 
+      "verse": 7, 
       "alignedWord": "pain", 
       "start": 90.16, 
-      "verse": 7, 
+      "intensity": 0.415695666095102, 
       "frequency": 94.82275041921407, 
       "startOffset": 986, 
       "end": 90.58, 
@@ -8514,10 +8402,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7054367757386726, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 90.58, 
-      "verse": 7, 
+      "intensity": 0.7054367757386726, 
       "frequency": 99.02783714316061, 
       "startOffset": 992, 
       "end": 90.72, 
@@ -8553,10 +8441,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2181992537634752, 
+      "verse": 7, 
       "alignedWord": "rise", 
       "start": 90.72, 
-      "verse": 7, 
+      "intensity": 0.2181992537634752, 
       "frequency": 100.81323899511096, 
       "startOffset": 994, 
       "end": 91.47, 
@@ -8585,10 +8473,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.4234921952103294, 
+      "verse": 7, 
       "alignedWord": "a", 
       "start": 91.99, 
-      "verse": 7, 
+      "intensity": 0.4234921952103294, 
       "frequency": 115.68954996985502, 
       "startOffset": 1000, 
       "end": 92.16, 
@@ -8628,10 +8516,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.5761120408840575, 
+      "verse": 7, 
       "alignedWord": "black", 
       "start": 92.16, 
-      "verse": 7, 
+      "intensity": 0.5761120408840575, 
       "frequency": 151.6196253162848, 
       "startOffset": 1002, 
       "end": 92.52, 
@@ -8672,10 +8560,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6587383965689594, 
+      "verse": 7, 
       "alignedWord": "ocean", 
       "start": 92.52, 
-      "verse": 7, 
+      "intensity": 0.6587383965689594, 
       "frequency": 131.94879954837378, 
       "startOffset": 1008, 
       "end": 93.05, 
@@ -8728,10 +8616,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.5228380859303013, 
+      "verse": 7, 
       "alignedWord": "leaping", 
       "start": 93.08, 
-      "verse": 7, 
+      "intensity": 0.5228380859303013, 
       "frequency": 130.39367517382354, 
       "startOffset": 1015, 
       "end": 93.59, 
@@ -8775,10 +8663,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5849181986708923, 
+      "verse": 7, 
       "alignedWord": "and", 
       "start": 93.59, 
-      "verse": 7, 
+      "intensity": 0.5849181986708923, 
       "frequency": 102.75755925563568, 
       "startOffset": 1023, 
       "end": 93.84, 
@@ -8814,10 +8702,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3910070330894404, 
+      "verse": 7, 
       "alignedWord": "wide", 
       "start": 93.84, 
-      "verse": 7, 
+      "intensity": 0.3910070330894404, 
       "frequency": 117.32935949434179, 
       "startOffset": 1027, 
       "end": 94.74, 
@@ -8862,10 +8750,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7570474965698814, 
+      "verse": 7, 
       "alignedWord": "welling", 
       "start": 95.27, 
-      "verse": 7, 
+      "intensity": 0.7570474965698814, 
       "frequency": 134.97552300487231, 
       "startOffset": 1034, 
       "end": 95.84, 
@@ -8909,10 +8797,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5841571558320169, 
+      "verse": 7, 
       "alignedWord": "and", 
       "start": 95.84, 
-      "verse": 7, 
+      "intensity": 0.5841571558320169, 
       "frequency": 117.27397296000947, 
       "startOffset": 1042, 
       "end": 96.06, 
@@ -8961,10 +8849,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.3380316203732507, 
+      "verse": 7, 
       "alignedWord": "swelling", 
       "start": 96.06, 
-      "verse": 7, 
+      "intensity": 0.3380316203732507, 
       "frequency": 119.90487889306758, 
       "startOffset": 1046, 
       "end": 96.94, 
@@ -9000,10 +8888,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.41037033908803366, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 97.22, 
-      "verse": 7, 
+      "intensity": 0.41037033908803366, 
       "frequency": 130.11867993731698, 
       "startOffset": 1055, 
       "end": 97.72, 
@@ -9039,10 +8927,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.3650637807970758, 
+      "verse": 7, 
       "alignedWord": "bear", 
       "start": 97.75, 
-      "verse": 7, 
+      "intensity": 0.3650637807970758, 
       "frequency": 118.7642389814549, 
       "startOffset": 1057, 
       "end": 98.18, 
@@ -9074,10 +8962,10 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.43484783451507025, 
+      "verse": 7, 
       "alignedWord": "in", 
       "start": 98.21, 
-      "verse": 7, 
+      "intensity": 0.43484783451507025, 
       "frequency": 105.44999081617246, 
       "startOffset": 1062, 
       "end": 98.54, 
@@ -9109,10 +8997,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.21393561319647586, 
+      "verse": 7, 
       "alignedWord": "the", 
       "start": 98.54, 
-      "verse": 7, 
+      "intensity": 0.21393561319647586, 
       "frequency": 101.9247142864856, 
       "startOffset": 1065, 
       "end": 98.67, 
@@ -9148,10 +9036,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.07188086371482956, 
+      "verse": 7, 
       "alignedWord": "tide", 
       "start": 98.67, 
-      "verse": 7, 
+      "intensity": 0.07188086371482956, 
       "frequency": 92.04593615215296, 
       "startOffset": 1069, 
       "end": 99.58, 
@@ -9196,10 +9084,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7714474821651328, 
+      "verse": 8, 
       "alignedWord": "leaving", 
       "start": 100.36, 
-      "verse": 8, 
+      "intensity": 0.7714474821651328, 
       "frequency": 140.79104172959526, 
       "startOffset": 1078, 
       "end": 100.82, 
@@ -9256,10 +9144,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6927137959914853, 
+      "verse": 8, 
       "alignedWord": "behind", 
       "start": 100.82, 
-      "verse": 8, 
+      "intensity": 0.6927137959914853, 
       "frequency": 139.72661796363454, 
       "startOffset": 1086, 
       "end": 101.42, 
@@ -9307,10 +9195,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.5664294284072993, 
+      "verse": 8, 
       "alignedWord": "nights", 
       "start": 101.42, 
-      "verse": 8, 
+      "intensity": 0.5664294284072993, 
       "frequency": 132.30706417713137, 
       "startOffset": 1093, 
       "end": 101.71, 
@@ -9342,10 +9230,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.48091623424667057, 
+      "verse": 8, 
       "alignedWord": "of", 
       "start": 101.71, 
-      "verse": 8, 
+      "intensity": 0.48091623424667057, 
       "frequency": 127.73645476314678, 
       "startOffset": 1100, 
       "end": 101.85, 
@@ -9386,10 +9274,10 @@
           "phone": "er_E"
         }
       ], 
-      "intensity": 0.493528725784252, 
+      "verse": 8, 
       "alignedWord": "terror", 
       "start": 101.85, 
-      "verse": 8, 
+      "intensity": 0.493528725784252, 
       "frequency": 116.38689190191418, 
       "startOffset": 1103, 
       "end": 102.39, 
@@ -9433,10 +9321,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.4956649693339208, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 102.61, 
-      "verse": 8, 
+      "intensity": 0.4956649693339208, 
       "frequency": 118.96255795298764, 
       "startOffset": 1110, 
       "end": 102.87, 
@@ -9472,10 +9360,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.35605274913581303, 
+      "verse": 8, 
       "alignedWord": "fear", 
       "start": 102.87, 
-      "verse": 8, 
+      "intensity": 0.35605274913581303, 
       "frequency": 120.66790247497114, 
       "startOffset": 1114, 
       "end": 103.44, 
@@ -9503,10 +9391,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.42429165709733746, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 103.72, 
-      "verse": 8, 
+      "intensity": 0.42429165709733746, 
       "frequency": 117.37030698347388, 
       "startOffset": 1120, 
       "end": 104.06, 
@@ -9542,10 +9430,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.1144380527987316, 
+      "verse": 8, 
       "alignedWord": "rise", 
       "start": 104.06, 
-      "verse": 8, 
+      "intensity": 0.1144380527987316, 
       "frequency": 110.53904280940162, 
       "startOffset": 1122, 
       "end": 104.94, 
@@ -9586,10 +9474,10 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.6382813822579115, 
+      "verse": 8, 
       "alignedWord": "into", 
       "start": 105.44, 
-      "verse": 8, 
+      "intensity": 0.6382813822579115, 
       "frequency": 164.6888333916677, 
       "startOffset": 1128, 
       "end": 105.86, 
@@ -9625,10 +9513,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.9451161833907397, 
+      "verse": 8, 
       "alignedWord": "a", 
       "start": 105.86, 
-      "verse": 8, 
+      "intensity": 0.9451161833907397, 
       "frequency": 159.8846544922794, 
       "startOffset": 1133, 
       "end": 105.89, 
@@ -9677,10 +9565,10 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.605080810142501, 
+      "verse": 8, 
       "alignedWord": "daybreak", 
       "start": 105.89, 
-      "verse": 8, 
+      "intensity": 0.605080810142501, 
       "frequency": 149.0342592757563, 
       "startOffset": 1135, 
       "end": 106.52, 
@@ -9760,10 +9648,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.5822327521769987, 
+      "verse": 8, 
       "alignedWord": "miraculously", 
       "start": 106.52, 
-      "verse": 8, 
+      "intensity": 0.5822327521769987, 
       "frequency": 130.85878164868305, 
       "startOffset": 1144, 
       "end": 107.52, 
@@ -9835,10 +9723,10 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.2667380578936236, 
+      "verse": 8, 
       "alignedWord": "clear", 
       "start": 107.52, 
-      "verse": 8, 
+      "intensity": 0.2667380578936236, 
       "frequency": 101.83436066061529, 
       "startOffset": 1157, 
       "end": 108.15, 
@@ -9866,10 +9754,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.44812741682839, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 108.58, 
-      "verse": 8, 
+      "intensity": 0.44812741682839, 
       "frequency": 114.51602563044467, 
       "startOffset": 1164, 
       "end": 108.86, 
@@ -9905,10 +9793,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.15195300603258674, 
+      "verse": 8, 
       "alignedWord": "rise", 
       "start": 108.86, 
-      "verse": 8, 
+      "intensity": 0.15195300603258674, 
       "frequency": 100.31419331089778, 
       "startOffset": 1166, 
       "end": 109.8, 
@@ -9957,10 +9845,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7452681092642116, 
+      "verse": 8, 
       "alignedWord": "bringing", 
       "start": 110.35, 
-      "verse": 8, 
+      "intensity": 0.7452681092642116, 
       "frequency": 138.5780654023246, 
       "startOffset": 1172, 
       "end": 110.89, 
@@ -10000,10 +9888,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6714391189040716, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 110.89, 
-      "verse": 8, 
+      "intensity": 0.6714391189040716, 
       "frequency": 137.41776755666493, 
       "startOffset": 1181, 
       "end": 111.04, 
@@ -10043,10 +9931,10 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.5210686298087853, 
+      "verse": 8, 
       "alignedWord": "gifts", 
       "start": 111.04, 
-      "verse": 8, 
+      "intensity": 0.5210686298087853, 
       "frequency": 123.66734375541257, 
       "startOffset": 1185, 
       "end": 111.4, 
@@ -10082,10 +9970,10 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4982078300480368, 
+      "verse": 8, 
       "alignedWord": "that", 
       "start": 111.52, 
-      "verse": 8, 
+      "intensity": 0.4982078300480368, 
       "frequency": 130.12250988296947, 
       "startOffset": 1191, 
       "end": 111.85, 
@@ -10117,10 +10005,10 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6757034368458845, 
+      "verse": 8, 
       "alignedWord": "my", 
       "start": 111.85, 
-      "verse": 8, 
+      "intensity": 0.6757034368458845, 
       "frequency": 123.83098302820706, 
       "startOffset": 1196, 
       "end": 112.17, 
@@ -10178,10 +10066,10 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3732045887542906, 
+      "verse": 8, 
       "alignedWord": "ancestors", 
       "start": 112.17, 
-      "verse": 8, 
+      "intensity": 0.3732045887542906, 
       "frequency": 108.38551008029135, 
       "startOffset": 1199, 
       "end": 113.0, 
@@ -10233,10 +10121,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.13352685166704792, 
+      "verse": 8, 
       "alignedWord": "gave", 
       "start": 113.0, 
-      "verse": 8, 
+      "intensity": 0.13352685166704792, 
       "frequency": 95.85850836523342, 
       "startOffset": 1209, 
       "end": 113.57, 
@@ -10264,10 +10152,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7442059188908624, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 114.35, 
-      "verse": 8, 
+      "intensity": 0.7442059188908624, 
       "frequency": 149.76546178169858, 
       "startOffset": 1216, 
       "end": 114.69, 
@@ -10298,10 +10186,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.7331193172352443, 
+      "verse": 8, 
       "alignedWord": "am", 
       "start": 114.69, 
-      "verse": 8, 
+      "intensity": 0.7331193172352443, 
       "frequency": 123.74007085833428, 
       "startOffset": 1218, 
       "end": 114.93, 
@@ -10333,10 +10221,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.584541228110015, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 114.93, 
-      "verse": 8, 
+      "intensity": 0.584541228110015, 
       "frequency": 104.17130393493169, 
       "startOffset": 1221, 
       "end": 115.06, 
@@ -10372,10 +10260,10 @@
           "phone": "p_E"
         }
       ], 
-      "intensity": 0.26373770064633073, 
+      "verse": 8, 
       "alignedWord": "hope", 
       "start": 115.06, 
-      "verse": 8, 
+      "intensity": 0.26373770064633073, 
       "frequency": 129.4467271410768, 
       "startOffset": 1225, 
       "end": 115.7, 
@@ -10411,10 +10299,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5859721362368238, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 116.17, 
-      "verse": 8, 
+      "intensity": 0.5859721362368238, 
       "frequency": 131.13972712750655, 
       "startOffset": 1230, 
       "end": 116.44, 
@@ -10446,10 +10334,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.527914687836634, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 116.44, 
-      "verse": 8, 
+      "intensity": 0.527914687836634, 
       "frequency": 110.962178950185, 
       "startOffset": 1234, 
       "end": 116.56, 
@@ -10489,10 +10377,10 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.4126303498200494, 
+      "verse": 8, 
       "alignedWord": "dream", 
       "start": 116.56, 
-      "verse": 8, 
+      "intensity": 0.4126303498200494, 
       "frequency": 116.49766788074506, 
       "startOffset": 1238, 
       "end": 117.52, 
@@ -10524,10 +10412,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.18130802924440728, 
+      "verse": 8, 
       "alignedWord": "of", 
       "start": 117.73, 
-      "verse": 8, 
+      "intensity": 0.18130802924440728, 
       "frequency": 95.34929569016569, 
       "startOffset": 1244, 
       "end": 117.96, 
@@ -10559,10 +10447,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.1643067130799447, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 117.96, 
-      "verse": 8, 
+      "intensity": 0.1643067130799447, 
       "frequency": 107.86889070816169, 
       "startOffset": 1247, 
       "end": 118.1, 
@@ -10602,10 +10490,10 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.17847822705014801, 
+      "verse": 8, 
       "alignedWord": "slave", 
       "start": 118.1, 
-      "verse": 8, 
+      "intensity": 0.17847822705014801, 
       "frequency": 125.2370528722736, 
       "startOffset": 1251, 
       "end": 118.87, 
@@ -10641,10 +10529,10 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.13446516832159186, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 119.64, 
-      "verse": 8, 
+      "intensity": 0.13446516832159186, 
       "frequency": 114.66870868398762, 
       "startOffset": 1259, 
       "end": 119.89, 
@@ -10676,10 +10564,10 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.1732501286440828, 
+      "verse": 8, 
       "alignedWord": "so", 
       "start": 119.92, 
-      "verse": 8, 
+      "intensity": 0.1732501286440828, 
       "frequency": 124.86803321311959, 
       "startOffset": 1263, 
       "end": 120.77, 
@@ -10734,10 +10622,10 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.11663960797911475, 
+      "verse": 8, 
       "alignedWord": "naturally", 
       "start": 121.3, 
-      "verse": 8, 
+      "intensity": 0.11663960797911475, 
       "frequency": 110.34513039341812, 
       "startOffset": 1267, 
       "end": 122.34, 
@@ -10793,10 +10681,10 @@
           "phone": "eh_I"
         }
       ], 
-      "intensity": 0.20750625857336152, 
+      "verse": 8, 
       "alignedWord": "there", 
       "start": 127.65, 
-      "verse": 8, 
+      "intensity": 0.20750625857336152, 
       "frequency": 117.881908897569, 
       "startOffset": 1278, 
       "end": 127.88, 
@@ -10824,10 +10712,10 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.2290446684071861, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 127.88, 
-      "verse": 8, 
+      "intensity": 0.2290446684071861, 
       "frequency": 95.10486056667627, 
       "startOffset": 1284, 
       "end": 127.99, 
@@ -10859,10 +10747,10 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.18043552847793612, 
+      "verse": 8, 
       "alignedWord": "go", 
       "start": 128.02, 
-      "verse": 8, 
+      "intensity": 0.18043552847793612, 
       "frequency": 110.1984198420646, 
       "startOffset": 1286, 
       "end": 128.32, 
@@ -10908,10 +10796,10 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.04595826859633136, 
+      "verse": 8, 
       "alignedWord": "rising", 
       "start": 128.37, 
-      "verse": 8, 
+      "intensity": 0.04595826859633136, 
       "frequency": 112.49328926425193, 
       "startOffset": 1289, 
       "word": "rising", 

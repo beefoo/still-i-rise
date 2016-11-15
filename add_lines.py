@@ -57,6 +57,8 @@ for wi, word in enumerate(words):
     data["words"][wi]["line"] = len(lines)
     verse.append(word)
     line.append(word)
+verses.append(getLineOrVerse(verse))
+lines.append(getLineOrVerse(line))
 
 data["verses"] = verses
 data["lines"] = lines

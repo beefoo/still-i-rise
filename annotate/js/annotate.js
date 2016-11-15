@@ -3,7 +3,9 @@
 var Annotate = (function() {
   function Annotate(options) {
     var defaults = {
-      localStorageKey: 'annotations'
+      localStorageKey: 'annotations',
+      minOctave: 1,
+      maxOctave: 4
     };
     this.opt = $.extend({}, defaults, options);
     this.init();
@@ -33,7 +35,33 @@ var Annotate = (function() {
 
   Annotate.prototype.download = function(){};
 
+  Annotate.prototype.getAccentSelect = function(selectedAccent){
+    var accents = ['', 'ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff'];
+    var $select = $('<select class="select-accent">');
+    $.each(accents, function(i, accent){
+      var selected = accent==selectedAccent ? ' selected' : '';
+      $select.append('<option value="'+accent+'"'+selected+'>'+accent+'</option>');
+    });
+    return $select;
+  };
+
+  Annotate.prototype.getNoteSelect = function(selectedNote){
+    var notes = this._notes();
+    var minOctave = this.opt.minOctave;
+    var maxOctave = this.opt.maxOctave;
+    var $select = $('<select class="select-note-octave">');
+    for (var octave=minOctave; octave <= maxOctave; octave++) {
+      $.each(notes, function(i, note){
+        var noteOctave = note+octave;
+        var selected = noteOctave==selectedNote ? ' selected' : '';
+        $select.append('<option value="'+noteOctave+'"'+selected+'>'+noteOctave+'</option>');
+      });
+    }
+    return $select;
+  };
+
   Annotate.prototype.go = function(i){
+    var _this = this;
     var segment = this.segments[i];
 
     // load text
@@ -44,7 +72,10 @@ var Annotate = (function() {
     var $annotations = $('<div>');
     var aWidth = (1.0 / segment.annotations.length) * 100;
     $.each(segment.annotations, function(i, a){
-      var $a = $('<div class="annotation"><label>'+a.text+'</label><input type="text" name="note-octave" value="'+a.note+a.octave+'" placeholder="Note and octave" /><input type="text" name="accent" value="'+a.accent+'" placeholder="Accent" /></div>');
+      var $a = $('<div class="annotation">');
+      $a.append($('<label>'+a.text+'</label>'));
+      $a.append(_this.getNoteSelect(a.note+a.octave));
+      $a.append(_this.getAccentSelect(a.accent));
       $a.css('width', aWidth + '%');
       $annotations.append($a);
     });
@@ -224,7 +255,7 @@ var Annotate = (function() {
 
   Annotate.prototype._frequencyToNote = function(frequency){
     var note = {note: 'C', octave: 0};
-    var notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    var notes = this._notes();
     if (frequency > 0) {
       var A4 = 440;
       var C0 = A4 * Math.pow(2, -4.75);
@@ -242,6 +273,10 @@ var Annotate = (function() {
       }
     });
     return obj;
+  };
+
+  Annotate.prototype._notes = function(){
+    return ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
   };
 
   return Annotate;
