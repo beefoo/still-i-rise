@@ -5,7 +5,7 @@ var Annotate = (function() {
     var defaults = {
       localStorageKey: 'annotations'
     };
-    this.opt = _.extend({}, defaults, options);
+    this.opt = $.extend({}, defaults, options);
     this.init();
   }
 
@@ -13,6 +13,7 @@ var Annotate = (function() {
     var _this = this;
 
     this.annotations = {};
+    this.sounds = {};
     this.currentSegment = -1;
     this.segments = [];
     this.storeLocal = (typeof(Storage) !== "undefined");
@@ -33,7 +34,21 @@ var Annotate = (function() {
   Annotate.prototype.download = function(){};
 
   Annotate.prototype.go = function(i){
+    var segment = this.segments[i];
 
+    // load text
+    // $('#text').text(segment.label);
+    $('#index').val(i);
+
+    // load annotations
+    var $annotations = $('<div>');
+    var aWidth = (1.0 / segment.annotations.length) * 100;
+    $.each(segment.annotations, function(i, a){
+      var $a = $('<div class="annotation"><label>'+a.text+'</label><input type="text" name="note-octave" value="'+a.note+a.octave+'" placeholder="Note and octave" /><input type="text" name="accent" value="'+a.accent+'" placeholder="Accent" /></div>');
+      $a.css('width', aWidth + '%');
+      $annotations.append($a);
+    });
+    $('#annotations').html($annotations);
   };
 
   Annotate.prototype.goNext = function(){
@@ -109,6 +124,7 @@ var Annotate = (function() {
   };
 
   Annotate.prototype.onLoad = function(originalData, serverAnnotations, localAnnotations){
+    var _this = this;
     var audioPath = this.opt.audioPath;
     var annotations = $.extend({}, serverAnnotations, localAnnotations);
 
@@ -129,6 +145,7 @@ var Annotate = (function() {
       var lineAnnotations = [];
       $.each(lineWords[i], function(j, word){
         $.each(word.syllables, function(k, syllable){
+          // TODO: add start
           if (syllable.name in annotations) {
             lineAnnotations.push(annotations[syllable.name]);
           } else {
@@ -163,11 +180,27 @@ var Annotate = (function() {
     this.goNext();
   };
 
-  Annotate.prototype.playAudio = function(){};
+  Annotate.prototype.playAudio = function(){
+    var segment = this.segments[this.currentSegment];
+    console.log('Playing '+segment.audioFile);
 
-  Annotate.prototype.playBoth = function(){};
+    if (!(this.currentSegment in this.sounds)) {
+      this.sounds[this.currentSegment] = new Howl({
+        src: [segment.audioFile]
+      });
+    }
 
-  Annotate.prototype.playNotes = function(){};
+    this.sounds[this.currentSegment].play();
+  };
+
+  Annotate.prototype.playBoth = function(){
+    this.playAudio();
+    this.playNotes();
+  };
+
+  Annotate.prototype.playNotes = function(){
+    var segment = this.segments[this.currentSegment];
+  };
 
   Annotate.prototype.saveAnnotationsLocal = function(){
     if (this.storeLocal) {
@@ -176,18 +209,30 @@ var Annotate = (function() {
   };
 
   Annotate.prototype._defaultAnnotation = function(obj){
-    var defaultAnnotation = {note: '', octave: 0, accent: false, text: false};
+    var defaultAnnotation = {note: 'C', octave: 0, accent: '', text: ''};
 
     if ("frequency" in obj) {
       $.extend(defaultAnnotation, this._frequencyToNote(obj.frequency));
+    }
+
+    if ("text" in obj){
+      defaultAnnotation.text = obj.text;
     }
 
     return defaultAnnotation;
   };
 
   Annotate.prototype._frequencyToNote = function(frequency){
-
-    return {note: '', octave: 0};
+    var note = {note: 'C', octave: 0};
+    var notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    if (frequency > 0) {
+      var A4 = 440;
+      var C0 = A4 * Math.pow(2, -4.75);
+      var h = Math.round(12*(Math.log(frequency/C0)/Math.log(2)));
+      note.octave = Math.floor(h / 12);
+      note.note = notes[h % 12];
+    }
+    return note;
   };
 
   Annotate.prototype._initKeys = function(obj, keys){
