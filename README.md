@@ -40,8 +40,18 @@ This step creates the .wav file from source .mp4 file
 
 This step extracts amplitude, pitch, and voice pulse data from .wav file using [Praat](http://www.fon.hum.uva.nl/praat/)
 
-1. Open .wav file in [Praat](http://www.fon.hum.uva.nl/praat/)
-2. _(optional)_ Select object, then click **Save** -> **short text file** (e.g. still_i_rise.Sound) - this will give you raw amplitude data
+1. Download [Praat](http://www.fon.hum.uva.nl/praat/) and add the Praat directory to your PATH so you can execute Praat from the command line
+2. Run script to collect pitch, intensity, and voice pulse data
+
+  ```
+  python collect_sound_data.py
+  ```
+
+3. The above script will generate .Pitch and .PointProcess short text files
+
+You can also do the above steps manually in Praat's GUI:
+
+1. Open .wav file in Praat
 2. Click **View & Edit**
 3. Show analysis by clicking **View** -> **Show Analysis...** -> **Longest Analysis** -> 200 -> Apply
 4. Click **Pitch** and update settings (adjust as needed):
