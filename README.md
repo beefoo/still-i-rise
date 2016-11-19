@@ -141,13 +141,13 @@ pip install numpy
 
 ## Process frames
 
-1. Convert .mp4 to .jpg frames (15fps)
+1. Convert .mp4 to .png frames (15fps)
 
   ```
   ffmpeg -i still_i_rise.mp4 -r 15/1 -q:v 1 frames/frame%04d.png
   ```
 
-2. Convert .jpg frames (15fps) to .mp4 (15fps) ([ref](https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images))
+2. Convert .jpg frames (15fps) to .png (15fps) ([ref](https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images))
 
   ```
   ffmpeg -framerate 15/1 -i frames/frame%04d.png -c:v libx264 -r 15 -pix_fmt yuv420p -q:v 1 output/still_i_rise.mp4
