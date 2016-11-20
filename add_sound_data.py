@@ -68,10 +68,12 @@ def getSoundData(start, end, frames, defaultFreq=0):
     if len(intensities) > 0:
         intensity = mean(intensities)
 
-    return {
+    data = {
         "frequency": frequency,
         "intensity": intensity
     }
+
+    return data
 
 words = data["words"]
 nonwords = data["nonwords"]
