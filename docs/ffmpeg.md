@@ -30,7 +30,7 @@ ffmpeg -i temp.wav -af 'afade=t=in:ss=0:d=0.5,afade=t=out:st=4.5:d=0.5' out.wav 
 rm temp.wav
 ```
 
-Convert .png to .jpg frames (15fps)
+Convert .mp4 to .png frames (15fps)
 
 ```
 ffmpeg -i in.mp4 -r 15/1 -q:v 1 frames/frame%04d.png
