@@ -22,13 +22,15 @@ form Get pitch data from sound file
   positive Pitch_floor 75
   positive Max_candidates 15
   text Very_accurate off
+  # To capture more, quieter candidates, decrease this value.
   positive Silence_threshold 0.03
+  # To increase the number of unvoiced decisions, increase this value.
   positive Voicing_threshold 0.45
-  # To more strongly favour recruitment of high-frequency candidates, increase this value. Default: 0.01
+  # To more strongly favour recruitment of high-frequency candidates, increase this value.
   positive Octave_cost 0.01
-  # To decrease the number of large frequency jumps, increase this value. Default: 0.35
+  # To decrease the number of large frequency jumps, increase this value.
   positive Octave_jump_cost 0.35
-  # To decrease the number of voiced/unvoiced transitions, increase this value. Default: 0.14
+  # To decrease the number of voiced/unvoiced transitions, increase this value.
   positive Voiced_cost 0.14
   positive Pitch_ceiling 600
 endform

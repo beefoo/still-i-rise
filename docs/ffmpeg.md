@@ -41,3 +41,11 @@ ffmpeg -i in.mp4 -r 15/1 -q:v 1 frames/frame%04d.png
 ```
 ffmpeg -framerate 15/1 -i frames/frame%04d.png -c:v libx264 -r 15 -pix_fmt yuv420p -q:v 1 out.mp4
 ```
+
+[Add audio to video](http://stackoverflow.com/questions/11779490/how-to-add-a-new-audio-not-mixing-into-a-video-using-ffmpeg)
+
+```
+ffmpeg -i in.mp4 -i in.wav -c:v libx264 -c:a libfaac -shortest out.mp4
+```
+
+Duration will be the shortest of the two files

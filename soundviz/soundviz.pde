@@ -1,7 +1,7 @@
 // output
 int fps = 30;
 String outputFrameFile = "output/frames/frames-#####.png";
-boolean captureFrames = false;
+boolean captureFrames = true;
 
 // data
 String data_file = "data/still_i_rise.json";
@@ -16,7 +16,7 @@ int legendH = 30;
 color bgColor = #161414;
 
 // time
-float speed = 0.1;
+float speed = 0.2;
 float startMs = 0;
 float endMs = 0;
 float elapsedMs = startMs;
