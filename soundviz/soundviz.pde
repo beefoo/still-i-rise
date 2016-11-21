@@ -69,7 +69,7 @@ void setup() {
   staff = new Staff(0, 0, width, height - legendH, noteLabels, minFrequency, maxFrequency);
 
   // init speech
-  speech = new Speech(0, 0, width, height - legendH, syllables_json, minFrequency, maxFrequency, minIntensity, maxIntensity, pxPerMs);
+  speech = new Speech(0, 0, width, height - legendH, noteLabels, syllables_json, minFrequency, maxFrequency, minIntensity, maxIntensity, pxPerMs);
 
   // determine the frames
   totalFrames = endMs * 0.001 * fps;
@@ -79,7 +79,7 @@ void setup() {
 
 void draw(){
   background(bgColor);
-  
+
   speech.render(elapsedMs);
 
   staff.render();
@@ -295,17 +295,20 @@ class Speech
   color strokeColor = #444444;
   color textColor = #ffffff;
   float labelH = 30;
+  float frameW = 10;
 
   ArrayList<Syllable> syllables;
+  ArrayList<NoteLabel> notes;
   int x, y, w, h;
   float minFrequency, maxFrequency, minIntensity, maxIntensity, pxPerMs, msPerFrame;
   PGraphics pg;
 
-  Speech(int _x, int _y, int _w, int _h, JSONArray syllables_json, float _minFrequency, float _maxFrequency, float _minIntensity, float _maxIntensity, float _pxPerMs) {
+  Speech(int _x, int _y, int _w, int _h, ArrayList<NoteLabel> _notes, JSONArray syllables_json, float _minFrequency, float _maxFrequency, float _minIntensity, float _maxIntensity, float _pxPerMs) {
     x = _x;
     y = _y;
     w = _w;
     h = _h;
+    notes = _notes;
     minFrequency = _minFrequency;
     maxFrequency = _maxFrequency;
     minIntensity = _minIntensity;
@@ -317,7 +320,7 @@ class Speech
     syllables = new ArrayList<Syllable>();
     for (int i = 0; i < syllables_json.size(); i++) {
       JSONObject syllable_json = syllables_json.getJSONObject(i);
-      syllables.add(new Syllable(syllable_json, i));
+      syllables.add(new Syllable(syllable_json, notes, i));
     }
 
     pg = createGraphics(w, h);
@@ -330,6 +333,7 @@ class Speech
     pg.beginDraw();
     pg.clear();
     pg.textAlign(CENTER, CENTER);
+    pg.colorMode(RGB, 255, 255, 255, 100);
 
     for (Syllable s : syllables) {
       if (s.isVisible(minMs, maxMs)) {
@@ -341,9 +345,15 @@ class Speech
         pg.strokeWeight(1);
         pg.line(sx, 0, sx, h);
 
-        // for (Frame f : s.getFrames()) {
-        //
-        // }
+        // draw frames
+        for (Frame f : s.getFrames()) {
+          float fx = norm(f.getStart(), minMs, maxMs) * w;
+          float fy = 1.0*h - norm(f.getFrequency(), minFrequency, maxFrequency) * h;
+          // draw frame
+          pg.noStroke();
+          pg.fill(f.getColor());
+          pg.ellipse(fx, fy, frameW, frameW);
+        }
 
          // draw label
          pg.noStroke();
@@ -365,7 +375,7 @@ class Syllable
   String text;
   ArrayList<Frame> frames;
 
-  Syllable(JSONObject _syllable, int _index) {
+  Syllable(JSONObject _syllable, ArrayList<NoteLabel> _notes, int _index) {
     index = _index;
     text = _syllable.getString("syllable");
     start_ms = _syllable.getFloat("start") * 1000;
@@ -375,7 +385,7 @@ class Syllable
     JSONArray frames_json = _syllable.getJSONArray("frames");
     for (int i = 0; i < frames_json.size(); i++) {
       JSONArray frame = frames_json.getJSONArray(i);
-      frames.add(new Frame(frame.getFloat(0), frame.getFloat(1), frame.getFloat(2), i));
+      frames.add(new Frame(frame.getFloat(0), frame.getFloat(1), frame.getFloat(2), _notes, i));
     }
   }
 
@@ -403,14 +413,34 @@ class Syllable
 
 class Frame
 {
+  float minAlpha = 5;
+  float maxAlpha = 100;
   int index;
   float start_ms, frequency, intensity;
+  color myColor;
+  Note note;
 
-  Frame(float _start, float _frequency, float _intensity, int _index) {
+  Frame(float _start, float _frequency, float _intensity, ArrayList<NoteLabel> _notes, int _index) {
     start_ms = _start * 1000;
     frequency = _frequency;
     intensity = _intensity;
     index = _index;
+    note = frequencyToNote(frequency);
+    float alpha = lerp(minAlpha, maxAlpha, intensity);
+    color noteColor = _notes.get(note.getIndex()).getColor();
+    myColor = color(red(noteColor), green(noteColor), blue(noteColor), alpha);
+  }
+
+  color getColor(){
+    return myColor;
+  }
+
+  float getFrequency(){
+    return frequency;
+  }
+
+  float getStart(){
+    return start_ms;
   }
 
 }
