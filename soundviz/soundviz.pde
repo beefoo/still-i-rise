@@ -5,32 +5,25 @@ boolean captureFrames = false;
 
 // data
 String data_file = "data/still_i_rise.json";
-JSONObject data_json;
-JSONArray syllables_json;
-ArrayList<Syllable> syllables;
 
 // ui
-ArrayList<NoteLabel> noteLabels;
+Speech speech;
 Legend legend;
 Staff staff;
 int legendH = 30;
 
 // color
 color bgColor = #161414;
-color textColor = #ffffff;
 
 // time
+float speed = 0.1;
 float startMs = 0;
 float endMs = 0;
 float elapsedMs = startMs;
 float frameMs = (1.0/fps) * 1000;
 float totalFrames = 0;
-
-// to be defined
-float minFrequency = 0;
-float maxFrequency = 0;
-float minIntensity = 0;
-float maxIntensity = 0;
+float pxPerS = 500;
+float pxPerMs = pxPerS / 1000;
 
 void setup() {
   // set the stage
@@ -40,11 +33,10 @@ void setup() {
   smooth();
   noStroke();
   noFill();
-  
   background(bgColor);
 
   // init note labels
-  noteLabels = new ArrayList<NoteLabel>();
+  ArrayList<NoteLabel> noteLabels = new ArrayList<NoteLabel>();
   noteLabels.add(new NoteLabel("C", color(255, 50, 50)));
   noteLabels.add(new NoteLabel("C#", color(90, 90, 255)));
   noteLabels.add(new NoteLabel("D", color(50, 255, 50)));
@@ -58,23 +50,17 @@ void setup() {
   noteLabels.add(new NoteLabel("A#", color(50, 175, 255)));
   noteLabels.add(new NoteLabel("B", color(175, 255, 50)));
 
-  // init syllables
-  data_json = loadJSONObject(data_file);
-  minFrequency = data_json.getFloat("minFrequency");
-  maxFrequency = data_json.getFloat("maxFrequency");
-  minIntensity = data_json.getFloat("minIntensity");
-  maxIntensity = data_json.getFloat("maxIntensity");
+  // get speech data
+  JSONObject data_json = loadJSONObject(data_file);
+  float minFrequency = data_json.getFloat("minFrequency");
+  float maxFrequency = data_json.getFloat("maxFrequency");
+  float minIntensity = data_json.getFloat("minIntensity");
+  float maxIntensity = data_json.getFloat("maxIntensity");
   startMs = data_json.getFloat("start") * 1000;
   if (endMs <= 0) {
     endMs = data_json.getFloat("end") * 1000;
   }
-  syllables_json = data_json.getJSONArray("data");
-
-  syllables = new ArrayList<Syllable>();
-  for (int i = 0; i < syllables_json.size(); i++) {
-    JSONObject syllable_json = syllables_json.getJSONObject(i);
-    syllables.add(new Syllable(syllable_json, i));
-  }
+  JSONArray syllables_json = data_json.getJSONArray("data");
 
   // init legend
   legend = new Legend(0, height - legendH, width, legendH, noteLabels);
@@ -82,20 +68,27 @@ void setup() {
   // init staff
   staff = new Staff(0, 0, width, height - legendH, noteLabels, minFrequency, maxFrequency);
 
+  // init speech
+  speech = new Speech(0, 0, width, height - legendH, syllables_json, minFrequency, maxFrequency, minIntensity, maxIntensity, pxPerMs);
+
   // determine the frames
   totalFrames = endMs * 0.001 * fps;
 
-  noLoop();
+  // noLoop();
 }
 
 void draw(){
+  background(bgColor);
+  
+  speech.render(elapsedMs);
 
   staff.render();
 
   legend.render();
 
+
   // increment time
-  elapsedMs += frameMs;
+  elapsedMs += (frameMs * speed);
 
   // save image
   if(captureFrames) {
@@ -136,7 +129,7 @@ class Note
   int getIndex(){
     return index;
   }
-  
+
   int getOctave(){
     return octave;
   }
@@ -222,6 +215,9 @@ class Staff
 {
   color strokeColor = #666666;
   color textColor = #ffffff;
+  color centerLineColor = #8d8e6c;
+  int labelW = 50;
+
   int strokeWidth = 1;
   int x, y, w, h;
   float minFrequency, maxFrequency;
@@ -246,9 +242,14 @@ class Staff
     float lastLineY = -1;
     float pxPerHz = h / (maxFrequency - minFrequency);
     float currentY = 1.0 * h;
-    
+
     pg.beginDraw();
     pg.textAlign(LEFT, CENTER);
+
+    // draw label background
+    pg.fill(#000000);
+    pg.noStroke();
+    pg.rect(0, 0, labelW, h);
 
     for (int f = floor(minFrequency); f <= floor(maxFrequency); f++) {
       Note n = frequencyToNote(1.0*f);
@@ -263,8 +264,9 @@ class Staff
           pg.line(0, currentY, w, currentY);
           // draw label
           if (lastLineY >= 0) {
+            pg.noStroke();
             pg.fill(textColor);
-            pg.text(notes.get(currentNote).getLabel() + currentOctave, 10, currentY, 100, (lastLineY-currentY));
+            pg.text(notes.get(currentNote).getLabel() + currentOctave, 10, currentY, labelW, (lastLineY-currentY));
           }
           lastLineY = currentY;
         }
@@ -273,11 +275,85 @@ class Staff
       }
       currentY -= pxPerHz;
     }
-    
+
+    // draw vertical line in middle
+    pg.noFill();
+    pg.stroke(centerLineColor);
+    pg.strokeWeight(1);
+    pg.line(w*0.5, 0, w*0.5, h);
+
     pg.endDraw();
   }
 
   void render(){
+    image(pg, x, y);
+  }
+}
+
+class Speech
+{
+  color strokeColor = #444444;
+  color textColor = #ffffff;
+  float labelH = 30;
+
+  ArrayList<Syllable> syllables;
+  int x, y, w, h;
+  float minFrequency, maxFrequency, minIntensity, maxIntensity, pxPerMs, msPerFrame;
+  PGraphics pg;
+
+  Speech(int _x, int _y, int _w, int _h, JSONArray syllables_json, float _minFrequency, float _maxFrequency, float _minIntensity, float _maxIntensity, float _pxPerMs) {
+    x = _x;
+    y = _y;
+    w = _w;
+    h = _h;
+    minFrequency = _minFrequency;
+    maxFrequency = _maxFrequency;
+    minIntensity = _minIntensity;
+    maxIntensity = _maxIntensity;
+    pxPerMs = _pxPerMs;
+
+    msPerFrame = 1.0 * w / pxPerMs;
+
+    syllables = new ArrayList<Syllable>();
+    for (int i = 0; i < syllables_json.size(); i++) {
+      JSONObject syllable_json = syllables_json.getJSONObject(i);
+      syllables.add(new Syllable(syllable_json, i));
+    }
+
+    pg = createGraphics(w, h);
+  }
+
+  void render(float ms) {
+    float minMs = ms - msPerFrame * 0.5;
+    float maxMs = ms + msPerFrame * 0.5;
+
+    pg.beginDraw();
+    pg.clear();
+    pg.textAlign(CENTER, CENTER);
+
+    for (Syllable s : syllables) {
+      if (s.isVisible(minMs, maxMs)) {
+        float sx = norm(s.getStart(), minMs, maxMs) * w;
+        float sw = s.getDuration() / msPerFrame * w;
+        // draw line
+        pg.noFill();
+        pg.stroke(strokeColor);
+        pg.strokeWeight(1);
+        pg.line(sx, 0, sx, h);
+
+        // for (Frame f : s.getFrames()) {
+        //
+        // }
+
+         // draw label
+         pg.noStroke();
+         pg.fill(textColor);
+         pg.text(s.getText(), sx, h - labelH, sw, labelH);
+      }
+    }
+
+    pg.endDraw();
+
     image(pg, x, y);
   }
 }
@@ -292,8 +368,8 @@ class Syllable
   Syllable(JSONObject _syllable, int _index) {
     index = _index;
     text = _syllable.getString("syllable");
-    start_ms = _syllable.getFloat("start");
-    end_ms = _syllable.getFloat("end");
+    start_ms = _syllable.getFloat("start") * 1000;
+    end_ms = _syllable.getFloat("end") * 1000;
 
     frames = new ArrayList<Frame>();
     JSONArray frames_json = _syllable.getJSONArray("frames");
@@ -301,6 +377,26 @@ class Syllable
       JSONArray frame = frames_json.getJSONArray(i);
       frames.add(new Frame(frame.getFloat(0), frame.getFloat(1), frame.getFloat(2), i));
     }
+  }
+
+  boolean isVisible(float ms0, float ms1) {
+    return !(start_ms > ms1 || end_ms < ms0);
+  }
+
+  float getDuration(){
+    return (end_ms - start_ms);
+  }
+
+  ArrayList<Frame> getFrames(){
+    return frames;
+  }
+
+  float getStart(){
+    return start_ms;
+  }
+
+  String getText(){
+    return text;
   }
 
 }
