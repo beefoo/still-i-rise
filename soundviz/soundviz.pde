@@ -1,7 +1,7 @@
 // output
 int fps = 30;
 String outputFrameFile = "output/frames/frames-#####.png";
-boolean captureFrames = true;
+boolean captureFrames = false;
 
 // data
 String data_file = "data/still_i_rise.json";
@@ -97,14 +97,14 @@ void draw(){
 
   // check if we should exit
   if (elapsedMs > endMs) {
-    saveFrame("output/frame.png");
+    // saveFrame("output/frame.png");
     exit();
   }
 
 }
 
 void mousePressed() {
-  saveFrame("output/frame.png");
+  // saveFrame("output/frame.png");
   exit();
 }
 
@@ -377,7 +377,7 @@ class Syllable
 
   Syllable(JSONObject _syllable, ArrayList<NoteLabel> _notes, int _index) {
     index = _index;
-    text = _syllable.getString("syllable");
+    text = _syllable.getString("text");
     start_ms = _syllable.getFloat("start") * 1000;
     end_ms = _syllable.getFloat("end") * 1000;
 

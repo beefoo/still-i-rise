@@ -10,7 +10,7 @@ import sys
 parser = argparse.ArgumentParser()
 parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")
 parser.add_argument('-pf', dest="PITCH_FILE", default="data/still_i_rise.Pitch", help="Path to pitch file")
-parser.add_argument('-out', dest="OUTPUT_FILE", default="soundviz/data/still_i_rise.json", help="Path to output json file")
+parser.add_argument('-out', dest="OUTPUT_FILE", default="annotate/data/still_i_rise.json", help="Path to output json file")
 
 # init input
 args = parser.parse_args()
@@ -37,7 +37,6 @@ for i, f in enumerate(frames):
     frames[i]["frequency"] = freq
 
 output = {
-    "data": [],
     "minFrequency": math.floor(min(freqs)),
     "maxFrequency": math.ceil(max(freqs)),
     "minIntensity": math.floor(min(ints)),
@@ -45,15 +44,46 @@ output = {
     "start": 0,
     "end": data["words"][-1]["end"]
 }
+
+groups = []
+for i, line in enumerate(data["lines"]):
+    groups.append({
+        "name": line["name"],
+        "text": line["text"],
+        "type": "lines"
+    })
+
+dataOut = []
 for i, word in enumerate(data["words"]):
     for j, syllable in enumerate(word["syllables"]):
         sFrames = [(f["start"], round(f["frequency"],2), round(f["intensity"],2)) for f in frames if syllable["start"] <= f["start"] < syllable["end"]]
-        output["data"].append({
+        dataOut.append({
+            "name": syllable["name"],
             "start": syllable["start"],
             "end": syllable["end"],
-            "syllable": syllable["text"],
+            "text": syllable["text"],
+            "group": groups[word["line"]]["name"],
             "frames": sFrames
         })
+
+for i, word in enumerate(data["nonwords"]):
+    wFrames = [(f["start"], round(f["frequency"],2), round(f["intensity"],2)) for f in frames if word["start"] <= f["start"] < word["end"]]
+    groups.append({
+        "name": word["name"],
+        "text": word["name"],
+        "type": "nonwords"
+    })
+    dataOut.append({
+        "name": word["name"],
+        "start": word["start"],
+        "end": word["end"],
+        "text": "[non-word]",
+        "group": word["name"],
+        "frames": wFrames
+    })
+
+output["data"] = dataOut
+output["groups"] = groups
 
 with open(args.OUTPUT_FILE, 'w') as f:
     json.dump(output, f)

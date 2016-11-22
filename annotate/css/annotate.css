@@ -9,45 +9,26 @@ button {
 }
 
 .container {
-  max-width: 960px;
-  padding: 1rem;
-  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .component-group {
   display: flex;
   flex-direction: row;
-  margin: 1rem 0;
+  margin: 0;
 }
 .component-group > * {
   flex-grow: 1;
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
 }
-.annotations {
-  margin: 2rem 0 2.5rem;
-}
-.annotations > div:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.annotation {
-  float: left;
-  box-sizing: border-box;
-  padding: 0.35rem;
-}
-.annotation label,
-.annotation select {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin-top: 0.35rem;
-}
-.annotation label {
-  white-space: nowrap;
-}
-.annotation select {
-  text-indent: 0.2rem;
+
+.canvas-container {
+  display: flex;
+  flex: 1;
 }
