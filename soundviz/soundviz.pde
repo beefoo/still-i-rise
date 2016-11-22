@@ -16,7 +16,7 @@ int legendH = 30;
 color bgColor = #161414;
 
 // time
-float speed = 0.2;
+float speed = 1.0/3.0;
 float startMs = 0;
 float endMs = 0;
 float elapsedMs = startMs;
@@ -27,7 +27,7 @@ float pxPerMs = pxPerS / 1000;
 
 void setup() {
   // set the stage
-  size(1280, 720);
+  size(1280, 920);
   colorMode(RGB, 255, 255, 255, 100);
   frameRate(fps);
   smooth();
@@ -413,7 +413,7 @@ class Syllable
 
 class Frame
 {
-  float minAlpha = 5;
+  float minAlpha = 10;
   float maxAlpha = 100;
   int index;
   float start_ms, frequency, intensity;

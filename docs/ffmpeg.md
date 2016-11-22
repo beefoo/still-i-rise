@@ -46,6 +46,7 @@ ffmpeg -framerate 15/1 -i frames/frame%04d.png -c:v libx264 -r 15 -pix_fmt yuv42
 
 ```
 ffmpeg -i in.mp4 -i in.wav -c:v libx264 -c:a libfaac -shortest out.mp4
+ffmpeg -i in.mp4 -i in.wav -c:v libx264 -c:a aac -strict experimental -shortest out.mp4
 ```
 
-Duration will be the shortest of the two files
+Duration will be the shortest of the two files. Second command is if libfaac does not exist
