@@ -47,51 +47,6 @@ words = data["words"]
 nonwords = data["nonwords"]
 pauses = data["pauses"]
 
-# add names
-
-changed = False
-
-for i, line in enumerate(lines):
-    name = "line_%s_%s" % (str(i).zfill(3), int(line["start"]))
-    if "name" not in line or line["name"] != name:
-        changed = True
-    lines[i]["name"] = name
-
-
-for i, word in enumerate(words):
-    name = "word_%s_%s_%s" % (str(i).zfill(3), re.sub(r'\W+', '', word["alignedWord"]), int(word["start"]))
-    words[i]["name"] = name
-    if "name" not in line or word["name"] != name:
-        changed = True
-    for j, syllable in enumerate(word["syllables"]):
-        name = "syll_%s_%s_%s_%s" % (str(i).zfill(3), j, re.sub(r'\W+', '', syllable["text"]), int(syllable["start"]))
-        if "name" not in syllable or syllable["name"] != name:
-            changed = True
-        words[i]["syllables"][j]["name"] = name
-
-for i, word in enumerate(nonwords):
-    name = "nonword_%s_%s" % (str(i).zfill(3), int(word["start"]))
-    if "name" not in line or word["name"] != name:
-        changed = True
-    nonwords[i]["name"] = name
-
-for i, word in enumerate(pauses):
-    name = "pause_%s_%s" % (str(i).zfill(3), int(word["start"]))
-    if "name" not in line or word["name"] != name:
-        changed = True
-    pauses[i]["name"] = name
-
-# update file with names
-
-if changed:
-    data["lines"] = lines
-    data["words"] = words
-    data["nonwords"] = nonwords
-    data["pauses"] = pauses
-    with open(args.INPUT_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
-    print "Updated names in file."
-
 # create clips
 
 for i, line in enumerate(lines):

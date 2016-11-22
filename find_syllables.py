@@ -97,6 +97,7 @@ for i, entry in enumerate(words):
             if "syllable" in p:
                 if dur > 0:
                     syllables.append({
+                        "name": "syll_%s_%s_%s_%s" % (str(i).zfill(3), len(syllables), re.sub(r'\W+', '', text), int(start)),
                         "text": text,
                         "start": start,
                         "end": round(start + dur, PRECISION)
@@ -107,6 +108,7 @@ for i, entry in enumerate(words):
         if dur > 0:
             text = syllables1[len(syllables)]
             syllables.append({
+                "name": "syll_%s_%s_%s_%s" % (str(i).zfill(3), len(syllables), re.sub(r'\W+', '', text), int(start)),
                 "text": text,
                 "start": start,
                 "end": round(start + dur, PRECISION)

@@ -25,13 +25,15 @@ words = data["words"]
 lines = []
 verses = []
 
-def getLineOrVerse(ws):
+def getLineOrVerse(t,i,ws):
     global transcript
     w0 = ws[0]
     w1 = ws[-1]
     text = transcript[w0["startOffset"]:w1["endOffset"]]
+    name = "%s_%s_%s" % (t, str(i).zfill(3), int(w0["start"]))
     return {
         "text": text,
+        "name": name,
         "startOffset": w0["startOffset"],
         "endOffset": w1["endOffset"],
         "start": w0["start"],
@@ -47,11 +49,11 @@ for wi, word in enumerate(words):
         prev = transcript[word0["endOffset"]:word["startOffset"]]
     # Check for new verse
     if "\r\n\r\n" in prev:
-        verses.append(getLineOrVerse(verse))
+        verses.append(getLineOrVerse("verse", len(verses), verse))
         verse = []
     # Check for new line
     if "\r\n" in prev:
-        lines.append(getLineOrVerse(line))
+        lines.append(getLineOrVerse("line", len(lines), line))
         line = []
     data["words"][wi]["verse"] = len(verses)
     data["words"][wi]["line"] = len(lines)

@@ -27,6 +27,8 @@ for i, word in enumerate(words):
     # Round numbers
     start = round(word["start"], PRECISION)
     end = round(word["end"], PRECISION)
+    # Add name
+    name = "word_%s_%s_%s" % (str(i).zfill(3), re.sub(r'\W+', '', word["alignedWord"]), int(start))
     # Round phones
     phones = word["phones"]
     for j, phone in enumerate(phones):
@@ -37,6 +39,7 @@ for i, word in enumerate(words):
     diff = duration - phoneDuration
     if abs(diff) > (1.0/(PRECISION+1)):
         print "Duration discrepancy of %ss: <%s> (%s)" % (diff, word["alignedWord"], time.strftime('%M:%S', time.gmtime(start)))
+    words[i]["name"] = name
     words[i]["start"] = start
     words[i]["end"] = end
     words[i]["phones"] = phones

@@ -85,15 +85,27 @@ for gap in gaps:
         p1 = p[1]
         # pause found
         if p0 > start and (p0-start) >= MIN_DURATION:
-            pauses.append({"start": start, "end": p0})
+            pauses.append({
+                "start": start,
+                "end": p0,
+                "name": "pause_%s_%s" % (str(len(pauses)).zfill(3), int(start))
+            })
         n0 = max(p0, g0)
         n1 = min(p1, g1)
         if (n1-n0) >= MIN_DURATION:
-            nonwords.append({"start": n0, "end": n1})
+            nonwords.append({
+                "start": n0,
+                "end": n1,
+                "name": "nonword_%s_%s" % (str(len(nonwords)).zfill(3), int(n0))
+            })
         start = p1
     # No pulses; add as a pause
     if len(gapPulses) <= 0:
-        pauses.append({"start": g0, "end": g1})
+        pauses.append({
+            "start": g0,
+            "end": g1,
+            "name": "pause_%s_%s" % (str(len(pauses)).zfill(3), int(g0))
+        })
 
 data["nonwords"] = nonwords
 data["pauses"] = pauses
