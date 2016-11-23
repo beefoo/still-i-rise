@@ -11,7 +11,7 @@ var Annotate = (function() {
       strokeStyle: '#555555',
       textStyle: '#ffffff'
     };
-    this.opt = $.extend({}, defaults, options);
+    this.opt = _.extend({}, defaults, options);
     this.init();
   }
 
@@ -63,6 +63,29 @@ var Annotate = (function() {
     if (this.currentSegment < 0) this.currentSegment = 0;
     this.go(this.currentSegment);
   };
+
+  Annotate.prototype.guessPitch = function(frames){
+    // no frames
+    if (!frames.length) return [];
+    if (frames.length===1) return [frames[0][1], frames[0][1]];
+
+    // remove outliers
+
+    // sort by intensity
+    frames = _.sortBy(frames, function(f){ return -f[2] });
+
+    // cut in half
+    frames = frames.slice(0, Math.ceil(frames.length * 0.5));
+
+    var maxFrame = _.max(frames, function(f){ return f[1]; });
+    var minFrame = _.min(frames, function(f){ return f[1]; });
+    var pitches = [maxFrame, minFrame];
+
+    // sort by time
+    pitches = _.sortBy(pitches, function(f){ return f[0] });
+
+    return _.map(pitches, function(f){ return f[1]; });
+  }
 
   Annotate.prototype.loadAnnotations = function(url){
     var _this = this;
@@ -117,6 +140,11 @@ var Annotate = (function() {
       var val = parseInt($(this).val());
       if (val >= 0) _this.go(val);
     });
+    $(window).on('keydown', function(e){
+      if (e.keyCode == 37) { e.preventDefault(); _this.goPrevious(); }
+      else if (e.keyCode == 39) { e.preventDefault(); _this.goNext(); }
+      else if (e.keyCode == 32) { e.preventDefault(); _this.playAudio(); }
+    })
 
     $('.play-audio').on('click', function(e){ _this.playAudio(); });
     $('.play-notes').on('click', function(e){ _this.playNotes(); });
@@ -130,7 +158,7 @@ var Annotate = (function() {
   Annotate.prototype.loadSegments = function(segments){
     // add segments to index
     var $index = $('#index');
-    $.each(segments, function(i, segment){
+    _.each(segments, function(segment, i){
       $index.append('<option value="'+i+'">'+segment.label+'</option>');
     });
   };
@@ -138,14 +166,14 @@ var Annotate = (function() {
   Annotate.prototype.onLoad = function(originalData, serverAnnotations, localAnnotations){
     var _this = this;
     var audioPath = this.opt.audioPath;
-    var annotations = $.extend({}, serverAnnotations, localAnnotations);
+    var annotations = _.extend({}, serverAnnotations, localAnnotations);
 
     this.frequencyRange = [Math.floor(originalData.minFrequency), Math.ceil(originalData.maxFrequency)];
     this.intensityRange = [Math.floor(originalData.minIntensity), Math.ceil(originalData.maxIntensity)];
 
     // put item in groups
     var groupItems = {};
-    $.each(originalData.data, function(i, item){
+    _.each(originalData.data, function(item, i){
       if (item.group in groupItems) {
         groupItems[item.group].push(item);
       } else {
@@ -155,7 +183,7 @@ var Annotate = (function() {
 
     // add lines as audio segments
     var segments = [];
-    $.each(originalData.groups, function(i, group){
+    _.each(originalData.groups, function(group, i){
       var segment = {name: group.name, audioFile: audioPath + group.type + "/" + group.name + ".wav", label: group.text};
       segment.items = groupItems[group.name];
       segments.push(segment);
@@ -198,6 +226,7 @@ var Annotate = (function() {
   };
 
   Annotate.prototype.renderCanvas = function(){
+    var _this = this;
     var segment = this.segments[this.currentSegment];
     var items = segment.items;
     var start = items[0].start;
@@ -213,7 +242,7 @@ var Annotate = (function() {
     ctx.rect(0, 0, w, h);
     ctx.fill();
 
-    $.each(items, function(i, item){
+    _.each(items, function(item, i){
       var x = UTIL.norm(item.start, start, end) * w;
       // draw line
       if (i > 0) {
@@ -226,13 +255,15 @@ var Annotate = (function() {
 
       // draw text
       var x1 = UTIL.norm(item.end, start, end) * w;
+      var centerX = x + (x1-x)*0.5;
       ctx.textAlign = "center";
       ctx.font = opt.font;
       ctx.fillStyle = opt.textStyle;
-      ctx.fillText(item.text, x + (x1-x)*0.5, 30);
+      ctx.fillText(item.text, centerX, 30);
 
       // draw frames
-      $.each(item.frames, function(j, frame){
+      var frames = item.frames;
+      _.each(frames, function(frame, j){
         var fStart = frame[0];
         var frequency = frame[1];
         var intensity = frame[2];
@@ -244,6 +275,25 @@ var Annotate = (function() {
         ctx.arc(fx,fy,opt.dotRadius,0,2*Math.PI);
         ctx.fill();
       });
+
+      // draw guess
+      var pitch = _this.guessPitch(frames);
+      if (pitch.length) {
+        var py = UTIL.norm(pitch[0], fRange[1], fRange[0]) * h;
+        py = UTIL.lim(py, 1, h-1);
+        ctx.strokeStyle = 'red';
+        ctx.beginPath();
+        ctx.moveTo(x,py);
+        ctx.lineTo(centerX,py);
+        ctx.stroke();
+        py = UTIL.norm(pitch[1], fRange[1], fRange[0]) * h;
+        py = UTIL.lim(py, 1, h-1);
+        ctx.beginPath();
+        ctx.moveTo(centerX,py);
+        ctx.lineTo(x1,py);
+        ctx.stroke();
+      }
+
     });
   };
 
