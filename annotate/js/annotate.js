@@ -67,16 +67,75 @@ var Annotate = (function() {
   Annotate.prototype.guessPitch = function(frames){
     // no frames
     if (!frames.length) return [];
+    // one frame
     if (frames.length===1) return [frames[0][1], frames[0][1]];
 
-    // remove outliers
+    // break frames into groups
+    var groups = [];
+    var group = [];
+    var threshold = 50; // don't jump more than 4 notes
+    var lastF = 0;
+    _.each(frames, function(f, i){
+      var delta = Math.abs(f[1] - lastF);
+
+      // frame is continuation of last frame
+      if (f[1] > 0 && (delta <= threshold || lastF <= 0)) {
+        group.push(f);
+
+      // frame jumped high, add existing group, start a new group
+      } else if (f[1] > 0) {
+        if (group.length) groups.push(group);
+        group = [f];
+
+      // frame is silent, add existing group
+      } else {
+        if (group.length) groups.push(group);
+        group = [];
+      }
+
+      lastF = f[1];
+    });
+    if (group.length) groups.push(group);
+
+    // map groups
+    groups = _.map(groups, function(g){
+      return {
+        start: g[0][0],
+        intensity: (_.reduce(g, function(memo, f){ return memo + f[2]; }, 0) / g.length),
+        size: g.length,
+        frames: g
+      }
+    });
+
+    // sort groups
+    groups.sort(function(a, b){
+      // first sort by size, desc
+      if (a.size < b.size) return 1;
+      else if (a.size > b.size) return -1;
+      // then by intensity, desc
+      else if (a.intensity < b.intensity) return 1;
+      else if (a.intensity > b.intensity) return -1;
+      // then by start, desc
+      else if (a.start < b.start) return 1;
+      else if (a.start > b.start) return -1;
+      else return 0;
+    });
+
+    // choose the first group
+    frames = groups[0].frames;
+
+    // one frame
+    if (frames.length===1) return [frames[0][1], frames[0][1]];
+
+    // remove any initial increase
 
     // sort by intensity
     frames = _.sortBy(frames, function(f){ return -f[2] });
 
-    // cut in half
-    frames = frames.slice(0, Math.ceil(frames.length * 0.5));
+    // only take the most intense
+    // frames = frames.slice(0, Math.ceil(frames.length * 0.75));
 
+    // take the high and low
     var maxFrame = _.max(frames, function(f){ return f[1]; });
     var minFrame = _.min(frames, function(f){ return f[1]; });
     var pitches = [maxFrame, minFrame];
@@ -279,18 +338,14 @@ var Annotate = (function() {
       // draw guess
       var pitch = _this.guessPitch(frames);
       if (pitch.length) {
-        var py = UTIL.norm(pitch[0], fRange[1], fRange[0]) * h;
-        py = UTIL.lim(py, 1, h-1);
+        var py0 = UTIL.norm(pitch[0], fRange[1], fRange[0]) * h;
+        py0 = UTIL.lim(py0, 1, h-1);
+        var py1 = UTIL.norm(pitch[1], fRange[1], fRange[0]) * h;
+        py1 = UTIL.lim(py1, 1, h-1);
         ctx.strokeStyle = 'red';
         ctx.beginPath();
-        ctx.moveTo(x,py);
-        ctx.lineTo(centerX,py);
-        ctx.stroke();
-        py = UTIL.norm(pitch[1], fRange[1], fRange[0]) * h;
-        py = UTIL.lim(py, 1, h-1);
-        ctx.beginPath();
-        ctx.moveTo(centerX,py);
-        ctx.lineTo(x1,py);
+        ctx.moveTo(x,py0);
+        ctx.lineTo(x1,py1);
         ctx.stroke();
       }
 
@@ -304,14 +359,13 @@ var Annotate = (function() {
   };
 
   Annotate.prototype._frequencyToNote = function(frequency){
-    var note = {note: 'C', octave: 0};
-    var notes = this._notes();
+    var note = false;
     if (frequency > 0) {
       var A4 = 440;
       var C0 = A4 * Math.pow(2, -4.75);
       var h = Math.round(12*(Math.log(frequency/C0)/Math.log(2)));
       note.octave = Math.floor(h / 12);
-      note.note = notes[h % 12];
+      note.note = Math.floor(h % 12);
     }
     return note;
   };
