@@ -27,17 +27,17 @@ def groupCompare(a, b):
     aScore = a["size"] * a["intensity"]
     bScore = b["size"] * b["intensity"]
     if aScore < bScore:
-        return -1
+        return 1
     elif bScore < aScore:
-        return 1
+        return -1
     elif a["intensity"] < b["intensity"]:
-        return -1
+        return 1
     elif b["intensity"] < a["intensity"]:
-        return 1
-    elif a["start"] < b["start"]:
         return -1
-    elif b["start"] < a["start"]:
+    elif a["start"] < b["start"]:
         return 1
+    elif b["start"] < a["start"]:
+        return -1
     else:
         return 0
 
