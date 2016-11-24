@@ -595,108 +595,96 @@
   "verses": [
     {
       "text": "You may write me down in history\r\nWith your bitter, twisted lies,\r\nYou may trod me in the very dirt\r\nBut still, like dust, I'll rise", 
-      "endOffset": 132, 
       "end": 12.17, 
+      "start": 1.23, 
       "startOffset": 0, 
-      "start": 1.23
+      "endOffset": 132
     }, 
     {
       "text": "Does my sassiness upset you?\r\nWhy are you beset with gloom?\r\nJust \u2018cause I walk as if I have oil wells\r\nPumping in my living room", 
-      "endOffset": 266, 
       "end": 23.06, 
+      "start": 12.76, 
       "startOffset": 137, 
-      "start": 12.76
+      "endOffset": 266
     }, 
     {
       "text": "Just like suns and like moons,\r\nWith the certainty of tides,\r\nJust like hopes springing high,\r\nStill I'll rise", 
-      "endOffset": 381, 
       "end": 33.11, 
+      "start": 23.59, 
       "startOffset": 271, 
-      "start": 23.59
+      "endOffset": 381
     }, 
     {
       "text": "Did you want to see me broken?\r\nBowed head and lowered eyes?\r\nShoulders falling down like teardrops,\r\nWeakened by my soulful cries", 
-      "endOffset": 516, 
       "end": 43.87, 
+      "start": 33.71, 
       "startOffset": 386, 
-      "start": 33.71
+      "endOffset": 516
     }, 
     {
       "text": "Does my sassiness upset you?\r\nDon't take it so hard\r\nJust \u2018cause I laugh as if I have gold mines\r\nDiggin' in my own backyard", 
-      "endOffset": 645, 
       "end": 57.97, 
+      "start": 44.44, 
       "startOffset": 521, 
-      "start": 44.44
+      "endOffset": 645
     }, 
     {
       "text": "You can shoot me with your words,\r\nYou can cut me with your lies,\r\nYou can kill me with your hatefulness,\r\nBut just like life, I'll rise", 
-      "endOffset": 786, 
       "end": 68.95, 
+      "start": 58.76, 
       "startOffset": 650, 
-      "start": 58.76
+      "endOffset": 786
     }, 
     {
       "text": "Does my sexiness offend you?\r\nDoes it come as a surprise\r\nThat I dance as if I have diamonds\r\nAt the meeting of my thighs", 
-      "endOffset": 912, 
       "end": 84.24, 
+      "start": 69.83, 
       "startOffset": 791, 
-      "start": 69.83
+      "endOffset": 912
     }, 
     {
       "text": "Out of the huts of history's shame\r\nI rise\r\nUp from a past rooted in pain\r\nI rise\r\nA black ocean, leaping and wide,\r\nWelling and swelling I bear in the tide", 
-      "endOffset": 1073, 
       "end": 99.58, 
+      "start": 85.16, 
       "startOffset": 917, 
-      "start": 85.16
+      "endOffset": 1073
     }, 
     {
       "text": "Leaving behind nights of terror and fear\r\nI rise\r\nInto a daybreak miraculously clear\r\nI rise\r\nBringing the gifts that my ancestors gave,\r\nI am the hope and the dream of the slave.\r\nAnd so\r\nNaturally\r\nThere I go rising", 
-      "endOffset": 1295, 
       "end": 129.39, 
+      "start": 100.36, 
       "startOffset": 1078, 
-      "start": 100.36
+      "endOffset": 1295
     }
   ], 
   "nonwords": [
     {
       "start": 46.5608940833552, 
-      "intensity": 0.2971522717420753, 
-      "frequency": 135.0727459766751, 
       "end": 46.69131196169955, 
       "name": "nonword_000_46"
     }, 
     {
       "start": 46.825497683475064, 
-      "intensity": 0.438943586851738, 
-      "frequency": 127.93114691140244, 
       "end": 47.109739660937876, 
       "name": "nonword_001_46"
     }, 
     {
       "start": 50.19, 
-      "intensity": 0.2746751395971981, 
-      "frequency": 113.10193964455794, 
       "end": 50.35625857474586, 
       "name": "nonword_002_50"
     }, 
     {
       "start": 51.130540543341525, 
-      "intensity": 0.3189441326869305, 
-      "frequency": 125.06724514203418, 
       "end": 51.30515708886447, 
       "name": "nonword_003_51"
     }, 
     {
       "start": 51.515823026313264, 
-      "intensity": 0.42315563957571106, 
-      "frequency": 152.47536174298492, 
       "end": 51.793787468817946, 
       "name": "nonword_004_51"
     }, 
     {
       "start": 72.38342874250118, 
-      "intensity": 0.2282295441967786, 
-      "frequency": 105.45479563418475, 
       "end": 72.8971097132741, 
       "name": "nonword_005_72"
     }
@@ -718,11 +706,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.6899279567373834, 
+      "verse": 0, 
       "alignedWord": "you", 
       "start": 1.23, 
-      "verse": 0, 
-      "frequency": 146.50690290134304, 
       "startOffset": 0, 
       "end": 1.42, 
       "line": 0, 
@@ -731,9 +717,7 @@
           "end": 1.42, 
           "name": "syll_000_0_you_1", 
           "text": "you", 
-          "start": 1.23, 
-          "intensity": 0.6899279567373834, 
-          "frequency": 146.50690290134304
+          "start": 1.23
         }
       ]
     }, 
@@ -753,11 +737,9 @@
           "phone": "ey_E"
         }
       ], 
-      "intensity": 0.9421430128349467, 
+      "verse": 0, 
       "alignedWord": "may", 
       "start": 1.42, 
-      "verse": 0, 
-      "frequency": 149.92443588101355, 
       "startOffset": 4, 
       "end": 1.6, 
       "line": 0, 
@@ -766,9 +748,7 @@
           "end": 1.6, 
           "name": "syll_001_0_may_1", 
           "text": "may", 
-          "start": 1.42, 
-          "intensity": 0.9421430128349467, 
-          "frequency": 149.92443588101355
+          "start": 1.42
         }
       ]
     }, 
@@ -792,11 +772,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.8142381865111836, 
+      "verse": 0, 
       "alignedWord": "write", 
       "start": 1.6, 
-      "verse": 0, 
-      "frequency": 133.43978106185293, 
       "startOffset": 8, 
       "end": 1.92, 
       "line": 0, 
@@ -805,9 +783,7 @@
           "end": 1.92, 
           "name": "syll_002_0_write_1", 
           "text": "write", 
-          "start": 1.6, 
-          "intensity": 0.8142381865111836, 
-          "frequency": 133.43978106185293
+          "start": 1.6
         }
       ]
     }, 
@@ -827,11 +803,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.7639464316214714, 
+      "verse": 0, 
       "alignedWord": "me", 
       "start": 1.96, 
-      "verse": 0, 
-      "frequency": 148.39044783506444, 
       "startOffset": 14, 
       "end": 2.14, 
       "line": 0, 
@@ -840,9 +814,7 @@
           "end": 2.14, 
           "name": "syll_003_0_me_1", 
           "text": "me", 
-          "start": 1.96, 
-          "intensity": 0.7639464316214714, 
-          "frequency": 148.39044783506444
+          "start": 1.96
         }
       ]
     }, 
@@ -866,11 +838,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.8759739726172533, 
+      "verse": 0, 
       "alignedWord": "down", 
       "start": 2.14, 
-      "verse": 0, 
-      "frequency": 150.82722236597056, 
       "startOffset": 17, 
       "end": 2.68, 
       "line": 0, 
@@ -879,9 +849,7 @@
           "end": 2.68, 
           "name": "syll_004_0_down_2", 
           "text": "down", 
-          "start": 2.14, 
-          "intensity": 0.8759739726172533, 
-          "frequency": 150.82722236597056
+          "start": 2.14
         }
       ]
     }, 
@@ -901,11 +869,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.9044862988913046, 
+      "verse": 0, 
       "alignedWord": "in", 
       "start": 2.68, 
-      "verse": 0, 
-      "frequency": 133.70633706333712, 
       "startOffset": 22, 
       "end": 2.83, 
       "line": 0, 
@@ -914,9 +880,7 @@
           "end": 2.83, 
           "name": "syll_005_0_in_2", 
           "text": "in", 
-          "start": 2.68, 
-          "intensity": 0.9044862988913046, 
-          "frequency": 133.70633706333712
+          "start": 2.68
         }
       ]
     }, 
@@ -954,11 +918,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.21967804625148224, 
+      "verse": 0, 
       "alignedWord": "history", 
       "start": 2.83, 
-      "verse": 0, 
-      "frequency": 134.55347871400394, 
       "startOffset": 25, 
       "end": 3.58, 
       "line": 0, 
@@ -967,25 +929,19 @@
           "end": 3.0, 
           "name": "syll_006_0_his_2", 
           "text": "his", 
-          "start": 2.83, 
-          "intensity": 0.4480912699176248, 
-          "frequency": 158.14242740431538
+          "start": 2.83
         }, 
         {
           "end": 3.27, 
           "name": "syll_006_1_to_3", 
           "text": "to", 
-          "start": 3.0, 
-          "intensity": 0.18958072974260098, 
-          "frequency": 134.32077151075785
+          "start": 3.0
         }, 
         {
           "end": 3.58, 
           "name": "syll_006_2_ry_3", 
           "text": "ry", 
-          "start": 3.27, 
-          "intensity": 0.12153817209290615, 
-          "frequency": 109.90547262296269
+          "start": 3.27
         }
       ]
     }, 
@@ -1009,11 +965,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.37738848952401566, 
+      "verse": 0, 
       "alignedWord": "with", 
       "start": 3.75, 
-      "verse": 0, 
-      "frequency": 118.26196102165787, 
       "startOffset": 34, 
       "end": 3.94, 
       "line": 1, 
@@ -1022,9 +976,7 @@
           "end": 3.94, 
           "name": "syll_007_0_with_3", 
           "text": "with", 
-          "start": 3.75, 
-          "intensity": 0.37738848952401566, 
-          "frequency": 118.26196102165787
+          "start": 3.75
         }
       ]
     }, 
@@ -1048,11 +1000,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7325599715173471, 
+      "verse": 0, 
       "alignedWord": "your", 
       "start": 3.94, 
-      "verse": 0, 
-      "frequency": 122.69204768481315, 
       "startOffset": 39, 
       "end": 4.09, 
       "line": 1, 
@@ -1061,9 +1011,7 @@
           "end": 4.09, 
           "name": "syll_008_0_your_3", 
           "text": "your", 
-          "start": 3.94, 
-          "intensity": 0.7325599715173471, 
-          "frequency": 122.69204768481315
+          "start": 3.94
         }
       ]
     }, 
@@ -1092,11 +1040,9 @@
           "phone": "er_E"
         }
       ], 
-      "intensity": 0.5384415533772842, 
+      "verse": 0, 
       "alignedWord": "bitter", 
       "start": 4.09, 
-      "verse": 0, 
-      "frequency": 119.44786768797184, 
       "startOffset": 44, 
       "end": 4.43, 
       "line": 1, 
@@ -1105,17 +1051,13 @@
           "end": 4.28, 
           "name": "syll_009_0_bit_4", 
           "text": "bit", 
-          "start": 4.09, 
-          "intensity": 0.5615760544127488, 
-          "frequency": 120.20800341792123
+          "start": 4.09
         }, 
         {
           "end": 4.43, 
           "name": "syll_009_1_ter_4", 
           "text": "ter", 
-          "start": 4.28, 
-          "intensity": 0.5080775207682371, 
-          "frequency": 118.45018954241318
+          "start": 4.28
         }
       ]
     }, 
@@ -1156,11 +1098,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3154391932222971, 
+      "verse": 0, 
       "alignedWord": "twisted", 
       "start": 4.43, 
-      "verse": 0, 
-      "frequency": 109.28108466732074, 
       "startOffset": 52, 
       "end": 4.97, 
       "line": 1, 
@@ -1169,17 +1109,13 @@
           "end": 4.67, 
           "name": "syll_010_0_twist_4", 
           "text": "twist", 
-          "start": 4.43, 
-          "intensity": 0.3391680082283358, 
-          "frequency": 119.34955564763348
+          "start": 4.43
         }, 
         {
           "end": 4.97, 
           "name": "syll_010_1_ed_4", 
           "text": "ed", 
-          "start": 4.67, 
-          "intensity": 0.2969010564988295, 
-          "frequency": 104.8761286134339
+          "start": 4.67
         }
       ]
     }, 
@@ -1203,11 +1139,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.22477147341561193, 
+      "verse": 0, 
       "alignedWord": "lies", 
       "start": 4.97, 
-      "verse": 0, 
-      "frequency": 96.33482777457696, 
       "startOffset": 60, 
       "end": 5.58, 
       "line": 1, 
@@ -1216,9 +1150,7 @@
           "end": 5.58, 
           "name": "syll_011_0_lies_4", 
           "text": "lies", 
-          "start": 4.97, 
-          "intensity": 0.22477147341561193, 
-          "frequency": 96.33482777457696
+          "start": 4.97
         }
       ]
     }, 
@@ -1238,11 +1170,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.5849656099765423, 
+      "verse": 0, 
       "alignedWord": "you", 
       "start": 6.02, 
-      "verse": 0, 
-      "frequency": 155.4609717440836, 
       "startOffset": 67, 
       "end": 6.21, 
       "line": 2, 
@@ -1251,9 +1181,7 @@
           "end": 6.21, 
           "name": "syll_012_0_you_6", 
           "text": "you", 
-          "start": 6.02, 
-          "intensity": 0.5849656099765423, 
-          "frequency": 155.4609717440836
+          "start": 6.02
         }
       ]
     }, 
@@ -1273,11 +1201,9 @@
           "phone": "ey_E"
         }
       ], 
-      "intensity": 0.9099806417356614, 
+      "verse": 0, 
       "alignedWord": "may", 
       "start": 6.21, 
-      "verse": 0, 
-      "frequency": 149.67605464071616, 
       "startOffset": 71, 
       "end": 6.44, 
       "line": 2, 
@@ -1286,9 +1212,7 @@
           "end": 6.44, 
           "name": "syll_013_0_may_6", 
           "text": "may", 
-          "start": 6.21, 
-          "intensity": 0.9099806417356614, 
-          "frequency": 149.67605464071616
+          "start": 6.21
         }
       ]
     }, 
@@ -1316,11 +1240,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.34737009932675517, 
+      "verse": 0, 
       "alignedWord": "trod", 
       "start": 6.44, 
-      "verse": 0, 
-      "frequency": 127.38085142626434, 
       "startOffset": 75, 
       "end": 6.94, 
       "line": 2, 
@@ -1329,9 +1251,7 @@
           "end": 6.94, 
           "name": "syll_014_0_trod_6", 
           "text": "trod", 
-          "start": 6.44, 
-          "intensity": 0.34737009932675517, 
-          "frequency": 127.38085142626434
+          "start": 6.44
         }
       ]
     }, 
@@ -1351,11 +1271,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6625560124794446, 
+      "verse": 0, 
       "alignedWord": "me", 
       "start": 6.94, 
-      "verse": 0, 
-      "frequency": 139.14086853346998, 
       "startOffset": 80, 
       "end": 7.2, 
       "line": 2, 
@@ -1364,9 +1282,7 @@
           "end": 7.2, 
           "name": "syll_015_0_me_6", 
           "text": "me", 
-          "start": 6.94, 
-          "intensity": 0.6625560124794446, 
-          "frequency": 139.14086853346998
+          "start": 6.94
         }
       ]
     }, 
@@ -1386,11 +1302,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6968857204107674, 
+      "verse": 0, 
       "alignedWord": "in", 
       "start": 7.2, 
-      "verse": 0, 
-      "frequency": 136.49188995802407, 
       "startOffset": 83, 
       "end": 7.37, 
       "line": 2, 
@@ -1399,9 +1313,7 @@
           "end": 7.37, 
           "name": "syll_016_0_in_7", 
           "text": "in", 
-          "start": 7.2, 
-          "intensity": 0.6968857204107674, 
-          "frequency": 136.49188995802407
+          "start": 7.2
         }
       ]
     }, 
@@ -1421,11 +1333,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6376213194808228, 
+      "verse": 0, 
       "alignedWord": "the", 
       "start": 7.37, 
-      "verse": 0, 
-      "frequency": 127.9285723171954, 
       "startOffset": 86, 
       "end": 7.46, 
       "line": 2, 
@@ -1434,9 +1344,7 @@
           "end": 7.46, 
           "name": "syll_017_0_the_7", 
           "text": "the", 
-          "start": 7.37, 
-          "intensity": 0.6376213194808228, 
-          "frequency": 127.9285723171954
+          "start": 7.37
         }
       ]
     }, 
@@ -1465,11 +1373,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.43601443177663074, 
+      "verse": 0, 
       "alignedWord": "very", 
       "start": 7.46, 
-      "verse": 0, 
-      "frequency": 141.71284386383036, 
       "startOffset": 90, 
       "end": 7.78, 
       "line": 2, 
@@ -1478,17 +1384,13 @@
           "end": 7.61, 
           "name": "syll_018_0_ve_7", 
           "text": "ve", 
-          "start": 7.46, 
-          "intensity": 0.36803882565068907, 
-          "frequency": 143.82097247071013
+          "start": 7.46
         }, 
         {
           "end": 7.78, 
           "name": "syll_018_1_ry_7", 
           "text": "ry", 
-          "start": 7.61, 
-          "intensity": 0.4964371927774676, 
-          "frequency": 139.83895176882615
+          "start": 7.61
         }
       ]
     }, 
@@ -1512,11 +1414,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2547776825617919, 
+      "verse": 0, 
       "alignedWord": "dirt", 
       "start": 7.78, 
-      "verse": 0, 
-      "frequency": 114.65653914270065, 
       "startOffset": 95, 
       "end": 8.3, 
       "line": 2, 
@@ -1525,9 +1425,7 @@
           "end": 8.3, 
           "name": "syll_019_0_dirt_7", 
           "text": "dirt", 
-          "start": 7.78, 
-          "intensity": 0.2547776825617919, 
-          "frequency": 114.65653914270065
+          "start": 7.78
         }
       ]
     }, 
@@ -1551,11 +1449,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2759512285701548, 
+      "verse": 0, 
       "alignedWord": "but", 
       "start": 8.62, 
-      "verse": 0, 
-      "frequency": 123.01941357101371, 
       "startOffset": 101, 
       "end": 8.83, 
       "line": 3, 
@@ -1564,9 +1460,7 @@
           "end": 8.83, 
           "name": "syll_020_0_but_8", 
           "text": "but", 
-          "start": 8.62, 
-          "intensity": 0.2759512285701548, 
-          "frequency": 123.01941357101371
+          "start": 8.62
         }
       ]
     }, 
@@ -1594,11 +1488,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.4367728411960167, 
+      "verse": 0, 
       "alignedWord": "still", 
       "start": 8.83, 
-      "verse": 0, 
-      "frequency": 146.65942849118278, 
       "startOffset": 105, 
       "end": 9.24, 
       "line": 3, 
@@ -1607,9 +1499,7 @@
           "end": 9.24, 
           "name": "syll_021_0_still_8", 
           "text": "still", 
-          "start": 8.83, 
-          "intensity": 0.4367728411960167, 
-          "frequency": 146.65942849118278
+          "start": 8.83
         }
       ]
     }, 
@@ -1633,11 +1523,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.3974532295020499, 
+      "verse": 0, 
       "alignedWord": "like", 
       "start": 9.24, 
-      "verse": 0, 
-      "frequency": 115.75538269800421, 
       "startOffset": 112, 
       "end": 9.46, 
       "line": 3, 
@@ -1646,9 +1534,7 @@
           "end": 9.46, 
           "name": "syll_022_0_like_9", 
           "text": "like", 
-          "start": 9.24, 
-          "intensity": 0.3974532295020499, 
-          "frequency": 115.75538269800421
+          "start": 9.24
         }
       ]
     }, 
@@ -1676,11 +1562,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.13640181410594318, 
+      "verse": 0, 
       "alignedWord": "dust", 
       "start": 9.46, 
-      "verse": 0, 
-      "frequency": 120.81518403140785, 
       "startOffset": 117, 
       "end": 10.35, 
       "line": 3, 
@@ -1689,9 +1573,7 @@
           "end": 10.35, 
           "name": "syll_023_0_dust_9", 
           "text": "dust", 
-          "start": 9.46, 
-          "intensity": 0.13640181410594318, 
-          "frequency": 120.81518403140785
+          "start": 9.46
         }
       ]
     }, 
@@ -1712,11 +1594,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.2607055996078401, 
+      "verse": 0, 
       "alignedWord": "i'll", 
       "start": 11.04, 
-      "verse": 0, 
-      "frequency": 116.22752446372627, 
       "startOffset": 123, 
       "end": 11.33, 
       "line": 3, 
@@ -1725,9 +1605,7 @@
           "end": 11.33, 
           "name": "syll_024_0_ill_11", 
           "text": "i'll", 
-          "start": 11.04, 
-          "intensity": 0.2607055996078401, 
-          "frequency": 116.22752446372627
+          "start": 11.04
         }
       ]
     }, 
@@ -1752,11 +1630,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.10088652354407204, 
+      "verse": 0, 
       "alignedWord": "rise", 
       "start": 11.33, 
-      "verse": 0, 
-      "frequency": 114.59811357668505, 
       "startOffset": 128, 
       "end": 12.17, 
       "line": 3, 
@@ -1765,9 +1641,7 @@
           "end": 12.17, 
           "name": "syll_025_0_rise_11", 
           "text": "rise", 
-          "start": 11.33, 
-          "intensity": 0.10088652354407204, 
-          "frequency": 114.59811357668505
+          "start": 11.33
         }
       ]
     }, 
@@ -1791,11 +1665,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5347853119245957, 
+      "verse": 1, 
       "alignedWord": "does", 
       "start": 12.76, 
-      "verse": 1, 
-      "frequency": 101.5352780766769, 
       "startOffset": 137, 
       "end": 13.07, 
       "line": 4, 
@@ -1804,9 +1676,7 @@
           "end": 13.07, 
           "name": "syll_026_0_does_12", 
           "text": "does", 
-          "start": 12.76, 
-          "intensity": 0.5347853119245957, 
-          "frequency": 101.5352780766769
+          "start": 12.76
         }
       ]
     }, 
@@ -1826,11 +1696,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6511291885313188, 
+      "verse": 1, 
       "alignedWord": "my", 
       "start": 13.07, 
-      "verse": 1, 
-      "frequency": 95.4775151956581, 
       "startOffset": 142, 
       "end": 13.31, 
       "line": 4, 
@@ -1839,9 +1707,7 @@
           "end": 13.31, 
           "name": "syll_027_0_my_13", 
           "text": "my", 
-          "start": 13.07, 
-          "intensity": 0.6511291885313188, 
-          "frequency": 95.4775151956581
+          "start": 13.07
         }
       ]
     }, 
@@ -1884,11 +1750,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.3895050914612938, 
+      "verse": 1, 
       "alignedWord": "sassiness", 
       "start": 13.31, 
-      "verse": 1, 
-      "frequency": 110.53748934044114, 
       "startOffset": 145, 
       "end": 14.09, 
       "line": 4, 
@@ -1897,25 +1761,19 @@
           "end": 13.63, 
           "name": "syll_028_0_sa_13", 
           "text": "sa", 
-          "start": 13.31, 
-          "intensity": 0.4248905974729682, 
-          "frequency": 114.78507647568368
+          "start": 13.31
         }, 
         {
           "end": 13.81, 
           "name": "syll_028_1_ssi_13", 
           "text": "ssi", 
-          "start": 13.63, 
-          "intensity": 0.24075587825690725, 
-          "frequency": 101.6069073709716
+          "start": 13.63
         }, 
         {
           "end": 14.09, 
           "name": "syll_028_2_ness_13", 
           "text": "ness", 
-          "start": 13.81, 
-          "intensity": 0.44360935301084103, 
-          "frequency": 111.62649729207003
+          "start": 13.81
         }
       ]
     }, 
@@ -1948,11 +1806,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27130428314276167, 
+      "verse": 1, 
       "alignedWord": "upset", 
       "start": 14.09, 
-      "verse": 1, 
-      "frequency": 134.3894988488988, 
       "startOffset": 155, 
       "end": 14.47, 
       "line": 4, 
@@ -1961,17 +1817,13 @@
           "end": 14.21, 
           "name": "syll_029_0_up_14", 
           "text": "up", 
-          "start": 14.09, 
-          "intensity": 0.30880318382058003, 
-          "frequency": 157.01769015380785
+          "start": 14.09
         }, 
         {
           "end": 14.47, 
           "name": "syll_029_1_set_14", 
           "text": "set", 
-          "start": 14.209999999999999, 
-          "intensity": 0.25389407925663154, 
-          "frequency": 123.8835528859053
+          "start": 14.209999999999999
         }
       ]
     }, 
@@ -1991,11 +1843,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.13853587459690644, 
+      "verse": 1, 
       "alignedWord": "you", 
       "start": 14.47, 
-      "verse": 1, 
-      "frequency": 130.09076974319217, 
       "startOffset": 161, 
       "end": 14.85, 
       "line": 4, 
@@ -2004,9 +1854,7 @@
           "end": 14.85, 
           "name": "syll_030_0_you_14", 
           "text": "you", 
-          "start": 14.47, 
-          "intensity": 0.13853587459690644, 
-          "frequency": 130.09076974319217
+          "start": 14.47
         }
       ]
     }, 
@@ -2026,11 +1874,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6795021971503371, 
+      "verse": 1, 
       "alignedWord": "why", 
       "start": 15.26, 
-      "verse": 1, 
-      "frequency": 137.10187453188425, 
       "startOffset": 167, 
       "end": 15.58, 
       "line": 5, 
@@ -2039,9 +1885,7 @@
           "end": 15.58, 
           "name": "syll_031_0_why_15", 
           "text": "why", 
-          "start": 15.26, 
-          "intensity": 0.6795021971503371, 
-          "frequency": 137.10187453188425
+          "start": 15.26
         }
       ]
     }, 
@@ -2057,11 +1901,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6784414463789478, 
+      "verse": 1, 
       "alignedWord": "are", 
       "start": 15.58, 
-      "verse": 1, 
-      "frequency": 116.30747495390955, 
       "startOffset": 171, 
       "end": 15.72, 
       "line": 5, 
@@ -2070,9 +1912,7 @@
           "end": 15.72, 
           "name": "syll_032_0_are_15", 
           "text": "are", 
-          "start": 15.58, 
-          "intensity": 0.6784414463789478, 
-          "frequency": 116.30747495390955
+          "start": 15.58
         }
       ]
     }, 
@@ -2092,11 +1932,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.69509799537606, 
+      "verse": 1, 
       "alignedWord": "you", 
       "start": 15.72, 
-      "verse": 1, 
-      "frequency": 101.64253826235063, 
       "startOffset": 175, 
       "end": 15.92, 
       "line": 5, 
@@ -2105,9 +1943,7 @@
           "end": 15.92, 
           "name": "syll_033_0_you_15", 
           "text": "you", 
-          "start": 15.72, 
-          "intensity": 0.69509799537606, 
-          "frequency": 101.64253826235063
+          "start": 15.72
         }
       ]
     }, 
@@ -2140,11 +1976,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4748372740964451, 
+      "verse": 1, 
       "alignedWord": "beset", 
       "start": 15.92, 
-      "verse": 1, 
-      "frequency": 147.01749701277146, 
       "startOffset": 179, 
       "end": 16.31, 
       "line": 5, 
@@ -2153,17 +1987,13 @@
           "end": 16.04, 
           "name": "syll_034_0_be_15", 
           "text": "be", 
-          "start": 15.92, 
-          "intensity": 0.547789037397849, 
-          "frequency": 152.98866104357145
+          "start": 15.92
         }, 
         {
           "end": 16.31, 
           "name": "syll_034_1_set_16", 
           "text": "set", 
-          "start": 16.04, 
-          "intensity": 0.442134759513057, 
-          "frequency": 144.34076830930942
+          "start": 16.04
         }
       ]
     }, 
@@ -2187,11 +2017,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.4696457559010041, 
+      "verse": 1, 
       "alignedWord": "with", 
       "start": 16.31, 
-      "verse": 1, 
-      "frequency": 116.74220782663915, 
       "startOffset": 185, 
       "end": 16.46, 
       "line": 5, 
@@ -2200,9 +2028,7 @@
           "end": 16.46, 
           "name": "syll_035_0_with_16", 
           "text": "with", 
-          "start": 16.31, 
-          "intensity": 0.4696457559010041, 
-          "frequency": 116.74220782663915
+          "start": 16.31
         }
       ]
     }, 
@@ -2230,11 +2056,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.4189370528921588, 
+      "verse": 1, 
       "alignedWord": "gloom", 
       "start": 16.49, 
-      "verse": 1, 
-      "frequency": 129.31039508026933, 
       "startOffset": 190, 
       "end": 17.19, 
       "line": 5, 
@@ -2243,9 +2067,7 @@
           "end": 17.19, 
           "name": "syll_036_0_gloom_16", 
           "text": "gloom", 
-          "start": 16.49, 
-          "intensity": 0.4189370528921588, 
-          "frequency": 129.31039508026933
+          "start": 16.49
         }
       ]
     }, 
@@ -2273,11 +2095,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3035300527133321, 
+      "verse": 1, 
       "alignedWord": "just", 
       "start": 17.48, 
-      "verse": 1, 
-      "frequency": 149.7644648948804, 
       "startOffset": 198, 
       "end": 17.77, 
       "line": 6, 
@@ -2286,9 +2106,7 @@
           "end": 17.77, 
           "name": "syll_037_0_just_17", 
           "text": "just", 
-          "start": 17.48, 
-          "intensity": 0.3035300527133321, 
-          "frequency": 149.7644648948804
+          "start": 17.48
         }
       ]
     }, 
@@ -2312,11 +2130,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.48178918110643304, 
+      "verse": 1, 
       "alignedWord": "cause", 
       "start": 17.77, 
-      "verse": 1, 
-      "frequency": 143.8469912386178, 
       "startOffset": 204, 
       "end": 18.05, 
       "line": 6, 
@@ -2325,9 +2141,7 @@
           "end": 18.05, 
           "name": "syll_038_0_cause_17", 
           "text": "cause", 
-          "start": 17.77, 
-          "intensity": 0.48178918110643304, 
-          "frequency": 143.8469912386178
+          "start": 17.77
         }
       ]
     }, 
@@ -2343,11 +2157,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7806243037186663, 
+      "verse": 1, 
       "alignedWord": "i", 
       "start": 18.05, 
-      "verse": 1, 
-      "frequency": 118.99090110071414, 
       "startOffset": 210, 
       "end": 18.27, 
       "line": 6, 
@@ -2356,9 +2168,7 @@
           "end": 18.27, 
           "name": "syll_039_0_i_18", 
           "text": "i", 
-          "start": 18.05, 
-          "intensity": 0.7806243037186663, 
-          "frequency": 118.99090110071414
+          "start": 18.05
         }
       ]
     }, 
@@ -2382,11 +2192,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.3999614899105301, 
+      "verse": 1, 
       "alignedWord": "walk", 
       "start": 18.3, 
-      "verse": 1, 
-      "frequency": 129.82458739038069, 
       "startOffset": 212, 
       "end": 18.81, 
       "line": 6, 
@@ -2395,9 +2203,7 @@
           "end": 18.81, 
           "name": "syll_040_0_walk_18", 
           "text": "walk", 
-          "start": 18.3, 
-          "intensity": 0.3999614899105301, 
-          "frequency": 129.82458739038069
+          "start": 18.3
         }
       ]
     }, 
@@ -2417,11 +2223,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5170950426519324, 
+      "verse": 1, 
       "alignedWord": "as", 
       "start": 18.81, 
-      "verse": 1, 
-      "frequency": 116.20464806222296, 
       "startOffset": 217, 
       "end": 19.0, 
       "line": 6, 
@@ -2430,9 +2234,7 @@
           "end": 19.0, 
           "name": "syll_041_0_as_18", 
           "text": "as", 
-          "start": 18.81, 
-          "intensity": 0.5170950426519324, 
-          "frequency": 116.20464806222296
+          "start": 18.81
         }
       ]
     }, 
@@ -2452,11 +2254,9 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.42685120880797567, 
+      "verse": 1, 
       "alignedWord": "if", 
       "start": 19.0, 
-      "verse": 1, 
-      "frequency": 136.56441516021903, 
       "startOffset": 220, 
       "end": 19.28, 
       "line": 6, 
@@ -2465,9 +2265,7 @@
           "end": 19.28, 
           "name": "syll_042_0_if_19", 
           "text": "if", 
-          "start": 19.0, 
-          "intensity": 0.42685120880797567, 
-          "frequency": 136.56441516021903
+          "start": 19.0
         }
       ]
     }, 
@@ -2483,11 +2281,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7516673485406912, 
+      "verse": 1, 
       "alignedWord": "i", 
       "start": 19.28, 
-      "verse": 1, 
-      "frequency": 121.02370972773627, 
       "startOffset": 223, 
       "end": 19.45, 
       "line": 6, 
@@ -2496,9 +2292,7 @@
           "end": 19.45, 
           "name": "syll_043_0_i_19", 
           "text": "i", 
-          "start": 19.28, 
-          "intensity": 0.7516673485406912, 
-          "frequency": 121.02370972773627
+          "start": 19.28
         }
       ]
     }, 
@@ -2522,11 +2316,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4026009701415039, 
+      "verse": 1, 
       "alignedWord": "have", 
       "start": 19.45, 
-      "verse": 1, 
-      "frequency": 110.61682290421815, 
       "startOffset": 225, 
       "end": 19.74, 
       "line": 6, 
@@ -2535,9 +2327,7 @@
           "end": 19.74, 
           "name": "syll_044_0_have_19", 
           "text": "have", 
-          "start": 19.45, 
-          "intensity": 0.4026009701415039, 
-          "frequency": 110.61682290421815
+          "start": 19.45
         }
       ]
     }, 
@@ -2557,11 +2347,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.44354235248240664, 
+      "verse": 1, 
       "alignedWord": "oil", 
       "start": 19.78, 
-      "verse": 1, 
-      "frequency": 147.95209839620924, 
       "startOffset": 230, 
       "end": 20.22, 
       "line": 6, 
@@ -2570,9 +2358,7 @@
           "end": 20.22, 
           "name": "syll_045_0_oil_19", 
           "text": "oil", 
-          "start": 19.78, 
-          "intensity": 0.44354235248240664, 
-          "frequency": 147.95209839620924
+          "start": 19.78
         }
       ]
     }, 
@@ -2600,11 +2386,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2041910631620763, 
+      "verse": 1, 
       "alignedWord": "wells", 
       "start": 20.22, 
-      "verse": 1, 
-      "frequency": 125.63000287448382, 
       "startOffset": 234, 
       "end": 20.89, 
       "line": 6, 
@@ -2613,9 +2397,7 @@
           "end": 20.89, 
           "name": "syll_046_0_wells_20", 
           "text": "wells", 
-          "start": 20.22, 
-          "intensity": 0.2041910631620763, 
-          "frequency": 125.63000287448382
+          "start": 20.22
         }
       ]
     }, 
@@ -2652,11 +2434,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.509915081721098, 
+      "verse": 1, 
       "alignedWord": "pumping", 
       "start": 21.26, 
-      "verse": 1, 
-      "frequency": 130.73277271446014, 
       "startOffset": 241, 
       "end": 21.68, 
       "line": 7, 
@@ -2665,17 +2445,13 @@
           "end": 21.45, 
           "name": "syll_047_0_pump_21", 
           "text": "pump", 
-          "start": 21.26, 
-          "intensity": 0.3412964215899602, 
-          "frequency": 144.3081983730814
+          "start": 21.26
         }, 
         {
           "end": 21.68, 
           "name": "syll_047_1_ing_21", 
           "text": "ing", 
-          "start": 21.450000000000003, 
-          "intensity": 0.644810009826008, 
-          "frequency": 125.84561947735646
+          "start": 21.450000000000003
         }
       ]
     }, 
@@ -2695,11 +2471,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.7288507641711364, 
+      "verse": 1, 
       "alignedWord": "in", 
       "start": 21.68, 
-      "verse": 1, 
-      "frequency": 119.13779348018312, 
       "startOffset": 249, 
       "end": 21.84, 
       "line": 7, 
@@ -2708,9 +2482,7 @@
           "end": 21.84, 
           "name": "syll_048_0_in_21", 
           "text": "in", 
-          "start": 21.68, 
-          "intensity": 0.7288507641711364, 
-          "frequency": 119.13779348018312
+          "start": 21.68
         }
       ]
     }, 
@@ -2730,11 +2502,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5418027500638404, 
+      "verse": 1, 
       "alignedWord": "my", 
       "start": 21.84, 
-      "verse": 1, 
-      "frequency": 110.86244136630762, 
       "startOffset": 252, 
       "end": 22.09, 
       "line": 7, 
@@ -2743,9 +2513,7 @@
           "end": 22.09, 
           "name": "syll_049_0_my_21", 
           "text": "my", 
-          "start": 21.84, 
-          "intensity": 0.5418027500638404, 
-          "frequency": 110.86244136630762
+          "start": 21.84
         }
       ]
     }, 
@@ -2778,11 +2546,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.37988762242195806, 
+      "verse": 1, 
       "alignedWord": "living", 
       "start": 22.09, 
-      "verse": 1, 
-      "frequency": 99.65436174426804, 
       "startOffset": 255, 
       "end": 22.53, 
       "line": 7, 
@@ -2791,17 +2557,13 @@
           "end": 22.26, 
           "name": "syll_050_0_liv_22", 
           "text": "liv", 
-          "start": 22.09, 
-          "intensity": 0.611222479721673, 
-          "frequency": 112.75196342919845
+          "start": 22.09
         }, 
         {
           "end": 22.53, 
           "name": "syll_050_1_ing_22", 
           "text": "ing", 
-          "start": 22.26, 
-          "intensity": 0.2363004696152386, 
-          "frequency": 89.83116048057018
+          "start": 22.26
         }
       ]
     }, 
@@ -2825,11 +2587,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.10772901126108061, 
+      "verse": 1, 
       "alignedWord": "room", 
       "start": 22.53, 
-      "verse": 1, 
-      "frequency": 145.77699936170612, 
       "startOffset": 262, 
       "end": 23.06, 
       "line": 7, 
@@ -2838,9 +2598,7 @@
           "end": 23.06, 
           "name": "syll_051_0_room_22", 
           "text": "room", 
-          "start": 22.53, 
-          "intensity": 0.10772901126108061, 
-          "frequency": 145.77699936170612
+          "start": 22.53
         }
       ]
     }, 
@@ -2868,11 +2626,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27428032486407333, 
+      "verse": 2, 
       "alignedWord": "just", 
       "start": 23.59, 
-      "verse": 2, 
-      "frequency": 161.86319640888274, 
       "startOffset": 271, 
       "end": 23.93, 
       "line": 8, 
@@ -2881,9 +2637,7 @@
           "end": 23.93, 
           "name": "syll_052_0_just_23", 
           "text": "just", 
-          "start": 23.59, 
-          "intensity": 0.27428032486407333, 
-          "frequency": 161.86319640888274
+          "start": 23.59
         }
       ]
     }, 
@@ -2907,11 +2661,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.594211133149696, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 23.93, 
-      "verse": 2, 
-      "frequency": 128.49943304554046, 
       "startOffset": 276, 
       "end": 24.16, 
       "line": 8, 
@@ -2920,9 +2672,7 @@
           "end": 24.16, 
           "name": "syll_053_0_like_23", 
           "text": "like", 
-          "start": 23.93, 
-          "intensity": 0.594211133149696, 
-          "frequency": 128.49943304554046
+          "start": 23.93
         }
       ]
     }, 
@@ -2950,11 +2700,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5381348077995378, 
+      "verse": 2, 
       "alignedWord": "suns", 
       "start": 24.16, 
-      "verse": 2, 
-      "frequency": 128.59780425258393, 
       "startOffset": 281, 
       "end": 24.78, 
       "line": 8, 
@@ -2963,9 +2711,7 @@
           "end": 24.78, 
           "name": "syll_054_0_suns_24", 
           "text": "suns", 
-          "start": 24.16, 
-          "intensity": 0.5381348077995378, 
-          "frequency": 128.59780425258393
+          "start": 24.16
         }
       ]
     }, 
@@ -2989,11 +2735,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.786025902241684, 
+      "verse": 2, 
       "alignedWord": "and", 
       "start": 24.78, 
-      "verse": 2, 
-      "frequency": 132.0160295343525, 
       "startOffset": 286, 
       "end": 25.02, 
       "line": 8, 
@@ -3002,9 +2746,7 @@
           "end": 25.02, 
           "name": "syll_055_0_and_24", 
           "text": "and", 
-          "start": 24.78, 
-          "intensity": 0.786025902241684, 
-          "frequency": 132.0160295343525
+          "start": 24.78
         }
       ]
     }, 
@@ -3028,11 +2770,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.6119452801551046, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 25.02, 
-      "verse": 2, 
-      "frequency": 117.28364405155013, 
       "startOffset": 290, 
       "end": 25.26, 
       "line": 8, 
@@ -3041,9 +2781,7 @@
           "end": 25.26, 
           "name": "syll_056_0_like_25", 
           "text": "like", 
-          "start": 25.02, 
-          "intensity": 0.6119452801551046, 
-          "frequency": 117.28364405155013
+          "start": 25.02
         }
       ]
     }, 
@@ -3071,11 +2809,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3577228096859111, 
+      "verse": 2, 
       "alignedWord": "moons", 
       "start": 25.26, 
-      "verse": 2, 
-      "frequency": 122.40949197878871, 
       "startOffset": 295, 
       "end": 26.07, 
       "line": 8, 
@@ -3084,9 +2820,7 @@
           "end": 26.07, 
           "name": "syll_057_0_moons_25", 
           "text": "moons", 
-          "start": 25.26, 
-          "intensity": 0.3577228096859111, 
-          "frequency": 122.40949197878871
+          "start": 25.26
         }
       ]
     }, 
@@ -3110,11 +2844,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.38959952240295903, 
+      "verse": 2, 
       "alignedWord": "with", 
       "start": 26.34, 
-      "verse": 2, 
-      "frequency": 140.52587328594203, 
       "startOffset": 303, 
       "end": 26.54, 
       "line": 9, 
@@ -3123,9 +2855,7 @@
           "end": 26.54, 
           "name": "syll_058_0_with_26", 
           "text": "with", 
-          "start": 26.34, 
-          "intensity": 0.38959952240295903, 
-          "frequency": 140.52587328594203
+          "start": 26.34
         }
       ]
     }, 
@@ -3145,11 +2875,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.5023885988457724, 
+      "verse": 2, 
       "alignedWord": "the", 
       "start": 26.54, 
-      "verse": 2, 
-      "frequency": 138.87424902515434, 
       "startOffset": 308, 
       "end": 26.68, 
       "line": 9, 
@@ -3158,9 +2886,7 @@
           "end": 26.68, 
           "name": "syll_059_0_the_26", 
           "text": "the", 
-          "start": 26.54, 
-          "intensity": 0.5023885988457724, 
-          "frequency": 138.87424902515434
+          "start": 26.54
         }
       ]
     }, 
@@ -3202,11 +2928,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.3919898055673623, 
+      "verse": 2, 
       "alignedWord": "certainty", 
       "start": 26.68, 
-      "verse": 2, 
-      "frequency": 114.89245176365435, 
       "startOffset": 312, 
       "end": 27.57, 
       "line": 9, 
@@ -3215,25 +2939,19 @@
           "end": 26.89, 
           "name": "syll_060_0_cer_26", 
           "text": "cer", 
-          "start": 26.68, 
-          "intensity": 0.3770804424932569, 
-          "frequency": 117.99281165243298
+          "start": 26.68
         }, 
         {
           "end": 27.06, 
           "name": "syll_060_1_tain_26", 
           "text": "tain", 
-          "start": 26.89, 
-          "intensity": 0.30949834174488516, 
-          "frequency": 120.25436163672111
+          "start": 26.89
         }, 
         {
           "end": 27.57, 
           "name": "syll_060_2_ty_27", 
           "text": "ty", 
-          "start": 27.060000000000002, 
-          "intensity": 0.4249507571389056, 
-          "frequency": 112.33099653206487
+          "start": 27.060000000000002
         }
       ]
     }, 
@@ -3253,11 +2971,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.29353088599938354, 
+      "verse": 2, 
       "alignedWord": "of", 
       "start": 27.78, 
-      "verse": 2, 
-      "frequency": 122.40086167863791, 
       "startOffset": 322, 
       "end": 27.98, 
       "line": 9, 
@@ -3266,9 +2982,7 @@
           "end": 27.98, 
           "name": "syll_061_0_of_27", 
           "text": "of", 
-          "start": 27.78, 
-          "intensity": 0.29353088599938354, 
-          "frequency": 122.40086167863791
+          "start": 27.78
         }
       ]
     }, 
@@ -3296,11 +3010,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.164549355295614, 
+      "verse": 2, 
       "alignedWord": "tides", 
       "start": 27.98, 
-      "verse": 2, 
-      "frequency": 129.18893497785652, 
       "startOffset": 325, 
       "end": 28.85, 
       "line": 9, 
@@ -3309,9 +3021,7 @@
           "end": 28.85, 
           "name": "syll_062_0_tides_27", 
           "text": "tides", 
-          "start": 27.98, 
-          "intensity": 0.164549355295614, 
-          "frequency": 129.18893497785652
+          "start": 27.98
         }
       ]
     }, 
@@ -3339,11 +3049,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3099560309027538, 
+      "verse": 2, 
       "alignedWord": "just", 
       "start": 29.09, 
-      "verse": 2, 
-      "frequency": 157.36126142311318, 
       "startOffset": 333, 
       "end": 29.4, 
       "line": 10, 
@@ -3352,9 +3060,7 @@
           "end": 29.4, 
           "name": "syll_063_0_just_29", 
           "text": "just", 
-          "start": 29.09, 
-          "intensity": 0.3099560309027538, 
-          "frequency": 157.36126142311318
+          "start": 29.09
         }
       ]
     }, 
@@ -3378,11 +3084,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.6191671890557615, 
+      "verse": 2, 
       "alignedWord": "like", 
       "start": 29.4, 
-      "verse": 2, 
-      "frequency": 137.101157850166, 
       "startOffset": 338, 
       "end": 29.65, 
       "line": 10, 
@@ -3391,9 +3095,7 @@
           "end": 29.65, 
           "name": "syll_064_0_like_29", 
           "text": "like", 
-          "start": 29.4, 
-          "intensity": 0.6191671890557615, 
-          "frequency": 137.101157850166
+          "start": 29.4
         }
       ]
     }, 
@@ -3421,11 +3123,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.31080441744099013, 
+      "verse": 2, 
       "alignedWord": "hopes", 
       "start": 29.65, 
-      "verse": 2, 
-      "frequency": 108.61667258140048, 
       "startOffset": 343, 
       "end": 30.12, 
       "line": 10, 
@@ -3434,9 +3134,7 @@
           "end": 30.12, 
           "name": "syll_065_0_hopes_29", 
           "text": "hopes", 
-          "start": 29.65, 
-          "intensity": 0.31080441744099013, 
-          "frequency": 108.61667258140048
+          "start": 29.65
         }
       ]
     }, 
@@ -3477,11 +3175,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.47397827901920986, 
+      "verse": 2, 
       "alignedWord": "springing", 
       "start": 30.12, 
-      "verse": 2, 
-      "frequency": 106.17476800887829, 
       "startOffset": 349, 
       "end": 30.6, 
       "line": 10, 
@@ -3490,17 +3186,13 @@
           "end": 30.36, 
           "name": "syll_066_0_spring_30", 
           "text": "spring", 
-          "start": 30.12, 
-          "intensity": 0.36183908732606623, 
-          "frequency": 126.48820711936646
+          "start": 30.12
         }, 
         {
           "end": 30.6, 
           "name": "syll_066_1_ing_30", 
           "text": "ing", 
-          "start": 30.36, 
-          "intensity": 0.5818044248780017, 
-          "frequency": 97.5806206929025
+          "start": 30.36
         }
       ]
     }, 
@@ -3520,11 +3212,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.21083999735450004, 
+      "verse": 2, 
       "alignedWord": "high", 
       "start": 30.6, 
-      "verse": 2, 
-      "frequency": 99.6470593216156, 
       "startOffset": 359, 
       "end": 31.12, 
       "line": 10, 
@@ -3533,9 +3223,7 @@
           "end": 31.12, 
           "name": "syll_067_0_high_30", 
           "text": "high", 
-          "start": 30.6, 
-          "intensity": 0.21083999735450004, 
-          "frequency": 99.6470593216156
+          "start": 30.6
         }
       ]
     }, 
@@ -3563,11 +3251,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.30837372633099924, 
+      "verse": 2, 
       "alignedWord": "still", 
       "start": 31.81, 
-      "verse": 2, 
-      "frequency": 110.70209169672403, 
       "startOffset": 366, 
       "end": 32.25, 
       "line": 11, 
@@ -3576,9 +3262,7 @@
           "end": 32.25, 
           "name": "syll_068_0_still_31", 
           "text": "still", 
-          "start": 31.81, 
-          "intensity": 0.30837372633099924, 
-          "frequency": 110.70209169672403
+          "start": 31.81
         }
       ]
     }, 
@@ -3598,11 +3282,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.5243667962458148, 
+      "verse": 2, 
       "alignedWord": "i'll", 
       "start": 32.25, 
-      "verse": 2, 
-      "frequency": 107.42663970216567, 
       "startOffset": 372, 
       "end": 32.39, 
       "line": 11, 
@@ -3611,9 +3293,7 @@
           "end": 32.39, 
           "name": "syll_069_0_ill_32", 
           "text": "i'll", 
-          "start": 32.25, 
-          "intensity": 0.5243667962458148, 
-          "frequency": 107.42663970216567
+          "start": 32.25
         }
       ]
     }, 
@@ -3637,11 +3317,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.08894719454899915, 
+      "verse": 2, 
       "alignedWord": "rise", 
       "start": 32.39, 
-      "verse": 2, 
-      "frequency": 114.52638569634652, 
       "startOffset": 377, 
       "end": 33.11, 
       "line": 11, 
@@ -3650,9 +3328,7 @@
           "end": 33.11, 
           "name": "syll_070_0_rise_32", 
           "text": "rise", 
-          "start": 32.39, 
-          "intensity": 0.08894719454899915, 
-          "frequency": 114.52638569634652
+          "start": 32.39
         }
       ]
     }, 
@@ -3676,11 +3352,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.40668699162648136, 
+      "verse": 3, 
       "alignedWord": "did", 
       "start": 33.71, 
-      "verse": 3, 
-      "frequency": 100.20365880899683, 
       "startOffset": 386, 
       "end": 33.92, 
       "line": 12, 
@@ -3689,9 +3363,7 @@
           "end": 33.92, 
           "name": "syll_071_0_did_33", 
           "text": "did", 
-          "start": 33.71, 
-          "intensity": 0.40668699162648136, 
-          "frequency": 100.20365880899683
+          "start": 33.71
         }
       ]
     }, 
@@ -3711,11 +3383,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.7238694680474438, 
+      "verse": 3, 
       "alignedWord": "you", 
       "start": 33.92, 
-      "verse": 3, 
-      "frequency": 104.9467775102551, 
       "startOffset": 390, 
       "end": 34.01, 
       "line": 12, 
@@ -3724,9 +3394,7 @@
           "end": 34.01, 
           "name": "syll_072_0_you_33", 
           "text": "you", 
-          "start": 33.92, 
-          "intensity": 0.7238694680474438, 
-          "frequency": 104.9467775102551
+          "start": 33.92
         }
       ]
     }, 
@@ -3754,11 +3422,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.7406320339446819, 
+      "verse": 3, 
       "alignedWord": "want", 
       "start": 34.01, 
-      "verse": 3, 
-      "frequency": 119.41197271876308, 
       "startOffset": 394, 
       "end": 34.24, 
       "line": 12, 
@@ -3767,9 +3433,7 @@
           "end": 34.24, 
           "name": "syll_073_0_want_34", 
           "text": "want", 
-          "start": 34.01, 
-          "intensity": 0.7406320339446819, 
-          "frequency": 119.41197271876308
+          "start": 34.01
         }
       ]
     }, 
@@ -3789,11 +3453,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.22852107434594762, 
+      "verse": 3, 
       "alignedWord": "to", 
       "start": 34.24, 
-      "verse": 3, 
-      "frequency": 104.91828863246769, 
       "startOffset": 399, 
       "end": 34.35, 
       "line": 12, 
@@ -3802,9 +3464,7 @@
           "end": 34.35, 
           "name": "syll_074_0_to_34", 
           "text": "to", 
-          "start": 34.24, 
-          "intensity": 0.22852107434594762, 
-          "frequency": 104.91828863246769
+          "start": 34.24
         }
       ]
     }, 
@@ -3824,11 +3484,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.4036385304125926, 
+      "verse": 3, 
       "alignedWord": "see", 
       "start": 34.35, 
-      "verse": 3, 
-      "frequency": 102.35537754898732, 
       "startOffset": 402, 
       "end": 34.52, 
       "line": 12, 
@@ -3837,9 +3495,7 @@
           "end": 34.52, 
           "name": "syll_075_0_see_34", 
           "text": "see", 
-          "start": 34.35, 
-          "intensity": 0.4036385304125926, 
-          "frequency": 102.35537754898732
+          "start": 34.35
         }
       ]
     }, 
@@ -3859,11 +3515,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6417082885717678, 
+      "verse": 3, 
       "alignedWord": "me", 
       "start": 34.52, 
-      "verse": 3, 
-      "frequency": 135.78221385334098, 
       "startOffset": 406, 
       "end": 34.69, 
       "line": 12, 
@@ -3872,9 +3526,7 @@
           "end": 34.69, 
           "name": "syll_076_0_me_34", 
           "text": "me", 
-          "start": 34.52, 
-          "intensity": 0.6417082885717678, 
-          "frequency": 135.78221385334098
+          "start": 34.52
         }
       ]
     }, 
@@ -3911,11 +3563,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.32208838104349885, 
+      "verse": 3, 
       "alignedWord": "broken", 
       "start": 34.69, 
-      "verse": 3, 
-      "frequency": 143.28289020230523, 
       "startOffset": 409, 
       "end": 35.34, 
       "line": 12, 
@@ -3924,17 +3574,13 @@
           "end": 34.95, 
           "name": "syll_077_0_bro_34", 
           "text": "bro", 
-          "start": 34.69, 
-          "intensity": 0.5961149866927894, 
-          "frequency": 148.1440107907475
+          "start": 34.69
         }, 
         {
           "end": 35.34, 
           "name": "syll_077_1_ken_34", 
           "text": "ken", 
-          "start": 34.949999999999996, 
-          "intensity": 0.13940397727730494, 
-          "frequency": 139.02940968741822
+          "start": 34.949999999999996
         }
       ]
     }, 
@@ -3958,11 +3604,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6146905803643165, 
+      "verse": 3, 
       "alignedWord": "bowed", 
       "start": 35.76, 
-      "verse": 3, 
-      "frequency": 130.6694980286267, 
       "startOffset": 418, 
       "end": 36.4, 
       "line": 13, 
@@ -3971,9 +3615,7 @@
           "end": 36.4, 
           "name": "syll_078_0_bowed_35", 
           "text": "bowed", 
-          "start": 35.76, 
-          "intensity": 0.6146905803643165, 
-          "frequency": 130.6694980286267
+          "start": 35.76
         }
       ]
     }, 
@@ -3997,11 +3639,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.7544676977187759, 
+      "verse": 3, 
       "alignedWord": "head", 
       "start": 36.4, 
-      "verse": 3, 
-      "frequency": 140.12945616262306, 
       "startOffset": 424, 
       "end": 36.75, 
       "line": 13, 
@@ -4010,9 +3650,7 @@
           "end": 36.75, 
           "name": "syll_079_0_head_36", 
           "text": "head", 
-          "start": 36.4, 
-          "intensity": 0.7544676977187759, 
-          "frequency": 140.12945616262306
+          "start": 36.4
         }
       ]
     }, 
@@ -4036,11 +3674,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5742173958722737, 
+      "verse": 3, 
       "alignedWord": "and", 
       "start": 36.75, 
-      "verse": 3, 
-      "frequency": 115.56944691535399, 
       "startOffset": 429, 
       "end": 36.97, 
       "line": 13, 
@@ -4049,9 +3685,7 @@
           "end": 36.97, 
           "name": "syll_080_0_and_36", 
           "text": "and", 
-          "start": 36.75, 
-          "intensity": 0.5742173958722737, 
-          "frequency": 115.56944691535399
+          "start": 36.75
         }
       ]
     }, 
@@ -4080,11 +3714,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5906418599664434, 
+      "verse": 3, 
       "alignedWord": "lowered", 
       "start": 36.97, 
-      "verse": 3, 
-      "frequency": 126.85749918056366, 
       "startOffset": 433, 
       "end": 37.46, 
       "line": 13, 
@@ -4093,17 +3725,13 @@
           "end": 37.17, 
           "name": "syll_081_0_low_36", 
           "text": "low", 
-          "start": 36.97, 
-          "intensity": 0.7594706196183562, 
-          "frequency": 126.77425015417087
+          "start": 36.97
         }, 
         {
           "end": 37.46, 
           "name": "syll_081_1_ered_37", 
           "text": "ered", 
-          "start": 37.17, 
-          "intensity": 0.476273990524825, 
-          "frequency": 126.91389368231347
+          "start": 37.17
         }
       ]
     }, 
@@ -4123,11 +3751,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2540082809293501, 
+      "verse": 3, 
       "alignedWord": "eyes", 
       "start": 37.46, 
-      "verse": 3, 
-      "frequency": 126.72151187089634, 
       "startOffset": 441, 
       "end": 38.28, 
       "line": 13, 
@@ -4136,9 +3762,7 @@
           "end": 38.28, 
           "name": "syll_082_0_eyes_37", 
           "text": "eyes", 
-          "start": 37.46, 
-          "intensity": 0.2540082809293501, 
-          "frequency": 126.72151187089634
+          "start": 37.46
         }
       ]
     }, 
@@ -4175,11 +3799,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5354681165451658, 
+      "verse": 3, 
       "alignedWord": "shoulders", 
       "start": 38.5, 
-      "verse": 3, 
-      "frequency": 137.18867518198337, 
       "startOffset": 448, 
       "end": 39.09, 
       "line": 14, 
@@ -4188,17 +3810,13 @@
           "end": 38.81, 
           "name": "syll_083_0_shoul_38", 
           "text": "shoul", 
-          "start": 38.5, 
-          "intensity": 0.3932626843899139, 
-          "frequency": 142.00488464457126
+          "start": 38.5
         }, 
         {
           "end": 39.09, 
           "name": "syll_083_1_ders_38", 
           "text": "ders", 
-          "start": 38.81, 
-          "intensity": 0.6918940919159432, 
-          "frequency": 134.94111076610903
+          "start": 38.81
         }
       ]
     }, 
@@ -4231,11 +3849,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.634194684575173, 
+      "verse": 3, 
       "alignedWord": "falling", 
       "start": 39.09, 
-      "verse": 3, 
-      "frequency": 128.34274374072962, 
       "startOffset": 458, 
       "end": 39.59, 
       "line": 14, 
@@ -4244,17 +3860,13 @@
           "end": 39.29, 
           "name": "syll_084_0_fal_39", 
           "text": "fal", 
-          "start": 39.09, 
-          "intensity": 0.4455326965436932, 
-          "frequency": 129.62034038253114
+          "start": 39.09
         }, 
         {
           "end": 39.59, 
           "name": "syll_084_1_ling_39", 
           "text": "ling", 
-          "start": 39.290000000000006, 
-          "intensity": 0.7580041142208318, 
-          "frequency": 127.82372010499782
+          "start": 39.290000000000006
         }
       ]
     }, 
@@ -4278,11 +3890,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6829639681133415, 
+      "verse": 3, 
       "alignedWord": "down", 
       "start": 39.59, 
-      "verse": 3, 
-      "frequency": 119.78537726838803, 
       "startOffset": 466, 
       "end": 39.91, 
       "line": 14, 
@@ -4291,9 +3901,7 @@
           "end": 39.91, 
           "name": "syll_085_0_down_39", 
           "text": "down", 
-          "start": 39.59, 
-          "intensity": 0.6829639681133415, 
-          "frequency": 119.78537726838803
+          "start": 39.59
         }
       ]
     }, 
@@ -4317,11 +3925,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.26205280218822247, 
+      "verse": 3, 
       "alignedWord": "like", 
       "start": 39.91, 
-      "verse": 3, 
-      "frequency": 105.12748472481854, 
       "startOffset": 471, 
       "end": 40.23, 
       "line": 14, 
@@ -4330,9 +3936,7 @@
           "end": 40.23, 
           "name": "syll_086_0_like_39", 
           "text": "like", 
-          "start": 39.91, 
-          "intensity": 0.26205280218822247, 
-          "frequency": 105.12748472481854
+          "start": 39.91
         }
       ]
     }, 
@@ -4378,11 +3982,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.15674792996417733, 
+      "verse": 3, 
       "alignedWord": "teardrops", 
       "start": 40.26, 
-      "verse": 3, 
-      "frequency": 121.03985356077482, 
       "startOffset": 476, 
       "end": 40.99, 
       "line": 14, 
@@ -4391,17 +3993,13 @@
           "end": 40.51, 
           "name": "syll_087_0_tear_40", 
           "text": "tear", 
-          "start": 40.26, 
-          "intensity": 0.24930937042075407, 
-          "frequency": 121.03985356077482
+          "start": 40.26
         }, 
         {
           "end": 40.99, 
           "name": "syll_087_1_drops_40", 
           "text": "drops", 
-          "start": 40.51, 
-          "intensity": 0.1077448144283425, 
-          "frequency": 121.03985356077482
+          "start": 40.51
         }
       ]
     }, 
@@ -4438,11 +4036,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.46866199504739475, 
+      "verse": 3, 
       "alignedWord": "weakened", 
       "start": 41.35, 
-      "verse": 3, 
-      "frequency": 119.44504077269629, 
       "startOffset": 488, 
       "end": 42.0, 
       "line": 15, 
@@ -4451,17 +4047,13 @@
           "end": 41.63, 
           "name": "syll_088_0_weak_41", 
           "text": "weak", 
-          "start": 41.35, 
-          "intensity": 0.5019621134627381, 
-          "frequency": 136.1717721881999
+          "start": 41.35
         }, 
         {
           "end": 42.0, 
           "name": "syll_088_1_ened_41", 
           "text": "ened", 
-          "start": 41.63, 
-          "intensity": 0.4430465193432845, 
-          "frequency": 109.15166759392487
+          "start": 41.63
         }
       ]
     }, 
@@ -4481,11 +4073,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.7031399937390638, 
+      "verse": 3, 
       "alignedWord": "by", 
       "start": 42.0, 
-      "verse": 3, 
-      "frequency": 111.09146567479097, 
       "startOffset": 497, 
       "end": 42.21, 
       "line": 15, 
@@ -4494,9 +4084,7 @@
           "end": 42.21, 
           "name": "syll_089_0_by_42", 
           "text": "by", 
-          "start": 42.0, 
-          "intensity": 0.7031399937390638, 
-          "frequency": 111.09146567479097
+          "start": 42.0
         }
       ]
     }, 
@@ -4516,11 +4104,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5716408811650984, 
+      "verse": 3, 
       "alignedWord": "my", 
       "start": 42.21, 
-      "verse": 3, 
-      "frequency": 100.57285579492459, 
       "startOffset": 500, 
       "end": 42.52, 
       "line": 15, 
@@ -4529,9 +4115,7 @@
           "end": 42.52, 
           "name": "syll_090_0_my_42", 
           "text": "my", 
-          "start": 42.21, 
-          "intensity": 0.5716408811650984, 
-          "frequency": 100.57285579492459
+          "start": 42.21
         }
       ]
     }, 
@@ -4568,11 +4152,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.32040919544885693, 
+      "verse": 3, 
       "alignedWord": "soulful", 
       "start": 42.55, 
-      "verse": 3, 
-      "frequency": 113.48915374779544, 
       "startOffset": 503, 
       "end": 43.23, 
       "line": 15, 
@@ -4581,17 +4163,13 @@
           "end": 42.83, 
           "name": "syll_091_0_soul_42", 
           "text": "soul", 
-          "start": 42.55, 
-          "intensity": 0.35084667561893484, 
-          "frequency": 119.40111678301598
+          "start": 42.55
         }, 
         {
           "end": 43.23, 
           "name": "syll_091_1_ful_42", 
           "text": "ful", 
-          "start": 42.83, 
-          "intensity": 0.2986681381845156, 
-          "frequency": 111.37773837807379
+          "start": 42.83
         }
       ]
     }, 
@@ -4619,11 +4197,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.21063268255000894, 
+      "verse": 3, 
       "alignedWord": "cries", 
       "start": 43.23, 
-      "verse": 3, 
-      "frequency": 109.02611978487188, 
       "startOffset": 511, 
       "end": 43.87, 
       "line": 15, 
@@ -4632,9 +4208,7 @@
           "end": 43.87, 
           "name": "syll_092_0_cries_43", 
           "text": "cries", 
-          "start": 43.23, 
-          "intensity": 0.21063268255000894, 
-          "frequency": 109.02611978487188
+          "start": 43.23
         }
       ]
     }, 
@@ -4658,11 +4232,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.34424695459441357, 
+      "verse": 4, 
       "alignedWord": "does", 
       "start": 44.44, 
-      "verse": 4, 
-      "frequency": 117.24618855105858, 
       "startOffset": 521, 
       "end": 44.69, 
       "line": 16, 
@@ -4671,9 +4243,7 @@
           "end": 44.69, 
           "name": "syll_093_0_does_44", 
           "text": "does", 
-          "start": 44.44, 
-          "intensity": 0.34424695459441357, 
-          "frequency": 117.24618855105858
+          "start": 44.44
         }
       ]
     }, 
@@ -4693,11 +4263,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6650849075688301, 
+      "verse": 4, 
       "alignedWord": "my", 
       "start": 44.69, 
-      "verse": 4, 
-      "frequency": 103.68153011604437, 
       "startOffset": 526, 
       "end": 44.9, 
       "line": 16, 
@@ -4706,9 +4274,7 @@
           "end": 44.9, 
           "name": "syll_094_0_my_44", 
           "text": "my", 
-          "start": 44.69, 
-          "intensity": 0.6650849075688301, 
-          "frequency": 103.68153011604437
+          "start": 44.69
         }
       ]
     }, 
@@ -4751,11 +4317,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.2835585570701168, 
+      "verse": 4, 
       "alignedWord": "sassiness", 
       "start": 44.9, 
-      "verse": 4, 
-      "frequency": 105.02724733381183, 
       "startOffset": 529, 
       "end": 45.8, 
       "line": 16, 
@@ -4764,25 +4328,19 @@
           "end": 45.18, 
           "name": "syll_095_0_sa_44", 
           "text": "sa", 
-          "start": 44.9, 
-          "intensity": 0.21201104353284894, 
-          "frequency": 107.10863515516047
+          "start": 44.9
         }, 
         {
           "end": 45.42, 
           "name": "syll_095_1_ssi_45", 
           "text": "ssi", 
-          "start": 45.18, 
-          "intensity": 0.31782215315872736, 
-          "frequency": 109.24195168670553
+          "start": 45.18
         }, 
         {
           "end": 45.8, 
           "name": "syll_095_2_ness_45", 
           "text": "ness", 
-          "start": 45.42, 
-          "intensity": 0.3149478547654706, 
-          "frequency": 101.62531330048337
+          "start": 45.42
         }
       ]
     }, 
@@ -4815,11 +4373,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.22326009118665233, 
+      "verse": 4, 
       "alignedWord": "upset", 
       "start": 45.8, 
-      "verse": 4, 
-      "frequency": 102.74514747737106, 
       "startOffset": 539, 
       "end": 46.21, 
       "line": 16, 
@@ -4828,17 +4384,13 @@
           "end": 45.9, 
           "name": "syll_096_0_up_45", 
           "text": "up", 
-          "start": 45.8, 
-          "intensity": 0.0838194240992227, 
-          "frequency": 105.4010793207711
+          "start": 45.8
         }, 
         {
           "end": 46.21, 
           "name": "syll_096_1_set_45", 
           "text": "set", 
-          "start": 45.9, 
-          "intensity": 0.2697403135491289, 
-          "frequency": 101.63850920928769
+          "start": 45.9
         }
       ]
     }, 
@@ -4858,11 +4410,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.24521445019896115, 
+      "verse": 4, 
       "alignedWord": "you", 
       "start": 46.21, 
-      "verse": 4, 
-      "frequency": 104.67963903853224, 
       "startOffset": 545, 
       "end": 46.56, 
       "line": 16, 
@@ -4871,9 +4421,7 @@
           "end": 46.56, 
           "name": "syll_097_0_you_46", 
           "text": "you", 
-          "start": 46.21, 
-          "intensity": 0.24521445019896115, 
-          "frequency": 104.67963903853224
+          "start": 46.21
         }
       ]
     }, 
@@ -4901,11 +4449,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.6122885223175116, 
+      "verse": 4, 
       "alignedWord": "don't", 
       "start": 47.82, 
-      "verse": 4, 
-      "frequency": 126.92052919667218, 
       "startOffset": 551, 
       "end": 48.09, 
       "line": 17, 
@@ -4914,9 +4460,7 @@
           "end": 48.04, 
           "name": "syll_098_0_dont_47", 
           "text": "don't", 
-          "start": 47.82, 
-          "intensity": 0.5843149922170466, 
-          "frequency": 130.91421889987808
+          "start": 47.82
         }
       ]
     }, 
@@ -4940,11 +4484,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.5680582110331209, 
+      "verse": 4, 
       "alignedWord": "take", 
       "start": 48.09, 
-      "verse": 4, 
-      "frequency": 118.9731511669665, 
       "startOffset": 557, 
       "end": 48.36, 
       "line": 17, 
@@ -4953,9 +4495,7 @@
           "end": 48.36, 
           "name": "syll_099_0_take_48", 
           "text": "take", 
-          "start": 48.09, 
-          "intensity": 0.5680582110331209, 
-          "frequency": 118.9731511669665
+          "start": 48.09
         }
       ]
     }, 
@@ -4975,11 +4515,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.539149883842702, 
+      "verse": 4, 
       "alignedWord": "it", 
       "start": 48.36, 
-      "verse": 4, 
-      "frequency": 113.11085853287486, 
       "startOffset": 562, 
       "end": 48.54, 
       "line": 17, 
@@ -4988,9 +4526,7 @@
           "end": 48.54, 
           "name": "syll_100_0_it_48", 
           "text": "it", 
-          "start": 48.36, 
-          "intensity": 0.539149883842702, 
-          "frequency": 113.11085853287486
+          "start": 48.36
         }
       ]
     }, 
@@ -5010,11 +4546,9 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.6456810046419208, 
+      "verse": 4, 
       "alignedWord": "so", 
       "start": 48.54, 
-      "verse": 4, 
-      "frequency": 119.47060916168033, 
       "startOffset": 565, 
       "end": 48.75, 
       "line": 17, 
@@ -5023,9 +4557,7 @@
           "end": 48.75, 
           "name": "syll_101_0_so_48", 
           "text": "so", 
-          "start": 48.54, 
-          "intensity": 0.6456810046419208, 
-          "frequency": 119.47060916168033
+          "start": 48.54
         }
       ]
     }, 
@@ -5053,11 +4585,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.7644851426152138, 
+      "verse": 4, 
       "alignedWord": "hard", 
       "start": 48.75, 
-      "verse": 4, 
-      "frequency": 107.86081073050372, 
       "startOffset": 568, 
       "end": 49.08, 
       "line": 17, 
@@ -5066,9 +4596,7 @@
           "end": 49.08, 
           "name": "syll_102_0_hard_48", 
           "text": "hard", 
-          "start": 48.75, 
-          "intensity": 0.7644851426152138, 
-          "frequency": 107.86081073050372
+          "start": 48.75
         }
       ]
     }, 
@@ -5096,11 +4624,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4307967006218992, 
+      "verse": 4, 
       "alignedWord": "just", 
       "start": 49.08, 
-      "verse": 4, 
-      "frequency": 114.50283271058436, 
       "startOffset": 574, 
       "end": 49.31, 
       "line": 18, 
@@ -5109,9 +4635,7 @@
           "end": 49.31, 
           "name": "syll_103_0_just_49", 
           "text": "just", 
-          "start": 49.08, 
-          "intensity": 0.4307967006218992, 
-          "frequency": 114.50283271058436
+          "start": 49.08
         }
       ]
     }, 
@@ -5135,11 +4659,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.6578957018604367, 
+      "verse": 4, 
       "alignedWord": "cause", 
       "start": 49.31, 
-      "verse": 4, 
-      "frequency": 106.27178488154108, 
       "startOffset": 580, 
       "end": 49.53, 
       "line": 18, 
@@ -5148,9 +4670,7 @@
           "end": 49.53, 
           "name": "syll_104_0_cause_49", 
           "text": "cause", 
-          "start": 49.31, 
-          "intensity": 0.6578957018604367, 
-          "frequency": 106.27178488154108
+          "start": 49.31
         }
       ]
     }, 
@@ -5166,11 +4686,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6804420536132263, 
+      "verse": 4, 
       "alignedWord": "i", 
       "start": 49.53, 
-      "verse": 4, 
-      "frequency": 91.551332580809, 
       "startOffset": 586, 
       "end": 49.69, 
       "line": 18, 
@@ -5179,9 +4697,7 @@
           "end": 49.69, 
           "name": "syll_105_0_i_49", 
           "text": "i", 
-          "start": 49.53, 
-          "intensity": 0.6804420536132263, 
-          "frequency": 91.551332580809
+          "start": 49.53
         }
       ]
     }, 
@@ -5205,11 +4721,9 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.555551920932845, 
+      "verse": 4, 
       "alignedWord": "laugh", 
       "start": 49.69, 
-      "verse": 4, 
-      "frequency": 113.39935079725105, 
       "startOffset": 588, 
       "end": 50.19, 
       "line": 18, 
@@ -5218,9 +4732,7 @@
           "end": 50.19, 
           "name": "syll_106_0_laugh_49", 
           "text": "laugh", 
-          "start": 49.69, 
-          "intensity": 0.555551920932845, 
-          "frequency": 113.39935079725105
+          "start": 49.69
         }
       ]
     }, 
@@ -5240,11 +4752,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.35976562009269364, 
+      "verse": 4, 
       "alignedWord": "as", 
       "start": 53.39, 
-      "verse": 4, 
-      "frequency": 112.69123570718438, 
       "startOffset": 594, 
       "end": 53.63, 
       "line": 18, 
@@ -5253,9 +4763,7 @@
           "end": 53.63, 
           "name": "syll_107_0_as_53", 
           "text": "as", 
-          "start": 53.39, 
-          "intensity": 0.35976562009269364, 
-          "frequency": 112.69123570718438
+          "start": 53.39
         }
       ]
     }, 
@@ -5275,11 +4783,9 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.5124553213870015, 
+      "verse": 4, 
       "alignedWord": "if", 
       "start": 53.63, 
-      "verse": 4, 
-      "frequency": 122.90355455415711, 
       "startOffset": 597, 
       "end": 53.86, 
       "line": 18, 
@@ -5288,9 +4794,7 @@
           "end": 53.86, 
           "name": "syll_108_0_if_53", 
           "text": "if", 
-          "start": 53.63, 
-          "intensity": 0.5124553213870015, 
-          "frequency": 122.90355455415711
+          "start": 53.63
         }
       ]
     }, 
@@ -5306,11 +4810,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.6004123753486349, 
+      "verse": 4, 
       "alignedWord": "i", 
       "start": 53.86, 
-      "verse": 4, 
-      "frequency": 107.96216064155512, 
       "startOffset": 600, 
       "end": 54.03, 
       "line": 18, 
@@ -5319,9 +4821,7 @@
           "end": 54.03, 
           "name": "syll_109_0_i_53", 
           "text": "i", 
-          "start": 53.86, 
-          "intensity": 0.6004123753486349, 
-          "frequency": 107.96216064155512
+          "start": 53.86
         }
       ]
     }, 
@@ -5345,11 +4845,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.3273564136234921, 
+      "verse": 4, 
       "alignedWord": "have", 
       "start": 54.03, 
-      "verse": 4, 
-      "frequency": 96.2041591424532, 
       "startOffset": 602, 
       "end": 54.32, 
       "line": 18, 
@@ -5358,9 +4856,7 @@
           "end": 54.32, 
           "name": "syll_110_0_have_54", 
           "text": "have", 
-          "start": 54.03, 
-          "intensity": 0.3273564136234921, 
-          "frequency": 96.2041591424532
+          "start": 54.03
         }
       ]
     }, 
@@ -5388,11 +4884,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.537192214187418, 
+      "verse": 4, 
       "alignedWord": "gold", 
       "start": 54.32, 
-      "verse": 4, 
-      "frequency": 104.5087423764287, 
       "startOffset": 607, 
       "end": 54.77, 
       "line": 18, 
@@ -5401,9 +4895,7 @@
           "end": 54.77, 
           "name": "syll_111_0_gold_54", 
           "text": "gold", 
-          "start": 54.32, 
-          "intensity": 0.537192214187418, 
-          "frequency": 104.5087423764287
+          "start": 54.32
         }
       ]
     }, 
@@ -5431,11 +4923,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.11081258234053434, 
+      "verse": 4, 
       "alignedWord": "mines", 
       "start": 54.77, 
-      "verse": 4, 
-      "frequency": 104.86462491836359, 
       "startOffset": 612, 
       "end": 55.88, 
       "line": 18, 
@@ -5444,9 +4934,7 @@
           "end": 55.88, 
           "name": "syll_112_0_mines_54", 
           "text": "mines", 
-          "start": 54.77, 
-          "intensity": 0.11081258234053434, 
-          "frequency": 104.86462491836359
+          "start": 54.77
         }
       ]
     }, 
@@ -5480,11 +4968,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.4455957831957719, 
+      "verse": 4, 
       "alignedWord": "digging", 
       "start": 55.88, 
-      "verse": 4, 
-      "frequency": 107.14501045952915, 
       "startOffset": 619, 
       "end": 56.31, 
       "line": 19, 
@@ -5493,17 +4979,13 @@
           "end": 56.1, 
           "name": "syll_113_0_dig_55", 
           "text": "dig", 
-          "start": 55.88, 
-          "intensity": 0.41336800202397955, 
-          "frequency": 112.82908750375682
+          "start": 55.88
         }, 
         {
           "end": 56.31, 
           "name": "syll_113_1_ging_56", 
           "text": "ging", 
-          "start": 56.1, 
-          "intensity": 0.47928846351173676, 
-          "frequency": 103.01113624554542
+          "start": 56.1
         }
       ]
     }, 
@@ -5523,11 +5005,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5656600577754928, 
+      "verse": 4, 
       "alignedWord": "in", 
       "start": 56.31, 
-      "verse": 4, 
-      "frequency": 94.15392204418293, 
       "startOffset": 627, 
       "end": 56.47, 
       "line": 19, 
@@ -5536,9 +5016,7 @@
           "end": 56.47, 
           "name": "syll_114_0_in_56", 
           "text": "in", 
-          "start": 56.31, 
-          "intensity": 0.5656600577754928, 
-          "frequency": 94.15392204418293
+          "start": 56.31
         }
       ]
     }, 
@@ -5558,11 +5036,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.35957210138512313, 
+      "verse": 4, 
       "alignedWord": "my", 
       "start": 56.47, 
-      "verse": 4, 
-      "frequency": 86.0158105456339, 
       "startOffset": 630, 
       "end": 56.72, 
       "line": 19, 
@@ -5571,9 +5047,7 @@
           "end": 56.72, 
           "name": "syll_115_0_my_56", 
           "text": "my", 
-          "start": 56.47, 
-          "intensity": 0.35957210138512313, 
-          "frequency": 86.0158105456339
+          "start": 56.47
         }
       ]
     }, 
@@ -5593,11 +5067,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.41689045301407, 
+      "verse": 4, 
       "alignedWord": "own", 
       "start": 56.75, 
-      "verse": 4, 
-      "frequency": 94.45574070802628, 
       "startOffset": 633, 
       "end": 57.08, 
       "line": 19, 
@@ -5606,9 +5078,7 @@
           "end": 57.08, 
           "name": "syll_116_0_own_56", 
           "text": "own", 
-          "start": 56.75, 
-          "intensity": 0.41689045301407, 
-          "frequency": 94.45574070802628
+          "start": 56.75
         }
       ]
     }, 
@@ -5649,11 +5119,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.13287163165094568, 
+      "verse": 4, 
       "alignedWord": "backyard", 
       "start": 57.08, 
-      "verse": 4, 
-      "frequency": 96.87650581767197, 
       "startOffset": 637, 
       "end": 57.97, 
       "line": 19, 
@@ -5662,17 +5130,13 @@
           "end": 57.33, 
           "name": "syll_117_0_back_57", 
           "text": "back", 
-          "start": 57.08, 
-          "intensity": 0.23341243095372485, 
-          "frequency": 84.38232734216075
+          "start": 57.08
         }, 
         {
           "end": 57.97, 
           "name": "syll_117_1_yard_57", 
           "text": "yard", 
-          "start": 57.33, 
-          "intensity": 0.09498669278323177, 
-          "frequency": 107.4485029892584
+          "start": 57.33
         }
       ]
     }, 
@@ -5692,11 +5156,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.38249723638043226, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 58.76, 
-      "verse": 5, 
-      "frequency": 121.99658711600503, 
       "startOffset": 650, 
       "end": 58.9, 
       "line": 20, 
@@ -5705,9 +5167,7 @@
           "end": 58.9, 
           "name": "syll_118_0_you_58", 
           "text": "you", 
-          "start": 58.76, 
-          "intensity": 0.38249723638043226, 
-          "frequency": 121.99658711600503
+          "start": 58.76
         }
       ]
     }, 
@@ -5731,11 +5191,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5612875965303367, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 58.9, 
-      "verse": 5, 
-      "frequency": 118.74137809708266, 
       "startOffset": 654, 
       "end": 59.12, 
       "line": 20, 
@@ -5744,9 +5202,7 @@
           "end": 59.12, 
           "name": "syll_119_0_can_58", 
           "text": "can", 
-          "start": 58.9, 
-          "intensity": 0.5612875965303367, 
-          "frequency": 118.74137809708266
+          "start": 58.9
         }
       ]
     }, 
@@ -5770,11 +5226,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4186242271236042, 
+      "verse": 5, 
       "alignedWord": "shoot", 
       "start": 59.12, 
-      "verse": 5, 
-      "frequency": 146.538453821354, 
       "startOffset": 658, 
       "end": 59.47, 
       "line": 20, 
@@ -5783,9 +5237,7 @@
           "end": 59.47, 
           "name": "syll_120_0_shoot_59", 
           "text": "shoot", 
-          "start": 59.12, 
-          "intensity": 0.4186242271236042, 
-          "frequency": 146.538453821354
+          "start": 59.12
         }
       ]
     }, 
@@ -5805,11 +5257,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.7871013831607852, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 59.47, 
-      "verse": 5, 
-      "frequency": 143.09883719057436, 
       "startOffset": 664, 
       "end": 59.68, 
       "line": 20, 
@@ -5818,9 +5268,7 @@
           "end": 59.68, 
           "name": "syll_121_0_me_59", 
           "text": "me", 
-          "start": 59.47, 
-          "intensity": 0.7871013831607852, 
-          "frequency": 143.09883719057436
+          "start": 59.47
         }
       ]
     }, 
@@ -5844,11 +5292,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.5299881904551791, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 59.68, 
-      "verse": 5, 
-      "frequency": 130.63568304911584, 
       "startOffset": 667, 
       "end": 59.9, 
       "line": 20, 
@@ -5857,9 +5303,7 @@
           "end": 59.9, 
           "name": "syll_122_0_with_59", 
           "text": "with", 
-          "start": 59.68, 
-          "intensity": 0.5299881904551791, 
-          "frequency": 130.63568304911584
+          "start": 59.68
         }
       ]
     }, 
@@ -5883,11 +5327,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7272262759532429, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 59.9, 
-      "verse": 5, 
-      "frequency": 125.05083457246234, 
       "startOffset": 672, 
       "end": 60.05, 
       "line": 20, 
@@ -5896,9 +5338,7 @@
           "end": 60.05, 
           "name": "syll_123_0_your_59", 
           "text": "your", 
-          "start": 59.9, 
-          "intensity": 0.7272262759532429, 
-          "frequency": 125.05083457246234
+          "start": 59.9
         }
       ]
     }, 
@@ -5926,11 +5366,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.38348992013637423, 
+      "verse": 5, 
       "alignedWord": "words", 
       "start": 60.05, 
-      "verse": 5, 
-      "frequency": 131.75815622797572, 
       "startOffset": 677, 
       "end": 60.83, 
       "line": 20, 
@@ -5939,9 +5377,7 @@
           "end": 60.83, 
           "name": "syll_124_0_words_60", 
           "text": "words", 
-          "start": 60.05, 
-          "intensity": 0.38348992013637423, 
-          "frequency": 131.75815622797572
+          "start": 60.05
         }
       ]
     }, 
@@ -5961,11 +5397,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.45510367434200844, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 61.09, 
-      "verse": 5, 
-      "frequency": 126.62775302856721, 
       "startOffset": 685, 
       "end": 61.22, 
       "line": 21, 
@@ -5974,9 +5408,7 @@
           "end": 61.22, 
           "name": "syll_125_0_you_61", 
           "text": "you", 
-          "start": 61.09, 
-          "intensity": 0.45510367434200844, 
-          "frequency": 126.62775302856721
+          "start": 61.09
         }
       ]
     }, 
@@ -6000,11 +5432,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.5440044768040174, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 61.22, 
-      "verse": 5, 
-      "frequency": 121.67443121432882, 
       "startOffset": 689, 
       "end": 61.43, 
       "line": 21, 
@@ -6013,9 +5443,7 @@
           "end": 61.43, 
           "name": "syll_126_0_can_61", 
           "text": "can", 
-          "start": 61.22, 
-          "intensity": 0.5440044768040174, 
-          "frequency": 121.67443121432882
+          "start": 61.22
         }
       ]
     }, 
@@ -6039,11 +5467,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3124696857680859, 
+      "verse": 5, 
       "alignedWord": "cut", 
       "start": 61.43, 
-      "verse": 5, 
-      "frequency": 131.10783225549181, 
       "startOffset": 693, 
       "end": 61.72, 
       "line": 21, 
@@ -6052,9 +5478,7 @@
           "end": 61.72, 
           "name": "syll_127_0_cut_61", 
           "text": "cut", 
-          "start": 61.43, 
-          "intensity": 0.3124696857680859, 
-          "frequency": 131.10783225549181
+          "start": 61.43
         }
       ]
     }, 
@@ -6074,11 +5498,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.731805372738656, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 61.75, 
-      "verse": 5, 
-      "frequency": 139.3042222309793, 
       "startOffset": 697, 
       "end": 61.92, 
       "line": 21, 
@@ -6087,9 +5509,7 @@
           "end": 61.92, 
           "name": "syll_128_0_me_61", 
           "text": "me", 
-          "start": 61.75, 
-          "intensity": 0.731805372738656, 
-          "frequency": 139.3042222309793
+          "start": 61.75
         }
       ]
     }, 
@@ -6113,11 +5533,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.482456907948051, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 61.92, 
-      "verse": 5, 
-      "frequency": 129.4261061744008, 
       "startOffset": 700, 
       "end": 62.16, 
       "line": 21, 
@@ -6126,9 +5544,7 @@
           "end": 62.16, 
           "name": "syll_129_0_with_61", 
           "text": "with", 
-          "start": 61.92, 
-          "intensity": 0.482456907948051, 
-          "frequency": 129.4261061744008
+          "start": 61.92
         }
       ]
     }, 
@@ -6152,11 +5568,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.7223135672034081, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 62.16, 
-      "verse": 5, 
-      "frequency": 119.18042201095678, 
       "startOffset": 705, 
       "end": 62.34, 
       "line": 21, 
@@ -6165,9 +5579,7 @@
           "end": 62.34, 
           "name": "syll_130_0_your_62", 
           "text": "your", 
-          "start": 62.16, 
-          "intensity": 0.7223135672034081, 
-          "frequency": 119.18042201095678
+          "start": 62.16
         }
       ]
     }, 
@@ -6191,11 +5603,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.41812314742880163, 
+      "verse": 5, 
       "alignedWord": "lies", 
       "start": 62.34, 
-      "verse": 5, 
-      "frequency": 125.13874613155755, 
       "startOffset": 710, 
       "end": 63.14, 
       "line": 21, 
@@ -6204,9 +5614,7 @@
           "end": 63.14, 
           "name": "syll_131_0_lies_62", 
           "text": "lies", 
-          "start": 62.34, 
-          "intensity": 0.41812314742880163, 
-          "frequency": 125.13874613155755
+          "start": 62.34
         }
       ]
     }, 
@@ -6226,11 +5634,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.36951303495185395, 
+      "verse": 5, 
       "alignedWord": "you", 
       "start": 63.41, 
-      "verse": 5, 
-      "frequency": 127.22469175484213, 
       "startOffset": 717, 
       "end": 63.57, 
       "line": 22, 
@@ -6239,9 +5645,7 @@
           "end": 63.57, 
           "name": "syll_132_0_you_63", 
           "text": "you", 
-          "start": 63.41, 
-          "intensity": 0.36951303495185395, 
-          "frequency": 127.22469175484213
+          "start": 63.41
         }
       ]
     }, 
@@ -6265,11 +5669,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.4039882942339612, 
+      "verse": 5, 
       "alignedWord": "can", 
       "start": 63.57, 
-      "verse": 5, 
-      "frequency": 121.89914903517445, 
       "startOffset": 721, 
       "end": 63.84, 
       "line": 22, 
@@ -6278,9 +5680,7 @@
           "end": 63.84, 
           "name": "syll_133_0_can_63", 
           "text": "can", 
-          "start": 63.57, 
-          "intensity": 0.4039882942339612, 
-          "frequency": 121.89914903517445
+          "start": 63.57
         }
       ]
     }, 
@@ -6304,11 +5704,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.36480594558021545, 
+      "verse": 5, 
       "alignedWord": "kill", 
       "start": 63.84, 
-      "verse": 5, 
-      "frequency": 113.3940059548852, 
       "startOffset": 725, 
       "end": 64.21, 
       "line": 22, 
@@ -6317,9 +5715,7 @@
           "end": 64.21, 
           "name": "syll_134_0_kill_63", 
           "text": "kill", 
-          "start": 63.84, 
-          "intensity": 0.36480594558021545, 
-          "frequency": 113.3940059548852
+          "start": 63.84
         }
       ]
     }, 
@@ -6339,11 +5735,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.8678693080920208, 
+      "verse": 5, 
       "alignedWord": "me", 
       "start": 64.21, 
-      "verse": 5, 
-      "frequency": 140.54779286447447, 
       "startOffset": 730, 
       "end": 64.39, 
       "line": 22, 
@@ -6352,9 +5746,7 @@
           "end": 64.39, 
           "name": "syll_135_0_me_64", 
           "text": "me", 
-          "start": 64.21, 
-          "intensity": 0.8678693080920208, 
-          "frequency": 140.54779286447447
+          "start": 64.21
         }
       ]
     }, 
@@ -6378,11 +5770,9 @@
           "phone": "th_E"
         }
       ], 
-      "intensity": 0.4564163998272698, 
+      "verse": 5, 
       "alignedWord": "with", 
       "start": 64.39, 
-      "verse": 5, 
-      "frequency": 99.59278157061938, 
       "startOffset": 733, 
       "end": 64.63, 
       "line": 22, 
@@ -6391,9 +5781,7 @@
           "end": 64.63, 
           "name": "syll_136_0_with_64", 
           "text": "with", 
-          "start": 64.39, 
-          "intensity": 0.4564163998272698, 
-          "frequency": 99.59278157061938
+          "start": 64.39
         }
       ]
     }, 
@@ -6417,11 +5805,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.40507760358439243, 
+      "verse": 5, 
       "alignedWord": "your", 
       "start": 64.63, 
-      "verse": 5, 
-      "frequency": 102.97267143562388, 
       "startOffset": 738, 
       "end": 64.85, 
       "line": 22, 
@@ -6430,9 +5816,7 @@
           "end": 64.85, 
           "name": "syll_137_0_your_64", 
           "text": "your", 
-          "start": 64.63, 
-          "intensity": 0.40507760358439243, 
-          "frequency": 102.97267143562388
+          "start": 64.63
         }
       ]
     }, 
@@ -6483,11 +5867,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.225501000239768, 
+      "verse": 5, 
       "alignedWord": "hatefulness", 
       "start": 64.88, 
-      "verse": 5, 
-      "frequency": 107.31287929095167, 
       "startOffset": 743, 
       "end": 65.48, 
       "line": 22, 
@@ -6496,25 +5878,19 @@
           "end": 65.19, 
           "name": "syll_138_0_hate_64", 
           "text": "hate", 
-          "start": 64.88, 
-          "intensity": 0.26235910819849484, 
-          "frequency": 105.0569265234632
+          "start": 64.88
         }, 
         {
           "end": 65.3, 
           "name": "syll_138_1_ful_65", 
           "text": "ful", 
-          "start": 65.19, 
-          "intensity": 0.3214520290332793, 
-          "frequency": 105.0569265234632
+          "start": 65.19
         }, 
         {
           "end": 65.48, 
           "name": "syll_138_2_ness_65", 
           "text": "ness", 
-          "start": 65.3, 
-          "intensity": 0.11191205627143712, 
-          "frequency": 112.95276120967293
+          "start": 65.3
         }
       ]
     }, 
@@ -6538,11 +5914,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.2792611666280252, 
+      "verse": 5, 
       "alignedWord": "but", 
       "start": 65.82, 
-      "verse": 5, 
-      "frequency": 145.743401474992, 
       "startOffset": 757, 
       "end": 66.04, 
       "line": 23, 
@@ -6551,9 +5925,7 @@
           "end": 66.04, 
           "name": "syll_139_0_but_65", 
           "text": "but", 
-          "start": 65.82, 
-          "intensity": 0.2792611666280252, 
-          "frequency": 145.743401474992
+          "start": 65.82
         }
       ]
     }, 
@@ -6581,11 +5953,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.27936276666695203, 
+      "verse": 5, 
       "alignedWord": "just", 
       "start": 66.04, 
-      "verse": 5, 
-      "frequency": 146.47661212745328, 
       "startOffset": 761, 
       "end": 66.35, 
       "line": 23, 
@@ -6594,9 +5964,7 @@
           "end": 66.35, 
           "name": "syll_140_0_just_66", 
           "text": "just", 
-          "start": 66.04, 
-          "intensity": 0.27936276666695203, 
-          "frequency": 146.47661212745328
+          "start": 66.04
         }
       ]
     }, 
@@ -6620,11 +5988,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.2742717626465642, 
+      "verse": 5, 
       "alignedWord": "like", 
       "start": 66.35, 
-      "verse": 5, 
-      "frequency": 108.41222906793564, 
       "startOffset": 766, 
       "end": 66.6, 
       "line": 23, 
@@ -6633,9 +5999,7 @@
           "end": 66.6, 
           "name": "syll_141_0_like_66", 
           "text": "like", 
-          "start": 66.35, 
-          "intensity": 0.2742717626465642, 
-          "frequency": 108.41222906793564
+          "start": 66.35
         }
       ]
     }, 
@@ -6659,11 +6023,9 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.2646837098608398, 
+      "verse": 5, 
       "alignedWord": "life", 
       "start": 66.6, 
-      "verse": 5, 
-      "frequency": 112.99928912332184, 
       "startOffset": 771, 
       "end": 67.36, 
       "line": 23, 
@@ -6672,9 +6034,7 @@
           "end": 67.36, 
           "name": "syll_142_0_life_66", 
           "text": "life", 
-          "start": 66.6, 
-          "intensity": 0.2646837098608398, 
-          "frequency": 112.99928912332184
+          "start": 66.6
         }
       ]
     }, 
@@ -6694,11 +6054,9 @@
           "phone": "l_E"
         }
       ], 
-      "intensity": 0.32909898866049947, 
+      "verse": 5, 
       "alignedWord": "i'll", 
       "start": 68.01, 
-      "verse": 5, 
-      "frequency": 98.12952518660339, 
       "startOffset": 777, 
       "end": 68.26, 
       "line": 23, 
@@ -6707,9 +6065,7 @@
           "end": 68.26, 
           "name": "syll_143_0_ill_68", 
           "text": "i'll", 
-          "start": 68.01, 
-          "intensity": 0.32909898866049947, 
-          "frequency": 98.12952518660339
+          "start": 68.01
         }
       ]
     }, 
@@ -6733,11 +6089,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.24172635901706044, 
+      "verse": 5, 
       "alignedWord": "rise", 
       "start": 68.26, 
-      "verse": 5, 
-      "frequency": 117.23731217329244, 
       "startOffset": 782, 
       "end": 68.95, 
       "line": 23, 
@@ -6746,9 +6100,7 @@
           "end": 68.95, 
           "name": "syll_144_0_rise_68", 
           "text": "rise", 
-          "start": 68.26, 
-          "intensity": 0.24172635901706044, 
-          "frequency": 117.23731217329244
+          "start": 68.26
         }
       ]
     }, 
@@ -6772,11 +6124,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5488605815931138, 
+      "verse": 6, 
       "alignedWord": "does", 
       "start": 69.83, 
-      "verse": 6, 
-      "frequency": 137.8937421447109, 
       "startOffset": 791, 
       "end": 70.1, 
       "line": 24, 
@@ -6785,9 +6135,7 @@
           "end": 70.1, 
           "name": "syll_145_0_does_69", 
           "text": "does", 
-          "start": 69.83, 
-          "intensity": 0.5488605815931138, 
-          "frequency": 137.8937421447109
+          "start": 69.83
         }
       ]
     }, 
@@ -6807,11 +6155,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.5911711344794134, 
+      "verse": 6, 
       "alignedWord": "my", 
       "start": 70.1, 
-      "verse": 6, 
-      "frequency": 149.69213200645288, 
       "startOffset": 796, 
       "end": 70.29, 
       "line": 24, 
@@ -6820,9 +6166,7 @@
           "end": 70.29, 
           "name": "syll_146_0_my_70", 
           "text": "my", 
-          "start": 70.1, 
-          "intensity": 0.5911711344794134, 
-          "frequency": 149.69213200645288
+          "start": 70.1
         }
       ]
     }, 
@@ -6868,11 +6212,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.35021336564203204, 
+      "verse": 6, 
       "alignedWord": "sexiness", 
       "start": 70.29, 
-      "verse": 6, 
-      "frequency": 145.41319838653027, 
       "startOffset": 799, 
       "end": 71.05, 
       "line": 24, 
@@ -6881,25 +6223,19 @@
           "end": 70.55, 
           "name": "syll_147_0_sex_70", 
           "text": "sex", 
-          "start": 70.29, 
-          "intensity": 0.43073957032178206, 
-          "frequency": 136.086402974513
+          "start": 70.29
         }, 
         {
           "end": 70.78, 
           "name": "syll_147_1_i_70", 
           "text": "i", 
-          "start": 70.55000000000001, 
-          "intensity": 0.24738570368287965, 
-          "frequency": 158.24715265698637
+          "start": 70.55000000000001
         }, 
         {
           "end": 71.05, 
           "name": "syll_147_2_ness_70", 
           "text": "ness", 
-          "start": 70.78000000000002, 
-          "intensity": 0.36388522849118915, 
-          "frequency": 143.0330128473255
+          "start": 70.78000000000002
         }
       ]
     }, 
@@ -6932,11 +6268,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3274991366365983, 
+      "verse": 6, 
       "alignedWord": "offend", 
       "start": 71.05, 
-      "verse": 6, 
-      "frequency": 135.44672351023203, 
       "startOffset": 808, 
       "end": 71.48, 
       "line": 24, 
@@ -6945,17 +6279,13 @@
           "end": 71.14, 
           "name": "syll_148_0_of_71", 
           "text": "of", 
-          "start": 71.05, 
-          "intensity": 0.26981358836893043, 
-          "frequency": 138.4563031103952
+          "start": 71.05
         }, 
         {
           "end": 71.48, 
           "name": "syll_148_1_fend_71", 
           "text": "fend", 
-          "start": 71.14, 
-          "intensity": 0.34153075648549047, 
-          "frequency": 134.57297459405555
+          "start": 71.14
         }
       ]
     }, 
@@ -6976,11 +6306,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.17540977195820553, 
+      "verse": 6, 
       "alignedWord": "you", 
       "start": 71.48, 
-      "verse": 6, 
-      "frequency": 119.0585053238445, 
       "startOffset": 815, 
       "end": 71.79, 
       "line": 24, 
@@ -6989,9 +6317,7 @@
           "end": 71.79, 
           "name": "syll_149_0_you_71", 
           "text": "you", 
-          "start": 71.48, 
-          "intensity": 0.17540977195820553, 
-          "frequency": 119.0585053238445
+          "start": 71.48
         }
       ]
     }, 
@@ -7015,11 +6341,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.4823689930852159, 
+      "verse": 6, 
       "alignedWord": "does", 
       "start": 73.65, 
-      "verse": 6, 
-      "frequency": 150.52161049894934, 
       "startOffset": 821, 
       "end": 73.9, 
       "line": 25, 
@@ -7028,9 +6352,7 @@
           "end": 73.9, 
           "name": "syll_150_0_does_73", 
           "text": "does", 
-          "start": 73.65, 
-          "intensity": 0.4823689930852159, 
-          "frequency": 150.52161049894934
+          "start": 73.65
         }
       ]
     }, 
@@ -7050,11 +6372,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.47700956904449077, 
+      "verse": 6, 
       "alignedWord": "it", 
       "start": 73.9, 
-      "verse": 6, 
-      "frequency": 116.20697340274324, 
       "startOffset": 826, 
       "end": 74.11, 
       "line": 25, 
@@ -7063,9 +6383,7 @@
           "end": 74.11, 
           "name": "syll_151_0_it_73", 
           "text": "it", 
-          "start": 73.9, 
-          "intensity": 0.47700956904449077, 
-          "frequency": 116.20697340274324
+          "start": 73.9
         }
       ]
     }, 
@@ -7089,11 +6407,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.5673273836819089, 
+      "verse": 6, 
       "alignedWord": "come", 
       "start": 74.11, 
-      "verse": 6, 
-      "frequency": 134.67843989688663, 
       "startOffset": 829, 
       "end": 74.45, 
       "line": 25, 
@@ -7102,9 +6418,7 @@
           "end": 74.45, 
           "name": "syll_152_0_come_74", 
           "text": "come", 
-          "start": 74.11, 
-          "intensity": 0.5673273836819089, 
-          "frequency": 134.67843989688663
+          "start": 74.11
         }
       ]
     }, 
@@ -7124,11 +6438,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5563778343108952, 
+      "verse": 6, 
       "alignedWord": "as", 
       "start": 74.45, 
-      "verse": 6, 
-      "frequency": 132.60582565437187, 
       "startOffset": 834, 
       "end": 74.6, 
       "line": 25, 
@@ -7137,9 +6449,7 @@
           "end": 74.6, 
           "name": "syll_153_0_as_74", 
           "text": "as", 
-          "start": 74.45, 
-          "intensity": 0.5563778343108952, 
-          "frequency": 132.60582565437187
+          "start": 74.45
         }
       ]
     }, 
@@ -7155,11 +6465,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.701035693338374, 
+      "verse": 6, 
       "alignedWord": "a", 
       "start": 74.6, 
-      "verse": 6, 
-      "frequency": 114.29299148570075, 
       "startOffset": 837, 
       "end": 74.69, 
       "line": 25, 
@@ -7168,9 +6476,7 @@
           "end": 74.69, 
           "name": "syll_154_0_a_74", 
           "text": "a", 
-          "start": 74.6, 
-          "intensity": 0.701035693338374, 
-          "frequency": 114.29299148570075
+          "start": 74.6
         }
       ]
     }, 
@@ -7207,11 +6513,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.4340595401105191, 
+      "verse": 6, 
       "alignedWord": "surprise", 
       "start": 74.69, 
-      "verse": 6, 
-      "frequency": 116.01857505100027, 
       "startOffset": 839, 
       "end": 75.61, 
       "line": 25, 
@@ -7220,17 +6524,13 @@
           "end": 74.85, 
           "name": "syll_155_0_sur_74", 
           "text": "sur", 
-          "start": 74.69, 
-          "intensity": 0.2928285156505624, 
-          "frequency": 111.57160775079119
+          "start": 74.69
         }, 
         {
           "end": 75.61, 
           "name": "syll_155_1_prise_74", 
           "text": "prise", 
-          "start": 74.85, 
-          "intensity": 0.46370061931816464, 
-          "frequency": 117.11420467568956
+          "start": 74.85
         }
       ]
     }, 
@@ -7254,11 +6554,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.3376785451383452, 
+      "verse": 6, 
       "alignedWord": "that", 
       "start": 75.93, 
-      "verse": 6, 
-      "frequency": 109.24792304200135, 
       "startOffset": 849, 
       "end": 76.16, 
       "line": 26, 
@@ -7267,9 +6565,7 @@
           "end": 76.16, 
           "name": "syll_156_0_that_75", 
           "text": "that", 
-          "start": 75.93, 
-          "intensity": 0.3376785451383452, 
-          "frequency": 109.24792304200135
+          "start": 75.93
         }
       ]
     }, 
@@ -7285,11 +6581,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.2953170938436952, 
+      "verse": 6, 
       "alignedWord": "i", 
       "start": 76.16, 
-      "verse": 6, 
-      "frequency": 97.79285863526947, 
       "startOffset": 854, 
       "end": 76.37, 
       "line": 26, 
@@ -7298,9 +6592,7 @@
           "end": 76.37, 
           "name": "syll_157_0_i_76", 
           "text": "i", 
-          "start": 76.16, 
-          "intensity": 0.2953170938436952, 
-          "frequency": 97.79285863526947
+          "start": 76.16
         }
       ]
     }, 
@@ -7328,11 +6620,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.14324500622018455, 
+      "verse": 6, 
       "alignedWord": "dance", 
       "start": 76.4, 
-      "verse": 6, 
-      "frequency": 118.61343159356258, 
       "startOffset": 856, 
       "end": 77.38, 
       "line": 26, 
@@ -7341,9 +6631,7 @@
           "end": 77.38, 
           "name": "syll_158_0_dance_76", 
           "text": "dance", 
-          "start": 76.4, 
-          "intensity": 0.14324500622018455, 
-          "frequency": 118.61343159356258
+          "start": 76.4
         }
       ]
     }, 
@@ -7363,11 +6651,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2942990267014709, 
+      "verse": 6, 
       "alignedWord": "as", 
       "start": 80.46, 
-      "verse": 6, 
-      "frequency": 109.03404065628143, 
       "startOffset": 862, 
       "end": 80.71, 
       "line": 26, 
@@ -7376,9 +6662,7 @@
           "end": 80.71, 
           "name": "syll_159_0_as_80", 
           "text": "as", 
-          "start": 80.46, 
-          "intensity": 0.2942990267014709, 
-          "frequency": 109.03404065628143
+          "start": 80.46
         }
       ]
     }, 
@@ -7398,11 +6682,9 @@
           "phone": "f_E"
         }
       ], 
-      "intensity": 0.5336259625486288, 
+      "verse": 6, 
       "alignedWord": "if", 
       "start": 80.71, 
-      "verse": 6, 
-      "frequency": 134.8344799628121, 
       "startOffset": 865, 
       "end": 80.94, 
       "line": 26, 
@@ -7411,9 +6693,7 @@
           "end": 80.94, 
           "name": "syll_160_0_if_80", 
           "text": "if", 
-          "start": 80.71, 
-          "intensity": 0.5336259625486288, 
-          "frequency": 134.8344799628121
+          "start": 80.71
         }
       ]
     }, 
@@ -7429,11 +6709,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7990856275543973, 
+      "verse": 6, 
       "alignedWord": "i", 
       "start": 80.94, 
-      "verse": 6, 
-      "frequency": 114.36515225345276, 
       "startOffset": 868, 
       "end": 81.06, 
       "line": 26, 
@@ -7442,9 +6720,7 @@
           "end": 81.06, 
           "name": "syll_161_0_i_80", 
           "text": "i", 
-          "start": 80.94, 
-          "intensity": 0.7990856275543973, 
-          "frequency": 114.36515225345276
+          "start": 80.94
         }
       ]
     }, 
@@ -7468,11 +6744,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4112599856351491, 
+      "verse": 6, 
       "alignedWord": "have", 
       "start": 81.06, 
-      "verse": 6, 
-      "frequency": 99.57614411229943, 
       "startOffset": 870, 
       "end": 81.35, 
       "line": 26, 
@@ -7481,9 +6755,7 @@
           "end": 81.35, 
           "name": "syll_162_0_have_81", 
           "text": "have", 
-          "start": 81.06, 
-          "intensity": 0.4112599856351491, 
-          "frequency": 99.57614411229943
+          "start": 81.06
         }
       ]
     }, 
@@ -7524,11 +6796,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3488582320675502, 
+      "verse": 6, 
       "alignedWord": "diamonds", 
       "start": 81.35, 
-      "verse": 6, 
-      "frequency": 111.53202592174142, 
       "startOffset": 875, 
       "end": 82.47, 
       "line": 26, 
@@ -7537,17 +6807,13 @@
           "end": 81.6, 
           "name": "syll_163_0_dia_81", 
           "text": "dia", 
-          "start": 81.35, 
-          "intensity": 0.6840121449168101, 
-          "frequency": 128.6605714321869
+          "start": 81.35
         }, 
         {
           "end": 82.47, 
           "name": "syll_163_1_monds_81", 
           "text": "monds", 
-          "start": 81.6, 
-          "intensity": 0.2515554831758298, 
-          "frequency": 99.36174358537224
+          "start": 81.6
         }
       ]
     }, 
@@ -7567,11 +6833,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.23657512807786427, 
+      "verse": 6, 
       "alignedWord": "at", 
       "start": 82.5, 
-      "verse": 6, 
-      "frequency": 104.70656172826233, 
       "startOffset": 885, 
       "end": 82.68, 
       "line": 27, 
@@ -7580,9 +6844,7 @@
           "end": 82.68, 
           "name": "syll_164_0_at_82", 
           "text": "at", 
-          "start": 82.5, 
-          "intensity": 0.23657512807786427, 
-          "frequency": 104.70656172826233
+          "start": 82.5
         }
       ]
     }, 
@@ -7602,11 +6864,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.53291185423456, 
+      "verse": 6, 
       "alignedWord": "the", 
       "start": 82.68, 
-      "verse": 6, 
-      "frequency": 116.1407904121629, 
       "startOffset": 888, 
       "end": 82.79, 
       "line": 27, 
@@ -7615,9 +6875,7 @@
           "end": 82.79, 
           "name": "syll_165_0_the_82", 
           "text": "the", 
-          "start": 82.68, 
-          "intensity": 0.53291185423456, 
-          "frequency": 116.1407904121629
+          "start": 82.68
         }
       ]
     }, 
@@ -7650,11 +6908,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.5848136155552172, 
+      "verse": 6, 
       "alignedWord": "meeting", 
       "start": 82.79, 
-      "verse": 6, 
-      "frequency": 113.48714689462322, 
       "startOffset": 892, 
       "end": 83.14, 
       "line": 27, 
@@ -7663,17 +6919,13 @@
           "end": 82.97, 
           "name": "syll_166_0_meet_82", 
           "text": "meet", 
-          "start": 82.79, 
-          "intensity": 0.8580177834745338, 
-          "frequency": 117.08244828121042
+          "start": 82.79
         }, 
         {
           "end": 83.14, 
           "name": "syll_166_1_ing_82", 
           "text": "ing", 
-          "start": 82.97000000000001, 
-          "intensity": 0.29643143830704916, 
-          "frequency": 108.60780929854059
+          "start": 82.97000000000001
         }
       ]
     }, 
@@ -7693,11 +6945,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.3935446837121367, 
+      "verse": 6, 
       "alignedWord": "of", 
       "start": 83.14, 
-      "verse": 6, 
-      "frequency": 94.24701978979739, 
       "startOffset": 900, 
       "end": 83.31, 
       "line": 27, 
@@ -7706,9 +6956,7 @@
           "end": 83.31, 
           "name": "syll_167_0_of_83", 
           "text": "of", 
-          "start": 83.14, 
-          "intensity": 0.3935446837121367, 
-          "frequency": 94.24701978979739
+          "start": 83.14
         }
       ]
     }, 
@@ -7728,11 +6976,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.25120299973317595, 
+      "verse": 6, 
       "alignedWord": "my", 
       "start": 83.31, 
-      "verse": 6, 
-      "frequency": 90.9482949743729, 
       "startOffset": 903, 
       "end": 83.5, 
       "line": 27, 
@@ -7741,9 +6987,7 @@
           "end": 83.5, 
           "name": "syll_168_0_my_83", 
           "text": "my", 
-          "start": 83.31, 
-          "intensity": 0.25120299973317595, 
-          "frequency": 90.9482949743729
+          "start": 83.31
         }
       ]
     }, 
@@ -7767,11 +7011,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.08900288437113031, 
+      "verse": 6, 
       "alignedWord": "thighs", 
       "start": 83.5, 
-      "verse": 6, 
-      "frequency": 86.93157902655508, 
       "startOffset": 906, 
       "end": 84.24, 
       "line": 27, 
@@ -7780,9 +7022,7 @@
           "end": 84.24, 
           "name": "syll_169_0_thighs_83", 
           "text": "thighs", 
-          "start": 83.5, 
-          "intensity": 0.08900288437113031, 
-          "frequency": 86.93157902655508
+          "start": 83.5
         }
       ]
     }, 
@@ -7802,11 +7042,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.5974013899728944, 
+      "verse": 7, 
       "alignedWord": "out", 
       "start": 85.16, 
-      "verse": 7, 
-      "frequency": 144.17799085339556, 
       "startOffset": 917, 
       "end": 85.47, 
       "line": 28, 
@@ -7815,9 +7053,7 @@
           "end": 85.47, 
           "name": "syll_170_0_out_85", 
           "text": "out", 
-          "start": 85.16, 
-          "intensity": 0.5974013899728944, 
-          "frequency": 144.17799085339556
+          "start": 85.16
         }
       ]
     }, 
@@ -7837,11 +7073,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.7467949671753881, 
+      "verse": 7, 
       "alignedWord": "of", 
       "start": 85.47, 
-      "verse": 7, 
-      "frequency": 134.393122279925, 
       "startOffset": 921, 
       "end": 85.63, 
       "line": 28, 
@@ -7850,9 +7084,7 @@
           "end": 85.63, 
           "name": "syll_171_0_of_85", 
           "text": "of", 
-          "start": 85.47, 
-          "intensity": 0.7467949671753881, 
-          "frequency": 134.393122279925
+          "start": 85.47
         }
       ]
     }, 
@@ -7872,11 +7104,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.616654173964492, 
+      "verse": 7, 
       "alignedWord": "the", 
       "start": 85.63, 
-      "verse": 7, 
-      "frequency": 123.04943019027837, 
       "startOffset": 924, 
       "end": 85.74, 
       "line": 28, 
@@ -7885,9 +7115,7 @@
           "end": 85.74, 
           "name": "syll_172_0_the_85", 
           "text": "the", 
-          "start": 85.63, 
-          "intensity": 0.616654173964492, 
-          "frequency": 123.04943019027837
+          "start": 85.63
         }
       ]
     }, 
@@ -7915,11 +7143,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.3603196191338292, 
+      "verse": 7, 
       "alignedWord": "huts", 
       "start": 85.74, 
-      "verse": 7, 
-      "frequency": 139.97548079573187, 
       "startOffset": 928, 
       "end": 86.0, 
       "line": 28, 
@@ -7928,9 +7154,7 @@
           "end": 86.0, 
           "name": "syll_173_0_huts_85", 
           "text": "huts", 
-          "start": 85.74, 
-          "intensity": 0.3603196191338292, 
-          "frequency": 139.97548079573187
+          "start": 85.74
         }
       ]
     }, 
@@ -7950,11 +7174,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.4991704508974489, 
+      "verse": 7, 
       "alignedWord": "of", 
       "start": 86.0, 
-      "verse": 7, 
-      "frequency": 124.01374108034109, 
       "startOffset": 933, 
       "end": 86.12, 
       "line": 28, 
@@ -7963,9 +7185,7 @@
           "end": 86.12, 
           "name": "syll_174_0_of_86", 
           "text": "of", 
-          "start": 86.0, 
-          "intensity": 0.4991704508974489, 
-          "frequency": 124.01374108034109
+          "start": 86.0
         }
       ]
     }, 
@@ -8007,11 +7227,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.5287704719162336, 
+      "verse": 7, 
       "alignedWord": "history's", 
       "start": 86.12, 
-      "verse": 7, 
-      "frequency": 131.81900708006157, 
       "startOffset": 936, 
       "end": 86.6, 
       "line": 28, 
@@ -8020,25 +7238,19 @@
           "end": 86.23, 
           "name": "syll_175_0_his_86", 
           "text": "his", 
-          "start": 86.12, 
-          "intensity": 0.7012582204330476, 
-          "frequency": 144.0168771250729
+          "start": 86.12
         }, 
         {
           "end": 86.5, 
           "name": "syll_175_1_to_86", 
           "text": "to", 
-          "start": 86.23, 
-          "intensity": 0.42659061539663345, 
-          "frequency": 131.53178640490194
+          "start": 86.23
         }, 
         {
           "end": 86.6, 
           "name": "syll_175_2_rys_86", 
           "text": "ry's", 
-          "start": 86.5, 
-          "intensity": 0.6181067576028971, 
-          "frequency": 118.01450298401092
+          "start": 86.5
         }
       ]
     }, 
@@ -8062,11 +7274,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.5879357704901258, 
+      "verse": 7, 
       "alignedWord": "shame", 
       "start": 86.6, 
-      "verse": 7, 
-      "frequency": 116.2948725461385, 
       "startOffset": 946, 
       "end": 87.03, 
       "line": 28, 
@@ -8075,9 +7285,7 @@
           "end": 87.03, 
           "name": "syll_176_0_shame_86", 
           "text": "shame", 
-          "start": 86.6, 
-          "intensity": 0.5879357704901258, 
-          "frequency": 116.2948725461385
+          "start": 86.6
         }
       ]
     }, 
@@ -8093,11 +7301,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7617013439940291, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 87.03, 
-      "verse": 7, 
-      "frequency": 108.25002436399978, 
       "startOffset": 953, 
       "end": 87.15, 
       "line": 29, 
@@ -8106,9 +7312,7 @@
           "end": 87.15, 
           "name": "syll_177_0_i_87", 
           "text": "i", 
-          "start": 87.03, 
-          "intensity": 0.7617013439940291, 
-          "frequency": 108.25002436399978
+          "start": 87.03
         }
       ]
     }, 
@@ -8132,11 +7336,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2475363296182926, 
+      "verse": 7, 
       "alignedWord": "rise", 
       "start": 87.15, 
-      "verse": 7, 
-      "frequency": 100.69014554502911, 
       "startOffset": 955, 
       "end": 87.87, 
       "line": 29, 
@@ -8145,9 +7347,7 @@
           "end": 87.87, 
           "name": "syll_178_0_rise_87", 
           "text": "rise", 
-          "start": 87.15, 
-          "intensity": 0.2475363296182926, 
-          "frequency": 100.69014554502911
+          "start": 87.15
         }
       ]
     }, 
@@ -8167,11 +7367,9 @@
           "phone": "p_E"
         }
       ], 
-      "intensity": 0.3273528605120116, 
+      "verse": 7, 
       "alignedWord": "up", 
       "start": 88.51, 
-      "verse": 7, 
-      "frequency": 141.64367000516162, 
       "startOffset": 961, 
       "end": 88.74, 
       "line": 30, 
@@ -8180,9 +7378,7 @@
           "end": 88.74, 
           "name": "syll_179_0_up_88", 
           "text": "up", 
-          "start": 88.51, 
-          "intensity": 0.3273528605120116, 
-          "frequency": 141.64367000516162
+          "start": 88.51
         }
       ]
     }, 
@@ -8210,11 +7406,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.680813359703319, 
+      "verse": 7, 
       "alignedWord": "from", 
       "start": 88.74, 
-      "verse": 7, 
-      "frequency": 159.95780388447838, 
       "startOffset": 964, 
       "end": 88.91, 
       "line": 30, 
@@ -8223,9 +7417,7 @@
           "end": 88.91, 
           "name": "syll_180_0_from_88", 
           "text": "from", 
-          "start": 88.74, 
-          "intensity": 0.680813359703319, 
-          "frequency": 159.95780388447838
+          "start": 88.74
         }
       ]
     }, 
@@ -8241,11 +7433,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.9389675277147099, 
+      "verse": 7, 
       "alignedWord": "a", 
       "start": 88.91, 
-      "verse": 7, 
-      "frequency": 146.5637433854557, 
       "startOffset": 969, 
       "end": 88.98, 
       "line": 30, 
@@ -8254,9 +7444,7 @@
           "end": 88.98, 
           "name": "syll_181_0_a_88", 
           "text": "a", 
-          "start": 88.91, 
-          "intensity": 0.9389675277147099, 
-          "frequency": 146.5637433854557
+          "start": 88.91
         }
       ]
     }, 
@@ -8284,11 +7472,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.46298459770105527, 
+      "verse": 7, 
       "alignedWord": "past", 
       "start": 88.98, 
-      "verse": 7, 
-      "frequency": 143.0288724781903, 
       "startOffset": 971, 
       "end": 89.52, 
       "line": 30, 
@@ -8297,9 +7483,7 @@
           "end": 89.52, 
           "name": "syll_182_0_past_88", 
           "text": "past", 
-          "start": 88.98, 
-          "intensity": 0.46298459770105527, 
-          "frequency": 143.0288724781903
+          "start": 88.98
         }
       ]
     }, 
@@ -8332,11 +7516,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6379024972655619, 
+      "verse": 7, 
       "alignedWord": "rooted", 
       "start": 89.52, 
-      "verse": 7, 
-      "frequency": 135.93293312010613, 
       "startOffset": 976, 
       "end": 89.95, 
       "line": 30, 
@@ -8345,17 +7527,13 @@
           "end": 89.76, 
           "name": "syll_183_0_root_89", 
           "text": "root", 
-          "start": 89.52, 
-          "intensity": 0.7373731281842126, 
-          "frequency": 145.69257704731805
+          "start": 89.52
         }, 
         {
           "end": 89.95, 
           "name": "syll_183_1_ed_89", 
           "text": "ed", 
-          "start": 89.75999999999999, 
-          "intensity": 0.5194850795052636, 
-          "frequency": 124.31430939723484
+          "start": 89.75999999999999
         }
       ]
     }, 
@@ -8375,11 +7553,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6051881638488943, 
+      "verse": 7, 
       "alignedWord": "in", 
       "start": 90.0, 
-      "verse": 7, 
-      "frequency": 98.38735350398025, 
       "startOffset": 983, 
       "end": 90.16, 
       "line": 30, 
@@ -8388,9 +7564,7 @@
           "end": 90.16, 
           "name": "syll_184_0_in_90", 
           "text": "in", 
-          "start": 90.0, 
-          "intensity": 0.6051881638488943, 
-          "frequency": 98.38735350398025
+          "start": 90.0
         }
       ]
     }, 
@@ -8414,11 +7588,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.415695666095102, 
+      "verse": 7, 
       "alignedWord": "pain", 
       "start": 90.16, 
-      "verse": 7, 
-      "frequency": 94.82275041921407, 
       "startOffset": 986, 
       "end": 90.58, 
       "line": 30, 
@@ -8427,9 +7599,7 @@
           "end": 90.58, 
           "name": "syll_185_0_pain_90", 
           "text": "pain", 
-          "start": 90.16, 
-          "intensity": 0.415695666095102, 
-          "frequency": 94.82275041921407
+          "start": 90.16
         }
       ]
     }, 
@@ -8445,11 +7615,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7054367757386726, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 90.58, 
-      "verse": 7, 
-      "frequency": 99.02783714316061, 
       "startOffset": 992, 
       "end": 90.72, 
       "line": 31, 
@@ -8458,9 +7626,7 @@
           "end": 90.72, 
           "name": "syll_186_0_i_90", 
           "text": "i", 
-          "start": 90.58, 
-          "intensity": 0.7054367757386726, 
-          "frequency": 99.02783714316061
+          "start": 90.58
         }
       ]
     }, 
@@ -8484,11 +7650,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.2181992537634752, 
+      "verse": 7, 
       "alignedWord": "rise", 
       "start": 90.72, 
-      "verse": 7, 
-      "frequency": 100.81323899511096, 
       "startOffset": 994, 
       "end": 91.47, 
       "line": 31, 
@@ -8497,9 +7661,7 @@
           "end": 91.47, 
           "name": "syll_187_0_rise_90", 
           "text": "rise", 
-          "start": 90.72, 
-          "intensity": 0.2181992537634752, 
-          "frequency": 100.81323899511096
+          "start": 90.72
         }
       ]
     }, 
@@ -8516,11 +7678,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.4234921952103294, 
+      "verse": 7, 
       "alignedWord": "a", 
       "start": 91.99, 
-      "verse": 7, 
-      "frequency": 115.68954996985502, 
       "startOffset": 1000, 
       "end": 92.16, 
       "line": 32, 
@@ -8529,9 +7689,7 @@
           "end": 92.16, 
           "name": "syll_188_0_a_91", 
           "text": "a", 
-          "start": 91.99, 
-          "intensity": 0.4234921952103294, 
-          "frequency": 115.68954996985502
+          "start": 91.99
         }
       ]
     }, 
@@ -8559,11 +7717,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.5761120408840575, 
+      "verse": 7, 
       "alignedWord": "black", 
       "start": 92.16, 
-      "verse": 7, 
-      "frequency": 151.6196253162848, 
       "startOffset": 1002, 
       "end": 92.52, 
       "line": 32, 
@@ -8572,9 +7728,7 @@
           "end": 92.52, 
           "name": "syll_189_0_black_92", 
           "text": "black", 
-          "start": 92.16, 
-          "intensity": 0.5761120408840575, 
-          "frequency": 151.6196253162848
+          "start": 92.16
         }
       ]
     }, 
@@ -8603,11 +7757,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.6587383965689594, 
+      "verse": 7, 
       "alignedWord": "ocean", 
       "start": 92.52, 
-      "verse": 7, 
-      "frequency": 131.94879954837378, 
       "startOffset": 1008, 
       "end": 93.05, 
       "line": 32, 
@@ -8616,17 +7768,13 @@
           "end": 92.7, 
           "name": "syll_190_0_o_92", 
           "text": "o", 
-          "start": 92.52, 
-          "intensity": 0.9194643810906413, 
-          "frequency": 160.2280390561722
+          "start": 92.52
         }, 
         {
           "end": 93.05, 
           "name": "syll_190_1_cean_92", 
           "text": "cean", 
-          "start": 92.7, 
-          "intensity": 0.5248520801929601, 
-          "frequency": 117.42702790923394
+          "start": 92.7
         }
       ]
     }, 
@@ -8659,11 +7807,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.5228380859303013, 
+      "verse": 7, 
       "alignedWord": "leaping", 
       "start": 93.08, 
-      "verse": 7, 
-      "frequency": 130.39367517382354, 
       "startOffset": 1015, 
       "end": 93.59, 
       "line": 32, 
@@ -8672,17 +7818,13 @@
           "end": 93.38, 
           "name": "syll_191_0_leap_93", 
           "text": "leap", 
-          "start": 93.08, 
-          "intensity": 0.5681602245523667, 
-          "frequency": 130.39093972379763
+          "start": 93.08
         }, 
         {
           "end": 93.59, 
           "name": "syll_191_1_ing_93", 
           "text": "ing", 
-          "start": 93.38, 
-          "intensity": 0.456914975207297, 
-          "frequency": 130.39765401022484
+          "start": 93.38
         }
       ]
     }, 
@@ -8706,11 +7848,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5849181986708923, 
+      "verse": 7, 
       "alignedWord": "and", 
       "start": 93.59, 
-      "verse": 7, 
-      "frequency": 102.75755925563568, 
       "startOffset": 1023, 
       "end": 93.84, 
       "line": 32, 
@@ -8719,9 +7859,7 @@
           "end": 93.84, 
           "name": "syll_192_0_and_93", 
           "text": "and", 
-          "start": 93.59, 
-          "intensity": 0.5849181986708923, 
-          "frequency": 102.75755925563568
+          "start": 93.59
         }
       ]
     }, 
@@ -8745,11 +7883,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.3910070330894404, 
+      "verse": 7, 
       "alignedWord": "wide", 
       "start": 93.84, 
-      "verse": 7, 
-      "frequency": 117.32935949434179, 
       "startOffset": 1027, 
       "end": 94.74, 
       "line": 32, 
@@ -8758,9 +7894,7 @@
           "end": 94.74, 
           "name": "syll_193_0_wide_93", 
           "text": "wide", 
-          "start": 93.84, 
-          "intensity": 0.3910070330894404, 
-          "frequency": 117.32935949434179
+          "start": 93.84
         }
       ]
     }, 
@@ -8793,11 +7927,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7570474965698814, 
+      "verse": 7, 
       "alignedWord": "welling", 
       "start": 95.27, 
-      "verse": 7, 
-      "frequency": 134.97552300487231, 
       "startOffset": 1034, 
       "end": 95.84, 
       "line": 33, 
@@ -8806,17 +7938,13 @@
           "end": 95.55, 
           "name": "syll_194_0_wel_95", 
           "text": "wel", 
-          "start": 95.27, 
-          "intensity": 0.5823107993418303, 
-          "frequency": 129.64895493516534
+          "start": 95.27
         }, 
         {
           "end": 95.84, 
           "name": "syll_194_1_ling_95", 
           "text": "ling", 
-          "start": 95.55, 
-          "intensity": 0.9261475261454146, 
-          "frequency": 139.27114241592625
+          "start": 95.55
         }
       ]
     }, 
@@ -8840,11 +7968,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5841571558320169, 
+      "verse": 7, 
       "alignedWord": "and", 
       "start": 95.84, 
-      "verse": 7, 
-      "frequency": 117.27397296000947, 
       "startOffset": 1042, 
       "end": 96.06, 
       "line": 33, 
@@ -8853,9 +7979,7 @@
           "end": 96.06, 
           "name": "syll_195_0_and_95", 
           "text": "and", 
-          "start": 95.84, 
-          "intensity": 0.5841571558320169, 
-          "frequency": 117.27397296000947
+          "start": 95.84
         }
       ]
     }, 
@@ -8892,11 +8016,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.3380316203732507, 
+      "verse": 7, 
       "alignedWord": "swelling", 
       "start": 96.06, 
-      "verse": 7, 
-      "frequency": 119.90487889306758, 
       "startOffset": 1046, 
       "end": 96.94, 
       "line": 33, 
@@ -8905,17 +8027,13 @@
           "end": 96.41, 
           "name": "syll_196_0_swel_96", 
           "text": "swel", 
-          "start": 96.06, 
-          "intensity": 0.38225578062262183, 
-          "frequency": 134.65273578847118
+          "start": 96.06
         }, 
         {
           "end": 96.94, 
           "name": "syll_196_1_ling_96", 
           "text": "ling", 
-          "start": 96.41, 
-          "intensity": 0.30802236877546296, 
-          "frequency": 112.5309504453658
+          "start": 96.41
         }
       ]
     }, 
@@ -8931,11 +8049,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.41037033908803366, 
+      "verse": 7, 
       "alignedWord": "i", 
       "start": 97.22, 
-      "verse": 7, 
-      "frequency": 130.11867993731698, 
       "startOffset": 1055, 
       "end": 97.72, 
       "line": 33, 
@@ -8944,9 +8060,7 @@
           "end": 97.72, 
           "name": "syll_197_0_i_97", 
           "text": "i", 
-          "start": 97.22, 
-          "intensity": 0.41037033908803366, 
-          "frequency": 130.11867993731698
+          "start": 97.22
         }
       ]
     }, 
@@ -8970,11 +8084,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.3650637807970758, 
+      "verse": 7, 
       "alignedWord": "bear", 
       "start": 97.75, 
-      "verse": 7, 
-      "frequency": 118.7642389814549, 
       "startOffset": 1057, 
       "end": 98.18, 
       "line": 33, 
@@ -8983,9 +8095,7 @@
           "end": 98.18, 
           "name": "syll_198_0_bear_97", 
           "text": "bear", 
-          "start": 97.75, 
-          "intensity": 0.3650637807970758, 
-          "frequency": 118.7642389814549
+          "start": 97.75
         }
       ]
     }, 
@@ -9005,11 +8115,9 @@
           "phone": "n_E"
         }
       ], 
-      "intensity": 0.43484783451507025, 
+      "verse": 7, 
       "alignedWord": "in", 
       "start": 98.21, 
-      "verse": 7, 
-      "frequency": 105.44999081617246, 
       "startOffset": 1062, 
       "end": 98.54, 
       "line": 33, 
@@ -9018,9 +8126,7 @@
           "end": 98.54, 
           "name": "syll_199_0_in_98", 
           "text": "in", 
-          "start": 98.21, 
-          "intensity": 0.43484783451507025, 
-          "frequency": 105.44999081617246
+          "start": 98.21
         }
       ]
     }, 
@@ -9040,11 +8146,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.21393561319647586, 
+      "verse": 7, 
       "alignedWord": "the", 
       "start": 98.54, 
-      "verse": 7, 
-      "frequency": 101.9247142864856, 
       "startOffset": 1065, 
       "end": 98.67, 
       "line": 33, 
@@ -9053,9 +8157,7 @@
           "end": 98.67, 
           "name": "syll_200_0_the_98", 
           "text": "the", 
-          "start": 98.54, 
-          "intensity": 0.21393561319647586, 
-          "frequency": 101.9247142864856
+          "start": 98.54
         }
       ]
     }, 
@@ -9079,11 +8181,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.07188086371482956, 
+      "verse": 7, 
       "alignedWord": "tide", 
       "start": 98.67, 
-      "verse": 7, 
-      "frequency": 92.04593615215296, 
       "startOffset": 1069, 
       "end": 99.58, 
       "line": 33, 
@@ -9092,9 +8192,7 @@
           "end": 99.58, 
           "name": "syll_201_0_tide_98", 
           "text": "tide", 
-          "start": 98.67, 
-          "intensity": 0.07188086371482956, 
-          "frequency": 92.04593615215296
+          "start": 98.67
         }
       ]
     }, 
@@ -9127,11 +8225,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7714474821651328, 
+      "verse": 8, 
       "alignedWord": "leaving", 
       "start": 100.36, 
-      "verse": 8, 
-      "frequency": 140.79104172959526, 
       "startOffset": 1078, 
       "end": 100.82, 
       "line": 34, 
@@ -9140,17 +8236,13 @@
           "end": 100.59, 
           "name": "syll_202_0_leav_100", 
           "text": "leav", 
-          "start": 100.36, 
-          "intensity": 0.7039205623552376, 
-          "frequency": 120.71761752727372
+          "start": 100.36
         }, 
         {
           "end": 100.82, 
           "name": "syll_202_1_ing_100", 
           "text": "ing", 
-          "start": 100.59, 
-          "intensity": 0.8417880236337739, 
-          "frequency": 156.68250255643318
+          "start": 100.59
         }
       ]
     }, 
@@ -9187,11 +8279,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.6927137959914853, 
+      "verse": 8, 
       "alignedWord": "behind", 
       "start": 100.82, 
-      "verse": 8, 
-      "frequency": 139.72661796363454, 
       "startOffset": 1086, 
       "end": 101.42, 
       "line": 34, 
@@ -9200,17 +8290,13 @@
           "end": 100.93, 
           "name": "syll_203_0_be_100", 
           "text": "be", 
-          "start": 100.82, 
-          "intensity": 0.7174447596704489, 
-          "frequency": 136.54741285977056
+          "start": 100.82
         }, 
         {
           "end": 101.42, 
           "name": "syll_203_1_hind_100", 
           "text": "hind", 
-          "start": 100.92999999999999, 
-          "intensity": 0.6870066505271093, 
-          "frequency": 140.4602806799108
+          "start": 100.92999999999999
         }
       ]
     }, 
@@ -9238,11 +8324,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.5664294284072993, 
+      "verse": 8, 
       "alignedWord": "nights", 
       "start": 101.42, 
-      "verse": 8, 
-      "frequency": 132.30706417713137, 
       "startOffset": 1093, 
       "end": 101.71, 
       "line": 34, 
@@ -9251,9 +8335,7 @@
           "end": 101.71, 
           "name": "syll_204_0_nights_101", 
           "text": "nights", 
-          "start": 101.42, 
-          "intensity": 0.5664294284072993, 
-          "frequency": 132.30706417713137
+          "start": 101.42
         }
       ]
     }, 
@@ -9273,11 +8355,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.48091623424667057, 
+      "verse": 8, 
       "alignedWord": "of", 
       "start": 101.71, 
-      "verse": 8, 
-      "frequency": 127.73645476314678, 
       "startOffset": 1100, 
       "end": 101.85, 
       "line": 34, 
@@ -9286,9 +8366,7 @@
           "end": 101.85, 
           "name": "syll_205_0_of_101", 
           "text": "of", 
-          "start": 101.71, 
-          "intensity": 0.48091623424667057, 
-          "frequency": 127.73645476314678
+          "start": 101.71
         }
       ]
     }, 
@@ -9317,11 +8395,9 @@
           "phone": "er_E"
         }
       ], 
-      "intensity": 0.493528725784252, 
+      "verse": 8, 
       "alignedWord": "terror", 
       "start": 101.85, 
-      "verse": 8, 
-      "frequency": 116.38689190191418, 
       "startOffset": 1103, 
       "end": 102.39, 
       "line": 34, 
@@ -9330,17 +8406,13 @@
           "end": 102.06, 
           "name": "syll_206_0_ter_101", 
           "text": "ter", 
-          "start": 101.85, 
-          "intensity": 0.3745864900145129, 
-          "frequency": 145.02939945394607
+          "start": 101.85
         }, 
         {
           "end": 102.39, 
           "name": "syll_206_1_ror_102", 
           "text": "ror", 
-          "start": 102.05999999999999, 
-          "intensity": 0.5662156476435372, 
-          "frequency": 105.64595156990221
+          "start": 102.05999999999999
         }
       ]
     }, 
@@ -9364,11 +8436,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.4956649693339208, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 102.61, 
-      "verse": 8, 
-      "frequency": 118.96255795298764, 
       "startOffset": 1110, 
       "end": 102.87, 
       "line": 34, 
@@ -9377,9 +8447,7 @@
           "end": 102.87, 
           "name": "syll_207_0_and_102", 
           "text": "and", 
-          "start": 102.61, 
-          "intensity": 0.4956649693339208, 
-          "frequency": 118.96255795298764
+          "start": 102.61
         }
       ]
     }, 
@@ -9403,11 +8471,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.35605274913581303, 
+      "verse": 8, 
       "alignedWord": "fear", 
       "start": 102.87, 
-      "verse": 8, 
-      "frequency": 120.66790247497114, 
       "startOffset": 1114, 
       "end": 103.44, 
       "line": 34, 
@@ -9416,9 +8482,7 @@
           "end": 103.44, 
           "name": "syll_208_0_fear_102", 
           "text": "fear", 
-          "start": 102.87, 
-          "intensity": 0.35605274913581303, 
-          "frequency": 120.66790247497114
+          "start": 102.87
         }
       ]
     }, 
@@ -9434,11 +8498,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.42429165709733746, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 103.72, 
-      "verse": 8, 
-      "frequency": 117.37030698347388, 
       "startOffset": 1120, 
       "end": 104.06, 
       "line": 35, 
@@ -9447,9 +8509,7 @@
           "end": 104.06, 
           "name": "syll_209_0_i_103", 
           "text": "i", 
-          "start": 103.72, 
-          "intensity": 0.42429165709733746, 
-          "frequency": 117.37030698347388
+          "start": 103.72
         }
       ]
     }, 
@@ -9473,11 +8533,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.1144380527987316, 
+      "verse": 8, 
       "alignedWord": "rise", 
       "start": 104.06, 
-      "verse": 8, 
-      "frequency": 110.53904280940162, 
       "startOffset": 1122, 
       "end": 104.94, 
       "line": 35, 
@@ -9486,9 +8544,7 @@
           "end": 104.94, 
           "name": "syll_210_0_rise_104", 
           "text": "rise", 
-          "start": 104.06, 
-          "intensity": 0.1144380527987316, 
-          "frequency": 110.53904280940162
+          "start": 104.06
         }
       ]
     }, 
@@ -9517,11 +8573,9 @@
           "phone": "uw_E"
         }
       ], 
-      "intensity": 0.6382813822579115, 
+      "verse": 8, 
       "alignedWord": "into", 
       "start": 105.44, 
-      "verse": 8, 
-      "frequency": 164.6888333916677, 
       "startOffset": 1128, 
       "end": 105.86, 
       "line": 36, 
@@ -9530,17 +8584,13 @@
           "end": 105.62, 
           "name": "syll_211_0_in_105", 
           "text": "in", 
-          "start": 105.44, 
-          "intensity": 0.5491245311024399, 
-          "frequency": 156.51560565339148
+          "start": 105.44
         }, 
         {
           "end": 105.86, 
           "name": "syll_211_1_to_105", 
           "text": "to", 
-          "start": 105.62, 
-          "intensity": 0.703434465794602, 
-          "frequency": 168.46109234779513
+          "start": 105.62
         }
       ]
     }, 
@@ -9556,11 +8606,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.9451161833907397, 
+      "verse": 8, 
       "alignedWord": "a", 
       "start": 105.86, 
-      "verse": 8, 
-      "frequency": 159.8846544922794, 
       "startOffset": 1133, 
       "end": 105.89, 
       "line": 36, 
@@ -9569,9 +8617,7 @@
           "end": 105.89, 
           "name": "syll_212_0_a_105", 
           "text": "a", 
-          "start": 105.86, 
-          "intensity": 0.9451161833907397, 
-          "frequency": 159.8846544922794
+          "start": 105.86
         }
       ]
     }, 
@@ -9608,11 +8654,9 @@
           "phone": "k_E"
         }
       ], 
-      "intensity": 0.605080810142501, 
+      "verse": 8, 
       "alignedWord": "daybreak", 
       "start": 105.89, 
-      "verse": 8, 
-      "frequency": 149.0342592757563, 
       "startOffset": 1135, 
       "end": 106.52, 
       "line": 36, 
@@ -9621,17 +8665,13 @@
           "end": 106.18, 
           "name": "syll_213_0_day_105", 
           "text": "day", 
-          "start": 105.89, 
-          "intensity": 0.7168907624498396, 
-          "frequency": 152.96446391661647
+          "start": 105.89
         }, 
         {
           "end": 106.52, 
           "name": "syll_213_1_break_106", 
           "text": "break", 
-          "start": 106.18, 
-          "intensity": 0.5088000178778485, 
-          "frequency": 145.6499163905713
+          "start": 106.18
         }
       ]
     }, 
@@ -9691,11 +8731,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.5822327521769987, 
+      "verse": 8, 
       "alignedWord": "miraculously", 
       "start": 106.52, 
-      "verse": 8, 
-      "frequency": 130.85878164868305, 
       "startOffset": 1144, 
       "end": 107.52, 
       "line": 36, 
@@ -9704,41 +8742,31 @@
           "end": 106.81, 
           "name": "syll_214_0_mi_106", 
           "text": "mi", 
-          "start": 106.52, 
-          "intensity": 0.7048511234284937, 
-          "frequency": 143.0899464152335
+          "start": 106.52
         }, 
         {
           "end": 106.89, 
           "name": "syll_214_1_ra_106", 
           "text": "ra", 
-          "start": 106.81, 
-          "intensity": 0.6873312942964649, 
-          "frequency": 153.7727691225744
+          "start": 106.81
         }, 
         {
           "end": 107.09, 
           "name": "syll_214_2_cu_106", 
           "text": "cu", 
-          "start": 106.89, 
-          "intensity": 0.3628084492832898, 
-          "frequency": 150.52652714526624
+          "start": 106.89
         }, 
         {
           "end": 107.23, 
           "name": "syll_214_3_lous_107", 
           "text": "lous", 
-          "start": 107.09, 
-          "intensity": 0.8943021964064984, 
-          "frequency": 116.15861225594216
+          "start": 107.09
         }, 
         {
           "end": 107.52, 
           "name": "syll_214_4_ly_107", 
           "text": "ly", 
-          "start": 107.23, 
-          "intensity": 0.4267428266755085, 
-          "frequency": 105.76484263045002
+          "start": 107.23
         }
       ]
     }, 
@@ -9766,11 +8794,9 @@
           "phone": "r_E"
         }
       ], 
-      "intensity": 0.2667380578936236, 
+      "verse": 8, 
       "alignedWord": "clear", 
       "start": 107.52, 
-      "verse": 8, 
-      "frequency": 101.83436066061529, 
       "startOffset": 1157, 
       "end": 108.15, 
       "line": 36, 
@@ -9779,9 +8805,7 @@
           "end": 108.15, 
           "name": "syll_215_0_clear_107", 
           "text": "clear", 
-          "start": 107.52, 
-          "intensity": 0.2667380578936236, 
-          "frequency": 101.83436066061529
+          "start": 107.52
         }
       ]
     }, 
@@ -9797,11 +8821,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.44812741682839, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 108.58, 
-      "verse": 8, 
-      "frequency": 114.51602563044467, 
       "startOffset": 1164, 
       "end": 108.86, 
       "line": 37, 
@@ -9810,9 +8832,7 @@
           "end": 108.86, 
           "name": "syll_216_0_i_108", 
           "text": "i", 
-          "start": 108.58, 
-          "intensity": 0.44812741682839, 
-          "frequency": 114.51602563044467
+          "start": 108.58
         }
       ]
     }, 
@@ -9836,11 +8856,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.15195300603258674, 
+      "verse": 8, 
       "alignedWord": "rise", 
       "start": 108.86, 
-      "verse": 8, 
-      "frequency": 100.31419331089778, 
       "startOffset": 1166, 
       "end": 109.8, 
       "line": 37, 
@@ -9849,9 +8867,7 @@
           "end": 109.8, 
           "name": "syll_217_0_rise_108", 
           "text": "rise", 
-          "start": 108.86, 
-          "intensity": 0.15195300603258674, 
-          "frequency": 100.31419331089778
+          "start": 108.86
         }
       ]
     }, 
@@ -9888,11 +8904,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.7452681092642116, 
+      "verse": 8, 
       "alignedWord": "bringing", 
       "start": 110.35, 
-      "verse": 8, 
-      "frequency": 138.5780654023246, 
       "startOffset": 1172, 
       "end": 110.89, 
       "line": 38, 
@@ -9901,17 +8915,13 @@
           "end": 110.65, 
           "name": "syll_218_0_bring_110", 
           "text": "bring", 
-          "start": 110.35, 
-          "intensity": 0.6161655085664705, 
-          "frequency": 124.0979606153103
+          "start": 110.35
         }, 
         {
           "end": 110.89, 
           "name": "syll_218_1_ing_110", 
           "text": "ing", 
-          "start": 110.64999999999999, 
-          "intensity": 0.9105194381573211, 
-          "frequency": 154.79578276378058
+          "start": 110.64999999999999
         }
       ]
     }, 
@@ -9931,11 +8941,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.6714391189040716, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 110.89, 
-      "verse": 8, 
-      "frequency": 137.41776755666493, 
       "startOffset": 1181, 
       "end": 111.04, 
       "line": 38, 
@@ -9944,9 +8952,7 @@
           "end": 111.04, 
           "name": "syll_219_0_the_110", 
           "text": "the", 
-          "start": 110.89, 
-          "intensity": 0.6714391189040716, 
-          "frequency": 137.41776755666493
+          "start": 110.89
         }
       ]
     }, 
@@ -9974,11 +8980,9 @@
           "phone": "s_E"
         }
       ], 
-      "intensity": 0.5210686298087853, 
+      "verse": 8, 
       "alignedWord": "gifts", 
       "start": 111.04, 
-      "verse": 8, 
-      "frequency": 123.66734375541257, 
       "startOffset": 1185, 
       "end": 111.4, 
       "line": 38, 
@@ -9987,9 +8991,7 @@
           "end": 111.4, 
           "name": "syll_220_0_gifts_111", 
           "text": "gifts", 
-          "start": 111.04, 
-          "intensity": 0.5210686298087853, 
-          "frequency": 123.66734375541257
+          "start": 111.04
         }
       ]
     }, 
@@ -10013,11 +9015,9 @@
           "phone": "t_E"
         }
       ], 
-      "intensity": 0.4982078300480368, 
+      "verse": 8, 
       "alignedWord": "that", 
       "start": 111.52, 
-      "verse": 8, 
-      "frequency": 130.12250988296947, 
       "startOffset": 1191, 
       "end": 111.85, 
       "line": 38, 
@@ -10026,9 +9026,7 @@
           "end": 111.85, 
           "name": "syll_221_0_that_111", 
           "text": "that", 
-          "start": 111.52, 
-          "intensity": 0.4982078300480368, 
-          "frequency": 130.12250988296947
+          "start": 111.52
         }
       ]
     }, 
@@ -10048,11 +9046,9 @@
           "phone": "ay_E"
         }
       ], 
-      "intensity": 0.6757034368458845, 
+      "verse": 8, 
       "alignedWord": "my", 
       "start": 111.85, 
-      "verse": 8, 
-      "frequency": 123.83098302820706, 
       "startOffset": 1196, 
       "end": 112.17, 
       "line": 38, 
@@ -10061,9 +9057,7 @@
           "end": 112.17, 
           "name": "syll_222_0_my_111", 
           "text": "my", 
-          "start": 111.85, 
-          "intensity": 0.6757034368458845, 
-          "frequency": 123.83098302820706
+          "start": 111.85
         }
       ]
     }, 
@@ -10109,11 +9103,9 @@
           "phone": "z_E"
         }
       ], 
-      "intensity": 0.3732045887542906, 
+      "verse": 8, 
       "alignedWord": "ancestors", 
       "start": 112.17, 
-      "verse": 8, 
-      "frequency": 108.38551008029135, 
       "startOffset": 1199, 
       "end": 113.0, 
       "line": 38, 
@@ -10122,25 +9114,19 @@
           "end": 112.33, 
           "name": "syll_223_0_an_112", 
           "text": "an", 
-          "start": 112.17, 
-          "intensity": 0.72034450969771, 
-          "frequency": 124.86913563086677
+          "start": 112.17
         }, 
         {
           "end": 112.66, 
           "name": "syll_223_1_ces_112", 
           "text": "ces", 
-          "start": 112.33, 
-          "intensity": 0.42767805232830647, 
-          "frequency": 104.54194385527317
+          "start": 112.33
         }, 
         {
           "end": 113.0, 
           "name": "syll_223_2_tors_112", 
           "text": "tors", 
-          "start": 112.66, 
-          "intensity": 0.1563170920562717, 
-          "frequency": 94.81279113534593
+          "start": 112.66
         }
       ]
     }, 
@@ -10164,11 +9150,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.13352685166704792, 
+      "verse": 8, 
       "alignedWord": "gave", 
       "start": 113.0, 
-      "verse": 8, 
-      "frequency": 95.85850836523342, 
       "startOffset": 1209, 
       "end": 113.57, 
       "line": 38, 
@@ -10177,9 +9161,7 @@
           "end": 113.57, 
           "name": "syll_224_0_gave_113", 
           "text": "gave", 
-          "start": 113.0, 
-          "intensity": 0.13352685166704792, 
-          "frequency": 95.85850836523342
+          "start": 113.0
         }
       ]
     }, 
@@ -10195,11 +9177,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.7442059188908624, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 114.35, 
-      "verse": 8, 
-      "frequency": 149.76546178169858, 
       "startOffset": 1216, 
       "end": 114.69, 
       "line": 39, 
@@ -10208,9 +9188,7 @@
           "end": 114.69, 
           "name": "syll_225_0_i_114", 
           "text": "i", 
-          "start": 114.35, 
-          "intensity": 0.7442059188908624, 
-          "frequency": 149.76546178169858
+          "start": 114.35
         }
       ]
     }, 
@@ -10229,11 +9207,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.7331193172352443, 
+      "verse": 8, 
       "alignedWord": "am", 
       "start": 114.69, 
-      "verse": 8, 
-      "frequency": 123.74007085833428, 
       "startOffset": 1218, 
       "end": 114.93, 
       "line": 39, 
@@ -10242,9 +9218,7 @@
           "end": 114.93, 
           "name": "syll_226_0_am_114", 
           "text": "am", 
-          "start": 114.69, 
-          "intensity": 0.7331193172352443, 
-          "frequency": 123.74007085833428
+          "start": 114.69
         }
       ]
     }, 
@@ -10264,11 +9238,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.584541228110015, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 114.93, 
-      "verse": 8, 
-      "frequency": 104.17130393493169, 
       "startOffset": 1221, 
       "end": 115.06, 
       "line": 39, 
@@ -10277,9 +9249,7 @@
           "end": 115.06, 
           "name": "syll_227_0_the_114", 
           "text": "the", 
-          "start": 114.93, 
-          "intensity": 0.584541228110015, 
-          "frequency": 104.17130393493169
+          "start": 114.93
         }
       ]
     }, 
@@ -10303,11 +9273,9 @@
           "phone": "p_E"
         }
       ], 
-      "intensity": 0.26373770064633073, 
+      "verse": 8, 
       "alignedWord": "hope", 
       "start": 115.06, 
-      "verse": 8, 
-      "frequency": 129.4467271410768, 
       "startOffset": 1225, 
       "end": 115.7, 
       "line": 39, 
@@ -10316,9 +9284,7 @@
           "end": 115.7, 
           "name": "syll_228_0_hope_115", 
           "text": "hope", 
-          "start": 115.06, 
-          "intensity": 0.26373770064633073, 
-          "frequency": 129.4467271410768
+          "start": 115.06
         }
       ]
     }, 
@@ -10342,11 +9308,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.5859721362368238, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 116.17, 
-      "verse": 8, 
-      "frequency": 131.13972712750655, 
       "startOffset": 1230, 
       "end": 116.44, 
       "line": 39, 
@@ -10355,9 +9319,7 @@
           "end": 116.44, 
           "name": "syll_229_0_and_116", 
           "text": "and", 
-          "start": 116.17, 
-          "intensity": 0.5859721362368238, 
-          "frequency": 131.13972712750655
+          "start": 116.17
         }
       ]
     }, 
@@ -10377,11 +9339,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.527914687836634, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 116.44, 
-      "verse": 8, 
-      "frequency": 110.962178950185, 
       "startOffset": 1234, 
       "end": 116.56, 
       "line": 39, 
@@ -10390,9 +9350,7 @@
           "end": 116.56, 
           "name": "syll_230_0_the_116", 
           "text": "the", 
-          "start": 116.44, 
-          "intensity": 0.527914687836634, 
-          "frequency": 110.962178950185
+          "start": 116.44
         }
       ]
     }, 
@@ -10420,11 +9378,9 @@
           "phone": "m_E"
         }
       ], 
-      "intensity": 0.4126303498200494, 
+      "verse": 8, 
       "alignedWord": "dream", 
       "start": 116.56, 
-      "verse": 8, 
-      "frequency": 116.49766788074506, 
       "startOffset": 1238, 
       "end": 117.52, 
       "line": 39, 
@@ -10433,9 +9389,7 @@
           "end": 117.52, 
           "name": "syll_231_0_dream_116", 
           "text": "dream", 
-          "start": 116.56, 
-          "intensity": 0.4126303498200494, 
-          "frequency": 116.49766788074506
+          "start": 116.56
         }
       ]
     }, 
@@ -10455,11 +9409,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.18130802924440728, 
+      "verse": 8, 
       "alignedWord": "of", 
       "start": 117.73, 
-      "verse": 8, 
-      "frequency": 95.34929569016569, 
       "startOffset": 1244, 
       "end": 117.96, 
       "line": 39, 
@@ -10468,9 +9420,7 @@
           "end": 117.96, 
           "name": "syll_232_0_of_117", 
           "text": "of", 
-          "start": 117.73, 
-          "intensity": 0.18130802924440728, 
-          "frequency": 95.34929569016569
+          "start": 117.73
         }
       ]
     }, 
@@ -10490,11 +9440,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.1643067130799447, 
+      "verse": 8, 
       "alignedWord": "the", 
       "start": 117.96, 
-      "verse": 8, 
-      "frequency": 107.86889070816169, 
       "startOffset": 1247, 
       "end": 118.1, 
       "line": 39, 
@@ -10503,9 +9451,7 @@
           "end": 118.1, 
           "name": "syll_233_0_the_117", 
           "text": "the", 
-          "start": 117.96, 
-          "intensity": 0.1643067130799447, 
-          "frequency": 107.86889070816169
+          "start": 117.96
         }
       ]
     }, 
@@ -10533,11 +9479,9 @@
           "phone": "v_E"
         }
       ], 
-      "intensity": 0.17847822705014801, 
+      "verse": 8, 
       "alignedWord": "slave", 
       "start": 118.1, 
-      "verse": 8, 
-      "frequency": 125.2370528722736, 
       "startOffset": 1251, 
       "end": 118.87, 
       "line": 39, 
@@ -10546,9 +9490,7 @@
           "end": 118.87, 
           "name": "syll_234_0_slave_118", 
           "text": "slave", 
-          "start": 118.1, 
-          "intensity": 0.17847822705014801, 
-          "frequency": 125.2370528722736
+          "start": 118.1
         }
       ]
     }, 
@@ -10572,11 +9514,9 @@
           "phone": "d_E"
         }
       ], 
-      "intensity": 0.13446516832159186, 
+      "verse": 8, 
       "alignedWord": "and", 
       "start": 119.64, 
-      "verse": 8, 
-      "frequency": 114.66870868398762, 
       "startOffset": 1259, 
       "end": 119.89, 
       "line": 40, 
@@ -10585,9 +9525,7 @@
           "end": 119.89, 
           "name": "syll_235_0_and_119", 
           "text": "and", 
-          "start": 119.64, 
-          "intensity": 0.13446516832159186, 
-          "frequency": 114.66870868398762
+          "start": 119.64
         }
       ]
     }, 
@@ -10607,11 +9545,9 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.1732501286440828, 
+      "verse": 8, 
       "alignedWord": "so", 
       "start": 119.92, 
-      "verse": 8, 
-      "frequency": 124.86803321311959, 
       "startOffset": 1263, 
       "end": 120.77, 
       "line": 40, 
@@ -10620,9 +9556,7 @@
           "end": 120.77, 
           "name": "syll_236_0_so_119", 
           "text": "so", 
-          "start": 119.92, 
-          "intensity": 0.1732501286440828, 
-          "frequency": 124.86803321311959
+          "start": 119.92
         }
       ]
     }, 
@@ -10665,11 +9599,9 @@
           "phone": "iy_E"
         }
       ], 
-      "intensity": 0.11663960797911475, 
+      "verse": 8, 
       "alignedWord": "naturally", 
       "start": 121.3, 
-      "verse": 8, 
-      "frequency": 110.34513039341812, 
       "startOffset": 1267, 
       "end": 122.34, 
       "line": 41, 
@@ -10678,33 +9610,25 @@
           "end": 121.78, 
           "name": "syll_237_0_nat_121", 
           "text": "nat", 
-          "start": 121.3, 
-          "intensity": 0.19237460981466944, 
-          "frequency": 111.07942771353584
+          "start": 121.3
         }, 
         {
           "end": 122.05, 
           "name": "syll_237_1_u_121", 
           "text": "u", 
-          "start": 121.78, 
-          "intensity": 0.0742169595264228, 
-          "frequency": 105.49876808064126
+          "start": 121.78
         }, 
         {
           "end": 122.13, 
           "name": "syll_237_2_ral_122", 
           "text": "ral", 
-          "start": 122.05, 
-          "intensity": 0.044489790381533764, 
-          "frequency": 105.49876808064126
+          "start": 122.05
         }, 
         {
           "end": 122.34, 
           "name": "syll_237_3_ly_122", 
           "text": "ly", 
-          "start": 122.13, 
-          "intensity": 0.027290488513698433, 
-          "frequency": 105.49876808064126
+          "start": 122.13
         }
       ]
     }, 
@@ -10724,11 +9648,9 @@
           "phone": "eh_I"
         }
       ], 
-      "intensity": 0.20750625857336152, 
+      "verse": 8, 
       "alignedWord": "there", 
       "start": 127.65, 
-      "verse": 8, 
-      "frequency": 117.881908897569, 
       "startOffset": 1278, 
       "end": 127.88, 
       "line": 42, 
@@ -10737,9 +9659,7 @@
           "end": 127.88, 
           "name": "syll_238_0_there_127", 
           "text": "there", 
-          "start": 127.65, 
-          "intensity": 0.20750625857336152, 
-          "frequency": 117.881908897569
+          "start": 127.65
         }
       ]
     }, 
@@ -10755,11 +9675,9 @@
           "syllable": 1
         }
       ], 
-      "intensity": 0.2290446684071861, 
+      "verse": 8, 
       "alignedWord": "i", 
       "start": 127.88, 
-      "verse": 8, 
-      "frequency": 95.10486056667627, 
       "startOffset": 1284, 
       "end": 127.99, 
       "line": 42, 
@@ -10768,9 +9686,7 @@
           "end": 127.99, 
           "name": "syll_239_0_i_127", 
           "text": "i", 
-          "start": 127.88, 
-          "intensity": 0.2290446684071861, 
-          "frequency": 95.10486056667627
+          "start": 127.88
         }
       ]
     }, 
@@ -10790,11 +9706,9 @@
           "phone": "ow_E"
         }
       ], 
-      "intensity": 0.18043552847793612, 
+      "verse": 8, 
       "alignedWord": "go", 
       "start": 128.02, 
-      "verse": 8, 
-      "frequency": 110.1984198420646, 
       "startOffset": 1286, 
       "end": 128.32, 
       "line": 42, 
@@ -10803,9 +9717,7 @@
           "end": 128.32, 
           "name": "syll_240_0_go_128", 
           "text": "go", 
-          "start": 128.02, 
-          "intensity": 0.18043552847793612, 
-          "frequency": 110.1984198420646
+          "start": 128.02
         }
       ]
     }, 
@@ -10839,11 +9751,9 @@
           "phone": "ng_E"
         }
       ], 
-      "intensity": 0.04595826859633136, 
+      "verse": 8, 
       "alignedWord": "rising", 
       "start": 128.37, 
-      "verse": 8, 
-      "frequency": 112.49328926425193, 
       "startOffset": 1289, 
       "word": "rising", 
       "line": 42, 
@@ -10852,17 +9762,13 @@
           "end": 128.77, 
           "name": "syll_241_0_ris_128", 
           "text": "ris", 
-          "start": 128.37, 
-          "intensity": 0.09057594991078183, 
-          "frequency": 112.49328926425193
+          "start": 128.37
         }, 
         {
           "end": 129.39, 
           "name": "syll_241_1_ing_128", 
           "text": "ing", 
-          "start": 128.77, 
-          "intensity": 0.016889173194492464, 
-          "frequency": 112.49328926425193
+          "start": 128.77
         }
       ]
     }
