@@ -67,13 +67,11 @@ var Annotate = (function() {
   Annotate.prototype.guessPitch = function(frames){
     // no frames
     if (!frames.length) return [];
-    // one frame
-    if (frames.length===1) return [frames[0][1], frames[0][1]];
 
     // break frames into groups
     var groups = [];
     var group = [];
-    var threshold = 50; // don't jump more than 4 notes
+    var threshold = 10; // don't jump more than x Hz
     var lastF = 0;
     _.each(frames, function(f, i){
       var delta = Math.abs(f[1] - lastF);
@@ -109,9 +107,11 @@ var Annotate = (function() {
 
     // sort groups
     groups.sort(function(a, b){
-      // first sort by size, desc
-      if (a.size < b.size) return 1;
-      else if (a.size > b.size) return -1;
+      var aScore = a.size * a.intensity;
+      var bScore = b.size * b.intensity;
+      // first sort by score, desc
+      if (aScore < bScore) return 1;
+      else if (aScore > bScore) return -1;
       // then by intensity, desc
       else if (a.intensity < b.intensity) return 1;
       else if (a.intensity > b.intensity) return -1;
@@ -122,28 +122,31 @@ var Annotate = (function() {
     });
 
     // choose the first group
+    if (!groups.length) return [];
     frames = groups[0].frames;
-
-    // one frame
-    if (frames.length===1) return [frames[0][1], frames[0][1]];
-
-    // remove any initial increase
 
     // sort by intensity
     frames = _.sortBy(frames, function(f){ return -f[2] });
 
     // only take the most intense
-    // frames = frames.slice(0, Math.ceil(frames.length * 0.75));
+    frames = frames.slice(0, Math.ceil(frames.length * 0.5));
+
+    // get frames before and after peak
+    var maxFrame = _.max(frames, function(f){ return f[1]; });
+    var framesLeft = _.filter(frames, function(f){ return f[0] < maxFrame[0]});
+    var framesRight = _.filter(frames, function(f){ return f[0] > maxFrame[0]});
 
     // take the high and low
-    var maxFrame = _.max(frames, function(f){ return f[1]; });
-    var minFrame = _.min(frames, function(f){ return f[1]; });
-    var pitches = [maxFrame, minFrame];
+    var minFrameLeft = framesLeft.length ? _.min(framesLeft, function(f){ return f[1]; }) : false;
+    var minFrameRight = framesRight.length ? _.min(framesRight, function(f){ return f[1]; }) : false;
+    frames = [maxFrame];
+    if (minFrameLeft) frames.push(minFrameLeft);
+    if (minFrameRight) frames.push(minFrameRight);
 
     // sort by time
-    pitches = _.sortBy(pitches, function(f){ return f[0] });
+    frames = _.sortBy(frames, function(f){ return f[0] });
 
-    return _.map(pitches, function(f){ return f[1]; });
+    return frames;
   }
 
   Annotate.prototype.loadAnnotations = function(url){
@@ -337,18 +340,27 @@ var Annotate = (function() {
 
       // draw guess
       var pitch = _this.guessPitch(frames);
-      if (pitch.length) {
-        var py0 = UTIL.norm(pitch[0], fRange[1], fRange[0]) * h;
-        py0 = UTIL.lim(py0, 1, h-1);
-        var py1 = UTIL.norm(pitch[1], fRange[1], fRange[0]) * h;
-        py1 = UTIL.lim(py1, 1, h-1);
+      if (pitch.length === 1) {
+        var px = UTIL.norm(pitch[0][0], start, end) * w;
+        var py = UTIL.norm(pitch[0][1], fRange[1], fRange[0]) * h;
+        py = UTIL.lim(py, 1, h-1);
+        ctx.beginPath();
+        ctx.fillStyle = "red";
+        ctx.arc(px,py,opt.dotRadius,0,2*Math.PI);
+        ctx.fill();
+
+      } else if (pitch.length >= 2) {
         ctx.strokeStyle = 'red';
         ctx.beginPath();
-        ctx.moveTo(x,py0);
-        ctx.lineTo(x1,py1);
+        _.each(pitch, function(p, j){
+          var px = UTIL.norm(p[0], start, end) * w;
+          var py = UTIL.norm(p[1], fRange[1], fRange[0]) * h;
+          py = UTIL.lim(py, 1, h-1);
+          if (j===0) ctx.moveTo(px, py);
+          else ctx.lineTo(px, py);
+        });
         ctx.stroke();
       }
-
     });
   };
 
