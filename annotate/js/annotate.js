@@ -236,6 +236,9 @@ var Annotate = (function() {
     // put item in groups
     var groupItems = {};
     _.each(originalData.data, function(item, i){
+      if (item.name && item.name in annotations) {
+        item = _.extend({}, item, annotations[item.name]);
+      }
       if (item.group in groupItems) {
         groupItems[item.group].push(item);
       } else {
@@ -338,30 +341,53 @@ var Annotate = (function() {
         ctx.fill();
       });
 
-      // draw guess
-      var pitch = _this.guessPitch(frames);
-      if (pitch.length === 1) {
-        var px = UTIL.norm(pitch[0][0], start, end) * w;
-        var py = UTIL.norm(pitch[0][1], fRange[1], fRange[0]) * h;
-        py = UTIL.lim(py, 1, h-1);
-        ctx.beginPath();
-        ctx.fillStyle = "red";
-        ctx.arc(px,py,opt.dotRadius,0,2*Math.PI);
-        ctx.fill();
-
-      } else if (pitch.length >= 2) {
-        ctx.strokeStyle = 'red';
-        ctx.beginPath();
-        _.each(pitch, function(p, j){
-          var px = UTIL.norm(p[0], start, end) * w;
-          var py = UTIL.norm(p[1], fRange[1], fRange[0]) * h;
-          py = UTIL.lim(py, 1, h-1);
-          if (j===0) ctx.moveTo(px, py);
-          else ctx.lineTo(px, py);
+      // draw primary frames
+      if ("primaryFrames" in item) {
+        var primaryFrames = _.map(item.primaryFrames, function(f){
+          return [f.start, f.frequency, f.intensity];
         });
-        ctx.stroke();
+        _this.renderLines(primaryFrames, "green");
+
+      // draw guess primary frames
+      } else {
+        var pitch = _this.guessPitch(frames);
+        _this.renderLines(pitch, "red");
       }
     });
+  };
+
+  Annotate.prototype.renderLines = function(frames, color){
+    var segment = this.segments[this.currentSegment];
+    var items = segment.items;
+    var start = items[0].start;
+    var end = items[items.length-1].end;
+    var fRange = this.frequencyRange;
+    var ctx = this.ctx;
+    var w = this.canvas.width;
+    var h = this.canvas.height;
+    var opt = this.opt;
+
+    if (frames.length === 1) {
+      var fx = UTIL.norm(frames[0][0], start, end) * w;
+      var fy = UTIL.norm(frames[0][1], fRange[1], fRange[0]) * h;
+      fy = UTIL.lim(fy, 1, h-1);
+      ctx.beginPath();
+      ctx.fillStyle = color;
+      ctx.arc(fx,fy,opt.dotRadius,0,2*Math.PI);
+      ctx.fill();
+
+    } else if (frames.length >= 2) {
+      ctx.strokeStyle = color;
+      ctx.beginPath();
+      _.each(frames, function(f, j){
+        var fx = UTIL.norm(f[0], start, end) * w;
+        var fy = UTIL.norm(f[1], fRange[1], fRange[0]) * h;
+        fy = UTIL.lim(fy, 1, h-1);
+        if (j===0) ctx.moveTo(fx, fy);
+        else ctx.lineTo(fx, fy);
+      });
+      ctx.stroke();
+    }
   };
 
   Annotate.prototype.saveAnnotationsLocal = function(){
