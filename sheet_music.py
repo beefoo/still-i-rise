@@ -12,10 +12,11 @@ import time
 # input
 parser = argparse.ArgumentParser()
 parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", help="Path to input aligned transcript json file")
+parser.add_argument('-af', dest="ANALYSIS_FILE", default="data/still_i_rise_sound.json", help="Path to input sound analysis json file")
 parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.ly", help="Path to output lilypond file")
 parser.add_argument('-tempo', dest="TEMPO", type=int, default=240, help="Tempo in BPM")
-parser.add_argument('-sn', dest="SHORTEST_NOTE", type=int, default=16, help="Smallest note, e.g. 16 = 1/16th note")
-parser.add_argument('-mo', dest="MAX_OCTAVE", type=int, default=3, help="Max octave")
+parser.add_argument('-sn', dest="SHORTEST_NOTE", type=int, default=8, help="Smallest note, e.g. 16 = 1/16th note")
+parser.add_argument('-mo', dest="MAX_OCTAVE", type=int, default=7, help="Max octave")
 parser.add_argument('-octave', dest="ADJUST_OCTAVE", type=int, default=-1, help="Amount to adjust octave, e.g. -1 will lower all notes by one octave")
 
 # init input
@@ -36,6 +37,10 @@ data = {}
 with open(args.INPUT_FILE) as f:
     data = json.load(f)
 transcript = data["transcript"]
+
+analysis = {}
+with open(args.ANALYSIS_FILE) as f:
+    analysis = json.load(f)
 
 header = {
     "title": "Still I Rise",
@@ -65,35 +70,45 @@ for i, word in enumerate(data["words"]):
         # check for punctation
         if j >= (len(word["syllables"])-1) and not charAfter.isalpha():
             syllable["text"] += charAfter
-        notes.append({
-            "note": lilypond.freqToNote(syllable["frequency"], ADJUST_OCTAVE, MAX_OCTAVE),
-            "start": int(round(syllable["start"] * 1000)),
-            "end": int(round(syllable["end"] * 1000)),
-            "text": syllable["text"]
-        })
-        # add syllable dash
-        if j > 0:
-            lyrics.append({
-                "start": int(round(syllable["start"] * 1000)),
-                "text": "--"
+        # add note
+        if syllable["name"] in analysis and "primaryFrames" in analysis[syllable["name"]]:
+            frames = analysis[syllable["name"]]["primaryFrames"]
+            start = int(round(syllable["start"] * 1000))
+            end = int(round(syllable["end"] * 1000))
+            notes.append({
+                "notes": lilypond.framesToNotes(frames, start, end, minNoteMs, ADJUST_OCTAVE, MAX_OCTAVE),
+                "start": start,
+                "end": end,
+                "text": syllable["text"]
             })
-        lyrics.append({
-            "start": int(round(syllable["start"] * 1000)),
-            "text": syllable["text"]
-        })
+            # add syllable dash
+            if j > 0:
+                lyrics.append({
+                    "start": start,
+                    "text": "--"
+                })
+            lyrics.append({
+                "start": start,
+                "text": syllable["text"]
+            })
 
 # Add non-words
 for i, word in enumerate(data["nonwords"]):
-    notes.append({
-        "note": lilypond.freqToNote(word["frequency"], ADJUST_OCTAVE, MAX_OCTAVE),
-        "start": int(round(word["start"] * 1000)),
-        "end": int(round(word["end"] * 1000)),
-        "text": "x"
-    })
-    lyrics.append({
-        "start": int(round(word["start"] * 1000)),
-        "text": "x"
-    })
+    # add note
+    if word["name"] in analysis and "primaryFrames" in analysis[word["name"]]:
+        frames = analysis[word["name"]]["primaryFrames"]
+        start = int(round(word["start"] * 1000))
+        end = int(round(word["end"] * 1000))
+        notes.append({
+            "notes": lilypond.framesToNotes(frames, start, end, minNoteMs, ADJUST_OCTAVE, MAX_OCTAVE),
+            "start": start,
+            "end": end,
+            "text": "x"
+        })
+        lyrics.append({
+            "start": start,
+            "text": "x"
+        })
 lyrics = sorted(lyrics, key=lambda l: l["start"])
 
 # Normalize and print to lilypond syntax

@@ -3,6 +3,35 @@
 import math
 # import re
 
+def framesToNotes(frames, start, end, minDuration, adjustOctave=0, maxOctave=7):
+    # no frames
+    if len(frames) <= 0:
+        return []
+    # sort by time
+    frames = sorted(frames, key=lambda f: f["start"])
+    # too many frames, take last two frames
+    if len(frames) > 2:
+        frames = frames[-2:]
+
+    notes = []
+    duration = end - start
+    # candidate long enough for slur
+    if duration >= (minDuration * 4) and len(frames) > 1:
+        note1 = freqToNote(frames[0]["frequency"], adjustOctave, maxOctave)
+        note2 = freqToNote(frames[1]["frequency"], adjustOctave, maxOctave)
+        # same note, just add first
+        if note1[0] == note2[0]:
+            notes = [note1]
+        else:
+            notes = [note1, note2]
+
+    # single note or notes not long enough for slur; take the first
+    else:
+        notes = [freqToNote(frames[0]["frequency"], adjustOctave, maxOctave)]
+
+    return notes
+
+
 # given a frequency, return a note in lilypond syntax
 def freqToNote(freq, adjustOctave=0, maxOctave=7):
     if freq <= 0:
@@ -21,11 +50,35 @@ def freqToNote(freq, adjustOctave=0, maxOctave=7):
 
 # given a list of notes with start and end,
 # return a list of notes in lilypond rhythm syntax
-def normalizeNotes(notes, tempo, shortestNote):
+def normalizeNotes(noteGroups, tempo, shortestNote):
     # shortest unit in ms
     wholeNote = (60000 / tempo) * 4
     minNoteMs = wholeNote / shortestNote
-
+    # flatten note groups out into notes
+    notes = []
+    for i, noteGroup in enumerate(noteGroups):
+        gNotes = noteGroup["notes"]
+        # group is a slur
+        if len(gNotes) > 1:
+            dur = int(round((noteGroup["end"] - noteGroup["start"]) / len(gNotes)))
+            start = noteGroup["start"]
+            for j, note in enumerate(gNotes):
+                end = start + dur
+                props = {"start": start, "end": end, "note": note}
+                if j <= 0:
+                    props["slurStart"] = True
+                if j >= len(gNotes)-1:
+                    props["slurEnd"] = True
+                notes.append(dict(noteGroup, **props))
+                start = end
+        # single-note group
+        elif len(gNotes) > 0:
+            props = {"note": gNotes[0]}
+            notes.append(dict(noteGroup, **props))
+        # empty group
+        else:
+            props = {"note": "c"}
+            notes.append(dict(noteGroup, **props))
     # sort notes
     notes = sorted(notes, key=lambda n: n["start"])
     # round each note to shortest note
@@ -79,16 +132,22 @@ def normalizeNotes(notes, tempo, shortestNote):
                     # case: first note
                     if len(noteStr) < 1:
                         noteStr = "%s%s" % (note["note"], durLabel)
-                        # case: note is half the previous note; add dot
+                    # case: note is half the previous note; add dot
                     elif lastMatched and lastMatched == (durLabel/2):
                         noteStr += "."
                     # case: note is more than half of previous note; tie to previous note
                     else:
                         noteStr += "~ %s%s" % (note["note"], durLabel)
+
                     lastMatched = durLabel
                 remainder = remainder % noteDur
             noteDur /= 2
         noteStr = noteStr.strip()
+        # check for slurs
+        if "slurStart" in note:
+            noteStr += "("
+        if "slurEnd" in note:
+            noteStr += ")"
         notes[i]["note"] = noteStr
     return notes
 
