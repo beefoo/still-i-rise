@@ -3,6 +3,24 @@
 import math
 # import re
 
+def addDynamics(notes, dynamics):
+    for i, note in enumerate(notes):
+        if "intensity" in note:
+            intensity = note["intensity"]
+            noteStr = note["note"]
+            for d in dynamics:
+                if intensity > d["intensity"]:
+                    if len(d["mark"]):
+                        mark = "\\" + d["mark"]
+                        if noteStr[-1] in ["(",")"]:
+                            noteStr = noteStr[:-1] + mark + noteStr[-1]
+                        else:
+                            noteStr += mark
+                        notes[i]["note"] = noteStr
+                    break
+    return notes
+
+
 def framesToNotes(frames, start, end, minDuration, adjustOctave=0, maxOctave=7):
     # no frames
     if len(frames) <= 0:

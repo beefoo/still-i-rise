@@ -41,6 +41,10 @@ def groupCompare(a, b):
     else:
         return 0
 
+def getMaxIntensity(frames):
+    intensities = [f["intensity"] for f in frames]
+    return max(intensities)
+
 def getPrimaryFrames(frames, threshold=10):
     if len(frames) <= 0:
         return []
@@ -133,13 +137,15 @@ for i, word in enumerate(data["words"]):
     for j, syllable in enumerate(word["syllables"]):
         frames = [f for f in pFrames if syllable["start"] <= f["start"] < syllable["end"]]
         output[syllable["name"]] = {
-            "primaryFrames": getPrimaryFrames(frames)
+            "primaryFrames": getPrimaryFrames(frames),
+            "maxIntensity": getMaxIntensity(frames)
         }
 
 for i, word in enumerate(data["nonwords"]):
     frames = [f for f in pFrames if word["start"] <= f["start"] < word["end"]]
     output[word["name"]] =  {
-        "primaryFrames": getPrimaryFrames(frames)
+        "primaryFrames": getPrimaryFrames(frames),
+        "maxIntensity": getMaxIntensity(frames)
     }
 
 with open(args.OUTPUT_FILE, 'w') as f:

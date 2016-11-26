@@ -50,6 +50,13 @@ header = {
     "arranger": "Arranged by Brian Foo"
     # "copyright": "Learn more at brianfoo.com"
 }
+# thresholds for dynamic marks
+dynamics = [
+    {"mark": "f", "intensity": 0.999},
+    {"mark": "", "intensity": 0.3 },
+    {"mark": "p", "intensity": 0.2},
+    {"mark": "pp", "intensity": 0}
+]
 layout = {
     "layout-set-staff-size": 14
 }
@@ -74,12 +81,14 @@ for i, word in enumerate(data["words"]):
         # add note
         if syllable["name"] in analysis and "primaryFrames" in analysis[syllable["name"]]:
             frames = analysis[syllable["name"]]["primaryFrames"]
+            intensity = analysis[syllable["name"]]["maxIntensity"]
             start = int(round(syllable["start"] * 1000))
             end = int(round(syllable["end"] * 1000))
             notes.append({
                 "notes": lilypond.framesToNotes(frames, start, end, minSlurMs, ADJUST_OCTAVE, MAX_OCTAVE),
                 "start": start,
                 "end": end,
+                "intensity": intensity,
                 "text": syllable["text"]
             })
             # add syllable dash
@@ -98,12 +107,14 @@ for i, word in enumerate(data["nonwords"]):
     # add note
     if word["name"] in analysis and "primaryFrames" in analysis[word["name"]]:
         frames = analysis[word["name"]]["primaryFrames"]
+        intensity = analysis[word["name"]]["maxIntensity"]
         start = int(round(word["start"] * 1000))
         end = int(round(word["end"] * 1000))
         notes.append({
             "notes": lilypond.framesToNotes(frames, start, end, minSlurMs, ADJUST_OCTAVE, MAX_OCTAVE),
             "start": start,
             "end": end,
+            "intensity": intensity,
             "text": "x"
         })
         lyrics.append({
@@ -113,7 +124,9 @@ for i, word in enumerate(data["nonwords"]):
 lyrics = sorted(lyrics, key=lambda l: l["start"])
 
 # Normalize and print to lilypond syntax
-music["notes"] = lilypond.normalizeNotes(notes, TEMPO, SHORTEST_NOTE)
+notes = lilypond.normalizeNotes(notes, TEMPO, SHORTEST_NOTE)
+notes = lilypond.addDynamics(notes, dynamics)
+music["notes"] = notes
 lilyString = lilypond.toString(music, lyrics, header, layout)
 
 # pprint([(n["text"], n["note"]) for n in music["notes"][30:50]])
