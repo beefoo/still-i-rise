@@ -119,7 +119,7 @@ for i, word in enumerate(data["nonwords"]):
         })
         lyrics.append({
             "start": start,
-            "text": "x"
+            "text": "_"
         })
 lyrics = sorted(lyrics, key=lambda l: l["start"])
 
