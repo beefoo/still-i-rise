@@ -16,7 +16,7 @@ def framesToNotes(frames, start, end, minDuration, adjustOctave=0, maxOctave=7):
     notes = []
     duration = end - start
     # candidate long enough for slur
-    if duration >= (minDuration * 4) and len(frames) > 1:
+    if duration >= minDuration and len(frames) > 1:
         note1 = freqToNote(frames[0]["frequency"], adjustOctave, maxOctave)
         note2 = freqToNote(frames[1]["frequency"], adjustOctave, maxOctave)
         # same note, just add first
@@ -54,6 +54,8 @@ def normalizeNotes(noteGroups, tempo, shortestNote):
     # shortest unit in ms
     wholeNote = (60000 / tempo) * 4
     minNoteMs = wholeNote / shortestNote
+    # sort notes
+    noteGroups = sorted(noteGroups, key=lambda n: n["start"])
     # flatten note groups out into notes
     notes = []
     for i, noteGroup in enumerate(noteGroups):
@@ -75,9 +77,11 @@ def normalizeNotes(noteGroups, tempo, shortestNote):
         elif len(gNotes) > 0:
             props = {"note": gNotes[0]}
             notes.append(dict(noteGroup, **props))
-        # empty group
+        # empty group, take previous note, or default to c
         else:
             props = {"note": "c"}
+            if i > 0:
+                props["note"] = notes[-1]["note"]
             notes.append(dict(noteGroup, **props))
     # sort notes
     notes = sorted(notes, key=lambda n: n["start"])

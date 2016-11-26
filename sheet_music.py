@@ -30,6 +30,7 @@ MAX_OCTAVE = args.MAX_OCTAVE
 quarterMs = 60000 / TEMPO
 measureMs = quarterMs * 4
 minNoteMs = measureMs / SHORTEST_NOTE
+minSlurMs = minNoteMs * 3
 
 print "Quarter note: %s, Measure: %s, Min note: %s" % (quarterMs, measureMs, minNoteMs)
 
@@ -76,7 +77,7 @@ for i, word in enumerate(data["words"]):
             start = int(round(syllable["start"] * 1000))
             end = int(round(syllable["end"] * 1000))
             notes.append({
-                "notes": lilypond.framesToNotes(frames, start, end, minNoteMs, ADJUST_OCTAVE, MAX_OCTAVE),
+                "notes": lilypond.framesToNotes(frames, start, end, minSlurMs, ADJUST_OCTAVE, MAX_OCTAVE),
                 "start": start,
                 "end": end,
                 "text": syllable["text"]
@@ -100,7 +101,7 @@ for i, word in enumerate(data["nonwords"]):
         start = int(round(word["start"] * 1000))
         end = int(round(word["end"] * 1000))
         notes.append({
-            "notes": lilypond.framesToNotes(frames, start, end, minNoteMs, ADJUST_OCTAVE, MAX_OCTAVE),
+            "notes": lilypond.framesToNotes(frames, start, end, minSlurMs, ADJUST_OCTAVE, MAX_OCTAVE),
             "start": start,
             "end": end,
             "text": "x"
