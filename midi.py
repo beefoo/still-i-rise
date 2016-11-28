@@ -3,7 +3,9 @@
 import argparse
 import json
 from lib.midiutil.MidiFile import MIDIFile
+from pprint import pprint
 from lib.praat import fileToPitchData
+import math
 import sys
 
 # input
@@ -26,3 +28,99 @@ with open(args.INPUT_FILE) as f:
 analysis = {}
 with open(args.ANALYSIS_FILE) as f:
     analysis = json.load(f)
+
+def msToBeats(ms, bpm):
+    bpms = 1.0 * bpm / 60 / 1000
+    return bpms * ms
+
+def notesToSteps(notes, start, end, minDuration=100):
+    steps = []
+    dur = end - start
+    # more than one note; slur
+    if len(notes) > 1 and dur >= (minDuration*2):
+        # midi step
+        midiStart = int(notes[0]["midi"])
+        midiEnd = int(notes[1]["midi"])
+        midiDiff = midiEnd - midiStart
+        stepCount = min(abs(midiDiff)+1, int(1.0 * dur / minDuration))
+        midiStep = int(1.0 * midiDiff / stepCount)
+        midi = midiStart
+        # time step
+        stepDur = int(1.0 * dur / stepCount)
+        ms = start
+        # intensity step
+        istart = notes[0]["intensity"]
+        iend = notes[1]["intensity"]
+        idiff = iend - istart
+        istep = idiff / stepCount
+        intensity = istart
+        # do steps
+        for i in range(stepCount):
+            steps.append({
+                "ms": ms,
+                "dur": stepDur,
+                "pitch": midi,
+                "volume": int(round(intensity*100))
+            })
+            ms += stepDur
+            midi += midiStep
+            intensity += istep
+    # only one note
+    elif len(notes) > 0:
+        steps.append({
+            "ms": start,
+            "dur": dur,
+            "pitch": notes[0]["midi"],
+            "volume": int(round(notes[0]["intensity"]*100))
+        })
+    return steps
+
+
+# items are combination of syllables and nonwords
+items = []
+for word in data["words"]:
+    for syllable in word["syllables"]:
+        items.append(syllable)
+items += data["nonwords"]
+
+# build midi sequence
+sequence = []
+for item in items:
+    name = item["name"]
+    if name in analysis:
+        notes = analysis[name]["notes"]
+        start = int(item["start"] * 1000)
+        end = int(item["end"] * 1000)
+        steps = notesToSteps(notes, start, end, MIN_NOTE_DURATION)
+        for step in steps:
+            sequence.append(step)
+
+# pprint(sequence[:10])
+# sys.exit(1)
+
+# write sequence to midi file
+if len(sequence) > 0:
+    # Create the MIDIFile Object with 1 track
+    MyMIDI = MIDIFile(1)
+
+    # Tracks are numbered from zero. Times are measured in beats.
+    track = 0
+    time = 0
+    channel = 0
+
+    # Add track name and tempo.
+    MyMIDI.addTrackName(track,time,"Track")
+    MyMIDI.addTempo(track,time,BPM)
+
+    # Now add the note.
+    for step in sequence:
+        pitch = step["pitch"]
+        time = msToBeats(step["ms"],BPM)
+        duration = msToBeats(step["dur"],BPM)
+        volume = step["volume"]
+        MyMIDI.addNote(track,channel,pitch,time,duration,volume)
+
+    # And write it to disk
+    with open(args.OUTPUT_FILE, 'wb') as f:
+        MyMIDI.writeFile(f)
+        print("Successfully wrote to file: %s" % args.OUTPUT_FILE)

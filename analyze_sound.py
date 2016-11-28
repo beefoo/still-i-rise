@@ -58,25 +58,6 @@ def getMaxIntensity(frames):
     intensities = [f["intensity"] for f in frames]
     return max(intensities)
 
-def getNotesSlur(fromNote, toNote):
-    # midi steps
-    start = fromNote["midi"]
-    end = toNote["midi"]
-    diff = end - start
-    steps = abs(diff)
-    midiStep = int(diff / steps)
-    midi = start
-    # intensity steps
-    iStart = fromNote["intensity"]
-    iEnd = toNote["intensity"]
-    notes = [fromNote]
-    while True:
-        midi += midiStep
-        notes.append(midiToNote(midi))
-        if midi == end:
-            break
-    return notes
-
 def getNotes(frames):
     # no frames
     if len(frames) <= 0:
@@ -92,17 +73,19 @@ def getNotes(frames):
     if len(frames) > 1:
         note1 = freqToNote(frames[0]["frequency"])
         note2 = freqToNote(frames[1]["frequency"])
+        note1["intensity"] = frames[0]["intensity"]
+        note2["intensity"] = frames[1]["intensity"]
         # same note, just add first
         if note1["midi"] == note2["midi"]:
             notes = [note1]
         # different note; make a slur
         else:
-            note1["intensity"] = frames[0]["intensity"]
-            note2["intensity"] = frames[1]["intensity"]
-            notes = getNotesSlur(note1, note2)
+            notes = [note1, note2]
     # single note or notes not long enough for slur; take the first
     else:
-        notes = [freqToNote(frames[0]["frequency"])]
+        note = freqToNote(frames[0]["frequency"])
+        note["intensity"] = frames[0]["intensity"]
+        notes = [note]
 
     return notes
 
