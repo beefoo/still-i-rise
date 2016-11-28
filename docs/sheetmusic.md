@@ -1,6 +1,6 @@
 # Sheet music generation
 
-This is just self-documentation for how I went from a media file to sheet music
+Starting from an audio file of speech, generate sheet music
 
 ## Requirements
 
@@ -105,10 +105,10 @@ python find_nonwords.py
   python find_syllables.py
   ```
 
-### Add pitch (frequency) and volume (intensity) data
+### Analyze sound for pitch and frequency data
 
 ```
-python add_sound_data.py
+python analyze_sound.py
 ```
 
 ### Generate lilypond file

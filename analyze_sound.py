@@ -23,6 +23,89 @@ with open(args.INPUT_FILE) as f:
 pFrames = fileToPitchData(args.PITCH_FILE)
 print "%s frames read from file %s" % (len(pFrames), args.PITCH_FILE)
 
+def noteLabels():
+    return ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+
+def freqToNote(freq):
+    notes = noteLabels()
+    A4 = 440
+    C0 = A4 * math.pow(2, -4.75)
+    h = int(round(12*(math.log(freq/C0)/math.log(2))))
+    octave = int(h / 12)
+    n = int(h % 12)
+    note = notes[n]
+    midi = max(((octave-1) * 12) + n, 0)
+    return {
+        "note": n,
+        "octave": octave,
+        "label": note + str(octave),
+        "midi": midi
+    }
+
+def midiToNote(midi):
+    notes = noteLabels()
+    octave = int(midi / 12)
+    n = int(midi % 12)
+    note = notes[n]
+    return {
+        "note": n,
+        "octave": octave,
+        "label": note + str(octave),
+        "midi": midi
+    }
+
+def getMaxIntensity(frames):
+    intensities = [f["intensity"] for f in frames]
+    return max(intensities)
+
+def getNotesSlur(fromNote, toNote):
+    # midi steps
+    start = fromNote["midi"]
+    end = toNote["midi"]
+    diff = end - start
+    steps = abs(diff)
+    midiStep = int(diff / steps)
+    midi = start
+    # intensity steps
+    iStart = fromNote["intensity"]
+    iEnd = toNote["intensity"]
+    notes = [fromNote]
+    while True:
+        midi += midiStep
+        notes.append(midiToNote(midi))
+        if midi == end:
+            break
+    return notes
+
+def getNotes(frames):
+    # no frames
+    if len(frames) <= 0:
+        return []
+    # sort by time
+    frames = sorted(frames, key=lambda f: f["start"])
+    # too many frames, take last two frames
+    if len(frames) > 2:
+        frames = frames[-2:]
+
+    notes = []
+    # multiple frames, check for slur
+    if len(frames) > 1:
+        note1 = freqToNote(frames[0]["frequency"])
+        note2 = freqToNote(frames[1]["frequency"])
+        # same note, just add first
+        if note1["midi"] == note2["midi"]:
+            notes = [note1]
+        # different note; make a slur
+        else:
+            note1["intensity"] = frames[0]["intensity"]
+            note2["intensity"] = frames[1]["intensity"]
+            notes = getNotesSlur(note1, note2)
+    # single note or notes not long enough for slur; take the first
+    else:
+        notes = [freqToNote(frames[0]["frequency"])]
+
+    return notes
+
 def groupCompare(a, b):
     aScore = a["size"] * a["intensity"]
     bScore = b["size"] * b["intensity"]
@@ -40,10 +123,6 @@ def groupCompare(a, b):
         return -1
     else:
         return 0
-
-def getMaxIntensity(frames):
-    intensities = [f["intensity"] for f in frames]
-    return max(intensities)
 
 def getPrimaryFrames(frames, threshold=10):
     if len(frames) <= 0:
@@ -131,21 +210,22 @@ for i, f in enumerate(pFrames):
         freq = candidates[0]["frequency"]
     pFrames[i]["frequency"] = freq
 
-output = {}
-
+# items are combination of syllables and nonwords
+items = []
 for i, word in enumerate(data["words"]):
     for j, syllable in enumerate(word["syllables"]):
-        frames = [f for f in pFrames if syllable["start"] <= f["start"] < syllable["end"]]
-        output[syllable["name"]] = {
-            "primaryFrames": getPrimaryFrames(frames),
-            "maxIntensity": getMaxIntensity(frames)
-        }
+        items.append(syllable)
+items += data["nonwords"]
 
-for i, word in enumerate(data["nonwords"]):
-    frames = [f for f in pFrames if word["start"] <= f["start"] < word["end"]]
-    output[word["name"]] =  {
-        "primaryFrames": getPrimaryFrames(frames),
-        "maxIntensity": getMaxIntensity(frames)
+# build output
+output = {}
+for item in items:
+    frames = [f for f in pFrames if item["start"] <= f["start"] < item["end"]]
+    primaryFrames = getPrimaryFrames(frames)
+    output[item["name"]] =  {
+        "primaryFrames": primaryFrames,
+        "maxIntensity": getMaxIntensity(frames),
+        "notes": getNotes(primaryFrames)
     }
 
 with open(args.OUTPUT_FILE, 'w') as f:
