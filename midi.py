@@ -14,12 +14,16 @@ parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", 
 parser.add_argument('-af', dest="ANALYSIS_FILE", default="data/still_i_rise_sound.json", help="Path to input sound analysis json file")
 parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.mid", help="Path to output midi file")
 parser.add_argument('-bpm', dest="BPM", type=int, default=240, help="Beats per minute")
-parser.add_argument('-mnd', dest="MIN_NOTE_DURATION", type=int, default=100, help="Minimum note duration in ms")
+parser.add_argument('-mnd', dest="MIN_NOTE_DURATION", type=int, default=80, help="Minimum note duration in ms")
+parser.add_argument('-pad', dest="NOTE_PADDING", type=int, default=120, help="Ms to add to end of each note")
+parser.add_argument('-vm', dest="VOLUME_MULTIPLIER", type=float, default=2.0, help="Increase/decrease volume by this multiplier")
 
 # init input
 args = parser.parse_args()
 BPM = args.BPM
 MIN_NOTE_DURATION = args.MIN_NOTE_DURATION
+NOTE_PADDING = args.NOTE_PADDING
+VOLUME_MULTIPLIER = args.VOLUME_MULTIPLIER
 
 data = {}
 with open(args.INPUT_FILE) as f:
@@ -116,8 +120,8 @@ if len(sequence) > 0:
     for step in sequence:
         pitch = step["pitch"]
         time = msToBeats(step["ms"],BPM)
-        duration = msToBeats(step["dur"],BPM)
-        volume = step["volume"]
+        duration = msToBeats(step["dur"]+NOTE_PADDING,BPM)
+        volume = int(min(VOLUME_MULTIPLIER * step["volume"], 100))
         MyMIDI.addNote(track,channel,pitch,time,duration,volume)
 
     # And write it to disk

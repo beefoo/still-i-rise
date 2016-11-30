@@ -11,3 +11,5 @@ clips/
 data/ck_sequence.csv
 soundviz/output/*
 soundviz/build/*
+*.SF2
+*.sf2

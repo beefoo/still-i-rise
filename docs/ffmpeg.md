@@ -50,3 +50,15 @@ ffmpeg -i in.mp4 -i in.wav -c:v libx264 -c:a aac -strict experimental -shortest 
 ```
 
 Duration will be the shortest of the two files. Second command is if libfaac does not exist
+
+[Mix two audio files to left/right channels](https://trac.ffmpeg.org/wiki/AudioChannelManipulation#a2stereostereo)
+
+```
+ffmpeg -i left.wav -i right.wav -filter_complex "[0:a][1:a]amerge,pan=stereo|c0<c0+c1|c1<c2+c3[aout]" -map "[aout]" -shortest mixed.wav
+```
+
+[Increase volume of wav file](https://trac.ffmpeg.org/wiki/How%20to%20change%20audio%20volume%20up-down%20with%20FFmpeg)
+
+```
+ffmpeg -i input.wav -af "volume=1.5" output.wav
+```
