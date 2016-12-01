@@ -14,16 +14,16 @@ parser.add_argument('-in', dest="INPUT_FILE", default="data/still_i_rise.json", 
 parser.add_argument('-af', dest="ANALYSIS_FILE", default="data/still_i_rise_sound.json", help="Path to input sound analysis json file")
 parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.mid", help="Path to output midi file")
 parser.add_argument('-bpm', dest="BPM", type=int, default=240, help="Beats per minute")
-parser.add_argument('-mnd', dest="MIN_NOTE_DURATION", type=int, default=80, help="Minimum note duration in ms")
 parser.add_argument('-pad', dest="NOTE_PADDING", type=int, default=120, help="Ms to add to end of each note")
 parser.add_argument('-vm', dest="VOLUME_MULTIPLIER", type=float, default=2.0, help="Increase/decrease volume by this multiplier")
+parser.add_argument('-slr', dest="SLUR", type=int, default=0, help="Slur (0) or don't slur (1)")
 
 # init input
 args = parser.parse_args()
 BPM = args.BPM
-MIN_NOTE_DURATION = args.MIN_NOTE_DURATION
 NOTE_PADDING = args.NOTE_PADDING
 VOLUME_MULTIPLIER = args.VOLUME_MULTIPLIER
+SLUR = args.SLUR
 
 data = {}
 with open(args.INPUT_FILE) as f:
@@ -37,16 +37,16 @@ def msToBeats(ms, bpm):
     bpms = 1.0 * bpm / 60 / 1000
     return bpms * ms
 
-def notesToSteps(notes, start, end, minDuration=100):
+def notesToSteps(notes, start, end, slur=1):
     steps = []
     dur = end - start
     # more than one note; slur
-    if len(notes) > 1 and dur >= (minDuration*2):
+    if len(notes) > 1 and slur:
         # midi step
         midiStart = int(notes[0]["midi"])
         midiEnd = int(notes[1]["midi"])
         midiDiff = midiEnd - midiStart
-        stepCount = min(abs(midiDiff)+1, int(1.0 * dur / minDuration))
+        stepCount = abs(midiDiff)+1
         midiStep = int(1.0 * midiDiff / stepCount)
         midi = midiStart
         # time step
@@ -95,7 +95,7 @@ for item in items:
         notes = analysis[name]["notes"]
         start = int(item["start"] * 1000)
         end = int(item["end"] * 1000)
-        steps = notesToSteps(notes, start, end, MIN_NOTE_DURATION)
+        steps = notesToSteps(notes, start, end, SLUR)
         for step in steps:
             sequence.append(step)
 

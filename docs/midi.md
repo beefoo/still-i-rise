@@ -27,8 +27,14 @@ python midi.py
 fluidsynth -F still_i_rise_midi.wav fluidr3gm.sf2 data/still_i_rise.mid
 ```
 
-## Mix the original audio w/ the midi audio
+## Increase volume of resulting audio (optional)
 
 ```
-ffmpeg -i still_i_rise_midi.wav -i still_i_rise.wav -filter_complex "[0:a][1:a]amerge,pan=stereo|c0<c0+c1|c1<c2+c3[aout]" -map "[aout]" -shortest still_i_rise_mixed.wav
+ffmpeg -i still_i_rise_midi.wav -af "volume=6.0" still_i_rise_midi_louder.wav
+```
+
+## Mix the midi audio (left channel) w/ the original audio (right channel)
+
+```
+ffmpeg -i still_i_rise_midi_louder.wav -i still_i_rise.wav -filter_complex "[0:a][1:a]amerge,pan=stereo|c0<c0+c1|c1<c2+c3[aout]" -map "[aout]" -shortest still_i_rise_mixed.wav
 ```
