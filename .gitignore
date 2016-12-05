@@ -1,6 +1,7 @@
 *.wav
 !gentle/*.wav
 *.Sound
+*.Spectrogram
 *.pkf
 *.pyc
 frames*/*

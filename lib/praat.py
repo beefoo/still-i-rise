@@ -71,6 +71,59 @@ def fileToPulseData(filename):
 
     return pulses
 
+# File is in "short" .Spectrogram Praat format
+# See: http://www.fon.hum.uva.nl/praat/manual/Spectrogram.html
+def fileToSpectrogramData(filename):
+    props = [
+        "xmin", # start time, in seconds.
+        "xmax", # end time, in seconds.
+        "nx", # the number of times (≥ 1).
+        "dx", # time step, in seconds.
+        "x1", # the time associated with the first column, in seconds. This will usually be in the range [xmin, xmax]. The time associated with the last column (i.e., x1 + (nx – 1) dx)) will also usually be in that range.
+        "ymin", # lowest frequency, in Hertz. Normally 0.
+        "ymax", # highest frequency, in Hertz.
+        "ny", # the number of frequencies (≥ 1).
+        "dy", # frequency step, in Hertz.
+        "y1", # the frequency associated with the first row, in Hertz. Usually dy / 2. The frequency associated with the last row (i.e., y1 + (ny – 1) dy)) will often be ymax - dy / 2.
+    ]
+    startProp = 4
+    startData = startProp + len(props)
+    steps = []
+    data = {}
+    maxPower = 0
+
+    for i, line in enumerate(open(filename,'r').readlines()):
+
+        # Main data
+        if i >= startData and line:
+
+            index = i - startData
+            power = float(line)
+            if power > maxPower:
+                maxPower = power
+            j = int(index % data["nx"])
+
+            if j >= len(steps):
+                start = data["x1"] + j * data["dx"]
+                steps.append({
+                    "start": start,
+                    "end": start + data["dx"],
+                    "fsteps": [power]
+                })
+
+            else:
+                steps[j]["fsteps"].append(power)
+
+        # Definitions
+        elif i >= startProp and line:
+            prop = props[i-startProp]
+            data[prop] = float(line)
+
+    data["steps"] = steps
+    data["zmax"] = maxPower
+
+    return data
+
 # File is in "short" .Sound Praat format
 # See: http://www.fon.hum.uva.nl/praat/manual/Sound.html
 def fileToWavData(filename):

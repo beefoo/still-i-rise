@@ -34,4 +34,4 @@ command = ['Praat', '--run', 'collect_sound_data.praat', args.INPUT_FILE, args.O
 print "Running %s" % " ".join(command)
 finished = subprocess.check_call(command)
 
-print "Wrote data to %s" % args.OUTPUT_PITCH_FILE
+print "Wrote data to %s and %s" % (args.OUTPUT_PITCH_FILE, args.OUTPUT_PULSE_FILE)
