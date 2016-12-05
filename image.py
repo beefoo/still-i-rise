@@ -2,10 +2,12 @@
 
 import argparse
 import json
+import math
 import numpy as np
 from lib.praat import fileToPitchData, fileToSpectrogramData
 from PIL import Image, ImageDraw
 from pprint import pprint
+import random
 import sys
 
 # input
@@ -19,6 +21,7 @@ parser.add_argument('-l', dest="LINE", type=int, default=-1, help="Line to show"
 parser.add_argument('-s', dest="START", type=int, default=0, help="Start in seconds")
 parser.add_argument('-e', dest="END", type=int, default=5, help="End in seconds")
 parser.add_argument('-dp', dest="DRAW_PITCH", type=int, default=0, help="Draw pitch? 1, 0")
+parser.add_argument('-dt', dest="DRAW_TEXT", type=int, default=0, help="Draw text? 1, 0")
 
 # init input
 args = parser.parse_args()
@@ -27,6 +30,7 @@ HEIGHT = args.HEIGHT
 START = args.START
 END = args.END
 DRAW_PITCH = (args.DRAW_PITCH > 0)
+DRAW_TEXT = (args.DRAW_TEXT > 0)
 
 data = {}
 with open(args.INPUT_FILE) as f:
@@ -43,21 +47,45 @@ if DRAW_PITCH:
 if args.LINE >= 0:
     START = data["lines"][args.LINE]["start"]
     END = data["lines"][args.LINE]["end"]
-pxPerSecond = 1.0 * WIDTH / (END - START)
 
 # Draw spectrogram
 sFrames = [f for f in sData["steps"] if f["start"] >= START and f["end"] <= END]
-pixels = []
+nx = len(sFrames)
+ny = int(sData["ny"])
+dy = sData["dy"]
+y1 = sData["y1"]
+HEIGHT = min(HEIGHT, ny)
+pixels = [(0,0,0)] * (WIDTH * HEIGHT)
+for x, frame in enumerate(sFrames):
+    fsteps = frame["fsteps"]
+    ny = len(fsteps)
+    fpp = sum(math.sqrt(f) for f in fsteps)
+    for y, psd in enumerate(fsteps):
+        px = 1.0 * x / nx
+        py = 1.0 * y / ny
+        ix = round(px * WIDTH)
+        iy = round(py * HEIGHT)
+        pxIndex = int(round(iy * WIDTH + ix))
+        freq = y1 + dy * y
+        # psd = Power Spectral Density in Amplitude^2/Hz.
+        pp = math.sqrt(psd) / fpp
+        color = int(round(pp * 255))
+        colorTriple = (color, color, color)
+        pixels[pxIndex] = colorTriple
+im = Image.new("RGB", (WIDTH, HEIGHT))
+im.putdata(pixels)
+im.show()
+
 
 # Draw pitches
 # if DRAW_PITCH:
 
-
 # Get syllables
-words = [w for w in data["words"] if w["start"] >= START and w["end"] <= END]
-syllables = []
-for w in words:
-    for s in w["syllables"]:
-        syllables.append(s)
+if DRAW_TEXT:
+    words = [w for w in data["words"] if w["start"] >= START and w["end"] <= END]
+    syllables = []
+    for w in words:
+        for s in w["syllables"]:
+            syllables.append(s)
 
-# Draw syllables
+    # Draw syllables

@@ -31,7 +31,7 @@ sound_name$ = selected$ ("Sound", 1)
 
 # Select sound file and do spectrogram analysis
 select Sound 'sound_name$'
-To Spectrogram... window_length maximum_frequency time_step frequency_step Gaussian
+To Spectrogram... window_length maximum_frequency time_step frequency_step 'window_shape$'
 
 # Save as short text file
 select Spectrogram 'sound_name$'

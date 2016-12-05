@@ -111,11 +111,9 @@ def fileToSpectrogramData(filename):
 
             # add power
             index = i - startData
-            power = float(line)
-            if power > maxPower:
-                maxPower = power
+            psd = float(line)
             j = int(index % data["nx"])
-            steps[j]["fsteps"].append(power)
+            steps[j]["fsteps"].append(psd)
 
         # Definitions
         elif i >= startProp and line:
@@ -123,7 +121,6 @@ def fileToSpectrogramData(filename):
             data[prop] = float(line)
 
     data["steps"] = steps
-    data["zmax"] = maxPower
 
     return data
 
