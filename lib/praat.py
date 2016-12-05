@@ -86,7 +86,7 @@ def fileToSpectrogramData(filename):
         "dy", # frequency step, in Hertz.
         "y1", # the frequency associated with the first row, in Hertz. Usually dy / 2. The frequency associated with the last row (i.e., y1 + (ny – 1) dy)) will often be ymax - dy / 2.
     ]
-    startProp = 4
+    startProp = 3
     startData = startProp + len(props)
     steps = []
     data = {}
@@ -97,22 +97,25 @@ def fileToSpectrogramData(filename):
         # Main data
         if i >= startData and line:
 
+            # init steps
+            if len(steps) <= 0:
+                s = data["x1"]
+                dx = data["dx"]
+                for r in range(int(data["nx"])):
+                    steps.append({
+                        "start": s,
+                        "end": s + dx,
+                        "fsteps": []
+                    })
+                    s += dx
+
+            # add power
             index = i - startData
             power = float(line)
             if power > maxPower:
                 maxPower = power
             j = int(index % data["nx"])
-
-            if j >= len(steps):
-                start = data["x1"] + j * data["dx"]
-                steps.append({
-                    "start": start,
-                    "end": start + data["dx"],
-                    "fsteps": [power]
-                })
-
-            else:
-                steps[j]["fsteps"].append(power)
+            steps[j]["fsteps"].append(power)
 
         # Definitions
         elif i >= startProp and line:
