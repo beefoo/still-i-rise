@@ -14,3 +14,4 @@ soundviz/output/*
 soundviz/build/*
 *.SF2
 *.sf2
+textgrids/

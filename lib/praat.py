@@ -1,5 +1,28 @@
 # -*- coding: utf-8 -*-
 
+# File is in "short" .TextGrid Praat format
+# See: http://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html
+def dataToTextGrid(data):
+    dur = max([d["xmax"] for d in data])
+    s = "File type = \"ooTextFile\"\n"
+    s += "Object class = \"TextGrid\"\n"
+    s += "\n"
+    s += "0\n"
+    s += "%s\n" % dur
+    s += "<exists>\n"
+    s += "1\n"
+    s += "\"IntervalTier\"\n"
+    s += "\"Text\"\n"
+    s += "0\n"
+    s += "%s\n" % dur
+    s += "%s\n" % len(data)
+    for d in data:
+        s += "%s\n" % d["xmin"]
+        s += "%s\n" % d["xmax"]
+        s += "\"%s\"\n" % d["text"]
+    return s
+
+
 # File is in "short" .Pitch Praat format
 # See: http://www.fon.hum.uva.nl/praat/manual/Pitch.html
 def fileToPitchData(filename):
