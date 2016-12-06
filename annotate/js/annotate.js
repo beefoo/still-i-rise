@@ -402,7 +402,7 @@ var Annotate = (function() {
       var A4 = 440;
       var C0 = A4 * Math.pow(2, -4.75);
       var h = Math.round(12*(Math.log(frequency/C0)/Math.log(2)));
-      note.octave = Math.floor(h / 12);
+      note.octave = Math.floor(h / 12) - 1;
       note.note = Math.floor(h % 12);
     }
     return note;

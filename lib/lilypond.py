@@ -59,8 +59,7 @@ def freqToNote(freq, adjustOctave=0, maxOctave=7):
     A4 = 440
     C0 = A4 * math.pow(2, -4.75)
     h = int(round(12*(math.log(freq/C0)/math.log(2))))
-    octave = h / 12
-    octave += adjustOctave
+    octave = h / 12 - 1
     octave = max(octave, 0)
     octave = min(octave, maxOctave)
     n = h % 12

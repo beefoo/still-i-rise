@@ -17,7 +17,7 @@ parser.add_argument('-out', dest="OUTPUT_FILE", default="data/still_i_rise.ly", 
 parser.add_argument('-tempo', dest="TEMPO", type=int, default=240, help="Tempo in BPM")
 parser.add_argument('-sn', dest="SHORTEST_NOTE", type=int, default=8, help="Smallest note, e.g. 16 = 1/16th note")
 parser.add_argument('-mo', dest="MAX_OCTAVE", type=int, default=7, help="Max octave")
-parser.add_argument('-octave', dest="ADJUST_OCTAVE", type=int, default=-1, help="Amount to adjust octave, e.g. -1 will lower all notes by one octave")
+parser.add_argument('-octave', dest="ADJUST_OCTAVE", type=int, default=0, help="Amount to adjust octave, e.g. -1 will lower all notes by one octave")
 
 # init input
 args = parser.parse_args()
