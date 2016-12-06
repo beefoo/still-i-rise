@@ -22,8 +22,17 @@ form Input
   positive frequency_step 20.0
   text window_shape Gaussian
 
-  # for pitch
-  # boolean draw_pitch no
+  # For pitch
+  boolean draw_pitch no
+  positive pitch_floor 75
+  positive max_candidates 15
+  text very_accurate off
+  positive silence_threshold 0.03
+  positive voicing_threshold 0.45
+  positive octave_cost 0.01
+  positive octave_jump_cost 0.35
+  positive voiced_cost 0.14
+  positive pitch_ceiling 600
 endform
 
 # Open sound file
@@ -35,6 +44,11 @@ sound_name$ = selected$ ("Sound", 1)
 # Select sound file and do spectrogram analysis
 select Sound 'sound_name$'
 To Spectrogram... 'window_length' 'maximum_frequency' 'time_step' 'frequency_step' 'window_shape$'
+
+# Specify font type size, color
+Times
+Font size... 15
+Black
 
 # Define size and position of waveform (by specifying grid coordinates)
 # Viewport... left_viewport_horiz right_viewport_horiz top_viewport_verti bottom_viewport_verti
@@ -51,10 +65,23 @@ Viewport... 0 'width' 1 5
 select Spectrogram 'sound_name$'
 Paint... 0 0 0 0 100 yes 50 6 0 no
 
-# Specify font type size, color
-Times
-Font size... 15
-Black
+# Select sound file and do pitch analysis
+if draw_pitch = 1
+  select Sound 'sound_name$'
+  To Pitch (ac)... time_step pitch_floor max_candidates very_accurate silence_threshold voicing_threshold octave_cost octave_jump_cost voiced_cost pitch_ceiling
+
+  select Pitch 'sound_name$'
+
+  # first as a thick white line
+  Line width... 15
+  White
+  Draw... 0 0 'pitch_floor' 'pitch_ceiling' no
+
+  # then as a thin black line
+  Line width... 4
+  Black
+  Draw... 0 0 'pitch_floor' 'pitch_ceiling' no
+endif
 
 # Label x axis
 # Text bottom... yes 'xaxis$'
@@ -62,7 +89,7 @@ Black
 # Marks bottom every... 1 'time_maj_unit' yes yes no
 
 # Define size and position of TextGrid
-Viewport... 0 'width' 1 5.8
+Viewport... 0 'width' 1 5.75
 
 # Draw TextGrid
 Read from file... 'text_file$'
@@ -72,7 +99,7 @@ select TextGrid 'text_name$'
 Draw... 0 0 yes yes no
 
 # Define size and position of inner box
-Viewport... 0 'width' 0 6
+Viewport... 0 'width' 0 5.75
 
 # Draw inner box
 Black

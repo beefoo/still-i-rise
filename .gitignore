@@ -15,4 +15,5 @@ soundviz/build/*
 *.SF2
 *.sf2
 *.eps
+!img/*.eps
 textgrids/
