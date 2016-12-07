@@ -29,13 +29,17 @@ def getLineOrVerse(t,i,ws):
     global transcript
     w0 = ws[0]
     w1 = ws[-1]
-    text = transcript[w0["startOffset"]:w1["endOffset"]]
+    endOffset = w1["endOffset"]
+    # include ending punctuation
+    while transcript[endOffset] != "\r" and endOffset < len(transcript)-1:
+        endOffset += 1
+    text = transcript[w0["startOffset"]:endOffset]
     name = "%s_%s_%s" % (t, str(i).zfill(3), int(w0["start"]))
     return {
         "text": text,
         "name": name,
         "startOffset": w0["startOffset"],
-        "endOffset": w1["endOffset"],
+        "endOffset": endOffset,
         "start": w0["start"],
         "end": w1["end"]
     }
@@ -59,8 +63,8 @@ for wi, word in enumerate(words):
     data["words"][wi]["line"] = len(lines)
     verse.append(word)
     line.append(word)
-verses.append(getLineOrVerse(verse))
-lines.append(getLineOrVerse(line))
+verses.append(getLineOrVerse("verse", len(verses), verse))
+lines.append(getLineOrVerse("line", len(lines), line))
 
 data["verses"] = verses
 data["lines"] = lines

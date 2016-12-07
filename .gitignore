@@ -12,6 +12,8 @@ clips/
 data/ck_sequence.csv
 soundviz/output/*
 soundviz/build/*
+caption/output/*
+caption/build/*
 *.SF2
 *.sf2
 *.eps
