@@ -62,3 +62,9 @@ ffmpeg -i left.wav -i right.wav -filter_complex "[0:a][1:a]amerge,pan=stereo|c0<
 ```
 ffmpeg -i input.wav -af "volume=1.5" output.wav
 ```
+
+[Batch convert .mp3 files to .wav (OSX)](https://superuser.com/questions/373889/batch-convert-wav-to-mp3-and-ogg)
+
+```
+for f in *.mp3; do ffmpeg -i "$f" "${f/%mp3/wav}"; done
+```
